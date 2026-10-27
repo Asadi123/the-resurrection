@@ -44,9 +44,14 @@ jobs:
       - name: Publish a direct MP4 download on GitHub Releases
         run: |
           set -euo pipefail
+          if gh release view the-eight-year-front-2026-10-27-v1 >/dev/null 2>&1; then
+            gh release upload the-eight-year-front-2026-10-27-v1 \
+              ./THE-EIGHT-YEAR-FRONT-1080p.mp4 --clobber
+            exit 0
+          fi
           gh release create the-eight-year-front-2026-10-27-v1 \
             ./THE-EIGHT-YEAR-FRONT-1080p.mp4 \
             --target documentary/iraq-iran-war-new-film \
             --title 'THE EIGHT-YEAR FRONT — Iran–Iraq War (1980–1988) — New 1080p Film' \
-            --notes 'New film from original wartime footage, historical photographs, official UN documentary records, and new English synthetic narration. Technical MP4 validation passed. Narration naturalness, pronunciation, complete visual editorial QA, and rights review still require human approval. Unlike the previous V2, no social media interface is used. Credits/source register: see the production branch film/SOURCE-CREDITS.md.'
+            --notes 'New film from original wartime footage, historical photographs, official UN documentary records, and new English synthetic narration. Technical MP4 validation passed. Narration naturalness, pronunciation, complete visual editorial QA, and rights review still require human approval. Unlike the previous V2, no social media interface is used. Credits/source register: see the production branch film/SOURCE-CREDITS.md.' \
             --latest=false
