@@ -9,10 +9,11 @@ from __future__ import annotations
 import argparse
 import json
 import math
+import shutil
 import subprocess
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont, features
-from common import ROOT, read_json, write_json, run, safe_path, probe
+from common import ROOT, read_json, write_json, run, safe_path, probe, digest
 
 W, H, FPS = 1920, 1080, 30
 CARDS = ROOT / "output/cards"
@@ -107,14 +108,17 @@ def overlay_image(path, lines, heading=None):
 
 def encode_card(card, frames, dst, fade_in=0, fade_out=0):
     seconds = frames / FPS
-    vf = [f"fps={FPS}", "setsar=1", "format=yuv420p"]
+    vf = [f"fps={FPS}", "setsar=1",
+          "scale=in_range=full:out_range=limited:out_color_matrix=bt709", "format=yuv420p",
+          "setparams=range=limited:color_primaries=bt709:color_trc=bt709:colorspace=bt709"]
     if fade_in:
         vf.append(f"fade=t=in:st=0:d={fade_in}")
     if fade_out:
         vf.append(f"fade=t=out:st={seconds-fade_out}:d={fade_out}")
     run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-loop", "1", "-i", card,
          "-vf", ",".join(vf), "-frames:v", frames, "-an", "-c:v", "libx264", "-preset", "fast",
-         "-crf", "18", "-threads", "2", "-video_track_timescale", "15360", dst])
+         "-crf", "18", "-threads", "2", "-color_range", "tv", "-colorspace", "bt709",
+         "-color_primaries", "bt709", "-color_trc", "bt709", "-video_track_timescale", "15360", dst])
 
 
 def encode_shot(shot, asset, dst):
@@ -148,11 +152,13 @@ def encode_shot(shot, asset, dst):
         filter_complex += "[base][1:v]overlay=0:0:format=auto[composed];"
     else:
         filter_complex = filter_complex[:-7] + "[composed];"
-    filter_complex += f"[composed]fade=t=in:st=0:d=0.35,fade=t=out:st={length-.35}:d=0.35[v]"
+    filter_complex += f"[composed]scale=in_range=auto:out_range=limited:out_color_matrix=bt709,format=yuv420p,setsar=1,setparams=range=limited:color_primaries=bt709:color_trc=bt709:colorspace=bt709,fade=t=in:st=0:d=0.35,fade=t=out:st={length-.35}:d=0.35[v]"
     run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", *inputs,
          "-filter_complex_threads", "1", "-filter_complex", filter_complex,
          "-map", "[v]", "-frames:v", frames, "-an", "-c:v", "libx264", "-preset", "fast",
-         "-crf", "18", "-threads", "2", "-pix_fmt", "yuv420p", "-video_track_timescale", "15360", dst])
+         "-crf", "18", "-threads", "2", "-pix_fmt", "yuv420p", "-color_range", "tv",
+         "-colorspace", "bt709", "-color_primaries", "bt709", "-color_trc", "bt709",
+         "-video_track_timescale", "15360", dst])
 
 
 def documentary_overlays(cfg, manifest):
@@ -199,11 +205,12 @@ def compose_master(assembly, overlays, outpath):
                 prepared.append((round(item["start"] * FPS), round(item["end"] * FPS),
                                  rgba.crop(bounds), bounds[:2]))
     decode = ["ffmpeg", "-hide_banner", "-loglevel", "error", "-threads", "2", "-i", str(assembly),
-              "-an", "-filter_threads", "1", "-pix_fmt", "rgb24", "-f", "rawvideo", "pipe:1"]
+              "-an", "-filter_threads", "1", "-vf", "scale=in_range=tv:out_range=full:in_color_matrix=bt709,format=rgb24",
+              "-pix_fmt", "rgb24", "-f", "rawvideo", "pipe:1"]
     encode = ["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24",
               "-video_size", f"{W}x{H}", "-framerate", str(FPS), "-i", "pipe:0",
               "-i", str(ROOT / "output/audio_mix.wav"), "-map", "0:v:0", "-map", "1:a:0",
-              "-vf", "scale=in_range=full:out_range=limited:out_color_matrix=bt709,format=yuv420p",
+              "-vf", "scale=in_range=full:out_range=limited:out_color_matrix=bt709,format=yuv420p,setsar=1",
               "-frames:v", "4800", "-t", "160", "-c:v", "libx264", "-preset", "fast", "-crf", "18",
               "-threads", "2", "-filter_threads", "1", "-color_range", "tv", "-colorspace", "bt709",
               "-color_primaries", "bt709", "-color_trc", "bt709", "-c:a", "aac", "-b:a", "192k",
@@ -246,7 +253,7 @@ def compose_master(assembly, overlays, outpath):
                     proc.wait()
 
 
-def render(cfg, output, composite_only=False):
+def render(cfg, output, composite_only=False, rebuild_assembly=False):
     # Enforce gates even when invoked outside CI.
     subprocess.run(["python", str(ROOT / "scripts/preflight.py")], check=True, cwd=ROOT)
     generate_cards(cfg)
@@ -254,10 +261,28 @@ def render(cfg, output, composite_only=False):
     manifest = read_json("research/asset-manifest.json")
     assets = {a["id"]: a for a in manifest["assets"]}
     assembly = ROOT / "output/assembly.mp4"
-    if composite_only:
-        previous = read_json("output/render.json")
-        if previous.get("timeline") != cfg or float(probe(assembly)["format"]["duration"]) != 160:
-            raise ValueError("Cannot reuse assembly: story/timing changed or assembly duration is invalid")
+    cached = False
+    cache_path = ROOT / "assets/cache/assembly.mp4"
+    cache_record = ROOT / "config/assembly-cache.json"
+    if not composite_only and not rebuild_assembly and cache_path.is_file() and cache_record.is_file():
+        record = read_json("config/assembly-cache.json")
+        if (record["film_sha256"] == digest(ROOT / "config/film.json") and
+                record["visual_manifest_sha256"] == digest(ROOT / "research/asset-manifest.json")):
+            if digest(cache_path) != record["sha256"]:
+                raise ValueError("Cached archival assembly hash mismatch")
+            shutil.copyfile(cache_path, assembly)
+            cached = True
+            print("Reusing hash-verified 160-second archival assembly; rendering final corrections and audio only.", flush=True)
+    if composite_only or cached:
+        if not cached:
+            previous = read_json("output/render.json")
+            if previous.get("timeline") != cfg:
+                raise ValueError("Cannot reuse assembly: recorded story/timing changed")
+        assembly_probe = probe(assembly)
+        v = next(s for s in assembly_probe["streams"] if s["codec_type"] == "video")
+        if (float(assembly_probe["format"]["duration"]) != 160 or v.get("nb_frames") != "4800" or
+                v.get("sample_aspect_ratio") != "1:1" or v.get("color_range") != "tv"):
+            raise ValueError("Cannot reuse assembly: duration, frame count, square pixels or color range is invalid")
         overlays = documentary_overlays(cfg, manifest)
         destination = safe_path(output)
         destination.parent.mkdir(parents=True, exist_ok=True)
@@ -298,12 +323,13 @@ def main():
     parser.add_argument("--output", default="output/the-resurrection.mp4")
     parser.add_argument("--cards-only", action="store_true")
     parser.add_argument("--composite-only", action="store_true", help="Reuse a completed assembly only when its recorded timeline matches")
+    parser.add_argument("--rebuild-assembly", action="store_true", help="Rebuild archival scenes instead of using the verified assembly cache")
     args = parser.parse_args()
     cfg = read_json("config/film.json")
     if args.cards_only:
         generate_cards(cfg)
     else:
-        render(cfg, args.output, args.composite_only)
+        render(cfg, args.output, args.composite_only, args.rebuild_assembly)
 
 
 if __name__ == "__main__":

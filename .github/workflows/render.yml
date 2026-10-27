@@ -85,6 +85,8 @@ jobs:
           name: production-diagnostics
           path: |
             output/**/*.json
+            output/*.jsonl
+            output/*.log
             output/qa/**
             output/cards/**
             research/**

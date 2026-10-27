@@ -27,6 +27,8 @@ No image-generation or synthetic reenactment tool is used. Unavailable archival 
 
 The cleared archival photographs and soundtrack recordings are included as a licensed production cache. This avoids repeated requests to archive servers; their original source URLs, conditions, and pinned hashes remain authoritative. Acquisition verifies the bundled bytes before use and only downloads an asset if it is missing. The public-domain narration model is fetched separately.
 
+The completed archival assembly is also cached at `assets/cache/assembly.mp4`. The renderer reuses it only after checking its SHA-256, film configuration, source-manifest fingerprint, frame count, duration, square pixels and color range. It then applies the measured corrections and mixes the final audio. Use `--rebuild-assembly` to regenerate the scenes; a changed film configuration or source manifest automatically bypasses the cache. Every scene and the final export use consistent BT.709 limited-range video and square pixels.
+
 ## Production sequence
 
 The opening begins on black with three separate white text cards, then archival Baghdad and the bilingual opening title. The central sequence uses unique historical imagery, proportional full-frame crops, slow pans/zooms, restrained opening sepia, natural central colors, and warm closing grading. The ending fades to black, holds **أمة عربية واحدة ذات رسالة خالدة** in gold from 151 to 159 seconds, then fades to black by 160 seconds. The final card contains no English translation.

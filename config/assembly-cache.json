@@ -1,0 +1,26 @@
+{
+  "filename": "assets/cache/assembly.mp4",
+  "sha256": "5434b987d5a7e4b9d4f6a148286324beaaf3154bbe1e1c4ee870a86b1b3f4b47",
+  "film_sha256": "c1a97eafc119caac9a7220e7f4475001418858f92982c5ecbc11e7eb6c8701d1",
+  "visual_manifest_sha256": "1f7a1392b83a691a7db6fa5687f193442551f6855c5da3d7bb0ec011000dd4b4",
+  "duration": 160,
+  "frames": 4800,
+  "license": "CC BY-SA 4.0",
+  "credits": "CREDITS.md",
+  "provenance": "Derived exclusively from the cleared photographs and typography specified in config/film.json; no generated historical imagery. All source dates, authors, URLs and reuse conditions remain in research/asset-manifest.json. This cache contains no narration or music.",
+  "source_asset_ids": [
+    "baghdad_1976_fortepan",
+    "baghdad_1966",
+    "fine_arts_1972",
+    "academy_1978",
+    "arab_summit_1978",
+    "aflaq_1963",
+    "women_baghdad_1980s",
+    "aziz_1984",
+    "baghdad_1977_street1",
+    "folk_recording_1970s",
+    "academy_1979",
+    "fine_arts_1974",
+    "baghdad_1977_street2"
+  ]
+}
