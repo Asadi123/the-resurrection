@@ -2,16 +2,21 @@
   "schema_version": 1,
   "source": "Exact text supplied by user; historical/editorial clearance separate.",
   "voice": {
-    "engine": "piper-tts 1.3.0",
-    "model": "norman",
-    "model_file": "assets/audio/models/norman.onnx",
+    "engine": "kokoro-onnx 0.4.9",
+    "model": "Kokoro-82M v1.0",
+    "model_file": "assets/audio/models/kokoro-v1.0.onnx",
+    "voices_file": "assets/audio/models/voices-v1.0.bin",
+    "voice_name": "am_michael",
+    "lang": "en-us",
     "gender": "male",
     "language": "en_US",
-    "synthesis_notice": "Modern synthesized narration; never represented as archival audio.",
+    "closing_speed": 0.9,
+    "synthesis_notice": "Modern synthesized narration using the user-selected Michael American voice; never presented as archival speech.",
     "pronunciation_overrides": {
       "Ba’athism": "bˈɑːθɪzəm"
     },
-    "pronunciation_notes": "Literal curly-apostrophe eSpeak incorrectly yielded Bayth-ism; explicit IPA fixes the same word, with exact user transcript retained. Date numbers expanded equivalently for speech."
+    "pronunciation_notes": "Full-passage synthesis at natural pace; verified quiet sentence boundaries and silence-only scheduling. Date digits spoken as June first, nineteen seventy two.",
+    "speed": 1.0
   },
   "timeline": {
     "total_duration": 160,
@@ -31,9 +36,10 @@
       "start": null,
       "duration": null,
       "file": "assets/audio/segments/main-01.wav",
-      "synthesis_length_scale": 1.5,
       "volume": 1,
-      "synthesis_text": "June first, nineteen seventy two."
+      "synthesis_text": "June first, nineteen seventy two.",
+      "minimum_screen_seconds": 4.1,
+      "pause_weight": 0.35
     },
     {
       "id": "main-02",
@@ -42,8 +48,9 @@
       "start": null,
       "duration": null,
       "file": "assets/audio/segments/main-02.wav",
-      "synthesis_length_scale": 1.5,
-      "volume": 1
+      "volume": 1,
+      "minimum_screen_seconds": 4.1,
+      "pause_weight": 0.35
     },
     {
       "id": "main-03",
@@ -52,9 +59,9 @@
       "start": null,
       "duration": null,
       "file": "assets/audio/segments/main-03.wav",
-      "synthesis_length_scale": 1.5,
       "volume": 1,
-      "minimum_screen_seconds": 6
+      "minimum_screen_seconds": 6,
+      "pause_weight": 0.35
     },
     {
       "id": "main-04",
@@ -63,9 +70,9 @@
       "start": null,
       "duration": null,
       "file": "assets/audio/segments/main-04.wav",
-      "synthesis_length_scale": 1.5,
       "volume": 1,
-      "minimum_screen_seconds": 6
+      "minimum_screen_seconds": 6,
+      "pause_weight": 0.35
     },
     {
       "id": "main-05",
@@ -74,9 +81,9 @@
       "start": null,
       "duration": null,
       "file": "assets/audio/segments/main-05.wav",
-      "synthesis_length_scale": 1.5,
       "volume": 1,
-      "minimum_screen_seconds": 6
+      "minimum_screen_seconds": 6,
+      "pause_weight": 0.35
     },
     {
       "id": "main-06",
@@ -85,9 +92,9 @@
       "start": null,
       "duration": null,
       "file": "assets/audio/segments/main-06.wav",
-      "synthesis_length_scale": 1.5,
       "volume": 1,
-      "minimum_screen_seconds": 5
+      "minimum_screen_seconds": 5,
+      "pause_weight": 0.35
     },
     {
       "id": "main-07",
@@ -96,9 +103,9 @@
       "start": null,
       "duration": null,
       "file": "assets/audio/segments/main-07.wav",
-      "synthesis_length_scale": 1.5,
       "volume": 1,
-      "minimum_screen_seconds": 5
+      "minimum_screen_seconds": 5,
+      "pause_weight": 3.0
     },
     {
       "id": "main-08",
@@ -107,8 +114,9 @@
       "start": null,
       "duration": null,
       "file": "assets/audio/segments/main-08.wav",
-      "synthesis_length_scale": 1.5,
-      "volume": 1
+      "volume": 1,
+      "minimum_screen_seconds": 5.2,
+      "pause_weight": 0.35
     },
     {
       "id": "main-09",
@@ -117,8 +125,8 @@
       "start": null,
       "duration": null,
       "file": "assets/audio/segments/main-09.wav",
-      "synthesis_length_scale": 1.5,
-      "volume": 1
+      "volume": 1,
+      "pause_weight": 0.5
     },
     {
       "id": "main-10",
@@ -127,8 +135,8 @@
       "start": null,
       "duration": null,
       "file": "assets/audio/segments/main-10.wav",
-      "synthesis_length_scale": 1.5,
-      "volume": 1
+      "volume": 1,
+      "pause_weight": 0.18
     },
     {
       "id": "main-11",
@@ -137,8 +145,8 @@
       "start": null,
       "duration": null,
       "file": "assets/audio/segments/main-11.wav",
-      "synthesis_length_scale": 1.5,
-      "volume": 1
+      "volume": 1,
+      "pause_weight": 3.0
     },
     {
       "id": "main-12",
@@ -147,9 +155,9 @@
       "start": null,
       "duration": null,
       "file": "assets/audio/segments/main-12.wav",
-      "synthesis_length_scale": 1.5,
       "volume": 1,
-      "minimum_screen_seconds": 6
+      "minimum_screen_seconds": 6,
+      "pause_weight": 0.35
     },
     {
       "id": "main-13",
@@ -158,8 +166,9 @@
       "start": null,
       "duration": null,
       "file": "assets/audio/segments/main-13.wav",
-      "synthesis_length_scale": 1.5,
-      "volume": 1
+      "volume": 1,
+      "minimum_screen_seconds": 4,
+      "pause_weight": 0.35
     },
     {
       "id": "main-14",
@@ -168,8 +177,9 @@
       "start": null,
       "duration": null,
       "file": "assets/audio/segments/main-14.wav",
-      "synthesis_length_scale": 1.5,
-      "volume": 1
+      "volume": 1,
+      "minimum_screen_seconds": 3,
+      "pause_weight": 0.35
     },
     {
       "id": "main-15",
@@ -178,8 +188,8 @@
       "start": null,
       "duration": null,
       "file": "assets/audio/segments/main-15.wav",
-      "synthesis_length_scale": 1.5,
-      "volume": 1
+      "volume": 1,
+      "pause_weight": 0.18
     },
     {
       "id": "main-16",
@@ -188,8 +198,8 @@
       "start": null,
       "duration": null,
       "file": "assets/audio/segments/main-16.wav",
-      "synthesis_length_scale": 1.5,
-      "volume": 1
+      "volume": 1,
+      "pause_weight": 0.18
     },
     {
       "id": "main-17",
@@ -198,8 +208,8 @@
       "start": null,
       "duration": null,
       "file": "assets/audio/segments/main-17.wav",
-      "synthesis_length_scale": 1.5,
-      "volume": 1
+      "volume": 1,
+      "pause_weight": 3.0
     },
     {
       "id": "main-18",
@@ -208,9 +218,9 @@
       "start": null,
       "duration": null,
       "file": "assets/audio/segments/main-18.wav",
-      "synthesis_length_scale": 1.5,
       "volume": 1,
-      "minimum_screen_seconds": 4
+      "minimum_screen_seconds": 4,
+      "pause_weight": 0.35
     },
     {
       "id": "main-19",
@@ -219,8 +229,9 @@
       "start": null,
       "duration": null,
       "file": "assets/audio/segments/main-19.wav",
-      "synthesis_length_scale": 1.5,
-      "volume": 1
+      "volume": 1,
+      "minimum_screen_seconds": 2.1,
+      "pause_weight": 0.18
     },
     {
       "id": "main-20",
@@ -229,8 +240,8 @@
       "start": null,
       "duration": null,
       "file": "assets/audio/segments/main-20.wav",
-      "synthesis_length_scale": 1.5,
-      "volume": 1
+      "volume": 1,
+      "pause_weight": 0.35
     },
     {
       "id": "main-21",
@@ -239,8 +250,9 @@
       "start": null,
       "duration": null,
       "file": "assets/audio/segments/main-21.wav",
-      "synthesis_length_scale": 1.5,
-      "volume": 1
+      "volume": 1,
+      "minimum_screen_seconds": 6,
+      "pause_weight": 0.35
     },
     {
       "id": "main-22",
@@ -249,8 +261,9 @@
       "start": null,
       "duration": null,
       "file": "assets/audio/segments/main-22.wav",
-      "synthesis_length_scale": 1.5,
-      "volume": 1
+      "volume": 1,
+      "minimum_screen_seconds": 3.5,
+      "pause_weight": 0.35
     },
     {
       "id": "main-23",
@@ -259,8 +272,8 @@
       "start": null,
       "duration": null,
       "file": "assets/audio/segments/main-23.wav",
-      "synthesis_length_scale": 1.5,
-      "volume": 1
+      "volume": 1,
+      "pause_weight": 0.5
     },
     {
       "id": "closing-01",
@@ -269,7 +282,6 @@
       "start": null,
       "duration": null,
       "file": "assets/audio/segments/closing-01.wav",
-      "synthesis_length_scale": 1.9,
       "volume": 0.78
     },
     {
@@ -279,7 +291,6 @@
       "start": null,
       "duration": null,
       "file": "assets/audio/segments/closing-02.wav",
-      "synthesis_length_scale": 1.9,
       "volume": 0.78
     },
     {
@@ -289,7 +300,6 @@
       "start": null,
       "duration": null,
       "file": "assets/audio/segments/closing-03.wav",
-      "synthesis_length_scale": 1.9,
       "volume": 0.78
     },
     {
@@ -299,7 +309,6 @@
       "start": null,
       "duration": null,
       "file": "assets/audio/segments/closing-04.wav",
-      "synthesis_length_scale": 1.9,
       "volume": 0.78
     },
     {
@@ -309,7 +318,6 @@
       "start": null,
       "duration": null,
       "file": "assets/audio/segments/closing-05.wav",
-      "synthesis_length_scale": 1.9,
       "volume": 0.78
     }
   ]

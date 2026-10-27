@@ -1,0 +1,451 @@
+{
+  "settings": {
+    "algorithm_version": 2,
+    "engine": "kokoro-onnx",
+    "engine_version": "0.4.9",
+    "voice_name": "am_michael",
+    "lang": "en-us",
+    "speed": 1.0,
+    "model_sha256": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5",
+    "voices_sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+    "pronunciation_overrides": {
+      "Ba’athism": "bˈɑːθɪzəm"
+    },
+    "segments": [
+      {
+        "id": "main-12",
+        "text": "Its women standing in every courtroom, every hospital, every military rank.",
+        "synthesis_text": "Its women standing in every courtroom, every hospital, every military rank."
+      },
+      {
+        "id": "main-13",
+        "text": "A Christian as Foreign Minister.",
+        "synthesis_text": "A Christian as Foreign Minister."
+      },
+      {
+        "id": "main-14",
+        "text": "A farmer owning his land.",
+        "synthesis_text": "A farmer owning his land."
+      },
+      {
+        "id": "main-15",
+        "text": "One secular state.",
+        "synthesis_text": "One secular state."
+      },
+      {
+        "id": "main-16",
+        "text": "One Arab identity.",
+        "synthesis_text": "One Arab identity."
+      },
+      {
+        "id": "main-17",
+        "text": "No foreign permission required.",
+        "synthesis_text": "No foreign permission required."
+      }
+    ],
+    "asr_model": "Systran/faster-whisper-small.en",
+    "asr_prompt": null
+  },
+  "qa": {
+    "transcript": "It's women standing in every courtroom, every hospital, every military rank, a Christian as foreign minister, a farmer owning his land, one secular state, one Arab identity, no foreign permission required.",
+    "words": [
+      {
+        "word": "It's",
+        "start": 0.0,
+        "end": 0.64,
+        "probability": 0.9011907577514648
+      },
+      {
+        "word": "women",
+        "start": 0.64,
+        "end": 0.8,
+        "probability": 0.9957459568977356
+      },
+      {
+        "word": "standing",
+        "start": 0.8,
+        "end": 1.2,
+        "probability": 0.9962120056152344
+      },
+      {
+        "word": "in",
+        "start": 1.2,
+        "end": 1.48,
+        "probability": 0.9985612034797668
+      },
+      {
+        "word": "every",
+        "start": 1.48,
+        "end": 1.8,
+        "probability": 0.9981932044029236
+      },
+      {
+        "word": "courtroom,",
+        "start": 1.8,
+        "end": 2.3,
+        "probability": 0.9786454439163208
+      },
+      {
+        "word": "every",
+        "start": 2.58,
+        "end": 2.7,
+        "probability": 0.994205892086029
+      },
+      {
+        "word": "hospital,",
+        "start": 2.7,
+        "end": 3.26,
+        "probability": 0.9986704587936401
+      },
+      {
+        "word": "every",
+        "start": 3.54,
+        "end": 3.66,
+        "probability": 0.9942025542259216
+      },
+      {
+        "word": "military",
+        "start": 3.66,
+        "end": 4.16,
+        "probability": 0.9961839318275452
+      },
+      {
+        "word": "rank,",
+        "start": 4.16,
+        "end": 4.62,
+        "probability": 0.9948215484619141
+      },
+      {
+        "word": "a",
+        "start": 5.12,
+        "end": 5.3,
+        "probability": 0.9852912425994873
+      },
+      {
+        "word": "Christian",
+        "start": 5.3,
+        "end": 5.68,
+        "probability": 0.9705343842506409
+      },
+      {
+        "word": "as",
+        "start": 5.68,
+        "end": 6.04,
+        "probability": 0.9866998195648193
+      },
+      {
+        "word": "foreign",
+        "start": 6.04,
+        "end": 6.5,
+        "probability": 0.7173574566841125
+      },
+      {
+        "word": "minister,",
+        "start": 6.5,
+        "end": 6.96,
+        "probability": 0.9953433275222778
+      },
+      {
+        "word": "a",
+        "start": 7.42,
+        "end": 7.6,
+        "probability": 0.9968616962432861
+      },
+      {
+        "word": "farmer",
+        "start": 7.6,
+        "end": 7.96,
+        "probability": 0.9986152648925781
+      },
+      {
+        "word": "owning",
+        "start": 7.96,
+        "end": 8.38,
+        "probability": 0.9957370758056641
+      },
+      {
+        "word": "his",
+        "start": 8.38,
+        "end": 8.62,
+        "probability": 0.9983587861061096
+      },
+      {
+        "word": "land,",
+        "start": 8.62,
+        "end": 9.04,
+        "probability": 0.9993046522140503
+      },
+      {
+        "word": "one",
+        "start": 9.66,
+        "end": 9.86,
+        "probability": 0.9927483201026917
+      },
+      {
+        "word": "secular",
+        "start": 9.86,
+        "end": 10.4,
+        "probability": 0.9987229704856873
+      },
+      {
+        "word": "state,",
+        "start": 10.4,
+        "end": 10.88,
+        "probability": 0.992890477180481
+      },
+      {
+        "word": "one",
+        "start": 11.4,
+        "end": 11.7,
+        "probability": 0.9962548017501831
+      },
+      {
+        "word": "Arab",
+        "start": 11.7,
+        "end": 12.16,
+        "probability": 0.9896453619003296
+      },
+      {
+        "word": "identity,",
+        "start": 12.16,
+        "end": 12.8,
+        "probability": 0.9956713914871216
+      },
+      {
+        "word": "no",
+        "start": 13.26,
+        "end": 13.52,
+        "probability": 0.9934878349304199
+      },
+      {
+        "word": "foreign",
+        "start": 13.52,
+        "end": 14.0,
+        "probability": 0.9973379969596863
+      },
+      {
+        "word": "permission",
+        "start": 14.0,
+        "end": 14.48,
+        "probability": 0.9970266222953796
+      },
+      {
+        "word": "required.",
+        "start": 14.48,
+        "end": 15.14,
+        "probability": 0.9983829259872437
+      }
+    ],
+    "language": "en",
+    "duration": 15.9,
+    "expected_tokens": [
+      "its",
+      "women",
+      "standing",
+      "in",
+      "every",
+      "courtroom",
+      "every",
+      "hospital",
+      "every",
+      "military",
+      "rank",
+      "a",
+      "christian",
+      "as",
+      "foreign",
+      "minister",
+      "a",
+      "farmer",
+      "owning",
+      "his",
+      "land",
+      "one",
+      "secular",
+      "state",
+      "one",
+      "arab",
+      "identity",
+      "no",
+      "foreign",
+      "permission",
+      "required"
+    ],
+    "observed_tokens": [
+      "it's",
+      "women",
+      "standing",
+      "in",
+      "every",
+      "courtroom",
+      "every",
+      "hospital",
+      "every",
+      "military",
+      "rank",
+      "a",
+      "christian",
+      "as",
+      "foreign",
+      "minister",
+      "a",
+      "farmer",
+      "owning",
+      "his",
+      "land",
+      "one",
+      "secular",
+      "state",
+      "one",
+      "arab",
+      "identity",
+      "no",
+      "foreign",
+      "permission",
+      "required"
+    ],
+    "alignment_fraction": 0.967741935483871,
+    "matched_tokens": 30,
+    "expected_token_count": 31,
+    "alignment_opcodes": [
+      [
+        "replace",
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        "equal",
+        1,
+        31,
+        1,
+        31
+      ]
+    ],
+    "boundaries": [
+      {
+        "time": 4.868,
+        "asr_midpoint": 4.87,
+        "left_word_end": 4.62,
+        "right_word_start": 5.12,
+        "rms_20ms": 0.0003829573397524655,
+        "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+        "after": "main-12",
+        "before": "main-13"
+      },
+      {
+        "time": 7.188,
+        "asr_midpoint": 7.1899999999999995,
+        "left_word_end": 6.96,
+        "right_word_start": 7.42,
+        "rms_20ms": 0.00023113665520213544,
+        "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+        "after": "main-13",
+        "before": "main-14"
+      },
+      {
+        "time": 9.348,
+        "asr_midpoint": 9.35,
+        "left_word_end": 9.04,
+        "right_word_start": 9.66,
+        "rms_20ms": 0.0006154960137791932,
+        "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+        "after": "main-14",
+        "before": "main-15"
+      },
+      {
+        "time": 11.142,
+        "asr_midpoint": 11.14,
+        "left_word_end": 10.88,
+        "right_word_start": 11.4,
+        "rms_20ms": 0.00030565616907551885,
+        "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+        "after": "main-15",
+        "before": "main-16"
+      },
+      {
+        "time": 13.032,
+        "asr_midpoint": 13.030000000000001,
+        "left_word_end": 12.8,
+        "right_word_start": 13.26,
+        "rms_20ms": 0.00039933438529260457,
+        "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+        "after": "main-16",
+        "before": "main-17"
+      }
+    ],
+    "segments": [
+      {
+        "id": "main-12",
+        "source_start": 0.0,
+        "source_end": 4.868,
+        "duration": 4.868,
+        "alignment_fraction": 0.9090909090909091,
+        "asr_first_word": "women",
+        "asr_last_word": "rank,"
+      },
+      {
+        "id": "main-13",
+        "source_start": 4.868,
+        "source_end": 7.188,
+        "duration": 2.32,
+        "alignment_fraction": 1.0,
+        "asr_first_word": "a",
+        "asr_last_word": "minister,"
+      },
+      {
+        "id": "main-14",
+        "source_start": 7.188,
+        "source_end": 9.348,
+        "duration": 2.16,
+        "alignment_fraction": 1.0,
+        "asr_first_word": "a",
+        "asr_last_word": "land,"
+      },
+      {
+        "id": "main-15",
+        "source_start": 9.348,
+        "source_end": 11.142,
+        "duration": 1.794,
+        "alignment_fraction": 1.0,
+        "asr_first_word": "one",
+        "asr_last_word": "state,"
+      },
+      {
+        "id": "main-16",
+        "source_start": 11.142,
+        "source_end": 13.032,
+        "duration": 1.89,
+        "alignment_fraction": 1.0,
+        "asr_first_word": "one",
+        "asr_last_word": "identity,"
+      },
+      {
+        "id": "main-17",
+        "source_start": 13.032,
+        "source_end": 15.9,
+        "duration": 2.868,
+        "alignment_fraction": 1.0,
+        "asr_first_word": "no",
+        "asr_last_word": "required."
+      }
+    ],
+    "id": "main-12_main-17",
+    "status": "passed",
+    "phonemes": "ɪts wˈɪmɪn stˈændɪŋ ɪn ˈɛvɹi kˈɔːɹtɹuːm, ˈɛvɹi hˈɑːspɪɾəl, ˈɛvɹi mˈɪlətˌɛɹi ɹˈæŋk. ɐ kɹˈɪstʃən æz fˈɔːɹən mˈɪnɪstɚ. ɐ fˈɑːɹmɚɹ ˈoʊnɪŋ hɪz lˈænd. wˈʌn sˈɛkjʊlɚ stˈeɪt. wˈʌn ˈæɹəb aɪdˈɛntᵻɾi. nˈoʊ fˈɔːɹən pɚmˈɪʃən ɹᵻkwˈaɪɚd.",
+    "pronunciation_overrides_applied": [],
+    "elapsed_seconds": 3.321403908994398,
+    "recognized_alignment_fraction": 0.967741935483871,
+    "vocabulary_prompt": null
+  },
+  "group_sha256": "68904ea57fdaaae494110e32c7de73cac28fe6ab47c8a407c222b61e7f3d3957",
+  "segment_sha256": {
+    "main-12.wav": "9fac690aa411292d576e021101e99281541a44311d64219e5a14996935f46829",
+    "main-13.wav": "86293cc514b330026fb5639e2736743e2b90e371f452a148eeddd5c91238fa96",
+    "main-14.wav": "f228fb7d461d6c486784cefa112f7be834b4ab6c7eaad68d8f2512a7cdfb960b",
+    "main-15.wav": "76b9d253830afd263662a4a4ab9a3b0b6c1c8e1ee3ba9de0bf5cc4db67af8e9f",
+    "main-16.wav": "2c0c94394cbc33b1c3ab6656bfb19a1960f4e2dd011851ae64265a27d1818a56",
+    "main-17.wav": "f415a1ad59609d6ee76533335761b1ab0963e5e686f947d5875d42a6ab104da0"
+  }
+}

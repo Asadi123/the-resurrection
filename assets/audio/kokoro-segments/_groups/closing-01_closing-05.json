@@ -1,0 +1,322 @@
+{
+  "settings": {
+    "algorithm_version": 2,
+    "engine": "kokoro-onnx",
+    "engine_version": "0.4.9",
+    "voice_name": "am_michael",
+    "lang": "en-us",
+    "speed": 0.9,
+    "model_sha256": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5",
+    "voices_sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+    "pronunciation_overrides": {
+      "Ba’athism": "bˈɑːθɪzəm"
+    },
+    "segments": [
+      {
+        "id": "closing-01",
+        "text": "The oil was Arab.",
+        "synthesis_text": "The oil was Arab."
+      },
+      {
+        "id": "closing-02",
+        "text": "The schools were full.",
+        "synthesis_text": "The schools were full."
+      },
+      {
+        "id": "closing-03",
+        "text": "The women were free.",
+        "synthesis_text": "The women were free."
+      },
+      {
+        "id": "closing-04",
+        "text": "The borders were challenged.",
+        "synthesis_text": "The borders were challenged."
+      },
+      {
+        "id": "closing-05",
+        "text": "Remember that Iraq.",
+        "synthesis_text": "Remember that Iraq."
+      }
+    ],
+    "asr_model": "Systran/faster-whisper-small.en",
+    "asr_prompt": null
+  },
+  "qa": {
+    "transcript": "The oil was Arab, the schools were full, the women were free, the borders were challenged. Remember that Iraq.",
+    "words": [
+      {
+        "word": "The",
+        "start": 0.0,
+        "end": 0.54,
+        "probability": 0.9301952719688416
+      },
+      {
+        "word": "oil",
+        "start": 0.54,
+        "end": 0.84,
+        "probability": 0.9874195456504822
+      },
+      {
+        "word": "was",
+        "start": 0.84,
+        "end": 1.16,
+        "probability": 0.9980379939079285
+      },
+      {
+        "word": "Arab,",
+        "start": 1.16,
+        "end": 1.66,
+        "probability": 0.9742834568023682
+      },
+      {
+        "word": "the",
+        "start": 2.0,
+        "end": 2.04,
+        "probability": 0.9861716628074646
+      },
+      {
+        "word": "schools",
+        "start": 2.04,
+        "end": 2.38,
+        "probability": 0.994799017906189
+      },
+      {
+        "word": "were",
+        "start": 2.38,
+        "end": 2.64,
+        "probability": 0.9985042810440063
+      },
+      {
+        "word": "full,",
+        "start": 2.64,
+        "end": 3.04,
+        "probability": 0.9985066056251526
+      },
+      {
+        "word": "the",
+        "start": 3.32,
+        "end": 3.34,
+        "probability": 0.9883560538291931
+      },
+      {
+        "word": "women",
+        "start": 3.34,
+        "end": 3.54,
+        "probability": 0.9977129697799683
+      },
+      {
+        "word": "were",
+        "start": 3.54,
+        "end": 3.78,
+        "probability": 0.9971574544906616
+      },
+      {
+        "word": "free,",
+        "start": 3.78,
+        "end": 4.18,
+        "probability": 0.9987649917602539
+      },
+      {
+        "word": "the",
+        "start": 4.6,
+        "end": 4.68,
+        "probability": 0.9887288808822632
+      },
+      {
+        "word": "borders",
+        "start": 4.68,
+        "end": 5.02,
+        "probability": 0.9773038029670715
+      },
+      {
+        "word": "were",
+        "start": 5.02,
+        "end": 5.32,
+        "probability": 0.9950054287910461
+      },
+      {
+        "word": "challenged.",
+        "start": 5.32,
+        "end": 5.9,
+        "probability": 0.9981947541236877
+      },
+      {
+        "word": "Remember",
+        "start": 6.72,
+        "end": 6.82,
+        "probability": 0.9947147965431213
+      },
+      {
+        "word": "that",
+        "start": 6.82,
+        "end": 7.12,
+        "probability": 0.9946354031562805
+      },
+      {
+        "word": "Iraq.",
+        "start": 7.12,
+        "end": 7.52,
+        "probability": 0.9791262149810791
+      }
+    ],
+    "vocabulary_prompt": null,
+    "language": "en",
+    "duration": 8.325,
+    "expected_tokens": [
+      "the",
+      "oil",
+      "was",
+      "arab",
+      "the",
+      "schools",
+      "were",
+      "full",
+      "the",
+      "women",
+      "were",
+      "free",
+      "the",
+      "borders",
+      "were",
+      "challenged",
+      "remember",
+      "that",
+      "iraq"
+    ],
+    "observed_tokens": [
+      "the",
+      "oil",
+      "was",
+      "arab",
+      "the",
+      "schools",
+      "were",
+      "full",
+      "the",
+      "women",
+      "were",
+      "free",
+      "the",
+      "borders",
+      "were",
+      "challenged",
+      "remember",
+      "that",
+      "iraq"
+    ],
+    "alignment_fraction": 1.0,
+    "matched_tokens": 19,
+    "recognized_alignment_fraction": 1.0,
+    "expected_token_count": 19,
+    "alignment_opcodes": [
+      [
+        "equal",
+        0,
+        19,
+        0,
+        19
+      ]
+    ],
+    "boundaries": [
+      {
+        "time": 1.832,
+        "asr_midpoint": 1.83,
+        "left_word_end": 1.66,
+        "right_word_start": 2.0,
+        "rms_20ms": 0.00029109418392181396,
+        "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+        "after": "closing-01",
+        "before": "closing-02"
+      },
+      {
+        "time": 3.178,
+        "asr_midpoint": 3.1799999999999997,
+        "left_word_end": 3.04,
+        "right_word_start": 3.32,
+        "rms_20ms": 0.0034508188255131245,
+        "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+        "after": "closing-02",
+        "before": "closing-03"
+      },
+      {
+        "time": 4.388,
+        "asr_midpoint": 4.39,
+        "left_word_end": 4.18,
+        "right_word_start": 4.6,
+        "rms_20ms": 0.0009630165295675397,
+        "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+        "after": "closing-03",
+        "before": "closing-04"
+      },
+      {
+        "time": 6.312,
+        "asr_midpoint": 6.3100000000000005,
+        "left_word_end": 5.9,
+        "right_word_start": 6.72,
+        "rms_20ms": 0.0006425377214327455,
+        "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+        "after": "closing-04",
+        "before": "closing-05"
+      }
+    ],
+    "segments": [
+      {
+        "id": "closing-01",
+        "source_start": 0.0,
+        "source_end": 1.832,
+        "duration": 1.832,
+        "alignment_fraction": 1.0,
+        "asr_first_word": "The",
+        "asr_last_word": "Arab,"
+      },
+      {
+        "id": "closing-02",
+        "source_start": 1.832,
+        "source_end": 3.178,
+        "duration": 1.346,
+        "alignment_fraction": 1.0,
+        "asr_first_word": "the",
+        "asr_last_word": "full,"
+      },
+      {
+        "id": "closing-03",
+        "source_start": 3.178,
+        "source_end": 4.388,
+        "duration": 1.21,
+        "alignment_fraction": 1.0,
+        "asr_first_word": "the",
+        "asr_last_word": "free,"
+      },
+      {
+        "id": "closing-04",
+        "source_start": 4.388,
+        "source_end": 6.312,
+        "duration": 1.924,
+        "alignment_fraction": 1.0,
+        "asr_first_word": "the",
+        "asr_last_word": "challenged."
+      },
+      {
+        "id": "closing-05",
+        "source_start": 6.312,
+        "source_end": 8.325,
+        "duration": 2.013,
+        "alignment_fraction": 1.0,
+        "asr_first_word": "Remember",
+        "asr_last_word": "Iraq."
+      }
+    ],
+    "id": "closing-01_closing-05",
+    "status": "passed",
+    "phonemes": "ðɪ ˈɔɪl wʌz ˈæɹəb. ðə skˈuːlz wɜː fˈʊl. ðə wˈɪmɪn wɜː fɹˈiː. ðə bˈɔːɹdɚz wɜː tʃˈælɪndʒd. ɹᵻmˈɛmbɚ ðæt ɪɹˈæk.",
+    "pronunciation_overrides_applied": []
+  },
+  "group_sha256": "43b0a16e3e4fea8a068c40917f068da4a568da1f4c24cbd6870ef966f3e87c13",
+  "segment_sha256": {
+    "closing-01.wav": "7fc0aa63ef28568b7604343bc2c2bff94a9612b1b8362c815090c8f7494c750e",
+    "closing-02.wav": "f31088518a7dc24c20076ccaf938f786a2c901c1ab9b4e4e72a83acc0f904fef",
+    "closing-03.wav": "1140c4080c82732810eae7784bcc576167a1a70db54840fd15fbac1d9e5d252b",
+    "closing-04.wav": "19f4440f12830b81d2669be07cd33cf1593e0635ced3a9288bbacec20710c59a",
+    "closing-05.wav": "18d0b2f6264ae822fbc5cd0b9cf4cde8d4f259782ca388d09395bec4b804d372"
+  }
+}

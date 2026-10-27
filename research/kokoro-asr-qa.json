@@ -1,0 +1,2447 @@
+{
+  "schema_version": 2,
+  "voice_name": "am_michael",
+  "lang": "en-us",
+  "model_sha256": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5",
+  "voices_sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+  "asr_model": "Systran/faster-whisper-small.en",
+  "asr_prompt": null,
+  "asr_notice": "Unprompted ASR with vocabulary-only retry for a known pronunciation; not human listening approval.",
+  "groups": [
+    {
+      "transcript": "June 1, 1972, Iraq nationalized its oil. The wealth extracted for 50 years by British petroleum came home. Per capita income tripled. Every child received free education through university. Every citizen received free health care. UNESCO awarded Iraq its literacy prize.",
+      "words": [
+        {
+          "word": "June",
+          "start": 0.0,
+          "end": 0.66,
+          "probability": 0.6875391602516174
+        },
+        {
+          "word": "1,",
+          "start": 0.66,
+          "end": 1.02,
+          "probability": 0.9554712772369385
+        },
+        {
+          "word": "1972,",
+          "start": 1.3,
+          "end": 2.16,
+          "probability": 0.9983859062194824
+        },
+        {
+          "word": "Iraq",
+          "start": 3.3,
+          "end": 3.34,
+          "probability": 0.991158664226532
+        },
+        {
+          "word": "nationalized",
+          "start": 3.34,
+          "end": 4.28,
+          "probability": 0.9862546324729919
+        },
+        {
+          "word": "its",
+          "start": 4.28,
+          "end": 4.46,
+          "probability": 0.9949980974197388
+        },
+        {
+          "word": "oil.",
+          "start": 4.46,
+          "end": 4.8,
+          "probability": 0.9969636797904968
+        },
+        {
+          "word": "The",
+          "start": 5.4,
+          "end": 5.44,
+          "probability": 0.9960151314735413
+        },
+        {
+          "word": "wealth",
+          "start": 5.44,
+          "end": 5.68,
+          "probability": 0.9994531273841858
+        },
+        {
+          "word": "extracted",
+          "start": 5.68,
+          "end": 6.28,
+          "probability": 0.9878591895103455
+        },
+        {
+          "word": "for",
+          "start": 6.28,
+          "end": 6.6,
+          "probability": 0.9938457608222961
+        },
+        {
+          "word": "50",
+          "start": 6.6,
+          "end": 6.98,
+          "probability": 0.856654167175293
+        },
+        {
+          "word": "years",
+          "start": 6.98,
+          "end": 7.34,
+          "probability": 0.9958296418190002
+        },
+        {
+          "word": "by",
+          "start": 7.34,
+          "end": 7.62,
+          "probability": 0.996777355670929
+        },
+        {
+          "word": "British",
+          "start": 7.62,
+          "end": 7.9,
+          "probability": 0.9932383298873901
+        },
+        {
+          "word": "petroleum",
+          "start": 7.9,
+          "end": 8.46,
+          "probability": 0.48483023047447205
+        },
+        {
+          "word": "came",
+          "start": 8.46,
+          "end": 8.98,
+          "probability": 0.9911090135574341
+        },
+        {
+          "word": "home.",
+          "start": 8.98,
+          "end": 9.48,
+          "probability": 0.9981325268745422
+        },
+        {
+          "word": "Per",
+          "start": 10.08,
+          "end": 10.14,
+          "probability": 0.9917795062065125
+        },
+        {
+          "word": "capita",
+          "start": 10.14,
+          "end": 10.52,
+          "probability": 0.988252580165863
+        },
+        {
+          "word": "income",
+          "start": 10.52,
+          "end": 11.1,
+          "probability": 0.8701488375663757
+        },
+        {
+          "word": "tripled.",
+          "start": 11.1,
+          "end": 11.54,
+          "probability": 0.994390070438385
+        },
+        {
+          "word": "Every",
+          "start": 12.18,
+          "end": 12.42,
+          "probability": 0.9967302083969116
+        },
+        {
+          "word": "child",
+          "start": 12.42,
+          "end": 12.9,
+          "probability": 0.999002993106842
+        },
+        {
+          "word": "received",
+          "start": 12.9,
+          "end": 13.32,
+          "probability": 0.9976279139518738
+        },
+        {
+          "word": "free",
+          "start": 13.32,
+          "end": 13.72,
+          "probability": 0.9964558482170105
+        },
+        {
+          "word": "education",
+          "start": 13.72,
+          "end": 14.44,
+          "probability": 0.9993101358413696
+        },
+        {
+          "word": "through",
+          "start": 14.44,
+          "end": 14.76,
+          "probability": 0.9970460534095764
+        },
+        {
+          "word": "university.",
+          "start": 14.76,
+          "end": 15.38,
+          "probability": 0.9520998597145081
+        },
+        {
+          "word": "Every",
+          "start": 16.08,
+          "end": 16.32,
+          "probability": 0.9982367753982544
+        },
+        {
+          "word": "citizen",
+          "start": 16.32,
+          "end": 16.86,
+          "probability": 0.999189555644989
+        },
+        {
+          "word": "received",
+          "start": 16.86,
+          "end": 17.36,
+          "probability": 0.9989149570465088
+        },
+        {
+          "word": "free",
+          "start": 17.36,
+          "end": 17.7,
+          "probability": 0.9989724159240723
+        },
+        {
+          "word": "health",
+          "start": 17.7,
+          "end": 17.96,
+          "probability": 0.6160001158714294
+        },
+        {
+          "word": "care.",
+          "start": 17.96,
+          "end": 18.32,
+          "probability": 0.9975510239601135
+        },
+        {
+          "word": "UNESCO",
+          "start": 19.24,
+          "end": 19.24,
+          "probability": 0.5683146715164185
+        },
+        {
+          "word": "awarded",
+          "start": 19.24,
+          "end": 19.96,
+          "probability": 0.9980154037475586
+        },
+        {
+          "word": "Iraq",
+          "start": 19.96,
+          "end": 20.42,
+          "probability": 0.9804936051368713
+        },
+        {
+          "word": "its",
+          "start": 20.42,
+          "end": 20.66,
+          "probability": 0.9887085556983948
+        },
+        {
+          "word": "literacy",
+          "start": 20.66,
+          "end": 21.04,
+          "probability": 0.9196656346321106
+        },
+        {
+          "word": "prize.",
+          "start": 21.04,
+          "end": 21.6,
+          "probability": 0.9968361854553223
+        }
+      ],
+      "language": "en",
+      "duration": 22.4,
+      "expected_tokens": [
+        "june",
+        "first",
+        "nineteen",
+        "seventy",
+        "two",
+        "iraq",
+        "nationalized",
+        "its",
+        "oil",
+        "the",
+        "wealth",
+        "extracted",
+        "for",
+        "fifty",
+        "years",
+        "by",
+        "british",
+        "petroleum",
+        "came",
+        "home",
+        "per",
+        "capita",
+        "income",
+        "tripled",
+        "every",
+        "child",
+        "received",
+        "free",
+        "education",
+        "through",
+        "university",
+        "every",
+        "citizen",
+        "received",
+        "free",
+        "health",
+        "care",
+        "unesco",
+        "awarded",
+        "iraq",
+        "its",
+        "literacy",
+        "prize"
+      ],
+      "observed_tokens": [
+        "june",
+        "first",
+        "nineteen",
+        "seventy",
+        "two",
+        "iraq",
+        "nationalized",
+        "its",
+        "oil",
+        "the",
+        "wealth",
+        "extracted",
+        "for",
+        "fifty",
+        "years",
+        "by",
+        "british",
+        "petroleum",
+        "came",
+        "home",
+        "per",
+        "capita",
+        "income",
+        "tripled",
+        "every",
+        "child",
+        "received",
+        "free",
+        "education",
+        "through",
+        "university",
+        "every",
+        "citizen",
+        "received",
+        "free",
+        "health",
+        "care",
+        "unesco",
+        "awarded",
+        "iraq",
+        "its",
+        "literacy",
+        "prize"
+      ],
+      "alignment_fraction": 1.0,
+      "matched_tokens": 43,
+      "expected_token_count": 43,
+      "alignment_opcodes": [
+        [
+          "equal",
+          0,
+          43,
+          0,
+          43
+        ]
+      ],
+      "boundaries": [
+        {
+          "time": 2.728,
+          "asr_midpoint": 2.73,
+          "left_word_end": 2.16,
+          "right_word_start": 3.3,
+          "rms_20ms": 0.00010148969158763066,
+          "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+          "after": "main-01",
+          "before": "main-02"
+        },
+        {
+          "time": 5.098,
+          "asr_midpoint": 5.1,
+          "left_word_end": 4.8,
+          "right_word_start": 5.4,
+          "rms_20ms": 0.0003823405713774264,
+          "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+          "after": "main-02",
+          "before": "main-03"
+        },
+        {
+          "time": 9.782,
+          "asr_midpoint": 9.780000000000001,
+          "left_word_end": 9.48,
+          "right_word_start": 10.08,
+          "rms_20ms": 0.0023078229278326035,
+          "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+          "after": "main-03",
+          "before": "main-04"
+        },
+        {
+          "time": 11.858,
+          "asr_midpoint": 11.86,
+          "left_word_end": 11.54,
+          "right_word_start": 12.18,
+          "rms_20ms": 0.0003771327610593289,
+          "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+          "after": "main-04",
+          "before": "main-05"
+        },
+        {
+          "time": 15.732,
+          "asr_midpoint": 15.73,
+          "left_word_end": 15.38,
+          "right_word_start": 16.08,
+          "rms_20ms": 0.0005536936223506927,
+          "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+          "after": "main-05",
+          "before": "main-06"
+        },
+        {
+          "time": 18.782,
+          "asr_midpoint": 18.78,
+          "left_word_end": 18.32,
+          "right_word_start": 19.24,
+          "rms_20ms": 0.0006747342995367944,
+          "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+          "after": "main-06",
+          "before": "main-07"
+        }
+      ],
+      "segments": [
+        {
+          "id": "main-01",
+          "source_start": 0.0,
+          "source_end": 2.728,
+          "duration": 2.728,
+          "alignment_fraction": 1.0,
+          "asr_first_word": "June",
+          "asr_last_word": "1972,"
+        },
+        {
+          "id": "main-02",
+          "source_start": 2.728,
+          "source_end": 5.098,
+          "duration": 2.37,
+          "alignment_fraction": 1.0,
+          "asr_first_word": "Iraq",
+          "asr_last_word": "oil."
+        },
+        {
+          "id": "main-03",
+          "source_start": 5.098,
+          "source_end": 9.782,
+          "duration": 4.684,
+          "alignment_fraction": 1.0,
+          "asr_first_word": "The",
+          "asr_last_word": "home."
+        },
+        {
+          "id": "main-04",
+          "source_start": 9.782,
+          "source_end": 11.858,
+          "duration": 2.076,
+          "alignment_fraction": 1.0,
+          "asr_first_word": "Per",
+          "asr_last_word": "tripled."
+        },
+        {
+          "id": "main-05",
+          "source_start": 11.858,
+          "source_end": 15.732,
+          "duration": 3.874,
+          "alignment_fraction": 1.0,
+          "asr_first_word": "Every",
+          "asr_last_word": "university."
+        },
+        {
+          "id": "main-06",
+          "source_start": 15.732,
+          "source_end": 18.782,
+          "duration": 3.05,
+          "alignment_fraction": 1.0,
+          "asr_first_word": "Every",
+          "asr_last_word": "care."
+        },
+        {
+          "id": "main-07",
+          "source_start": 18.782,
+          "source_end": 22.4,
+          "duration": 3.618,
+          "alignment_fraction": 1.0,
+          "asr_first_word": "UNESCO",
+          "asr_last_word": "prize."
+        }
+      ],
+      "id": "main-01_main-07",
+      "status": "passed",
+      "phonemes": "dʒˈuːn fˈɜːst, nˈaɪntiːn sˈɛvənti tˈuː. ɪɹˈæk nˈæʃənəlˌaɪzd ɪts ˈɔɪl. ðə wˈɛlθ ɛkstɹˈæktᵻd fɔːɹ fˈɪfti jˈɪɹz baɪ bɹˈɪɾɪʃ pətɹˈoʊliːəm — kˈeɪm hˈoʊm. pɜː kˈæpɪɾə ˈɪŋkʌm tɹˈɪpəld. ˈɛvɹi tʃˈaɪld ɹᵻsˈiːvd fɹˈiː ˌɛdʒuːkˈeɪʃən θɹuː jˌuːnɪvˈɜːsᵻɾi. ˈɛvɹi sˈɪɾɪzən ɹᵻsˈiːvd fɹˈiː hˈɛlθkɛɹ. ʌnˈɛskoʊ ɐwˈɔːɹdᵻd ɪɹˈæk ɪts lˈɪɾɚɹəsi pɹˈaɪz.",
+      "pronunciation_overrides_applied": [],
+      "elapsed_seconds": 0.010413926000182983,
+      "recognized_alignment_fraction": 1.0,
+      "vocabulary_prompt": null
+    },
+    {
+      "transcript": "The Arab world watched and understood this is what sovereignty looks like. Ba'athism answered the oldest question, what does the Arab nation owe itself? Everything. Its language taught without shame.",
+      "words": [
+        {
+          "word": "The",
+          "start": 0.0,
+          "end": 0.48,
+          "probability": 0.7847809195518494
+        },
+        {
+          "word": "Arab",
+          "start": 0.48,
+          "end": 0.8,
+          "probability": 0.9843083024024963
+        },
+        {
+          "word": "world",
+          "start": 0.8,
+          "end": 1.14,
+          "probability": 0.9868702292442322
+        },
+        {
+          "word": "watched",
+          "start": 1.14,
+          "end": 1.68,
+          "probability": 0.9943662881851196
+        },
+        {
+          "word": "and",
+          "start": 1.68,
+          "end": 1.88,
+          "probability": 0.9852573275566101
+        },
+        {
+          "word": "understood",
+          "start": 1.88,
+          "end": 2.46,
+          "probability": 0.998017430305481
+        },
+        {
+          "word": "this",
+          "start": 2.46,
+          "end": 2.92,
+          "probability": 0.8603649139404297
+        },
+        {
+          "word": "is",
+          "start": 2.92,
+          "end": 3.2,
+          "probability": 0.9902846217155457
+        },
+        {
+          "word": "what",
+          "start": 3.2,
+          "end": 3.4,
+          "probability": 0.9984754920005798
+        },
+        {
+          "word": "sovereignty",
+          "start": 3.4,
+          "end": 3.96,
+          "probability": 0.9852035045623779
+        },
+        {
+          "word": "looks",
+          "start": 3.96,
+          "end": 4.3,
+          "probability": 0.9957380294799805
+        },
+        {
+          "word": "like.",
+          "start": 4.3,
+          "end": 4.74,
+          "probability": 0.9981198906898499
+        },
+        {
+          "word": "Ba'athism",
+          "start": 5.46,
+          "end": 5.82,
+          "probability": 0.17878937721252441,
+          "merged_from": [
+            "Ba",
+            "'athism"
+          ]
+        },
+        {
+          "word": "answered",
+          "start": 5.82,
+          "end": 6.28,
+          "probability": 0.9970464110374451
+        },
+        {
+          "word": "the",
+          "start": 6.28,
+          "end": 6.46,
+          "probability": 0.9984965324401855
+        },
+        {
+          "word": "oldest",
+          "start": 6.46,
+          "end": 6.82,
+          "probability": 0.9977546334266663
+        },
+        {
+          "word": "question,",
+          "start": 6.82,
+          "end": 7.34,
+          "probability": 0.9974184036254883
+        },
+        {
+          "word": "what",
+          "start": 8.0,
+          "end": 8.04,
+          "probability": 0.35104072093963623
+        },
+        {
+          "word": "does",
+          "start": 8.04,
+          "end": 8.2,
+          "probability": 0.9955701231956482
+        },
+        {
+          "word": "the",
+          "start": 8.2,
+          "end": 8.36,
+          "probability": 0.9975765347480774
+        },
+        {
+          "word": "Arab",
+          "start": 8.36,
+          "end": 8.68,
+          "probability": 0.9976251721382141
+        },
+        {
+          "word": "nation",
+          "start": 8.68,
+          "end": 9.12,
+          "probability": 0.9785441756248474
+        },
+        {
+          "word": "owe",
+          "start": 9.12,
+          "end": 9.4,
+          "probability": 0.9898080229759216
+        },
+        {
+          "word": "itself?",
+          "start": 9.4,
+          "end": 9.8,
+          "probability": 0.9969356060028076
+        },
+        {
+          "word": "Everything.",
+          "start": 10.48,
+          "end": 10.8,
+          "probability": 0.9788405895233154
+        },
+        {
+          "word": "Its",
+          "start": 11.52,
+          "end": 11.62,
+          "probability": 0.7411465644836426
+        },
+        {
+          "word": "language",
+          "start": 11.62,
+          "end": 12.06,
+          "probability": 0.9988208413124084
+        },
+        {
+          "word": "taught",
+          "start": 12.06,
+          "end": 12.44,
+          "probability": 0.970695972442627
+        },
+        {
+          "word": "without",
+          "start": 12.44,
+          "end": 12.82,
+          "probability": 0.9987891316413879
+        },
+        {
+          "word": "shame.",
+          "start": 12.82,
+          "end": 13.22,
+          "probability": 0.9992699027061462
+        }
+      ],
+      "language": "en",
+      "duration": 14.05,
+      "raw_words": [
+        {
+          "word": "The",
+          "start": 0.0,
+          "end": 0.48,
+          "probability": 0.7847809195518494
+        },
+        {
+          "word": "Arab",
+          "start": 0.48,
+          "end": 0.8,
+          "probability": 0.9843083024024963
+        },
+        {
+          "word": "world",
+          "start": 0.8,
+          "end": 1.14,
+          "probability": 0.9868702292442322
+        },
+        {
+          "word": "watched",
+          "start": 1.14,
+          "end": 1.68,
+          "probability": 0.9943662881851196
+        },
+        {
+          "word": "and",
+          "start": 1.68,
+          "end": 1.88,
+          "probability": 0.9852573275566101
+        },
+        {
+          "word": "understood",
+          "start": 1.88,
+          "end": 2.46,
+          "probability": 0.998017430305481
+        },
+        {
+          "word": "this",
+          "start": 2.46,
+          "end": 2.92,
+          "probability": 0.8603649139404297
+        },
+        {
+          "word": "is",
+          "start": 2.92,
+          "end": 3.2,
+          "probability": 0.9902846217155457
+        },
+        {
+          "word": "what",
+          "start": 3.2,
+          "end": 3.4,
+          "probability": 0.9984754920005798
+        },
+        {
+          "word": "sovereignty",
+          "start": 3.4,
+          "end": 3.96,
+          "probability": 0.9852035045623779
+        },
+        {
+          "word": "looks",
+          "start": 3.96,
+          "end": 4.3,
+          "probability": 0.9957380294799805
+        },
+        {
+          "word": "like.",
+          "start": 4.3,
+          "end": 4.74,
+          "probability": 0.9981198906898499
+        },
+        {
+          "word": "Ba",
+          "start": 5.46,
+          "end": 5.46,
+          "probability": 0.17878937721252441
+        },
+        {
+          "word": "'athism",
+          "start": 5.46,
+          "end": 5.82,
+          "probability": 0.7938151160875956
+        },
+        {
+          "word": "answered",
+          "start": 5.82,
+          "end": 6.28,
+          "probability": 0.9970464110374451
+        },
+        {
+          "word": "the",
+          "start": 6.28,
+          "end": 6.46,
+          "probability": 0.9984965324401855
+        },
+        {
+          "word": "oldest",
+          "start": 6.46,
+          "end": 6.82,
+          "probability": 0.9977546334266663
+        },
+        {
+          "word": "question,",
+          "start": 6.82,
+          "end": 7.34,
+          "probability": 0.9974184036254883
+        },
+        {
+          "word": "what",
+          "start": 8.0,
+          "end": 8.04,
+          "probability": 0.35104072093963623
+        },
+        {
+          "word": "does",
+          "start": 8.04,
+          "end": 8.2,
+          "probability": 0.9955701231956482
+        },
+        {
+          "word": "the",
+          "start": 8.2,
+          "end": 8.36,
+          "probability": 0.9975765347480774
+        },
+        {
+          "word": "Arab",
+          "start": 8.36,
+          "end": 8.68,
+          "probability": 0.9976251721382141
+        },
+        {
+          "word": "nation",
+          "start": 8.68,
+          "end": 9.12,
+          "probability": 0.9785441756248474
+        },
+        {
+          "word": "owe",
+          "start": 9.12,
+          "end": 9.4,
+          "probability": 0.9898080229759216
+        },
+        {
+          "word": "itself?",
+          "start": 9.4,
+          "end": 9.8,
+          "probability": 0.9969356060028076
+        },
+        {
+          "word": "Everything.",
+          "start": 10.48,
+          "end": 10.8,
+          "probability": 0.9788405895233154
+        },
+        {
+          "word": "Its",
+          "start": 11.52,
+          "end": 11.62,
+          "probability": 0.7411465644836426
+        },
+        {
+          "word": "language",
+          "start": 11.62,
+          "end": 12.06,
+          "probability": 0.9988208413124084
+        },
+        {
+          "word": "taught",
+          "start": 12.06,
+          "end": 12.44,
+          "probability": 0.970695972442627
+        },
+        {
+          "word": "without",
+          "start": 12.44,
+          "end": 12.82,
+          "probability": 0.9987891316413879
+        },
+        {
+          "word": "shame.",
+          "start": 12.82,
+          "end": 13.22,
+          "probability": 0.9992699027061462
+        }
+      ],
+      "expected_tokens": [
+        "the",
+        "arab",
+        "world",
+        "watched",
+        "and",
+        "understood",
+        "this",
+        "is",
+        "what",
+        "sovereignty",
+        "looks",
+        "like",
+        "baathism",
+        "answered",
+        "the",
+        "oldest",
+        "question",
+        "what",
+        "does",
+        "the",
+        "arab",
+        "nation",
+        "owe",
+        "itself",
+        "everything",
+        "its",
+        "language",
+        "taught",
+        "without",
+        "shame"
+      ],
+      "observed_tokens": [
+        "the",
+        "arab",
+        "world",
+        "watched",
+        "and",
+        "understood",
+        "this",
+        "is",
+        "what",
+        "sovereignty",
+        "looks",
+        "like",
+        "baathism",
+        "answered",
+        "the",
+        "oldest",
+        "question",
+        "what",
+        "does",
+        "the",
+        "arab",
+        "nation",
+        "owe",
+        "itself",
+        "everything",
+        "its",
+        "language",
+        "taught",
+        "without",
+        "shame"
+      ],
+      "alignment_fraction": 1.0,
+      "matched_tokens": 30,
+      "expected_token_count": 30,
+      "alignment_opcodes": [
+        [
+          "equal",
+          0,
+          30,
+          0,
+          30
+        ]
+      ],
+      "boundaries": [
+        {
+          "time": 5.098,
+          "asr_midpoint": 5.1,
+          "left_word_end": 4.74,
+          "right_word_start": 5.46,
+          "rms_20ms": 0.003333517350256443,
+          "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+          "after": "main-08",
+          "before": "main-09"
+        },
+        {
+          "time": 10.142,
+          "asr_midpoint": 10.14,
+          "left_word_end": 9.8,
+          "right_word_start": 10.48,
+          "rms_20ms": 0.00015518431609962136,
+          "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+          "after": "main-09",
+          "before": "main-10"
+        },
+        {
+          "time": 11.158,
+          "asr_midpoint": 11.16,
+          "left_word_end": 10.8,
+          "right_word_start": 11.52,
+          "rms_20ms": 0.00017490223399363458,
+          "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+          "after": "main-10",
+          "before": "main-11"
+        }
+      ],
+      "segments": [
+        {
+          "id": "main-08",
+          "source_start": 0.0,
+          "source_end": 5.098,
+          "duration": 5.098,
+          "alignment_fraction": 1.0,
+          "asr_first_word": "The",
+          "asr_last_word": "like."
+        },
+        {
+          "id": "main-09",
+          "source_start": 5.098,
+          "source_end": 10.142,
+          "duration": 5.044,
+          "alignment_fraction": 1.0,
+          "asr_first_word": "Ba'athism",
+          "asr_last_word": "itself?"
+        },
+        {
+          "id": "main-10",
+          "source_start": 10.142,
+          "source_end": 11.158,
+          "duration": 1.016,
+          "alignment_fraction": 1.0,
+          "asr_first_word": "Everything.",
+          "asr_last_word": "Everything."
+        },
+        {
+          "id": "main-11",
+          "source_start": 11.158,
+          "source_end": 14.05,
+          "duration": 2.892,
+          "alignment_fraction": 1.0,
+          "asr_first_word": "Its",
+          "asr_last_word": "shame."
+        }
+      ],
+      "id": "main-08_main-11",
+      "status": "passed",
+      "phonemes": "ðɪ ˈæɹəb wˈɜːld wˈɑːtʃt ænd ˌʌndɚstˈʊd — ðɪs ɪz wʌt sˈɑːvɚɹˌɪnti lˈʊks lˈaɪk. bˈɑːθɪzəm ˈænsɚd ðɪ ˈoʊldɪst kwˈɛstʃən — wˌʌt dˈʌz ðɪ ˈæɹəb nˈeɪʃən ˈoʊ ɪtsˈɛlf? ˈɛvɹɪθˌɪŋ. ɪts lˈæŋɡwɪdʒ tˈɔːt wɪðˌaʊt ʃˈeɪm.",
+      "pronunciation_overrides_applied": [
+        {
+          "word": "Ba’athism",
+          "original_phonemes": "bˈæeɪðˌɪzəm",
+          "replacement": "bˈɑːθɪzəm",
+          "count": 1
+        }
+      ],
+      "elapsed_seconds": 0.0071889030004967935,
+      "recognized_alignment_fraction": 1.0,
+      "vocabulary_prompt": null
+    },
+    {
+      "transcript": "It's women standing in every courtroom, every hospital, every military rank, a Christian as foreign minister, a farmer owning his land, one secular state, one Arab identity, no foreign permission required.",
+      "words": [
+        {
+          "word": "It's",
+          "start": 0.0,
+          "end": 0.64,
+          "probability": 0.9011907577514648
+        },
+        {
+          "word": "women",
+          "start": 0.64,
+          "end": 0.8,
+          "probability": 0.9957459568977356
+        },
+        {
+          "word": "standing",
+          "start": 0.8,
+          "end": 1.2,
+          "probability": 0.9962120056152344
+        },
+        {
+          "word": "in",
+          "start": 1.2,
+          "end": 1.48,
+          "probability": 0.9985612034797668
+        },
+        {
+          "word": "every",
+          "start": 1.48,
+          "end": 1.8,
+          "probability": 0.9981932044029236
+        },
+        {
+          "word": "courtroom,",
+          "start": 1.8,
+          "end": 2.3,
+          "probability": 0.9786454439163208
+        },
+        {
+          "word": "every",
+          "start": 2.58,
+          "end": 2.7,
+          "probability": 0.994205892086029
+        },
+        {
+          "word": "hospital,",
+          "start": 2.7,
+          "end": 3.26,
+          "probability": 0.9986704587936401
+        },
+        {
+          "word": "every",
+          "start": 3.54,
+          "end": 3.66,
+          "probability": 0.9942025542259216
+        },
+        {
+          "word": "military",
+          "start": 3.66,
+          "end": 4.16,
+          "probability": 0.9961839318275452
+        },
+        {
+          "word": "rank,",
+          "start": 4.16,
+          "end": 4.62,
+          "probability": 0.9948215484619141
+        },
+        {
+          "word": "a",
+          "start": 5.12,
+          "end": 5.3,
+          "probability": 0.9852912425994873
+        },
+        {
+          "word": "Christian",
+          "start": 5.3,
+          "end": 5.68,
+          "probability": 0.9705343842506409
+        },
+        {
+          "word": "as",
+          "start": 5.68,
+          "end": 6.04,
+          "probability": 0.9866998195648193
+        },
+        {
+          "word": "foreign",
+          "start": 6.04,
+          "end": 6.5,
+          "probability": 0.7173574566841125
+        },
+        {
+          "word": "minister,",
+          "start": 6.5,
+          "end": 6.96,
+          "probability": 0.9953433275222778
+        },
+        {
+          "word": "a",
+          "start": 7.42,
+          "end": 7.6,
+          "probability": 0.9968616962432861
+        },
+        {
+          "word": "farmer",
+          "start": 7.6,
+          "end": 7.96,
+          "probability": 0.9986152648925781
+        },
+        {
+          "word": "owning",
+          "start": 7.96,
+          "end": 8.38,
+          "probability": 0.9957370758056641
+        },
+        {
+          "word": "his",
+          "start": 8.38,
+          "end": 8.62,
+          "probability": 0.9983587861061096
+        },
+        {
+          "word": "land,",
+          "start": 8.62,
+          "end": 9.04,
+          "probability": 0.9993046522140503
+        },
+        {
+          "word": "one",
+          "start": 9.66,
+          "end": 9.86,
+          "probability": 0.9927483201026917
+        },
+        {
+          "word": "secular",
+          "start": 9.86,
+          "end": 10.4,
+          "probability": 0.9987229704856873
+        },
+        {
+          "word": "state,",
+          "start": 10.4,
+          "end": 10.88,
+          "probability": 0.992890477180481
+        },
+        {
+          "word": "one",
+          "start": 11.4,
+          "end": 11.7,
+          "probability": 0.9962548017501831
+        },
+        {
+          "word": "Arab",
+          "start": 11.7,
+          "end": 12.16,
+          "probability": 0.9896453619003296
+        },
+        {
+          "word": "identity,",
+          "start": 12.16,
+          "end": 12.8,
+          "probability": 0.9956713914871216
+        },
+        {
+          "word": "no",
+          "start": 13.26,
+          "end": 13.52,
+          "probability": 0.9934878349304199
+        },
+        {
+          "word": "foreign",
+          "start": 13.52,
+          "end": 14.0,
+          "probability": 0.9973379969596863
+        },
+        {
+          "word": "permission",
+          "start": 14.0,
+          "end": 14.48,
+          "probability": 0.9970266222953796
+        },
+        {
+          "word": "required.",
+          "start": 14.48,
+          "end": 15.14,
+          "probability": 0.9983829259872437
+        }
+      ],
+      "language": "en",
+      "duration": 15.9,
+      "expected_tokens": [
+        "its",
+        "women",
+        "standing",
+        "in",
+        "every",
+        "courtroom",
+        "every",
+        "hospital",
+        "every",
+        "military",
+        "rank",
+        "a",
+        "christian",
+        "as",
+        "foreign",
+        "minister",
+        "a",
+        "farmer",
+        "owning",
+        "his",
+        "land",
+        "one",
+        "secular",
+        "state",
+        "one",
+        "arab",
+        "identity",
+        "no",
+        "foreign",
+        "permission",
+        "required"
+      ],
+      "observed_tokens": [
+        "it's",
+        "women",
+        "standing",
+        "in",
+        "every",
+        "courtroom",
+        "every",
+        "hospital",
+        "every",
+        "military",
+        "rank",
+        "a",
+        "christian",
+        "as",
+        "foreign",
+        "minister",
+        "a",
+        "farmer",
+        "owning",
+        "his",
+        "land",
+        "one",
+        "secular",
+        "state",
+        "one",
+        "arab",
+        "identity",
+        "no",
+        "foreign",
+        "permission",
+        "required"
+      ],
+      "alignment_fraction": 0.967741935483871,
+      "matched_tokens": 30,
+      "expected_token_count": 31,
+      "alignment_opcodes": [
+        [
+          "replace",
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          "equal",
+          1,
+          31,
+          1,
+          31
+        ]
+      ],
+      "boundaries": [
+        {
+          "time": 4.868,
+          "asr_midpoint": 4.87,
+          "left_word_end": 4.62,
+          "right_word_start": 5.12,
+          "rms_20ms": 0.0003829573397524655,
+          "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+          "after": "main-12",
+          "before": "main-13"
+        },
+        {
+          "time": 7.188,
+          "asr_midpoint": 7.1899999999999995,
+          "left_word_end": 6.96,
+          "right_word_start": 7.42,
+          "rms_20ms": 0.00023113665520213544,
+          "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+          "after": "main-13",
+          "before": "main-14"
+        },
+        {
+          "time": 9.348,
+          "asr_midpoint": 9.35,
+          "left_word_end": 9.04,
+          "right_word_start": 9.66,
+          "rms_20ms": 0.0006154960137791932,
+          "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+          "after": "main-14",
+          "before": "main-15"
+        },
+        {
+          "time": 11.142,
+          "asr_midpoint": 11.14,
+          "left_word_end": 10.88,
+          "right_word_start": 11.4,
+          "rms_20ms": 0.00030565616907551885,
+          "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+          "after": "main-15",
+          "before": "main-16"
+        },
+        {
+          "time": 13.032,
+          "asr_midpoint": 13.030000000000001,
+          "left_word_end": 12.8,
+          "right_word_start": 13.26,
+          "rms_20ms": 0.00039933438529260457,
+          "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+          "after": "main-16",
+          "before": "main-17"
+        }
+      ],
+      "segments": [
+        {
+          "id": "main-12",
+          "source_start": 0.0,
+          "source_end": 4.868,
+          "duration": 4.868,
+          "alignment_fraction": 0.9090909090909091,
+          "asr_first_word": "women",
+          "asr_last_word": "rank,"
+        },
+        {
+          "id": "main-13",
+          "source_start": 4.868,
+          "source_end": 7.188,
+          "duration": 2.32,
+          "alignment_fraction": 1.0,
+          "asr_first_word": "a",
+          "asr_last_word": "minister,"
+        },
+        {
+          "id": "main-14",
+          "source_start": 7.188,
+          "source_end": 9.348,
+          "duration": 2.16,
+          "alignment_fraction": 1.0,
+          "asr_first_word": "a",
+          "asr_last_word": "land,"
+        },
+        {
+          "id": "main-15",
+          "source_start": 9.348,
+          "source_end": 11.142,
+          "duration": 1.794,
+          "alignment_fraction": 1.0,
+          "asr_first_word": "one",
+          "asr_last_word": "state,"
+        },
+        {
+          "id": "main-16",
+          "source_start": 11.142,
+          "source_end": 13.032,
+          "duration": 1.89,
+          "alignment_fraction": 1.0,
+          "asr_first_word": "one",
+          "asr_last_word": "identity,"
+        },
+        {
+          "id": "main-17",
+          "source_start": 13.032,
+          "source_end": 15.9,
+          "duration": 2.868,
+          "alignment_fraction": 1.0,
+          "asr_first_word": "no",
+          "asr_last_word": "required."
+        }
+      ],
+      "id": "main-12_main-17",
+      "status": "passed",
+      "phonemes": "ɪts wˈɪmɪn stˈændɪŋ ɪn ˈɛvɹi kˈɔːɹtɹuːm, ˈɛvɹi hˈɑːspɪɾəl, ˈɛvɹi mˈɪlətˌɛɹi ɹˈæŋk. ɐ kɹˈɪstʃən æz fˈɔːɹən mˈɪnɪstɚ. ɐ fˈɑːɹmɚɹ ˈoʊnɪŋ hɪz lˈænd. wˈʌn sˈɛkjʊlɚ stˈeɪt. wˈʌn ˈæɹəb aɪdˈɛntᵻɾi. nˈoʊ fˈɔːɹən pɚmˈɪʃən ɹᵻkwˈaɪɚd.",
+      "pronunciation_overrides_applied": [],
+      "elapsed_seconds": 3.321403908994398,
+      "recognized_alignment_fraction": 0.967741935483871,
+      "vocabulary_prompt": null
+    },
+    {
+      "transcript": "They called Ba’athism dangerous. They were right. A sovereign Arab state that nationalized its oil threatened every company grown rich on Arab resources. An educated Arab population threatened every power that depended on Arab dependency. They called it instability. Stability for whom?",
+      "words": [
+        {
+          "word": "They",
+          "start": 0.0,
+          "end": 0.54,
+          "probability": 0.8794648051261902
+        },
+        {
+          "word": "called",
+          "start": 0.54,
+          "end": 0.88,
+          "probability": 0.9882146120071411
+        },
+        {
+          "word": "Ba’athism",
+          "start": 0.88,
+          "end": 1.56,
+          "probability": 0.20124268944891527
+        },
+        {
+          "word": "dangerous.",
+          "start": 1.56,
+          "end": 2.18,
+          "probability": 0.9623096585273743
+        },
+        {
+          "word": "They",
+          "start": 2.84,
+          "end": 2.9,
+          "probability": 0.9910935759544373
+        },
+        {
+          "word": "were",
+          "start": 2.9,
+          "end": 3.06,
+          "probability": 0.9980167150497437
+        },
+        {
+          "word": "right.",
+          "start": 3.06,
+          "end": 3.38,
+          "probability": 0.9938032627105713
+        },
+        {
+          "word": "A",
+          "start": 4.08,
+          "end": 4.12,
+          "probability": 0.9881932139396667
+        },
+        {
+          "word": "sovereign",
+          "start": 4.12,
+          "end": 4.6,
+          "probability": 0.9849830269813538
+        },
+        {
+          "word": "Arab",
+          "start": 4.6,
+          "end": 5.06,
+          "probability": 0.9860721826553345
+        },
+        {
+          "word": "state",
+          "start": 5.06,
+          "end": 5.42,
+          "probability": 0.9852933287620544
+        },
+        {
+          "word": "that",
+          "start": 5.42,
+          "end": 5.68,
+          "probability": 0.9897043108940125
+        },
+        {
+          "word": "nationalized",
+          "start": 5.68,
+          "end": 6.54,
+          "probability": 0.9823375642299652
+        },
+        {
+          "word": "its",
+          "start": 6.54,
+          "end": 6.68,
+          "probability": 0.9932807087898254
+        },
+        {
+          "word": "oil",
+          "start": 6.68,
+          "end": 7.12,
+          "probability": 0.9973838925361633
+        },
+        {
+          "word": "threatened",
+          "start": 7.12,
+          "end": 7.64,
+          "probability": 0.9396865367889404
+        },
+        {
+          "word": "every",
+          "start": 7.64,
+          "end": 8.14,
+          "probability": 0.9961284399032593
+        },
+        {
+          "word": "company",
+          "start": 8.14,
+          "end": 8.58,
+          "probability": 0.9976932406425476
+        },
+        {
+          "word": "grown",
+          "start": 8.58,
+          "end": 8.96,
+          "probability": 0.9599940776824951
+        },
+        {
+          "word": "rich",
+          "start": 8.96,
+          "end": 9.3,
+          "probability": 0.9978322386741638
+        },
+        {
+          "word": "on",
+          "start": 9.3,
+          "end": 9.62,
+          "probability": 0.9951184988021851
+        },
+        {
+          "word": "Arab",
+          "start": 9.62,
+          "end": 10.02,
+          "probability": 0.9904953241348267
+        },
+        {
+          "word": "resources.",
+          "start": 10.02,
+          "end": 10.6,
+          "probability": 0.9944736361503601
+        },
+        {
+          "word": "An",
+          "start": 11.28,
+          "end": 11.46,
+          "probability": 0.986491858959198
+        },
+        {
+          "word": "educated",
+          "start": 11.46,
+          "end": 12.12,
+          "probability": 0.9932186007499695
+        },
+        {
+          "word": "Arab",
+          "start": 12.12,
+          "end": 12.62,
+          "probability": 0.9985743761062622
+        },
+        {
+          "word": "population",
+          "start": 12.62,
+          "end": 13.22,
+          "probability": 0.9946812987327576
+        },
+        {
+          "word": "threatened",
+          "start": 13.22,
+          "end": 13.66,
+          "probability": 0.9960206151008606
+        },
+        {
+          "word": "every",
+          "start": 13.66,
+          "end": 14.18,
+          "probability": 0.998309850692749
+        },
+        {
+          "word": "power",
+          "start": 14.18,
+          "end": 14.62,
+          "probability": 0.9983349442481995
+        },
+        {
+          "word": "that",
+          "start": 14.62,
+          "end": 14.88,
+          "probability": 0.9982424974441528
+        },
+        {
+          "word": "depended",
+          "start": 14.88,
+          "end": 15.26,
+          "probability": 0.9975370168685913
+        },
+        {
+          "word": "on",
+          "start": 15.26,
+          "end": 15.54,
+          "probability": 0.9991580247879028
+        },
+        {
+          "word": "Arab",
+          "start": 15.54,
+          "end": 15.96,
+          "probability": 0.998496413230896
+        },
+        {
+          "word": "dependency.",
+          "start": 15.96,
+          "end": 16.44,
+          "probability": 0.9903520941734314
+        },
+        {
+          "word": "They",
+          "start": 17.26,
+          "end": 17.42,
+          "probability": 0.9965967535972595
+        },
+        {
+          "word": "called",
+          "start": 17.42,
+          "end": 17.74,
+          "probability": 0.9973892569541931
+        },
+        {
+          "word": "it",
+          "start": 17.74,
+          "end": 17.94,
+          "probability": 0.9975887537002563
+        },
+        {
+          "word": "instability.",
+          "start": 17.94,
+          "end": 18.52,
+          "probability": 0.9496853947639465
+        },
+        {
+          "word": "Stability",
+          "start": 19.58,
+          "end": 19.58,
+          "probability": 0.979740560054779
+        },
+        {
+          "word": "for",
+          "start": 19.58,
+          "end": 19.98,
+          "probability": 0.9941218495368958
+        },
+        {
+          "word": "whom?",
+          "start": 19.98,
+          "end": 20.34,
+          "probability": 0.989336371421814
+        }
+      ],
+      "language": "en",
+      "duration": 21.1,
+      "vocabulary_prompt": "Ba’athism, Iraq, UNESCO.",
+      "expected_tokens": [
+        "they",
+        "called",
+        "baathism",
+        "dangerous",
+        "they",
+        "were",
+        "right",
+        "a",
+        "sovereign",
+        "arab",
+        "state",
+        "that",
+        "nationalized",
+        "its",
+        "oil",
+        "threatened",
+        "every",
+        "company",
+        "grown",
+        "rich",
+        "on",
+        "arab",
+        "resources",
+        "an",
+        "educated",
+        "arab",
+        "population",
+        "threatened",
+        "every",
+        "power",
+        "that",
+        "depended",
+        "on",
+        "arab",
+        "dependency",
+        "they",
+        "called",
+        "it",
+        "instability",
+        "stability",
+        "for",
+        "whom"
+      ],
+      "observed_tokens": [
+        "they",
+        "called",
+        "baathism",
+        "dangerous",
+        "they",
+        "were",
+        "right",
+        "a",
+        "sovereign",
+        "arab",
+        "state",
+        "that",
+        "nationalized",
+        "its",
+        "oil",
+        "threatened",
+        "every",
+        "company",
+        "grown",
+        "rich",
+        "on",
+        "arab",
+        "resources",
+        "an",
+        "educated",
+        "arab",
+        "population",
+        "threatened",
+        "every",
+        "power",
+        "that",
+        "depended",
+        "on",
+        "arab",
+        "dependency",
+        "they",
+        "called",
+        "it",
+        "instability",
+        "stability",
+        "for",
+        "whom"
+      ],
+      "alignment_fraction": 1.0,
+      "matched_tokens": 42,
+      "expected_token_count": 42,
+      "alignment_opcodes": [
+        [
+          "equal",
+          0,
+          42,
+          0,
+          42
+        ]
+      ],
+      "boundaries": [
+        {
+          "time": 2.508,
+          "asr_midpoint": 2.51,
+          "left_word_end": 2.18,
+          "right_word_start": 2.84,
+          "rms_20ms": 0.0001437826140318066,
+          "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+          "after": "main-18",
+          "before": "main-19"
+        },
+        {
+          "time": 3.728,
+          "asr_midpoint": 3.73,
+          "left_word_end": 3.38,
+          "right_word_start": 4.08,
+          "rms_20ms": 0.00023957200755830854,
+          "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+          "after": "main-19",
+          "before": "main-20"
+        },
+        {
+          "time": 10.938,
+          "asr_midpoint": 10.94,
+          "left_word_end": 10.6,
+          "right_word_start": 11.28,
+          "rms_20ms": 0.0008079916005954146,
+          "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+          "after": "main-20",
+          "before": "main-21"
+        },
+        {
+          "time": 16.852,
+          "asr_midpoint": 16.85,
+          "left_word_end": 16.44,
+          "right_word_start": 17.26,
+          "rms_20ms": 0.0003283779078628868,
+          "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+          "after": "main-21",
+          "before": "main-22"
+        },
+        {
+          "time": 19.048,
+          "asr_midpoint": 19.049999999999997,
+          "left_word_end": 18.52,
+          "right_word_start": 19.58,
+          "rms_20ms": 0.00016422837506979704,
+          "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+          "after": "main-22",
+          "before": "main-23"
+        }
+      ],
+      "segments": [
+        {
+          "id": "main-18",
+          "source_start": 0.0,
+          "source_end": 2.508,
+          "duration": 2.508,
+          "alignment_fraction": 1.0,
+          "asr_first_word": "They",
+          "asr_last_word": "dangerous."
+        },
+        {
+          "id": "main-19",
+          "source_start": 2.508,
+          "source_end": 3.728,
+          "duration": 1.22,
+          "alignment_fraction": 1.0,
+          "asr_first_word": "They",
+          "asr_last_word": "right."
+        },
+        {
+          "id": "main-20",
+          "source_start": 3.728,
+          "source_end": 10.938,
+          "duration": 7.21,
+          "alignment_fraction": 1.0,
+          "asr_first_word": "A",
+          "asr_last_word": "resources."
+        },
+        {
+          "id": "main-21",
+          "source_start": 10.938,
+          "source_end": 16.852,
+          "duration": 5.914,
+          "alignment_fraction": 1.0,
+          "asr_first_word": "An",
+          "asr_last_word": "dependency."
+        },
+        {
+          "id": "main-22",
+          "source_start": 16.852,
+          "source_end": 19.048,
+          "duration": 2.196,
+          "alignment_fraction": 1.0,
+          "asr_first_word": "They",
+          "asr_last_word": "instability."
+        },
+        {
+          "id": "main-23",
+          "source_start": 19.048,
+          "source_end": 21.1,
+          "duration": 2.052,
+          "alignment_fraction": 1.0,
+          "asr_first_word": "Stability",
+          "asr_last_word": "whom?"
+        }
+      ],
+      "id": "main-18_main-23",
+      "status": "passed",
+      "unprompted_recognition": {
+        "id": "main-18_main-23",
+        "status": "alignment_failed",
+        "error": "Uncertain boundary main-18 / main-19: unaligned ['baathism']",
+        "transcript": "They called Balthism dangerous. They were right. A sovereign Arab state that nationalized its oil threatened every company grown rich on Arab resources. An educated Arab population threatened every power that depended on Arab dependency. They called it instability. Stability for whom?",
+        "words": [
+          {
+            "word": "They",
+            "start": 0.0,
+            "end": 0.54,
+            "probability": 0.8794648051261902
+          },
+          {
+            "word": "called",
+            "start": 0.54,
+            "end": 0.88,
+            "probability": 0.9882146120071411
+          },
+          {
+            "word": "Balthism",
+            "start": 0.88,
+            "end": 1.54,
+            "probability": 0.4697145919005076
+          },
+          {
+            "word": "dangerous.",
+            "start": 1.54,
+            "end": 2.08,
+            "probability": 0.9631732106208801
+          },
+          {
+            "word": "They",
+            "start": 2.88,
+            "end": 2.9,
+            "probability": 0.9892115592956543
+          },
+          {
+            "word": "were",
+            "start": 2.9,
+            "end": 3.06,
+            "probability": 0.9989776611328125
+          },
+          {
+            "word": "right.",
+            "start": 3.06,
+            "end": 3.4,
+            "probability": 0.9971309900283813
+          },
+          {
+            "word": "A",
+            "start": 4.08,
+            "end": 4.12,
+            "probability": 0.9863212704658508
+          },
+          {
+            "word": "sovereign",
+            "start": 4.12,
+            "end": 4.58,
+            "probability": 0.9859267473220825
+          },
+          {
+            "word": "Arab",
+            "start": 4.58,
+            "end": 5.06,
+            "probability": 0.9843841791152954
+          },
+          {
+            "word": "state",
+            "start": 5.06,
+            "end": 5.42,
+            "probability": 0.9838815927505493
+          },
+          {
+            "word": "that",
+            "start": 5.42,
+            "end": 5.68,
+            "probability": 0.9921189546585083
+          },
+          {
+            "word": "nationalized",
+            "start": 5.68,
+            "end": 6.52,
+            "probability": 0.9779553413391113
+          },
+          {
+            "word": "its",
+            "start": 6.52,
+            "end": 6.68,
+            "probability": 0.9913069605827332
+          },
+          {
+            "word": "oil",
+            "start": 6.68,
+            "end": 7.12,
+            "probability": 0.9962301850318909
+          },
+          {
+            "word": "threatened",
+            "start": 7.12,
+            "end": 7.64,
+            "probability": 0.9219992160797119
+          },
+          {
+            "word": "every",
+            "start": 7.64,
+            "end": 8.14,
+            "probability": 0.9965289235115051
+          },
+          {
+            "word": "company",
+            "start": 8.14,
+            "end": 8.6,
+            "probability": 0.9974355101585388
+          },
+          {
+            "word": "grown",
+            "start": 8.6,
+            "end": 8.96,
+            "probability": 0.9678740501403809
+          },
+          {
+            "word": "rich",
+            "start": 8.96,
+            "end": 9.3,
+            "probability": 0.9983030557632446
+          },
+          {
+            "word": "on",
+            "start": 9.3,
+            "end": 9.62,
+            "probability": 0.9942816495895386
+          },
+          {
+            "word": "Arab",
+            "start": 9.62,
+            "end": 10.02,
+            "probability": 0.9887562394142151
+          },
+          {
+            "word": "resources.",
+            "start": 10.02,
+            "end": 10.6,
+            "probability": 0.9944705963134766
+          },
+          {
+            "word": "An",
+            "start": 11.3,
+            "end": 11.46,
+            "probability": 0.9840502142906189
+          },
+          {
+            "word": "educated",
+            "start": 11.46,
+            "end": 12.12,
+            "probability": 0.9949640035629272
+          },
+          {
+            "word": "Arab",
+            "start": 12.12,
+            "end": 12.6,
+            "probability": 0.9984855055809021
+          },
+          {
+            "word": "population",
+            "start": 12.6,
+            "end": 13.2,
+            "probability": 0.9937823414802551
+          },
+          {
+            "word": "threatened",
+            "start": 13.2,
+            "end": 13.66,
+            "probability": 0.9950737357139587
+          },
+          {
+            "word": "every",
+            "start": 13.66,
+            "end": 14.18,
+            "probability": 0.9989489912986755
+          },
+          {
+            "word": "power",
+            "start": 14.18,
+            "end": 14.62,
+            "probability": 0.9983831644058228
+          },
+          {
+            "word": "that",
+            "start": 14.62,
+            "end": 14.88,
+            "probability": 0.9981750249862671
+          },
+          {
+            "word": "depended",
+            "start": 14.88,
+            "end": 15.26,
+            "probability": 0.9973022937774658
+          },
+          {
+            "word": "on",
+            "start": 15.26,
+            "end": 15.54,
+            "probability": 0.9991311430931091
+          },
+          {
+            "word": "Arab",
+            "start": 15.54,
+            "end": 15.96,
+            "probability": 0.9985570311546326
+          },
+          {
+            "word": "dependency.",
+            "start": 15.96,
+            "end": 16.44,
+            "probability": 0.9891793727874756
+          },
+          {
+            "word": "They",
+            "start": 17.24,
+            "end": 17.42,
+            "probability": 0.9960164427757263
+          },
+          {
+            "word": "called",
+            "start": 17.42,
+            "end": 17.74,
+            "probability": 0.9973244667053223
+          },
+          {
+            "word": "it",
+            "start": 17.74,
+            "end": 17.94,
+            "probability": 0.9966641068458557
+          },
+          {
+            "word": "instability.",
+            "start": 17.94,
+            "end": 18.5,
+            "probability": 0.9456489682197571
+          },
+          {
+            "word": "Stability",
+            "start": 19.58,
+            "end": 19.58,
+            "probability": 0.980568528175354
+          },
+          {
+            "word": "for",
+            "start": 19.58,
+            "end": 19.98,
+            "probability": 0.9952061772346497
+          },
+          {
+            "word": "whom?",
+            "start": 19.98,
+            "end": 20.34,
+            "probability": 0.9861694574356079
+          }
+        ],
+        "language": "en",
+        "duration": 21.1
+      },
+      "phonemes": "ðeɪ kˈɔːld bˈɑːθɪzəm dˈeɪndʒɚɹəs. ðeɪ wɜː ɹˈaɪt. ɐ sˈɑːvɚɹˌɪn ˈæɹəb stˈeɪt ðæt nˈæʃənəlˌaɪzd ɪts ˈɔɪl θɹˈɛʔnd ˈɛvɹi kˈʌmpəni ɡɹˈoʊn ɹˈɪtʃ ˌɔn ˈæɹəb ɹᵻsˈɔːɹsᵻz. ɐn ˈɛdʒuːkˌeɪɾᵻd ˈæɹəb pˌɑːpjʊlˈeɪʃən θɹˈɛʔnd ˈɛvɹi pˈaʊɚ ðæt dᵻpˈɛndᵻd ˌɔn ˈæɹəb dᵻpˈɛndənsi. ðeɪ kˈɔːld ɪɾ ɪnstəbˈɪlᵻɾi. stəbˈɪlᵻɾi fɔːɹ hˈuːm?",
+      "pronunciation_overrides_applied": [
+        {
+          "word": "Ba’athism",
+          "original_phonemes": "bˈæeɪðˌɪzəm",
+          "replacement": "bˈɑːθɪzəm",
+          "count": 1
+        }
+      ],
+      "recognized_alignment_fraction": 1.0
+    },
+    {
+      "transcript": "The oil was Arab, the schools were full, the women were free, the borders were challenged. Remember that Iraq.",
+      "words": [
+        {
+          "word": "The",
+          "start": 0.0,
+          "end": 0.54,
+          "probability": 0.9301952719688416
+        },
+        {
+          "word": "oil",
+          "start": 0.54,
+          "end": 0.84,
+          "probability": 0.9874195456504822
+        },
+        {
+          "word": "was",
+          "start": 0.84,
+          "end": 1.16,
+          "probability": 0.9980379939079285
+        },
+        {
+          "word": "Arab,",
+          "start": 1.16,
+          "end": 1.66,
+          "probability": 0.9742834568023682
+        },
+        {
+          "word": "the",
+          "start": 2.0,
+          "end": 2.04,
+          "probability": 0.9861716628074646
+        },
+        {
+          "word": "schools",
+          "start": 2.04,
+          "end": 2.38,
+          "probability": 0.994799017906189
+        },
+        {
+          "word": "were",
+          "start": 2.38,
+          "end": 2.64,
+          "probability": 0.9985042810440063
+        },
+        {
+          "word": "full,",
+          "start": 2.64,
+          "end": 3.04,
+          "probability": 0.9985066056251526
+        },
+        {
+          "word": "the",
+          "start": 3.32,
+          "end": 3.34,
+          "probability": 0.9883560538291931
+        },
+        {
+          "word": "women",
+          "start": 3.34,
+          "end": 3.54,
+          "probability": 0.9977129697799683
+        },
+        {
+          "word": "were",
+          "start": 3.54,
+          "end": 3.78,
+          "probability": 0.9971574544906616
+        },
+        {
+          "word": "free,",
+          "start": 3.78,
+          "end": 4.18,
+          "probability": 0.9987649917602539
+        },
+        {
+          "word": "the",
+          "start": 4.6,
+          "end": 4.68,
+          "probability": 0.9887288808822632
+        },
+        {
+          "word": "borders",
+          "start": 4.68,
+          "end": 5.02,
+          "probability": 0.9773038029670715
+        },
+        {
+          "word": "were",
+          "start": 5.02,
+          "end": 5.32,
+          "probability": 0.9950054287910461
+        },
+        {
+          "word": "challenged.",
+          "start": 5.32,
+          "end": 5.9,
+          "probability": 0.9981947541236877
+        },
+        {
+          "word": "Remember",
+          "start": 6.72,
+          "end": 6.82,
+          "probability": 0.9947147965431213
+        },
+        {
+          "word": "that",
+          "start": 6.82,
+          "end": 7.12,
+          "probability": 0.9946354031562805
+        },
+        {
+          "word": "Iraq.",
+          "start": 7.12,
+          "end": 7.52,
+          "probability": 0.9791262149810791
+        }
+      ],
+      "vocabulary_prompt": null,
+      "language": "en",
+      "duration": 8.325,
+      "expected_tokens": [
+        "the",
+        "oil",
+        "was",
+        "arab",
+        "the",
+        "schools",
+        "were",
+        "full",
+        "the",
+        "women",
+        "were",
+        "free",
+        "the",
+        "borders",
+        "were",
+        "challenged",
+        "remember",
+        "that",
+        "iraq"
+      ],
+      "observed_tokens": [
+        "the",
+        "oil",
+        "was",
+        "arab",
+        "the",
+        "schools",
+        "were",
+        "full",
+        "the",
+        "women",
+        "were",
+        "free",
+        "the",
+        "borders",
+        "were",
+        "challenged",
+        "remember",
+        "that",
+        "iraq"
+      ],
+      "alignment_fraction": 1.0,
+      "matched_tokens": 19,
+      "recognized_alignment_fraction": 1.0,
+      "expected_token_count": 19,
+      "alignment_opcodes": [
+        [
+          "equal",
+          0,
+          19,
+          0,
+          19
+        ]
+      ],
+      "boundaries": [
+        {
+          "time": 1.832,
+          "asr_midpoint": 1.83,
+          "left_word_end": 1.66,
+          "right_word_start": 2.0,
+          "rms_20ms": 0.00029109418392181396,
+          "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+          "after": "closing-01",
+          "before": "closing-02"
+        },
+        {
+          "time": 3.178,
+          "asr_midpoint": 3.1799999999999997,
+          "left_word_end": 3.04,
+          "right_word_start": 3.32,
+          "rms_20ms": 0.0034508188255131245,
+          "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+          "after": "closing-02",
+          "before": "closing-03"
+        },
+        {
+          "time": 4.388,
+          "asr_midpoint": 4.39,
+          "left_word_end": 4.18,
+          "right_word_start": 4.6,
+          "rms_20ms": 0.0009630165295675397,
+          "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+          "after": "closing-03",
+          "before": "closing-04"
+        },
+        {
+          "time": 6.312,
+          "asr_midpoint": 6.3100000000000005,
+          "left_word_end": 5.9,
+          "right_word_start": 6.72,
+          "rms_20ms": 0.0006425377214327455,
+          "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+          "after": "closing-04",
+          "before": "closing-05"
+        }
+      ],
+      "segments": [
+        {
+          "id": "closing-01",
+          "source_start": 0.0,
+          "source_end": 1.832,
+          "duration": 1.832,
+          "alignment_fraction": 1.0,
+          "asr_first_word": "The",
+          "asr_last_word": "Arab,"
+        },
+        {
+          "id": "closing-02",
+          "source_start": 1.832,
+          "source_end": 3.178,
+          "duration": 1.346,
+          "alignment_fraction": 1.0,
+          "asr_first_word": "the",
+          "asr_last_word": "full,"
+        },
+        {
+          "id": "closing-03",
+          "source_start": 3.178,
+          "source_end": 4.388,
+          "duration": 1.21,
+          "alignment_fraction": 1.0,
+          "asr_first_word": "the",
+          "asr_last_word": "free,"
+        },
+        {
+          "id": "closing-04",
+          "source_start": 4.388,
+          "source_end": 6.312,
+          "duration": 1.924,
+          "alignment_fraction": 1.0,
+          "asr_first_word": "the",
+          "asr_last_word": "challenged."
+        },
+        {
+          "id": "closing-05",
+          "source_start": 6.312,
+          "source_end": 8.325,
+          "duration": 2.013,
+          "alignment_fraction": 1.0,
+          "asr_first_word": "Remember",
+          "asr_last_word": "Iraq."
+        }
+      ],
+      "id": "closing-01_closing-05",
+      "status": "passed",
+      "phonemes": "ðɪ ˈɔɪl wʌz ˈæɹəb. ðə skˈuːlz wɜː fˈʊl. ðə wˈɪmɪn wɜː fɹˈiː. ðə bˈɔːɹdɚz wɜː tʃˈælɪndʒd. ɹᵻmˈɛmbɚ ðæt ɪɹˈæk.",
+      "pronunciation_overrides_applied": []
+    }
+  ],
+  "status": "passed",
+  "total_source_duration": 81.775
+}

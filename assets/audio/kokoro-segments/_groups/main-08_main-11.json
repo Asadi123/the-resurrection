@@ -1,0 +1,585 @@
+{
+  "settings": {
+    "algorithm_version": 2,
+    "engine": "kokoro-onnx",
+    "engine_version": "0.4.9",
+    "voice_name": "am_michael",
+    "lang": "en-us",
+    "speed": 1.0,
+    "model_sha256": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5",
+    "voices_sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+    "pronunciation_overrides": {
+      "Ba’athism": "bˈɑːθɪzəm"
+    },
+    "segments": [
+      {
+        "id": "main-08",
+        "text": "The Arab world watched and understood — this is what sovereignty looks like.",
+        "synthesis_text": "The Arab world watched and understood — this is what sovereignty looks like."
+      },
+      {
+        "id": "main-09",
+        "text": "Ba’athism answered the oldest question — what does the Arab nation owe itself?",
+        "synthesis_text": "Ba’athism answered the oldest question — what does the Arab nation owe itself?"
+      },
+      {
+        "id": "main-10",
+        "text": "Everything.",
+        "synthesis_text": "Everything."
+      },
+      {
+        "id": "main-11",
+        "text": "Its language taught without shame.",
+        "synthesis_text": "Its language taught without shame."
+      }
+    ],
+    "asr_model": "Systran/faster-whisper-small.en",
+    "asr_prompt": null
+  },
+  "qa": {
+    "transcript": "The Arab world watched and understood this is what sovereignty looks like. Ba'athism answered the oldest question, what does the Arab nation owe itself? Everything. Its language taught without shame.",
+    "words": [
+      {
+        "word": "The",
+        "start": 0.0,
+        "end": 0.48,
+        "probability": 0.7847809195518494
+      },
+      {
+        "word": "Arab",
+        "start": 0.48,
+        "end": 0.8,
+        "probability": 0.9843083024024963
+      },
+      {
+        "word": "world",
+        "start": 0.8,
+        "end": 1.14,
+        "probability": 0.9868702292442322
+      },
+      {
+        "word": "watched",
+        "start": 1.14,
+        "end": 1.68,
+        "probability": 0.9943662881851196
+      },
+      {
+        "word": "and",
+        "start": 1.68,
+        "end": 1.88,
+        "probability": 0.9852573275566101
+      },
+      {
+        "word": "understood",
+        "start": 1.88,
+        "end": 2.46,
+        "probability": 0.998017430305481
+      },
+      {
+        "word": "this",
+        "start": 2.46,
+        "end": 2.92,
+        "probability": 0.8603649139404297
+      },
+      {
+        "word": "is",
+        "start": 2.92,
+        "end": 3.2,
+        "probability": 0.9902846217155457
+      },
+      {
+        "word": "what",
+        "start": 3.2,
+        "end": 3.4,
+        "probability": 0.9984754920005798
+      },
+      {
+        "word": "sovereignty",
+        "start": 3.4,
+        "end": 3.96,
+        "probability": 0.9852035045623779
+      },
+      {
+        "word": "looks",
+        "start": 3.96,
+        "end": 4.3,
+        "probability": 0.9957380294799805
+      },
+      {
+        "word": "like.",
+        "start": 4.3,
+        "end": 4.74,
+        "probability": 0.9981198906898499
+      },
+      {
+        "word": "Ba'athism",
+        "start": 5.46,
+        "end": 5.82,
+        "probability": 0.17878937721252441,
+        "merged_from": [
+          "Ba",
+          "'athism"
+        ]
+      },
+      {
+        "word": "answered",
+        "start": 5.82,
+        "end": 6.28,
+        "probability": 0.9970464110374451
+      },
+      {
+        "word": "the",
+        "start": 6.28,
+        "end": 6.46,
+        "probability": 0.9984965324401855
+      },
+      {
+        "word": "oldest",
+        "start": 6.46,
+        "end": 6.82,
+        "probability": 0.9977546334266663
+      },
+      {
+        "word": "question,",
+        "start": 6.82,
+        "end": 7.34,
+        "probability": 0.9974184036254883
+      },
+      {
+        "word": "what",
+        "start": 8.0,
+        "end": 8.04,
+        "probability": 0.35104072093963623
+      },
+      {
+        "word": "does",
+        "start": 8.04,
+        "end": 8.2,
+        "probability": 0.9955701231956482
+      },
+      {
+        "word": "the",
+        "start": 8.2,
+        "end": 8.36,
+        "probability": 0.9975765347480774
+      },
+      {
+        "word": "Arab",
+        "start": 8.36,
+        "end": 8.68,
+        "probability": 0.9976251721382141
+      },
+      {
+        "word": "nation",
+        "start": 8.68,
+        "end": 9.12,
+        "probability": 0.9785441756248474
+      },
+      {
+        "word": "owe",
+        "start": 9.12,
+        "end": 9.4,
+        "probability": 0.9898080229759216
+      },
+      {
+        "word": "itself?",
+        "start": 9.4,
+        "end": 9.8,
+        "probability": 0.9969356060028076
+      },
+      {
+        "word": "Everything.",
+        "start": 10.48,
+        "end": 10.8,
+        "probability": 0.9788405895233154
+      },
+      {
+        "word": "Its",
+        "start": 11.52,
+        "end": 11.62,
+        "probability": 0.7411465644836426
+      },
+      {
+        "word": "language",
+        "start": 11.62,
+        "end": 12.06,
+        "probability": 0.9988208413124084
+      },
+      {
+        "word": "taught",
+        "start": 12.06,
+        "end": 12.44,
+        "probability": 0.970695972442627
+      },
+      {
+        "word": "without",
+        "start": 12.44,
+        "end": 12.82,
+        "probability": 0.9987891316413879
+      },
+      {
+        "word": "shame.",
+        "start": 12.82,
+        "end": 13.22,
+        "probability": 0.9992699027061462
+      }
+    ],
+    "language": "en",
+    "duration": 14.05,
+    "raw_words": [
+      {
+        "word": "The",
+        "start": 0.0,
+        "end": 0.48,
+        "probability": 0.7847809195518494
+      },
+      {
+        "word": "Arab",
+        "start": 0.48,
+        "end": 0.8,
+        "probability": 0.9843083024024963
+      },
+      {
+        "word": "world",
+        "start": 0.8,
+        "end": 1.14,
+        "probability": 0.9868702292442322
+      },
+      {
+        "word": "watched",
+        "start": 1.14,
+        "end": 1.68,
+        "probability": 0.9943662881851196
+      },
+      {
+        "word": "and",
+        "start": 1.68,
+        "end": 1.88,
+        "probability": 0.9852573275566101
+      },
+      {
+        "word": "understood",
+        "start": 1.88,
+        "end": 2.46,
+        "probability": 0.998017430305481
+      },
+      {
+        "word": "this",
+        "start": 2.46,
+        "end": 2.92,
+        "probability": 0.8603649139404297
+      },
+      {
+        "word": "is",
+        "start": 2.92,
+        "end": 3.2,
+        "probability": 0.9902846217155457
+      },
+      {
+        "word": "what",
+        "start": 3.2,
+        "end": 3.4,
+        "probability": 0.9984754920005798
+      },
+      {
+        "word": "sovereignty",
+        "start": 3.4,
+        "end": 3.96,
+        "probability": 0.9852035045623779
+      },
+      {
+        "word": "looks",
+        "start": 3.96,
+        "end": 4.3,
+        "probability": 0.9957380294799805
+      },
+      {
+        "word": "like.",
+        "start": 4.3,
+        "end": 4.74,
+        "probability": 0.9981198906898499
+      },
+      {
+        "word": "Ba",
+        "start": 5.46,
+        "end": 5.46,
+        "probability": 0.17878937721252441
+      },
+      {
+        "word": "'athism",
+        "start": 5.46,
+        "end": 5.82,
+        "probability": 0.7938151160875956
+      },
+      {
+        "word": "answered",
+        "start": 5.82,
+        "end": 6.28,
+        "probability": 0.9970464110374451
+      },
+      {
+        "word": "the",
+        "start": 6.28,
+        "end": 6.46,
+        "probability": 0.9984965324401855
+      },
+      {
+        "word": "oldest",
+        "start": 6.46,
+        "end": 6.82,
+        "probability": 0.9977546334266663
+      },
+      {
+        "word": "question,",
+        "start": 6.82,
+        "end": 7.34,
+        "probability": 0.9974184036254883
+      },
+      {
+        "word": "what",
+        "start": 8.0,
+        "end": 8.04,
+        "probability": 0.35104072093963623
+      },
+      {
+        "word": "does",
+        "start": 8.04,
+        "end": 8.2,
+        "probability": 0.9955701231956482
+      },
+      {
+        "word": "the",
+        "start": 8.2,
+        "end": 8.36,
+        "probability": 0.9975765347480774
+      },
+      {
+        "word": "Arab",
+        "start": 8.36,
+        "end": 8.68,
+        "probability": 0.9976251721382141
+      },
+      {
+        "word": "nation",
+        "start": 8.68,
+        "end": 9.12,
+        "probability": 0.9785441756248474
+      },
+      {
+        "word": "owe",
+        "start": 9.12,
+        "end": 9.4,
+        "probability": 0.9898080229759216
+      },
+      {
+        "word": "itself?",
+        "start": 9.4,
+        "end": 9.8,
+        "probability": 0.9969356060028076
+      },
+      {
+        "word": "Everything.",
+        "start": 10.48,
+        "end": 10.8,
+        "probability": 0.9788405895233154
+      },
+      {
+        "word": "Its",
+        "start": 11.52,
+        "end": 11.62,
+        "probability": 0.7411465644836426
+      },
+      {
+        "word": "language",
+        "start": 11.62,
+        "end": 12.06,
+        "probability": 0.9988208413124084
+      },
+      {
+        "word": "taught",
+        "start": 12.06,
+        "end": 12.44,
+        "probability": 0.970695972442627
+      },
+      {
+        "word": "without",
+        "start": 12.44,
+        "end": 12.82,
+        "probability": 0.9987891316413879
+      },
+      {
+        "word": "shame.",
+        "start": 12.82,
+        "end": 13.22,
+        "probability": 0.9992699027061462
+      }
+    ],
+    "expected_tokens": [
+      "the",
+      "arab",
+      "world",
+      "watched",
+      "and",
+      "understood",
+      "this",
+      "is",
+      "what",
+      "sovereignty",
+      "looks",
+      "like",
+      "baathism",
+      "answered",
+      "the",
+      "oldest",
+      "question",
+      "what",
+      "does",
+      "the",
+      "arab",
+      "nation",
+      "owe",
+      "itself",
+      "everything",
+      "its",
+      "language",
+      "taught",
+      "without",
+      "shame"
+    ],
+    "observed_tokens": [
+      "the",
+      "arab",
+      "world",
+      "watched",
+      "and",
+      "understood",
+      "this",
+      "is",
+      "what",
+      "sovereignty",
+      "looks",
+      "like",
+      "baathism",
+      "answered",
+      "the",
+      "oldest",
+      "question",
+      "what",
+      "does",
+      "the",
+      "arab",
+      "nation",
+      "owe",
+      "itself",
+      "everything",
+      "its",
+      "language",
+      "taught",
+      "without",
+      "shame"
+    ],
+    "alignment_fraction": 1.0,
+    "matched_tokens": 30,
+    "expected_token_count": 30,
+    "alignment_opcodes": [
+      [
+        "equal",
+        0,
+        30,
+        0,
+        30
+      ]
+    ],
+    "boundaries": [
+      {
+        "time": 5.098,
+        "asr_midpoint": 5.1,
+        "left_word_end": 4.74,
+        "right_word_start": 5.46,
+        "rms_20ms": 0.003333517350256443,
+        "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+        "after": "main-08",
+        "before": "main-09"
+      },
+      {
+        "time": 10.142,
+        "asr_midpoint": 10.14,
+        "left_word_end": 9.8,
+        "right_word_start": 10.48,
+        "rms_20ms": 0.00015518431609962136,
+        "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+        "after": "main-09",
+        "before": "main-10"
+      },
+      {
+        "time": 11.158,
+        "asr_midpoint": 11.16,
+        "left_word_end": 10.8,
+        "right_word_start": 11.52,
+        "rms_20ms": 0.00017490223399363458,
+        "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+        "after": "main-10",
+        "before": "main-11"
+      }
+    ],
+    "segments": [
+      {
+        "id": "main-08",
+        "source_start": 0.0,
+        "source_end": 5.098,
+        "duration": 5.098,
+        "alignment_fraction": 1.0,
+        "asr_first_word": "The",
+        "asr_last_word": "like."
+      },
+      {
+        "id": "main-09",
+        "source_start": 5.098,
+        "source_end": 10.142,
+        "duration": 5.044,
+        "alignment_fraction": 1.0,
+        "asr_first_word": "Ba'athism",
+        "asr_last_word": "itself?"
+      },
+      {
+        "id": "main-10",
+        "source_start": 10.142,
+        "source_end": 11.158,
+        "duration": 1.016,
+        "alignment_fraction": 1.0,
+        "asr_first_word": "Everything.",
+        "asr_last_word": "Everything."
+      },
+      {
+        "id": "main-11",
+        "source_start": 11.158,
+        "source_end": 14.05,
+        "duration": 2.892,
+        "alignment_fraction": 1.0,
+        "asr_first_word": "Its",
+        "asr_last_word": "shame."
+      }
+    ],
+    "id": "main-08_main-11",
+    "status": "passed",
+    "phonemes": "ðɪ ˈæɹəb wˈɜːld wˈɑːtʃt ænd ˌʌndɚstˈʊd — ðɪs ɪz wʌt sˈɑːvɚɹˌɪnti lˈʊks lˈaɪk. bˈɑːθɪzəm ˈænsɚd ðɪ ˈoʊldɪst kwˈɛstʃən — wˌʌt dˈʌz ðɪ ˈæɹəb nˈeɪʃən ˈoʊ ɪtsˈɛlf? ˈɛvɹɪθˌɪŋ. ɪts lˈæŋɡwɪdʒ tˈɔːt wɪðˌaʊt ʃˈeɪm.",
+    "pronunciation_overrides_applied": [
+      {
+        "word": "Ba’athism",
+        "original_phonemes": "bˈæeɪðˌɪzəm",
+        "replacement": "bˈɑːθɪzəm",
+        "count": 1
+      }
+    ],
+    "elapsed_seconds": 0.0071889030004967935,
+    "recognized_alignment_fraction": 1.0,
+    "vocabulary_prompt": null
+  },
+  "group_sha256": "3c96c067fecd7f1faa7084300801f166e043a08e072b82cad011098b3ddc5686",
+  "segment_sha256": {
+    "main-08.wav": "8b179dc68149d720747ddd5d3932ef9296863dc808f83cc3d947eed9e68afb3c",
+    "main-09.wav": "d5ceb70c18d4f43ef9e15a35730c1f3c5e034d68c2900c2d0b6024093ff31f9a",
+    "main-10.wav": "fb8cb4f4bdf58b2fb76f29d8f2f412fcb95fdcf951511090ab6f43f300df01a5",
+    "main-11.wav": "bf11887b0f2e7b66020b353bbb43a55d9df1b18de490ea72c33dcb6770c8a9b1"
+  }
+}

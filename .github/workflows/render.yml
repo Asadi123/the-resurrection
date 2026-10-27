@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       narration_url:
-        description: Optional HTTPS URL for your licensed exact English narration (omit for cleared local Piper voice)
+        description: Optional HTTPS URL for your licensed exact English narration (omit for the selected Michael voice)
         required: false
         type: string
   push:

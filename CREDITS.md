@@ -42,11 +42,8 @@ Changes: proportional crop/scale, slow pan/zoom, restrained grading, text overla
 ## Audio
 
 
-- Bryce Beattie — norman-model. Public domain (creator statement); upstream repository metadata MIT. Source: https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/norman/medium/MODEL_CARD. License: https://brycebeattie.com/files/tts/.
 
-- Bryce Beattie / Piper contributors — norman-config. MIT; voice public domain. Source: https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/norman/medium/en_US-norman-medium.onnx.json. License: https://brycebeattie.com/files/tts/.
 
-- Bryce Beattie / Piper contributors — norman-card. MIT. Source: https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/norman/medium/MODEL_CARD. License: https://huggingface.co/rhasspy/piper-voices.
 
 - Oud music by Andy R. Jordan, commissioned by the Wikimedia Foundation, CC BY-SA 3.0. Excerpted, faded and mixed.. Source: https://commons.wikimedia.org/wiki/File:Oud_music_by_Andy_R._Jordan_1V2_long.mp3. License: https://creativecommons.org/licenses/by-sa/3.0/.
 
@@ -55,10 +52,11 @@ Changes: proportional crop/scale, slow pan/zoom, restrained grading, text overla
 - Ibn Al-Noor — Kevin MacLeod (incompetech.com), licensed under Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/. Excerpted, faded, crossfaded, ducked and mixed.. Source: https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1100706. License: https://creativecommons.org/licenses/by/4.0/.
 
 
-Modern synthesized narration: Piper (GPL-3.0 engine), Norman public-domain model by Bryce Beattie. Exact text supplied by user; political interpretation is identified and corrected in the film. This is not archival speech.
 
 
 Arabic typeface: Noto Naskh Arabic, SIL Open Font License 1.1; see assets/fonts/NOTO-COPYRIGHT.txt.
 
 
 Source availability: see research/ARCHIVAL_FINDINGS.md for gaps. No cleared event-specific footage of nationalization, oil fields, hospitals or industrial interiors was found. Incidental photographs are labelled with their actual date and subject.
+
+Modern synthesized narration: Kokoro-82M, Michael (am_michael), selected by the user. Model and English voice styles by hexgrad/Kokoro contributors, Apache-2.0: https://huggingface.co/hexgrad/Kokoro-82M . ONNX conversion/runtime by thewh1teagle (MIT wrapper): https://github.com/thewh1teagle/kokoro-onnx . Coherent passage synthesis, measured quiet sentence boundaries, and silence-only scheduling; no post-synthesis pitch or tempo modification. Exact supplied wording and synchronized factual corrections are preserved. This is not archival speech.

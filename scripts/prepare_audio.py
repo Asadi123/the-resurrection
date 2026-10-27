@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build licensed soundtrack + timed modern narration without time stretching.
 
-Default: free, local Piper Norman male model. An uploaded WAV/MP3 narration
+Default: free, local Kokoro Michael male model. An uploaded WAV/MP3 narration
 may replace TTS; supply its timing JSON to identify the main/closing boundary.
 No upload is silently treated as verified exact speech: --narration-transcript
 must match the requested text, and a human must verify the actual recording.
@@ -106,8 +106,10 @@ def schedule(segments, config):
         if sum(minimum_gaps) > available_pause:
             raise ValueError(f'{section} has insufficient room for readable contextual cards')
         remaining_pause = available_pause - sum(minimum_gaps)
-        # Rhetorical questions receive a slightly longer reflective pause.
-        weights = [1.35 if s['text'].endswith('?') else 1.0 for s in chosen[:-1]]
+        # Put reflective pauses between passages. Brief connected phrases keep
+        # flowing instead of getting the same long gap after every sentence.
+        weights = [s.get('pause_weight', 1.35 if s['text'].endswith('?') else 1.0)
+                   for s in chosen[:-1]]
         total_weight = sum(weights)
         cursor = round(section_start * SR)
         for index, (segment, block) in enumerate(zip(chosen, blocks)):
@@ -129,6 +131,9 @@ def schedule(segments, config):
 
 
 def synthesize(config):
+    if config['voice']['engine'].startswith('kokoro'):
+        from kokoro_voice import synthesize_segments
+        return schedule(synthesize_segments(config), config)
     from piper import PiperVoice, SynthesisConfig
     voice = PiperVoice.load(str(ROOT / config['voice']['model_file']))
     original_phonemize = voice.phonemize
@@ -282,7 +287,9 @@ def main():
     else:
         voice, measured = synthesize(config)
         uploaded_source = None
-        origin = 'Local free Piper Norman; modern synthesized narration'
+        origin = ('Local free Kokoro Michael; coherent-passage modern synthesized narration'
+                  if config['voice']['engine'].startswith('kokoro') else
+                  'Local free Piper Norman; modern synthesized narration')
     # A short fade follows the last words; no speech is truncated.
     voice *= music_config.get('narration_gain', 0.82)
     wav_write(ROOT / 'assets/audio/narration.wav', voice)

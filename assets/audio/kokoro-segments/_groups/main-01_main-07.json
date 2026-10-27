@@ -1,0 +1,553 @@
+{
+  "settings": {
+    "algorithm_version": 2,
+    "engine": "kokoro-onnx",
+    "engine_version": "0.4.9",
+    "voice_name": "am_michael",
+    "lang": "en-us",
+    "speed": 1.0,
+    "model_sha256": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5",
+    "voices_sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+    "pronunciation_overrides": {
+      "Ba’athism": "bˈɑːθɪzəm"
+    },
+    "segments": [
+      {
+        "id": "main-01",
+        "text": "June 1st 1972.",
+        "synthesis_text": "June first, nineteen seventy two."
+      },
+      {
+        "id": "main-02",
+        "text": "Iraq nationalized its oil.",
+        "synthesis_text": "Iraq nationalized its oil."
+      },
+      {
+        "id": "main-03",
+        "text": "The wealth extracted for fifty years by British Petroleum — came home.",
+        "synthesis_text": "The wealth extracted for fifty years by British Petroleum — came home."
+      },
+      {
+        "id": "main-04",
+        "text": "Per capita income tripled.",
+        "synthesis_text": "Per capita income tripled."
+      },
+      {
+        "id": "main-05",
+        "text": "Every child received free education through university.",
+        "synthesis_text": "Every child received free education through university."
+      },
+      {
+        "id": "main-06",
+        "text": "Every citizen received free healthcare.",
+        "synthesis_text": "Every citizen received free healthcare."
+      },
+      {
+        "id": "main-07",
+        "text": "UNESCO awarded Iraq its literacy prize.",
+        "synthesis_text": "UNESCO awarded Iraq its literacy prize."
+      }
+    ],
+    "asr_model": "Systran/faster-whisper-small.en",
+    "asr_prompt": null
+  },
+  "qa": {
+    "transcript": "June 1, 1972, Iraq nationalized its oil. The wealth extracted for 50 years by British petroleum came home. Per capita income tripled. Every child received free education through university. Every citizen received free health care. UNESCO awarded Iraq its literacy prize.",
+    "words": [
+      {
+        "word": "June",
+        "start": 0.0,
+        "end": 0.66,
+        "probability": 0.6875391602516174
+      },
+      {
+        "word": "1,",
+        "start": 0.66,
+        "end": 1.02,
+        "probability": 0.9554712772369385
+      },
+      {
+        "word": "1972,",
+        "start": 1.3,
+        "end": 2.16,
+        "probability": 0.9983859062194824
+      },
+      {
+        "word": "Iraq",
+        "start": 3.3,
+        "end": 3.34,
+        "probability": 0.991158664226532
+      },
+      {
+        "word": "nationalized",
+        "start": 3.34,
+        "end": 4.28,
+        "probability": 0.9862546324729919
+      },
+      {
+        "word": "its",
+        "start": 4.28,
+        "end": 4.46,
+        "probability": 0.9949980974197388
+      },
+      {
+        "word": "oil.",
+        "start": 4.46,
+        "end": 4.8,
+        "probability": 0.9969636797904968
+      },
+      {
+        "word": "The",
+        "start": 5.4,
+        "end": 5.44,
+        "probability": 0.9960151314735413
+      },
+      {
+        "word": "wealth",
+        "start": 5.44,
+        "end": 5.68,
+        "probability": 0.9994531273841858
+      },
+      {
+        "word": "extracted",
+        "start": 5.68,
+        "end": 6.28,
+        "probability": 0.9878591895103455
+      },
+      {
+        "word": "for",
+        "start": 6.28,
+        "end": 6.6,
+        "probability": 0.9938457608222961
+      },
+      {
+        "word": "50",
+        "start": 6.6,
+        "end": 6.98,
+        "probability": 0.856654167175293
+      },
+      {
+        "word": "years",
+        "start": 6.98,
+        "end": 7.34,
+        "probability": 0.9958296418190002
+      },
+      {
+        "word": "by",
+        "start": 7.34,
+        "end": 7.62,
+        "probability": 0.996777355670929
+      },
+      {
+        "word": "British",
+        "start": 7.62,
+        "end": 7.9,
+        "probability": 0.9932383298873901
+      },
+      {
+        "word": "petroleum",
+        "start": 7.9,
+        "end": 8.46,
+        "probability": 0.48483023047447205
+      },
+      {
+        "word": "came",
+        "start": 8.46,
+        "end": 8.98,
+        "probability": 0.9911090135574341
+      },
+      {
+        "word": "home.",
+        "start": 8.98,
+        "end": 9.48,
+        "probability": 0.9981325268745422
+      },
+      {
+        "word": "Per",
+        "start": 10.08,
+        "end": 10.14,
+        "probability": 0.9917795062065125
+      },
+      {
+        "word": "capita",
+        "start": 10.14,
+        "end": 10.52,
+        "probability": 0.988252580165863
+      },
+      {
+        "word": "income",
+        "start": 10.52,
+        "end": 11.1,
+        "probability": 0.8701488375663757
+      },
+      {
+        "word": "tripled.",
+        "start": 11.1,
+        "end": 11.54,
+        "probability": 0.994390070438385
+      },
+      {
+        "word": "Every",
+        "start": 12.18,
+        "end": 12.42,
+        "probability": 0.9967302083969116
+      },
+      {
+        "word": "child",
+        "start": 12.42,
+        "end": 12.9,
+        "probability": 0.999002993106842
+      },
+      {
+        "word": "received",
+        "start": 12.9,
+        "end": 13.32,
+        "probability": 0.9976279139518738
+      },
+      {
+        "word": "free",
+        "start": 13.32,
+        "end": 13.72,
+        "probability": 0.9964558482170105
+      },
+      {
+        "word": "education",
+        "start": 13.72,
+        "end": 14.44,
+        "probability": 0.9993101358413696
+      },
+      {
+        "word": "through",
+        "start": 14.44,
+        "end": 14.76,
+        "probability": 0.9970460534095764
+      },
+      {
+        "word": "university.",
+        "start": 14.76,
+        "end": 15.38,
+        "probability": 0.9520998597145081
+      },
+      {
+        "word": "Every",
+        "start": 16.08,
+        "end": 16.32,
+        "probability": 0.9982367753982544
+      },
+      {
+        "word": "citizen",
+        "start": 16.32,
+        "end": 16.86,
+        "probability": 0.999189555644989
+      },
+      {
+        "word": "received",
+        "start": 16.86,
+        "end": 17.36,
+        "probability": 0.9989149570465088
+      },
+      {
+        "word": "free",
+        "start": 17.36,
+        "end": 17.7,
+        "probability": 0.9989724159240723
+      },
+      {
+        "word": "health",
+        "start": 17.7,
+        "end": 17.96,
+        "probability": 0.6160001158714294
+      },
+      {
+        "word": "care.",
+        "start": 17.96,
+        "end": 18.32,
+        "probability": 0.9975510239601135
+      },
+      {
+        "word": "UNESCO",
+        "start": 19.24,
+        "end": 19.24,
+        "probability": 0.5683146715164185
+      },
+      {
+        "word": "awarded",
+        "start": 19.24,
+        "end": 19.96,
+        "probability": 0.9980154037475586
+      },
+      {
+        "word": "Iraq",
+        "start": 19.96,
+        "end": 20.42,
+        "probability": 0.9804936051368713
+      },
+      {
+        "word": "its",
+        "start": 20.42,
+        "end": 20.66,
+        "probability": 0.9887085556983948
+      },
+      {
+        "word": "literacy",
+        "start": 20.66,
+        "end": 21.04,
+        "probability": 0.9196656346321106
+      },
+      {
+        "word": "prize.",
+        "start": 21.04,
+        "end": 21.6,
+        "probability": 0.9968361854553223
+      }
+    ],
+    "language": "en",
+    "duration": 22.4,
+    "expected_tokens": [
+      "june",
+      "first",
+      "nineteen",
+      "seventy",
+      "two",
+      "iraq",
+      "nationalized",
+      "its",
+      "oil",
+      "the",
+      "wealth",
+      "extracted",
+      "for",
+      "fifty",
+      "years",
+      "by",
+      "british",
+      "petroleum",
+      "came",
+      "home",
+      "per",
+      "capita",
+      "income",
+      "tripled",
+      "every",
+      "child",
+      "received",
+      "free",
+      "education",
+      "through",
+      "university",
+      "every",
+      "citizen",
+      "received",
+      "free",
+      "health",
+      "care",
+      "unesco",
+      "awarded",
+      "iraq",
+      "its",
+      "literacy",
+      "prize"
+    ],
+    "observed_tokens": [
+      "june",
+      "first",
+      "nineteen",
+      "seventy",
+      "two",
+      "iraq",
+      "nationalized",
+      "its",
+      "oil",
+      "the",
+      "wealth",
+      "extracted",
+      "for",
+      "fifty",
+      "years",
+      "by",
+      "british",
+      "petroleum",
+      "came",
+      "home",
+      "per",
+      "capita",
+      "income",
+      "tripled",
+      "every",
+      "child",
+      "received",
+      "free",
+      "education",
+      "through",
+      "university",
+      "every",
+      "citizen",
+      "received",
+      "free",
+      "health",
+      "care",
+      "unesco",
+      "awarded",
+      "iraq",
+      "its",
+      "literacy",
+      "prize"
+    ],
+    "alignment_fraction": 1.0,
+    "matched_tokens": 43,
+    "expected_token_count": 43,
+    "alignment_opcodes": [
+      [
+        "equal",
+        0,
+        43,
+        0,
+        43
+      ]
+    ],
+    "boundaries": [
+      {
+        "time": 2.728,
+        "asr_midpoint": 2.73,
+        "left_word_end": 2.16,
+        "right_word_start": 3.3,
+        "rms_20ms": 0.00010148969158763066,
+        "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+        "after": "main-01",
+        "before": "main-02"
+      },
+      {
+        "time": 5.098,
+        "asr_midpoint": 5.1,
+        "left_word_end": 4.8,
+        "right_word_start": 5.4,
+        "rms_20ms": 0.0003823405713774264,
+        "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+        "after": "main-02",
+        "before": "main-03"
+      },
+      {
+        "time": 9.782,
+        "asr_midpoint": 9.780000000000001,
+        "left_word_end": 9.48,
+        "right_word_start": 10.08,
+        "rms_20ms": 0.0023078229278326035,
+        "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+        "after": "main-03",
+        "before": "main-04"
+      },
+      {
+        "time": 11.858,
+        "asr_midpoint": 11.86,
+        "left_word_end": 11.54,
+        "right_word_start": 12.18,
+        "rms_20ms": 0.0003771327610593289,
+        "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+        "after": "main-04",
+        "before": "main-05"
+      },
+      {
+        "time": 15.732,
+        "asr_midpoint": 15.73,
+        "left_word_end": 15.38,
+        "right_word_start": 16.08,
+        "rms_20ms": 0.0005536936223506927,
+        "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+        "after": "main-05",
+        "before": "main-06"
+      },
+      {
+        "time": 18.782,
+        "asr_midpoint": 18.78,
+        "left_word_end": 18.32,
+        "right_word_start": 19.24,
+        "rms_20ms": 0.0006747342995367944,
+        "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+        "after": "main-06",
+        "before": "main-07"
+      }
+    ],
+    "segments": [
+      {
+        "id": "main-01",
+        "source_start": 0.0,
+        "source_end": 2.728,
+        "duration": 2.728,
+        "alignment_fraction": 1.0,
+        "asr_first_word": "June",
+        "asr_last_word": "1972,"
+      },
+      {
+        "id": "main-02",
+        "source_start": 2.728,
+        "source_end": 5.098,
+        "duration": 2.37,
+        "alignment_fraction": 1.0,
+        "asr_first_word": "Iraq",
+        "asr_last_word": "oil."
+      },
+      {
+        "id": "main-03",
+        "source_start": 5.098,
+        "source_end": 9.782,
+        "duration": 4.684,
+        "alignment_fraction": 1.0,
+        "asr_first_word": "The",
+        "asr_last_word": "home."
+      },
+      {
+        "id": "main-04",
+        "source_start": 9.782,
+        "source_end": 11.858,
+        "duration": 2.076,
+        "alignment_fraction": 1.0,
+        "asr_first_word": "Per",
+        "asr_last_word": "tripled."
+      },
+      {
+        "id": "main-05",
+        "source_start": 11.858,
+        "source_end": 15.732,
+        "duration": 3.874,
+        "alignment_fraction": 1.0,
+        "asr_first_word": "Every",
+        "asr_last_word": "university."
+      },
+      {
+        "id": "main-06",
+        "source_start": 15.732,
+        "source_end": 18.782,
+        "duration": 3.05,
+        "alignment_fraction": 1.0,
+        "asr_first_word": "Every",
+        "asr_last_word": "care."
+      },
+      {
+        "id": "main-07",
+        "source_start": 18.782,
+        "source_end": 22.4,
+        "duration": 3.618,
+        "alignment_fraction": 1.0,
+        "asr_first_word": "UNESCO",
+        "asr_last_word": "prize."
+      }
+    ],
+    "id": "main-01_main-07",
+    "status": "passed",
+    "phonemes": "dʒˈuːn fˈɜːst, nˈaɪntiːn sˈɛvənti tˈuː. ɪɹˈæk nˈæʃənəlˌaɪzd ɪts ˈɔɪl. ðə wˈɛlθ ɛkstɹˈæktᵻd fɔːɹ fˈɪfti jˈɪɹz baɪ bɹˈɪɾɪʃ pətɹˈoʊliːəm — kˈeɪm hˈoʊm. pɜː kˈæpɪɾə ˈɪŋkʌm tɹˈɪpəld. ˈɛvɹi tʃˈaɪld ɹᵻsˈiːvd fɹˈiː ˌɛdʒuːkˈeɪʃən θɹuː jˌuːnɪvˈɜːsᵻɾi. ˈɛvɹi sˈɪɾɪzən ɹᵻsˈiːvd fɹˈiː hˈɛlθkɛɹ. ʌnˈɛskoʊ ɐwˈɔːɹdᵻd ɪɹˈæk ɪts lˈɪɾɚɹəsi pɹˈaɪz.",
+    "pronunciation_overrides_applied": [],
+    "elapsed_seconds": 0.010413926000182983,
+    "recognized_alignment_fraction": 1.0,
+    "vocabulary_prompt": null
+  },
+  "group_sha256": "343d9615de881fcbb87e567b3056f437f5836d47cd7ea3e9e9e2010059d94de1",
+  "segment_sha256": {
+    "main-01.wav": "f0acc8eb8ad585adf82d028f46cbaa1e63241934c2ffdc6600edd0dfdb38eeeb",
+    "main-02.wav": "009f7c35042d14ff4dfffb06c1897d91ec5437884e1961c0bdb979f96b85f5d5",
+    "main-03.wav": "b165f092f384e864d94b9b340803002b09684d631277686fabb49d4c7a8fff6a",
+    "main-04.wav": "7589abf704cfc5f34ee2086d88d95be66bc29a60941b9335ede0ec7ebbe5eaa0",
+    "main-05.wav": "2107315ce143e6ea2948d939529963d0534ba7483911725a758d3248a1889a01",
+    "main-06.wav": "7a975837da4bc22fa7636cebc0b3feb701b286d688b65ffdfdaadd067af479dc",
+    "main-07.wav": "59b64c48224dfed933bf4a7677187dda7e7f771f56db644b1cf36f7d57e40af8"
+  }
+}

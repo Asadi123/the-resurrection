@@ -1,0 +1,800 @@
+{
+  "settings": {
+    "algorithm_version": 2,
+    "engine": "kokoro-onnx",
+    "engine_version": "0.4.9",
+    "voice_name": "am_michael",
+    "lang": "en-us",
+    "speed": 1.0,
+    "model_sha256": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5",
+    "voices_sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+    "pronunciation_overrides": {
+      "Ba’athism": "bˈɑːθɪzəm"
+    },
+    "segments": [
+      {
+        "id": "main-18",
+        "text": "They called Ba’athism dangerous.",
+        "synthesis_text": "They called Ba’athism dangerous."
+      },
+      {
+        "id": "main-19",
+        "text": "They were right.",
+        "synthesis_text": "They were right."
+      },
+      {
+        "id": "main-20",
+        "text": "A sovereign Arab state that nationalized its oil threatened every company grown rich on Arab resources.",
+        "synthesis_text": "A sovereign Arab state that nationalized its oil threatened every company grown rich on Arab resources."
+      },
+      {
+        "id": "main-21",
+        "text": "An educated Arab population threatened every power that depended on Arab dependency.",
+        "synthesis_text": "An educated Arab population threatened every power that depended on Arab dependency."
+      },
+      {
+        "id": "main-22",
+        "text": "They called it instability.",
+        "synthesis_text": "They called it instability."
+      },
+      {
+        "id": "main-23",
+        "text": "Stability for whom?",
+        "synthesis_text": "Stability for whom?"
+      }
+    ],
+    "asr_model": "Systran/faster-whisper-small.en",
+    "asr_prompt": null
+  },
+  "qa": {
+    "transcript": "They called Ba’athism dangerous. They were right. A sovereign Arab state that nationalized its oil threatened every company grown rich on Arab resources. An educated Arab population threatened every power that depended on Arab dependency. They called it instability. Stability for whom?",
+    "words": [
+      {
+        "word": "They",
+        "start": 0.0,
+        "end": 0.54,
+        "probability": 0.8794648051261902
+      },
+      {
+        "word": "called",
+        "start": 0.54,
+        "end": 0.88,
+        "probability": 0.9882146120071411
+      },
+      {
+        "word": "Ba’athism",
+        "start": 0.88,
+        "end": 1.56,
+        "probability": 0.20124268944891527
+      },
+      {
+        "word": "dangerous.",
+        "start": 1.56,
+        "end": 2.18,
+        "probability": 0.9623096585273743
+      },
+      {
+        "word": "They",
+        "start": 2.84,
+        "end": 2.9,
+        "probability": 0.9910935759544373
+      },
+      {
+        "word": "were",
+        "start": 2.9,
+        "end": 3.06,
+        "probability": 0.9980167150497437
+      },
+      {
+        "word": "right.",
+        "start": 3.06,
+        "end": 3.38,
+        "probability": 0.9938032627105713
+      },
+      {
+        "word": "A",
+        "start": 4.08,
+        "end": 4.12,
+        "probability": 0.9881932139396667
+      },
+      {
+        "word": "sovereign",
+        "start": 4.12,
+        "end": 4.6,
+        "probability": 0.9849830269813538
+      },
+      {
+        "word": "Arab",
+        "start": 4.6,
+        "end": 5.06,
+        "probability": 0.9860721826553345
+      },
+      {
+        "word": "state",
+        "start": 5.06,
+        "end": 5.42,
+        "probability": 0.9852933287620544
+      },
+      {
+        "word": "that",
+        "start": 5.42,
+        "end": 5.68,
+        "probability": 0.9897043108940125
+      },
+      {
+        "word": "nationalized",
+        "start": 5.68,
+        "end": 6.54,
+        "probability": 0.9823375642299652
+      },
+      {
+        "word": "its",
+        "start": 6.54,
+        "end": 6.68,
+        "probability": 0.9932807087898254
+      },
+      {
+        "word": "oil",
+        "start": 6.68,
+        "end": 7.12,
+        "probability": 0.9973838925361633
+      },
+      {
+        "word": "threatened",
+        "start": 7.12,
+        "end": 7.64,
+        "probability": 0.9396865367889404
+      },
+      {
+        "word": "every",
+        "start": 7.64,
+        "end": 8.14,
+        "probability": 0.9961284399032593
+      },
+      {
+        "word": "company",
+        "start": 8.14,
+        "end": 8.58,
+        "probability": 0.9976932406425476
+      },
+      {
+        "word": "grown",
+        "start": 8.58,
+        "end": 8.96,
+        "probability": 0.9599940776824951
+      },
+      {
+        "word": "rich",
+        "start": 8.96,
+        "end": 9.3,
+        "probability": 0.9978322386741638
+      },
+      {
+        "word": "on",
+        "start": 9.3,
+        "end": 9.62,
+        "probability": 0.9951184988021851
+      },
+      {
+        "word": "Arab",
+        "start": 9.62,
+        "end": 10.02,
+        "probability": 0.9904953241348267
+      },
+      {
+        "word": "resources.",
+        "start": 10.02,
+        "end": 10.6,
+        "probability": 0.9944736361503601
+      },
+      {
+        "word": "An",
+        "start": 11.28,
+        "end": 11.46,
+        "probability": 0.986491858959198
+      },
+      {
+        "word": "educated",
+        "start": 11.46,
+        "end": 12.12,
+        "probability": 0.9932186007499695
+      },
+      {
+        "word": "Arab",
+        "start": 12.12,
+        "end": 12.62,
+        "probability": 0.9985743761062622
+      },
+      {
+        "word": "population",
+        "start": 12.62,
+        "end": 13.22,
+        "probability": 0.9946812987327576
+      },
+      {
+        "word": "threatened",
+        "start": 13.22,
+        "end": 13.66,
+        "probability": 0.9960206151008606
+      },
+      {
+        "word": "every",
+        "start": 13.66,
+        "end": 14.18,
+        "probability": 0.998309850692749
+      },
+      {
+        "word": "power",
+        "start": 14.18,
+        "end": 14.62,
+        "probability": 0.9983349442481995
+      },
+      {
+        "word": "that",
+        "start": 14.62,
+        "end": 14.88,
+        "probability": 0.9982424974441528
+      },
+      {
+        "word": "depended",
+        "start": 14.88,
+        "end": 15.26,
+        "probability": 0.9975370168685913
+      },
+      {
+        "word": "on",
+        "start": 15.26,
+        "end": 15.54,
+        "probability": 0.9991580247879028
+      },
+      {
+        "word": "Arab",
+        "start": 15.54,
+        "end": 15.96,
+        "probability": 0.998496413230896
+      },
+      {
+        "word": "dependency.",
+        "start": 15.96,
+        "end": 16.44,
+        "probability": 0.9903520941734314
+      },
+      {
+        "word": "They",
+        "start": 17.26,
+        "end": 17.42,
+        "probability": 0.9965967535972595
+      },
+      {
+        "word": "called",
+        "start": 17.42,
+        "end": 17.74,
+        "probability": 0.9973892569541931
+      },
+      {
+        "word": "it",
+        "start": 17.74,
+        "end": 17.94,
+        "probability": 0.9975887537002563
+      },
+      {
+        "word": "instability.",
+        "start": 17.94,
+        "end": 18.52,
+        "probability": 0.9496853947639465
+      },
+      {
+        "word": "Stability",
+        "start": 19.58,
+        "end": 19.58,
+        "probability": 0.979740560054779
+      },
+      {
+        "word": "for",
+        "start": 19.58,
+        "end": 19.98,
+        "probability": 0.9941218495368958
+      },
+      {
+        "word": "whom?",
+        "start": 19.98,
+        "end": 20.34,
+        "probability": 0.989336371421814
+      }
+    ],
+    "language": "en",
+    "duration": 21.1,
+    "vocabulary_prompt": "Ba’athism, Iraq, UNESCO.",
+    "expected_tokens": [
+      "they",
+      "called",
+      "baathism",
+      "dangerous",
+      "they",
+      "were",
+      "right",
+      "a",
+      "sovereign",
+      "arab",
+      "state",
+      "that",
+      "nationalized",
+      "its",
+      "oil",
+      "threatened",
+      "every",
+      "company",
+      "grown",
+      "rich",
+      "on",
+      "arab",
+      "resources",
+      "an",
+      "educated",
+      "arab",
+      "population",
+      "threatened",
+      "every",
+      "power",
+      "that",
+      "depended",
+      "on",
+      "arab",
+      "dependency",
+      "they",
+      "called",
+      "it",
+      "instability",
+      "stability",
+      "for",
+      "whom"
+    ],
+    "observed_tokens": [
+      "they",
+      "called",
+      "baathism",
+      "dangerous",
+      "they",
+      "were",
+      "right",
+      "a",
+      "sovereign",
+      "arab",
+      "state",
+      "that",
+      "nationalized",
+      "its",
+      "oil",
+      "threatened",
+      "every",
+      "company",
+      "grown",
+      "rich",
+      "on",
+      "arab",
+      "resources",
+      "an",
+      "educated",
+      "arab",
+      "population",
+      "threatened",
+      "every",
+      "power",
+      "that",
+      "depended",
+      "on",
+      "arab",
+      "dependency",
+      "they",
+      "called",
+      "it",
+      "instability",
+      "stability",
+      "for",
+      "whom"
+    ],
+    "alignment_fraction": 1.0,
+    "matched_tokens": 42,
+    "expected_token_count": 42,
+    "alignment_opcodes": [
+      [
+        "equal",
+        0,
+        42,
+        0,
+        42
+      ]
+    ],
+    "boundaries": [
+      {
+        "time": 2.508,
+        "asr_midpoint": 2.51,
+        "left_word_end": 2.18,
+        "right_word_start": 2.84,
+        "rms_20ms": 0.0001437826140318066,
+        "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+        "after": "main-18",
+        "before": "main-19"
+      },
+      {
+        "time": 3.728,
+        "asr_midpoint": 3.73,
+        "left_word_end": 3.38,
+        "right_word_start": 4.08,
+        "rms_20ms": 0.00023957200755830854,
+        "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+        "after": "main-19",
+        "before": "main-20"
+      },
+      {
+        "time": 10.938,
+        "asr_midpoint": 10.94,
+        "left_word_end": 10.6,
+        "right_word_start": 11.28,
+        "rms_20ms": 0.0008079916005954146,
+        "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+        "after": "main-20",
+        "before": "main-21"
+      },
+      {
+        "time": 16.852,
+        "asr_midpoint": 16.85,
+        "left_word_end": 16.44,
+        "right_word_start": 17.26,
+        "rms_20ms": 0.0003283779078628868,
+        "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+        "after": "main-21",
+        "before": "main-22"
+      },
+      {
+        "time": 19.048,
+        "asr_midpoint": 19.049999999999997,
+        "left_word_end": 18.52,
+        "right_word_start": 19.58,
+        "rms_20ms": 0.00016422837506979704,
+        "method": "quiet_20ms_window_within_150ms_of_asr_gap",
+        "after": "main-22",
+        "before": "main-23"
+      }
+    ],
+    "segments": [
+      {
+        "id": "main-18",
+        "source_start": 0.0,
+        "source_end": 2.508,
+        "duration": 2.508,
+        "alignment_fraction": 1.0,
+        "asr_first_word": "They",
+        "asr_last_word": "dangerous."
+      },
+      {
+        "id": "main-19",
+        "source_start": 2.508,
+        "source_end": 3.728,
+        "duration": 1.22,
+        "alignment_fraction": 1.0,
+        "asr_first_word": "They",
+        "asr_last_word": "right."
+      },
+      {
+        "id": "main-20",
+        "source_start": 3.728,
+        "source_end": 10.938,
+        "duration": 7.21,
+        "alignment_fraction": 1.0,
+        "asr_first_word": "A",
+        "asr_last_word": "resources."
+      },
+      {
+        "id": "main-21",
+        "source_start": 10.938,
+        "source_end": 16.852,
+        "duration": 5.914,
+        "alignment_fraction": 1.0,
+        "asr_first_word": "An",
+        "asr_last_word": "dependency."
+      },
+      {
+        "id": "main-22",
+        "source_start": 16.852,
+        "source_end": 19.048,
+        "duration": 2.196,
+        "alignment_fraction": 1.0,
+        "asr_first_word": "They",
+        "asr_last_word": "instability."
+      },
+      {
+        "id": "main-23",
+        "source_start": 19.048,
+        "source_end": 21.1,
+        "duration": 2.052,
+        "alignment_fraction": 1.0,
+        "asr_first_word": "Stability",
+        "asr_last_word": "whom?"
+      }
+    ],
+    "id": "main-18_main-23",
+    "status": "passed",
+    "unprompted_recognition": {
+      "id": "main-18_main-23",
+      "status": "alignment_failed",
+      "error": "Uncertain boundary main-18 / main-19: unaligned ['baathism']",
+      "transcript": "They called Balthism dangerous. They were right. A sovereign Arab state that nationalized its oil threatened every company grown rich on Arab resources. An educated Arab population threatened every power that depended on Arab dependency. They called it instability. Stability for whom?",
+      "words": [
+        {
+          "word": "They",
+          "start": 0.0,
+          "end": 0.54,
+          "probability": 0.8794648051261902
+        },
+        {
+          "word": "called",
+          "start": 0.54,
+          "end": 0.88,
+          "probability": 0.9882146120071411
+        },
+        {
+          "word": "Balthism",
+          "start": 0.88,
+          "end": 1.54,
+          "probability": 0.4697145919005076
+        },
+        {
+          "word": "dangerous.",
+          "start": 1.54,
+          "end": 2.08,
+          "probability": 0.9631732106208801
+        },
+        {
+          "word": "They",
+          "start": 2.88,
+          "end": 2.9,
+          "probability": 0.9892115592956543
+        },
+        {
+          "word": "were",
+          "start": 2.9,
+          "end": 3.06,
+          "probability": 0.9989776611328125
+        },
+        {
+          "word": "right.",
+          "start": 3.06,
+          "end": 3.4,
+          "probability": 0.9971309900283813
+        },
+        {
+          "word": "A",
+          "start": 4.08,
+          "end": 4.12,
+          "probability": 0.9863212704658508
+        },
+        {
+          "word": "sovereign",
+          "start": 4.12,
+          "end": 4.58,
+          "probability": 0.9859267473220825
+        },
+        {
+          "word": "Arab",
+          "start": 4.58,
+          "end": 5.06,
+          "probability": 0.9843841791152954
+        },
+        {
+          "word": "state",
+          "start": 5.06,
+          "end": 5.42,
+          "probability": 0.9838815927505493
+        },
+        {
+          "word": "that",
+          "start": 5.42,
+          "end": 5.68,
+          "probability": 0.9921189546585083
+        },
+        {
+          "word": "nationalized",
+          "start": 5.68,
+          "end": 6.52,
+          "probability": 0.9779553413391113
+        },
+        {
+          "word": "its",
+          "start": 6.52,
+          "end": 6.68,
+          "probability": 0.9913069605827332
+        },
+        {
+          "word": "oil",
+          "start": 6.68,
+          "end": 7.12,
+          "probability": 0.9962301850318909
+        },
+        {
+          "word": "threatened",
+          "start": 7.12,
+          "end": 7.64,
+          "probability": 0.9219992160797119
+        },
+        {
+          "word": "every",
+          "start": 7.64,
+          "end": 8.14,
+          "probability": 0.9965289235115051
+        },
+        {
+          "word": "company",
+          "start": 8.14,
+          "end": 8.6,
+          "probability": 0.9974355101585388
+        },
+        {
+          "word": "grown",
+          "start": 8.6,
+          "end": 8.96,
+          "probability": 0.9678740501403809
+        },
+        {
+          "word": "rich",
+          "start": 8.96,
+          "end": 9.3,
+          "probability": 0.9983030557632446
+        },
+        {
+          "word": "on",
+          "start": 9.3,
+          "end": 9.62,
+          "probability": 0.9942816495895386
+        },
+        {
+          "word": "Arab",
+          "start": 9.62,
+          "end": 10.02,
+          "probability": 0.9887562394142151
+        },
+        {
+          "word": "resources.",
+          "start": 10.02,
+          "end": 10.6,
+          "probability": 0.9944705963134766
+        },
+        {
+          "word": "An",
+          "start": 11.3,
+          "end": 11.46,
+          "probability": 0.9840502142906189
+        },
+        {
+          "word": "educated",
+          "start": 11.46,
+          "end": 12.12,
+          "probability": 0.9949640035629272
+        },
+        {
+          "word": "Arab",
+          "start": 12.12,
+          "end": 12.6,
+          "probability": 0.9984855055809021
+        },
+        {
+          "word": "population",
+          "start": 12.6,
+          "end": 13.2,
+          "probability": 0.9937823414802551
+        },
+        {
+          "word": "threatened",
+          "start": 13.2,
+          "end": 13.66,
+          "probability": 0.9950737357139587
+        },
+        {
+          "word": "every",
+          "start": 13.66,
+          "end": 14.18,
+          "probability": 0.9989489912986755
+        },
+        {
+          "word": "power",
+          "start": 14.18,
+          "end": 14.62,
+          "probability": 0.9983831644058228
+        },
+        {
+          "word": "that",
+          "start": 14.62,
+          "end": 14.88,
+          "probability": 0.9981750249862671
+        },
+        {
+          "word": "depended",
+          "start": 14.88,
+          "end": 15.26,
+          "probability": 0.9973022937774658
+        },
+        {
+          "word": "on",
+          "start": 15.26,
+          "end": 15.54,
+          "probability": 0.9991311430931091
+        },
+        {
+          "word": "Arab",
+          "start": 15.54,
+          "end": 15.96,
+          "probability": 0.9985570311546326
+        },
+        {
+          "word": "dependency.",
+          "start": 15.96,
+          "end": 16.44,
+          "probability": 0.9891793727874756
+        },
+        {
+          "word": "They",
+          "start": 17.24,
+          "end": 17.42,
+          "probability": 0.9960164427757263
+        },
+        {
+          "word": "called",
+          "start": 17.42,
+          "end": 17.74,
+          "probability": 0.9973244667053223
+        },
+        {
+          "word": "it",
+          "start": 17.74,
+          "end": 17.94,
+          "probability": 0.9966641068458557
+        },
+        {
+          "word": "instability.",
+          "start": 17.94,
+          "end": 18.5,
+          "probability": 0.9456489682197571
+        },
+        {
+          "word": "Stability",
+          "start": 19.58,
+          "end": 19.58,
+          "probability": 0.980568528175354
+        },
+        {
+          "word": "for",
+          "start": 19.58,
+          "end": 19.98,
+          "probability": 0.9952061772346497
+        },
+        {
+          "word": "whom?",
+          "start": 19.98,
+          "end": 20.34,
+          "probability": 0.9861694574356079
+        }
+      ],
+      "language": "en",
+      "duration": 21.1
+    },
+    "phonemes": "ðeɪ kˈɔːld bˈɑːθɪzəm dˈeɪndʒɚɹəs. ðeɪ wɜː ɹˈaɪt. ɐ sˈɑːvɚɹˌɪn ˈæɹəb stˈeɪt ðæt nˈæʃənəlˌaɪzd ɪts ˈɔɪl θɹˈɛʔnd ˈɛvɹi kˈʌmpəni ɡɹˈoʊn ɹˈɪtʃ ˌɔn ˈæɹəb ɹᵻsˈɔːɹsᵻz. ɐn ˈɛdʒuːkˌeɪɾᵻd ˈæɹəb pˌɑːpjʊlˈeɪʃən θɹˈɛʔnd ˈɛvɹi pˈaʊɚ ðæt dᵻpˈɛndᵻd ˌɔn ˈæɹəb dᵻpˈɛndənsi. ðeɪ kˈɔːld ɪɾ ɪnstəbˈɪlᵻɾi. stəbˈɪlᵻɾi fɔːɹ hˈuːm?",
+    "pronunciation_overrides_applied": [
+      {
+        "word": "Ba’athism",
+        "original_phonemes": "bˈæeɪðˌɪzəm",
+        "replacement": "bˈɑːθɪzəm",
+        "count": 1
+      }
+    ],
+    "recognized_alignment_fraction": 1.0
+  },
+  "group_sha256": "0b2211f20136a5f803a29b0d1c50caf167cce0a25bfbc94834a8a1b8baac9b37",
+  "segment_sha256": {
+    "main-18.wav": "55cdca692d1afec01269ef0d38537d7be68e6cddf1e58cc3c93e5256dc4790e4",
+    "main-19.wav": "dfe9f176091c654d5a6d6b8b64b871b884462902771dd995096ff173226690db",
+    "main-20.wav": "d11bb8c3a0e082d294fe57e14f71660101f05459bbf005335502ba444ff216d3",
+    "main-21.wav": "1e4c9e8bc93995a6f4a3bcf7b031b79fb608da1884116d6f09178316ab9f71e6",
+    "main-22.wav": "813768d5efe28dac3ab7f967693fe940406ddeb98f8f7c0f491b9748bb2e43f0",
+    "main-23.wav": "3b8799cc3cee5346d42875d3bd54d32063a2fe0d27635beb88c1855645f6c14e"
+  }
+}

@@ -3,50 +3,36 @@
   "film_license_required": "CC BY-SA 4.0 (compatible adaptation of CC BY-SA 3.0 audio)",
   "assets": [
     {
-      "filename": "assets/audio/models/norman.onnx",
-      "bytes": 63531379,
-      "sha256": "b9739443232a80a59c7d18810dd856899bf16a7964725f5ab81ea49b1351cb71",
-      "id": "norman-model",
-      "creator": "Bryce Beattie",
-      "date": "Undated; retrieved 2026-10-27",
-      "license": "Public domain (creator statement); upstream repository metadata MIT",
-      "license_url": "https://brycebeattie.com/files/tts/",
-      "source_url": "https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/norman/medium/MODEL_CARD",
+      "name": "voices-v1.0.bin",
+      "filename": "assets/audio/models/voices-v1.0.bin",
+      "download_url": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin",
+      "sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+      "bytes": 28214398,
+      "id": "kokoro-voices",
+      "creator": "hexgrad / Kokoro contributors; ONNX conversion thewh1teagle",
+      "date": "Model v1.0; retrieved 2026-10-27",
+      "license": "Apache-2.0",
+      "license_url": "https://huggingface.co/hexgrad/Kokoro-82M/blob/main/LICENSE",
+      "source_url": "https://huggingface.co/hexgrad/Kokoro-82M",
+      "kind": "voice_styles",
+      "rights_basis": "Official Kokoro model repository declares Apache-2.0; English voice styles have no separately stated restrictions. See research/kokoro-rights.md and primary license evidence.",
+      "rights_confirmed": true,
+      "downloaded": true
+    },
+    {
+      "name": "kokoro-v1.0.onnx",
+      "filename": "assets/audio/models/kokoro-v1.0.onnx",
+      "download_url": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx",
+      "sha256": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5",
+      "bytes": 325532387,
+      "id": "kokoro-model",
+      "creator": "hexgrad / Kokoro contributors; ONNX conversion thewh1teagle",
+      "date": "Model v1.0; retrieved 2026-10-27",
+      "license": "Apache-2.0",
+      "license_url": "https://huggingface.co/hexgrad/Kokoro-82M/blob/main/LICENSE",
+      "source_url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "kind": "voice_model",
-      "rights_basis": "Creator labels Norman public domain; trained from scratch on public-domain LibriVox recordings. Modern synthetic narration only.",
-      "download_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/norman/medium/en_US-norman-medium.onnx",
-      "rights_confirmed": true,
-      "downloaded": true
-    },
-    {
-      "filename": "assets/audio/models/norman.onnx.json",
-      "bytes": 4968,
-      "sha256": "6c2db7f558a4a8deb9fe822583c1c5105f6c4e834dd0f9de8ad17a888ee9fe1d",
-      "id": "norman-config",
-      "creator": "Bryce Beattie / Piper contributors",
-      "date": "Undated; retrieved 2026-10-27",
-      "license": "MIT; voice public domain",
-      "license_url": "https://brycebeattie.com/files/tts/",
-      "source_url": "https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/norman/medium/en_US-norman-medium.onnx.json",
-      "kind": "voice_model_config",
-      "rights_basis": "Necessary model configuration published with public-domain Norman voice.",
-      "download_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/norman/medium/en_US-norman-medium.onnx.json",
-      "rights_confirmed": true,
-      "downloaded": true
-    },
-    {
-      "filename": "assets/audio/models/norman-MODEL_CARD.txt",
-      "bytes": 528,
-      "sha256": "60eaf4d10009d1bd4a1aa555d337dae00f60421d72fee415b9139a021e7cb5d0",
-      "id": "norman-card",
-      "creator": "Bryce Beattie / Piper contributors",
-      "date": "Undated; retrieved 2026-10-27",
-      "license": "MIT",
-      "license_url": "https://huggingface.co/rhasspy/piper-voices",
-      "source_url": "https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/norman/medium/MODEL_CARD",
-      "kind": "license_evidence",
-      "rights_basis": "License documentation distributed by Piper voice repository.",
-      "download_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/norman/medium/MODEL_CARD",
+      "rights_basis": "Official Kokoro model repository declares Apache-2.0; English voice styles have no separately stated restrictions. See research/kokoro-rights.md and primary license evidence.",
       "rights_confirmed": true,
       "downloaded": true
     },
@@ -111,5 +97,254 @@
       "asset": "Piper joe and lessac",
       "reason": "Joe is finetuned from Lessac; Lessac dataset research-only terms. Not used."
     }
-  ]
+  ],
+  "retired_voice_assets": [
+    {
+      "filename": "assets/audio/models/norman.onnx",
+      "bytes": 63531379,
+      "sha256": "b9739443232a80a59c7d18810dd856899bf16a7964725f5ab81ea49b1351cb71",
+      "id": "norman-model",
+      "creator": "Bryce Beattie",
+      "date": "Undated; retrieved 2026-10-27",
+      "license": "Public domain (creator statement); upstream repository metadata MIT",
+      "license_url": "https://brycebeattie.com/files/tts/",
+      "source_url": "https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/norman/medium/MODEL_CARD",
+      "kind": "voice_model",
+      "rights_basis": "Creator labels Norman public domain; trained from scratch on public-domain LibriVox recordings. Modern synthetic narration only.",
+      "download_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/norman/medium/en_US-norman-medium.onnx",
+      "rights_confirmed": true,
+      "downloaded": true
+    },
+    {
+      "filename": "assets/audio/models/norman.onnx.json",
+      "bytes": 4968,
+      "sha256": "6c2db7f558a4a8deb9fe822583c1c5105f6c4e834dd0f9de8ad17a888ee9fe1d",
+      "id": "norman-config",
+      "creator": "Bryce Beattie / Piper contributors",
+      "date": "Undated; retrieved 2026-10-27",
+      "license": "MIT; voice public domain",
+      "license_url": "https://brycebeattie.com/files/tts/",
+      "source_url": "https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/norman/medium/en_US-norman-medium.onnx.json",
+      "kind": "voice_model_config",
+      "rights_basis": "Necessary model configuration published with public-domain Norman voice.",
+      "download_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/norman/medium/en_US-norman-medium.onnx.json",
+      "rights_confirmed": true,
+      "downloaded": true
+    },
+    {
+      "filename": "assets/audio/models/norman-MODEL_CARD.txt",
+      "bytes": 528,
+      "sha256": "60eaf4d10009d1bd4a1aa555d337dae00f60421d72fee415b9139a021e7cb5d0",
+      "id": "norman-card",
+      "creator": "Bryce Beattie / Piper contributors",
+      "date": "Undated; retrieved 2026-10-27",
+      "license": "MIT",
+      "license_url": "https://huggingface.co/rhasspy/piper-voices",
+      "source_url": "https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/norman/medium/MODEL_CARD",
+      "kind": "license_evidence",
+      "rights_basis": "License documentation distributed by Piper voice repository.",
+      "download_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/norman/medium/MODEL_CARD",
+      "rights_confirmed": true,
+      "downloaded": true
+    }
+  ],
+  "narration_cache": {
+    "voice": "am_michael",
+    "engine": "Kokoro-82M through kokoro-onnx 0.4.9",
+    "source_model_url": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "script": "config/narration-transcript.txt",
+    "license": "CC BY-SA 4.0 (project narration output; model Apache-2.0)",
+    "files": [
+      {
+        "filename": "assets/audio/kokoro-segments/_groups/closing-01_closing-05.json",
+        "sha256": "3bd613765b7971d36bcde13b1e51e58577adf8b7d3f95c1cdad2a78d63f0cdd9",
+        "bytes": 8053
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/_groups/closing-01_closing-05.wav",
+        "sha256": "43b0a16e3e4fea8a068c40917f068da4a568da1f4c24cbd6870ef966f3e87c13",
+        "bytes": 799280
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/_groups/main-01_main-07.json",
+        "sha256": "d410fc561cc768e0bafab76980769ff381fdbae39841596c5fd4722813c1503b",
+        "bytes": 13942
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/_groups/main-01_main-07.wav",
+        "sha256": "343d9615de881fcbb87e567b3056f437f5836d47cd7ea3e9e9e2010059d94de1",
+        "bytes": 2150480
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/_groups/main-08_main-11.json",
+        "sha256": "fe19ba6a667925ca739342638dfa7396b5af2a01167f8e687c13d3d933961b5f",
+        "bytes": 13790
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/_groups/main-08_main-11.wav",
+        "sha256": "3c96c067fecd7f1faa7084300801f166e043a08e072b82cad011098b3ddc5686",
+        "bytes": 1348880
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/_groups/main-12_main-17.json",
+        "sha256": "0c3f62c0375a3bdafcc7443458abee8597d0835be0f6defd876caee4df3e75ab",
+        "bytes": 11259
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/_groups/main-12_main-17.wav",
+        "sha256": "68904ea57fdaaae494110e32c7de73cac28fe6ab47c8a407c222b61e7f3d3957",
+        "bytes": 1526480
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/_groups/main-18_main-23.json",
+        "sha256": "3b9547a126904d473e6079f732cf45de4c8e4bce0645e4306af2779b8cb21e93",
+        "bytes": 20015
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/_groups/main-18_main-23.wav",
+        "sha256": "0b2211f20136a5f803a29b0d1c50caf167cce0a25bfbc94834a8a1b8baac9b37",
+        "bytes": 2025680
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/closing-01.wav",
+        "sha256": "7fc0aa63ef28568b7604343bc2c2bff94a9612b1b8362c815090c8f7494c750e",
+        "bytes": 175952
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/closing-02.wav",
+        "sha256": "f31088518a7dc24c20076ccaf938f786a2c901c1ab9b4e4e72a83acc0f904fef",
+        "bytes": 129296
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/closing-03.wav",
+        "sha256": "1140c4080c82732810eae7784bcc576167a1a70db54840fd15fbac1d9e5d252b",
+        "bytes": 116240
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/closing-04.wav",
+        "sha256": "19f4440f12830b81d2669be07cd33cf1593e0635ced3a9288bbacec20710c59a",
+        "bytes": 184784
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/closing-05.wav",
+        "sha256": "18d0b2f6264ae822fbc5cd0b9cf4cde8d4f259782ca388d09395bec4b804d372",
+        "bytes": 193328
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/main-01.wav",
+        "sha256": "f0acc8eb8ad585adf82d028f46cbaa1e63241934c2ffdc6600edd0dfdb38eeeb",
+        "bytes": 261968
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/main-02.wav",
+        "sha256": "009f7c35042d14ff4dfffb06c1897d91ec5437884e1961c0bdb979f96b85f5d5",
+        "bytes": 227600
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/main-03.wav",
+        "sha256": "b165f092f384e864d94b9b340803002b09684d631277686fabb49d4c7a8fff6a",
+        "bytes": 449744
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/main-04.wav",
+        "sha256": "7589abf704cfc5f34ee2086d88d95be66bc29a60941b9335ede0ec7ebbe5eaa0",
+        "bytes": 199376
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/main-05.wav",
+        "sha256": "2107315ce143e6ea2948d939529963d0534ba7483911725a758d3248a1889a01",
+        "bytes": 371984
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/main-06.wav",
+        "sha256": "7a975837da4bc22fa7636cebc0b3feb701b286d688b65ffdfdaadd067af479dc",
+        "bytes": 292880
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/main-07.wav",
+        "sha256": "59b64c48224dfed933bf4a7677187dda7e7f771f56db644b1cf36f7d57e40af8",
+        "bytes": 347408
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/main-08.wav",
+        "sha256": "8b179dc68149d720747ddd5d3932ef9296863dc808f83cc3d947eed9e68afb3c",
+        "bytes": 489488
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/main-09.wav",
+        "sha256": "d5ceb70c18d4f43ef9e15a35730c1f3c5e034d68c2900c2d0b6024093ff31f9a",
+        "bytes": 484304
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/main-10.wav",
+        "sha256": "fb8cb4f4bdf58b2fb76f29d8f2f412fcb95fdcf951511090ab6f43f300df01a5",
+        "bytes": 97616
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/main-11.wav",
+        "sha256": "bf11887b0f2e7b66020b353bbb43a55d9df1b18de490ea72c33dcb6770c8a9b1",
+        "bytes": 277712
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/main-12.wav",
+        "sha256": "9fac690aa411292d576e021101e99281541a44311d64219e5a14996935f46829",
+        "bytes": 467408
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/main-13.wav",
+        "sha256": "86293cc514b330026fb5639e2736743e2b90e371f452a148eeddd5c91238fa96",
+        "bytes": 222800
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/main-14.wav",
+        "sha256": "f228fb7d461d6c486784cefa112f7be834b4ab6c7eaad68d8f2512a7cdfb960b",
+        "bytes": 207440
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/main-15.wav",
+        "sha256": "76b9d253830afd263662a4a4ab9a3b0b6c1c8e1ee3ba9de0bf5cc4db67af8e9f",
+        "bytes": 172304
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/main-16.wav",
+        "sha256": "2c0c94394cbc33b1c3ab6656bfb19a1960f4e2dd011851ae64265a27d1818a56",
+        "bytes": 181520
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/main-17.wav",
+        "sha256": "f415a1ad59609d6ee76533335761b1ab0963e5e686f947d5875d42a6ab104da0",
+        "bytes": 275408
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/main-18.wav",
+        "sha256": "55cdca692d1afec01269ef0d38537d7be68e6cddf1e58cc3c93e5256dc4790e4",
+        "bytes": 240848
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/main-19.wav",
+        "sha256": "dfe9f176091c654d5a6d6b8b64b871b884462902771dd995096ff173226690db",
+        "bytes": 117200
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/main-20.wav",
+        "sha256": "d11bb8c3a0e082d294fe57e14f71660101f05459bbf005335502ba444ff216d3",
+        "bytes": 692240
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/main-21.wav",
+        "sha256": "1e4c9e8bc93995a6f4a3bcf7b031b79fb608da1884116d6f09178316ab9f71e6",
+        "bytes": 567824
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/main-22.wav",
+        "sha256": "813768d5efe28dac3ab7f967693fe940406ddeb98f8f7c0f491b9748bb2e43f0",
+        "bytes": 210896
+      },
+      {
+        "filename": "assets/audio/kokoro-segments/main-23.wav",
+        "sha256": "3b8799cc3cee5346d42875d3bd54d32063a2fe0d27635beb88c1855645f6c14e",
+        "bytes": 197072
+      }
+    ]
+  }
 }

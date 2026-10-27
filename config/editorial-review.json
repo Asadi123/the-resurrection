@@ -461,7 +461,7 @@
     {
       "id": "opening-and-nationalization",
       "start": 13.0,
-      "end": 21.2,
+      "end": 22.433333,
       "text": "Britain and France shaped borders; Iraq already received oil revenues.\nThe dispute predated Ba’ath rule. The 1 June 1972 decree nationalized IPC alone.",
       "heading": "HISTORICAL CONTEXT",
       "covers": [
@@ -485,8 +485,8 @@
     },
     {
       "id": "bp-consortium",
-      "start": 21.2,
-      "end": 28.033333,
+      "start": 22.433333,
+      "end": 29.066667,
       "text": "IPC was a multinational consortium; BP held 23.75%.\nIts concession dated to 1925, not fifty years of BP extraction.",
       "heading": "HISTORICAL CONTEXT",
       "covers": [
@@ -502,8 +502,8 @@
     },
     {
       "id": "gdp-measure",
-      "start": 28.033333,
-      "end": 35.366667,
+      "start": 29.066667,
+      "end": 35.666667,
       "text": "GDP/person, 1972–75: nearly 3× in current US dollars.\nInflation-adjusted growth: about 23%. GDP is not personal income.",
       "heading": "HISTORICAL CONTEXT",
       "covers": [
@@ -520,8 +520,8 @@
     },
     {
       "id": "education-access",
-      "start": 35.366667,
-      "end": 42.7,
+      "start": 35.666667,
+      "end": 42.3,
       "text": "Education was tuition-free through university.\nAttendance and access were not universal.",
       "heading": "HISTORICAL CONTEXT",
       "covers": [
@@ -538,8 +538,8 @@
     },
     {
       "id": "health-access",
-      "start": 42.7,
-      "end": 49.033333,
+      "start": 42.3,
+      "end": 47.9,
       "text": "Public healthcare was provided free of charge.\nThis did not guarantee care reached everyone.",
       "heading": "HISTORICAL CONTEXT",
       "covers": [
@@ -555,8 +555,8 @@
     },
     {
       "id": "literacy-award",
-      "start": 49.033333,
-      "end": 55.4,
+      "start": 47.9,
+      "end": 58.2,
       "text": "1979 · UNESCO Krupskaya literacy prize\nRecognized Iraq’s national literacy campaign, not universal literacy.",
       "heading": "HISTORICAL CONTEXT",
       "covers": [
@@ -572,8 +572,8 @@
     },
     {
       "id": "regional-reaction",
-      "start": 55.4,
-      "end": 62.2,
+      "start": 58.2,
+      "end": 64.033333,
       "text": "The narration voices a pan-Arab political interpretation.\nRegional governments responded differently to nationalization.",
       "heading": "HISTORICAL CONTEXT",
       "covers": [
@@ -590,8 +590,8 @@
     },
     {
       "id": "ideology-attribution",
-      "start": 62.2,
-      "end": 75.366667,
+      "start": 64.033333,
+      "end": 78.1,
       "text": "Ba’athist ideals: Arab unity, liberation and socialism.\nIraq also contained non-Arab peoples and languages.",
       "heading": "HISTORICAL CONTEXT",
       "covers": [
@@ -610,8 +610,8 @@
     },
     {
       "id": "women-professions",
-      "start": 75.366667,
-      "end": 83.166667,
+      "start": 78.1,
+      "end": 84.733333,
       "text": "Women gained educational and professional roles.\nThe claim of women in “every military rank” is not substantiated.",
       "heading": "HISTORICAL CONTEXT",
       "covers": [
@@ -627,8 +627,8 @@
     },
     {
       "id": "aziz-and-land",
-      "start": 83.166667,
-      "end": 90.833333,
+      "start": 84.733333,
+      "end": 92.966667,
       "text": "Tariq Aziz, a Chaldean Christian: Foreign Minister, 1983–91.\nLand reform began in 1958 and continued under Ba’ath rule.",
       "heading": "HISTORICAL CONTEXT",
       "covers": [
@@ -650,8 +650,8 @@
     },
     {
       "id": "secular-ideal",
-      "start": 90.833333,
-      "end": 100.266667,
+      "start": 92.966667,
+      "end": 104.033333,
       "text": "Ba’athism promoted a secular, pan-Arab ideal.\nIslam remained Iraq’s state religion; religious personal-status rules persisted.",
       "heading": "HISTORICAL CONTEXT",
       "covers": [
@@ -668,8 +668,8 @@
     },
     {
       "id": "repression-context",
-      "start": 100.266667,
-      "end": 108.0,
+      "start": 104.033333,
+      "end": 111.1,
       "text": "Development coexisted with dictatorship.\nThe 1988 Anfal campaign targeted Kurdish civilians.",
       "heading": "HISTORICAL CONTEXT",
       "covers": [
@@ -686,8 +686,8 @@
     },
     {
       "id": "oil-dispute",
-      "start": 108.0,
-      "end": 118.233333,
+      "start": 111.1,
+      "end": 118.7,
       "text": "IPC owners contested compensation and oil sales.\nA threat to “every company” is political interpretation.",
       "heading": "HISTORICAL CONTEXT",
       "covers": [
@@ -703,8 +703,8 @@
     },
     {
       "id": "causal-interpretation",
-      "start": 118.233333,
-      "end": 125.966667,
+      "start": 118.7,
+      "end": 125.333333,
       "text": "These causal claims are political interpretations.\nThey do not establish the motives of every foreign power.",
       "heading": "HISTORICAL CONTEXT",
       "covers": [
@@ -720,7 +720,7 @@
     },
     {
       "id": "stability-and-repression",
-      "start": 125.966667,
+      "start": 125.333333,
       "end": 132.0,
       "text": "The narrator’s question is political rhetoric.\nDevelopment coexisted with violent repression of opposition.",
       "heading": "HISTORICAL CONTEXT",
@@ -738,7 +738,7 @@
     {
       "id": "closing-services",
       "start": 132.0,
-      "end": 139.166667,
+      "end": 139.8,
       "text": "Oil revenues supported expanding state services.\nSchool enrollment and access varied; not every child attended.",
       "heading": "HISTORICAL CONTEXT",
       "covers": [
@@ -756,8 +756,8 @@
     },
     {
       "id": "closing-women",
-      "start": 139.166667,
-      "end": 144.366667,
+      "start": 139.8,
+      "end": 145.0,
       "text": "Women’s opportunities expanded.\nEqual rights and political freedom remained limited.",
       "heading": "HISTORICAL CONTEXT",
       "covers": [
@@ -774,7 +774,7 @@
     },
     {
       "id": "closing-borders",
-      "start": 144.366667,
+      "start": 145.0,
       "end": 150.0,
       "text": "Pan-Arab unity was an aspiration.\nIraq also waged devastating wars.",
       "heading": "HISTORICAL CONTEXT",
@@ -793,7 +793,7 @@
   ],
   "caption_sync": {
     "timing_source": "output/audio-timing.json",
-    "timing_sha256": "20383cbdb4c152cd5df1edff189e474c03ed2e43194b641dc11ca0ea183dffdf",
+    "timing_sha256": "63679148e5bec2eec7292688b6894b26f57488291f954a8aece6c8240dee7fef",
     "method": "Measured sentence boundaries, grouped adjacent claims, 30 FPS boundaries; no speech time stretching.",
     "nonoverlapping": true,
     "all_reviewed_claims_covered": true,
