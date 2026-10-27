@@ -97,6 +97,91 @@ def image_mae(left: Image.Image, right: Image.Image) -> float:
     return sum(ImageStat.Stat(ImageChops.difference(left.convert("RGB"), right.convert("RGB"))).mean) / 3
 
 
+def check_encoded_overlays(path: Path, root: Path, result: dict):
+    """Check actual encoded glyphs and their dark panels, not just render intent."""
+    render_record = root / "output/render.json"
+    if not render_record.is_file():
+        result["errors"].append("Missing output/render.json; encoded corrections cannot be verified")
+        return
+    overlays = json.loads(render_record.read_text())["overlays"]
+    if not overlays:
+        result["errors"].append("No historical correction/source overlays recorded")
+        return
+    samples = []
+    for overlay in overlays:
+        frame = round((overlay["start"] + overlay["end"]) / 2 * 30)
+        samples.append((frame, overlay))
+    selected = sorted({frame for frame, _ in samples})
+    expression = "+".join(f"eq(n\\,{frame})" for frame in selected)
+    with tempfile.TemporaryDirectory() as temp:
+        temp = Path(temp)
+        subprocess.run(
+            ["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-i", str(path),
+             "-vf", f"select={expression}", "-fps_mode", "vfr", "-frames:v", str(len(selected)),
+             str(temp / "frame-%04d.png")], check=True, capture_output=True, text=True,
+        )
+        files = {frame: temp / f"frame-{index+1:04d}.png" for index, frame in enumerate(selected)}
+        for frame, overlay in samples:
+            card = Image.open(root / overlay["file"]).convert("RGBA")
+            actual = Image.open(files[frame]).convert("RGB")
+            red, green, blue, alpha = card.split()
+            # Panels have alpha 175/214 and black RGB. Letter interiors have
+            # nearly opaque alpha; compare those without including antialias edges.
+            opaque = alpha.point(lambda value: 255 if value >= 250 else 0)
+            bright = ImageChops.lighter(red, ImageChops.lighter(green, blue)).point(
+                lambda value: 255 if value > 100 else 0)
+            glyph_mask = ImageChops.multiply(opaque, bright)
+            count = ImageStat.Stat(glyph_mask).sum[0] / 255
+            name = Path(overlay["file"]).stem
+            if count < 100:
+                result["errors"].append(f"Overlay {name} has no substantial opaque text")
+                continue
+            differences = ImageChops.difference(actual, card.convert("RGB"))
+            glyph_mae = sum(ImageStat.Stat(differences, mask=glyph_mask).mean) / 3
+            # White/cream letters are an additional presence check. The design's
+            # cream is RGB(242,238,229), so a 230 threshold on all channels would
+            # incorrectly exclude the reference's blue channel.
+            white_reference = ImageChops.multiply(
+                red.point(lambda value: 255 if value >= 230 else 0),
+                ImageChops.multiply(
+                    green.point(lambda value: 255 if value >= 225 else 0),
+                    blue.point(lambda value: 255 if value >= 220 else 0),
+                ),
+            )
+            white_reference = ImageChops.multiply(white_reference, opaque)
+            white_count = ImageStat.Stat(white_reference).sum[0] / 255
+            actual_red, actual_green, actual_blue = actual.split()
+            actual_white = ImageChops.darker(actual_red, ImageChops.darker(actual_green, actual_blue)).point(
+                lambda value: 255 if value >= 205 else 0)
+            white_fraction = (
+                ImageStat.Stat(ImageChops.multiply(actual_white, white_reference)).sum[0] / 255 / white_count
+                if white_count >= 100 else 0
+            )
+            panel_alpha = alpha.point(lambda value: 255 if 170 <= value <= 240 else 0)
+            black = ImageChops.lighter(red, ImageChops.lighter(green, blue)).point(
+                lambda value: 255 if value == 0 else 0)
+            panel_mask = ImageChops.multiply(panel_alpha, black)
+            panel_pixels = ImageStat.Stat(panel_mask).sum[0] / 255
+            if panel_pixels < 1000:
+                result["errors"].append(f"Overlay {name} lacks its expected dark reading panel")
+                continue
+            panel_mean = sum(ImageStat.Stat(actual, mask=panel_mask).mean) / 3
+            # Even white underlying footage cannot exceed 255-alpha after a
+            # black alpha-composite; allow twelve levels for encoding/conversion.
+            panel_upper = 255 - ImageStat.Stat(alpha, mask=panel_mask).mean[0] + 12
+            result["checks"][f"encoded_overlay_{name}"] = {
+                "frame": frame, "glyph_mae": glyph_mae,
+                "white_glyph_fraction": white_fraction,
+                "panel_mean": panel_mean, "panel_upper_bound": panel_upper,
+            }
+            if glyph_mae > 25 or white_fraction < 0.8 or panel_mean > panel_upper:
+                result["errors"].append(
+                    f"Encoded overlay {name} is absent/incorrect at frame {frame}: "
+                    f"glyph MAE {glyph_mae:.2f}; white glyph fraction {white_fraction:.3f}; "
+                    f"panel {panel_mean:.2f} (limit {panel_upper:.2f})"
+                )
+
+
 def validate(path: Path, root: Path, report_path: Path) -> dict:
     result = {"video": str(path), "passed": False, "errors": [], "checks": {}, "probe": None}
     errors = result["errors"]
@@ -128,6 +213,10 @@ def validate(path: Path, root: Path, report_path: Path) -> dict:
         result["checks"]["non_silent_audio"] = audible
         if not audible:
             errors.append("The audio track is silent, missing, or could not be decoded")
+        try:
+            check_encoded_overlays(path, root, result)
+        except (OSError, ValueError, KeyError, subprocess.CalledProcessError) as exc:
+            errors.append(f"Encoded historical-caption verification failed: {exc}")
         expected_card = root / "output/cards/final.png"
         if not expected_card.is_file():
             errors.append("Missing expected Arabic raster: output/cards/final.png")

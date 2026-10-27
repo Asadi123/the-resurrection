@@ -12,7 +12,7 @@ import math
 import subprocess
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont, features
-from common import ROOT, read_json, write_json, run, safe_path
+from common import ROOT, read_json, write_json, run, safe_path, probe
 
 W, H, FPS = 1920, 1080, 30
 CARDS = ROOT / "output/cards"
@@ -183,13 +183,89 @@ def documentary_overlays(cfg, manifest):
     return overlays
 
 
-def render(cfg, output):
+def compose_master(assembly, overlays, outpath):
+    """Decode once; alpha-paste only active text rectangles; encode once.
+
+    Static image inputs in delayed FFmpeg timeline filters can expire before
+    their enable interval. Compositing cached rasters over actual decoded RGB
+    frames makes both timing and alpha handling explicit and testable.
+    """
+    prepared = []
+    for item in overlays:
+        with Image.open(item["file"]) as raster:
+            rgba = raster.convert("RGBA")
+            bounds = rgba.getbbox()
+            if bounds:
+                prepared.append((round(item["start"] * FPS), round(item["end"] * FPS),
+                                 rgba.crop(bounds), bounds[:2]))
+    decode = ["ffmpeg", "-hide_banner", "-loglevel", "error", "-threads", "2", "-i", str(assembly),
+              "-an", "-filter_threads", "1", "-pix_fmt", "rgb24", "-f", "rawvideo", "pipe:1"]
+    encode = ["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24",
+              "-video_size", f"{W}x{H}", "-framerate", str(FPS), "-i", "pipe:0",
+              "-i", str(ROOT / "output/audio_mix.wav"), "-map", "0:v:0", "-map", "1:a:0",
+              "-vf", "scale=in_range=full:out_range=limited:out_color_matrix=bt709,format=yuv420p",
+              "-frames:v", "4800", "-t", "160", "-c:v", "libx264", "-preset", "fast", "-crf", "18",
+              "-threads", "2", "-filter_threads", "1", "-color_range", "tv", "-colorspace", "bt709",
+              "-color_primaries", "bt709", "-color_trc", "bt709", "-c:a", "aac", "-b:a", "192k",
+              "-ar", "48000", "-ac", "2", "-metadata", "title=THE RESURRECTION — البعث",
+              "-metadata", "copyright=CC BY-SA 4.0; accompanying CREDITS.md and manifests provide source attribution",
+              "-movflags", "+faststart", str(outpath)]
+    with (ROOT / "output/ffmpeg-commands.jsonl").open("a") as log:
+        for args in (decode, encode):
+            log.write(json.dumps(args, ensure_ascii=False) + "\n")
+    frame_bytes = W * H * 3
+    with (ROOT / "output/decode.log").open("w") as dec_log, (ROOT / "output/encode.log").open("w") as enc_log:
+        decoder = subprocess.Popen(decode, stdout=subprocess.PIPE, stderr=dec_log)
+        encoder = subprocess.Popen(encode, stdin=subprocess.PIPE, stderr=enc_log)
+        try:
+            for n in range(4800):
+                data = decoder.stdout.read(frame_bytes)
+                if len(data) != frame_bytes:
+                    raise RuntimeError(f"Archival assembly ended early at frame {n}; expected 4800")
+                if n == 4799:
+                    data = bytes(frame_bytes)
+                else:
+                    active = [o for o in prepared if o[0] <= n < o[1]]
+                    if active:
+                        frame = Image.frombytes("RGB", (W, H), data)
+                        for _, _, raster, position in active:
+                            frame.paste(raster, position, raster)
+                        data = frame.tobytes()
+                encoder.stdin.write(data)
+                if n % 300 == 0:
+                    print(f"Composited frame {n}/4800 ({n/FPS:.0f}s)", flush=True)
+            encoder.stdin.close()
+            if decoder.stdout.read(1):
+                raise RuntimeError("Archival assembly contains more than 4800 frames")
+            if decoder.wait() or encoder.wait():
+                raise RuntimeError("FFmpeg composition failed; inspect output/decode.log and encode.log")
+        finally:
+            for proc in (decoder, encoder):
+                if proc.poll() is None:
+                    proc.terminate()
+                    proc.wait()
+
+
+def render(cfg, output, composite_only=False):
     # Enforce gates even when invoked outside CI.
     subprocess.run(["python", str(ROOT / "scripts/preflight.py")], check=True, cwd=ROOT)
     generate_cards(cfg)
     SEGMENTS.mkdir(parents=True, exist_ok=True)
     manifest = read_json("research/asset-manifest.json")
     assets = {a["id"]: a for a in manifest["assets"]}
+    assembly = ROOT / "output/assembly.mp4"
+    if composite_only:
+        previous = read_json("output/render.json")
+        if previous.get("timeline") != cfg or float(probe(assembly)["format"]["duration"]) != 160:
+            raise ValueError("Cannot reuse assembly: story/timing changed or assembly duration is invalid")
+        overlays = documentary_overlays(cfg, manifest)
+        destination = safe_path(output)
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        compose_master(assembly, overlays, destination)
+        write_json("output/render.json", {"output": str(destination.relative_to(ROOT)), "timeline": cfg,
+                    "composition": "Decoded archival RGB frames with active cached PNG alpha masks",
+                    "overlays": [{**o, "file": str(o["file"].relative_to(ROOT))} for o in overlays]})
+        return
     segments = []
     for i, item in enumerate(cfg["opening"]):
         dst = SEGMENTS / f"{len(segments):03}.mp4"
@@ -206,30 +282,13 @@ def render(cfg, output):
         segments.append(dst)
     concat = ROOT / "output/concat.txt"
     concat.write_text("".join(f"file '{p.as_posix()}'\n" for p in segments))
-    assembly = ROOT / "output/assembly.mp4"
     run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-f", "concat", "-safe", "0", "-i", concat,
          "-c", "copy", assembly])
     # All overlays are fixed text; content and enable intervals are recorded for inspection.
     overlays = documentary_overlays(cfg, manifest)
-    inputs, chain = [], []
-    label = "0:v"
-    for i, overlay in enumerate(overlays):
-        inputs += ["-i", overlay["file"]]
-        out = f"o{i}"
-        chain.append(f"[{label}][{i+2}:v]overlay=enable='gte(t,{overlay['start']})*lt(t,{overlay['end']})':eof_action=repeat[{out}]")
-        label = out
-    # Force the last complete frame to pure black; the 8s final hold is untouched.
-    chain.append(f"[{label}]drawbox=x=0:y=0:w=iw:h=ih:color=black:t=fill:enable='gte(t,159.966666)'[v]")
     outpath = safe_path(output)
     outpath.parent.mkdir(parents=True, exist_ok=True)
-    run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-i", assembly,
-         "-i", ROOT / "output/audio_mix.wav", *inputs, "-filter_complex_threads", "1",
-         "-filter_complex", ";".join(chain), "-map", "[v]", "-map", "1:a:0",
-         "-frames:v", "4800", "-t", "160", "-c:v", "libx264", "-preset", "medium", "-crf", "18",
-         "-pix_fmt", "yuv420p", "-threads", "2", "-r", "30", "-c:a", "aac", "-b:a", "192k",
-         "-ar", "48000", "-ac", "2", "-metadata", "title=THE RESURRECTION — البعث",
-         "-metadata", "copyright=CC BY-SA 4.0; accompanying CREDITS.md and manifests provide source attribution",
-         "-movflags", "+faststart", outpath])
+    compose_master(assembly, overlays, outpath)
     write_json("output/render.json", {"output": str(outpath.relative_to(ROOT)), "timeline": cfg,
                                         "overlays": [{**o, "file": str(o["file"].relative_to(ROOT))} for o in overlays]})
 
@@ -238,12 +297,13 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", default="output/the-resurrection.mp4")
     parser.add_argument("--cards-only", action="store_true")
+    parser.add_argument("--composite-only", action="store_true", help="Reuse a completed assembly only when its recorded timeline matches")
     args = parser.parse_args()
     cfg = read_json("config/film.json")
     if args.cards_only:
         generate_cards(cfg)
     else:
-        render(cfg, args.output)
+        render(cfg, args.output, args.composite_only)
 
 
 if __name__ == "__main__":

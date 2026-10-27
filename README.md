@@ -52,7 +52,7 @@ The runner needs `ffmpeg`, `ffprobe`, `fontconfig`, and DejaVu fonts; the workfl
 
 The audio step supports `--narration /path/to/recording` and `--narration-url https://…`, or the `NARRATION_URL` environment variable. Follow `config/audio.json` and `config/narration.json` for the configured upload filename and exact timing limits. Local open-source TTS is eligible only with the recorded engine/model permissions; it is not a historical recording.
 
-`scripts/validate.py` runs FFprobe's decoded frame count and a full FFmpeg decode. It checks exactly 4,800 frames, 160-second duration, 1920 × 1080 square pixels, 30 FPS, H.264, AAC, an audible audio stream, black opening/last frames, and the encoded Arabic hold against `output/cards/final.png`. It reruns publication preflight. The machine-readable result is `output/validation.json`.
+`scripts/validate.py` runs FFprobe's decoded frame count and a full FFmpeg decode. It checks exactly 4,800 frames, 160-second duration, 1920 × 1080 square pixels, 30 FPS, H.264, AAC, an audible audio stream, black opening/last frames, and the encoded Arabic hold against `output/cards/final.png`. It also checks the actual encoded glyphs and panels of all 18 factual corrections and 13 archival source labels, so creating text rasters alone cannot pass. The compositor decodes archival frames once, applies the active cached text masks with Pillow, and encodes the finished frames with FFmpeg in explicit BT.709 limited range. It reruns publication preflight. The machine-readable result is `output/validation.json`.
 
 ## Downloads and licensing
 
