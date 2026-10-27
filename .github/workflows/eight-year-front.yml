@@ -45,6 +45,11 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p film/original /tmp/archive-cache /tmp/new-cache
+          mkdir -p /tmp/new-cache-latest
+          gh run download 40582945862 -n EIGHT-YEAR-FRONT-ORIGINAL-SOURCES -D /tmp/new-cache-latest || true
+          if test -d /tmp/new-cache-latest/original; then
+            cp -n /tmp/new-cache-latest/original/* film/original/ || true
+          fi
           gh run download 40581664197 -n EIGHT-YEAR-FRONT-ORIGINAL-SOURCES -D /tmp/new-cache || true
           if test -d /tmp/new-cache/original; then
             cp -n /tmp/new-cache/original/* film/original/ || true
