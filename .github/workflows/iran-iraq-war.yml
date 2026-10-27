@@ -1,0 +1,101 @@
+name: Iran–Iraq War | Source Audit and Documentary Render
+
+on:
+  push:
+    branches:
+      - documentary/iran-iraq-war-rebuild
+    paths:
+      - 'iran-iraq-war/**'
+      - '.github/workflows/iran-iraq-war.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  documentary:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Checkout archival production branch
+        uses: actions/checkout@v4
+
+      - name: Install source verification and editing dependencies
+        run: |
+          set -euo pipefail
+          python -m pip install --disable-pip-version-check requests Pillow PyMuPDF
+          ffmpeg -version | head -n 1
+
+      - name: Acquire original wartime film and full UN document scans
+        id: acquire
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          python iran-iraq-war/prepare_sources.py
+
+      - name: Enforce independently verified inputs
+        run: |
+          set -euo pipefail
+          test "${{ steps.acquire.outcome }}" = "success"
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          a=json.loads(Path('iran-iraq-war/source-audit.json').read_text())
+          assert a['status']=='ready', a['errors']
+          assert len(a['original_assets'])>=7, 'Original archival media absent'
+          PY
+
+      - name: Disallow synthetic history and old narration
+        run: |
+          set -euo pipefail
+          test -s iran-iraq-war/assets/narration.mp3 || {
+            echo "::error::Natural documentary narration has not been provided. HeyGen ElevenLabs V4 was rejected by the connected workspace. Do not substitute the old Kokoro/Orca voice."
+            exit 1
+          }
+          test -s assets/audio/oud-jordan.mp3
+
+      - name: Edit documentary from genuine archives
+        run: |
+          set -euo pipefail
+          python iran-iraq-war/render.py
+
+      - name: Decode and inspect finished media stream
+        run: |
+          set -euo pipefail
+          MP4=iran-iraq-war/output/iran-iraq-war.mp4
+          ffprobe -v error -show_entries stream=codec_name,width,height,r_frame_rate -of json "$MP4"
+          ffmpeg -hide_banner -loglevel error -xerror -i "$MP4" -f null -
+          mkdir -p iran-iraq-war/output/qa
+          ffmpeg -hide_banner -loglevel error -i "$MP4" -vf "fps=1/15,scale=640:-1" -y iran-iraq-war/output/qa/frame-%04d.jpg
+
+      - name: Upload technically validated documentary
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: IRAN-IRAQ-WAR-ARCHIVAL-1080P-MP4-NEEDS-EDITORIAL-QA
+          path: |
+            iran-iraq-war/output/iran-iraq-war.mp4
+            iran-iraq-war/output/validation.json
+            iran-iraq-war/output/qa/*.jpg
+            iran-iraq-war/source-audit.json
+            iran-iraq-war/research/source-register.json
+            iran-iraq-war/narration.txt
+          retention-days: 30
+          if-no-files-found: error
+          compression-level: 0
+
+      - name: Preserve source and failure diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: IRAN-IRAQ-SOURCE-AUDIT-AND-DIAGNOSTICS
+          path: |
+            iran-iraq-war/source-audit.json
+            iran-iraq-war/research/source-register.json
+            iran-iraq-war/narration.txt
+            iran-iraq-war/output/validation.json
+          if-no-files-found: warn
+          retention-days: 30
