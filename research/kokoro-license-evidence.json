@@ -1,0 +1,936 @@
+{
+  "retrieved_at_utc": "2026-10-27T11:06:02.038324+00:00",
+  "scope": "Primary-source license evidence; no audio synthesis or model downloads performed.",
+  "kokoro_model_api": {
+    "url": "https://huggingface.co/api/models/hexgrad/Kokoro-82M",
+    "revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "cardData": {
+      "license": "apache-2.0",
+      "language": [
+        "en"
+      ],
+      "base_model": [
+        "yl4579/StyleTTS2-LJSpeech"
+      ],
+      "pipeline_tag": "text-to-speech"
+    }
+  },
+  "voice_tensors": [
+    {
+      "type": "file",
+      "oid": "bcadf28e7b574cdc1eb1f4df59bae0b0303bd9f7",
+      "size": 523420,
+      "lfs": {
+        "oid": "ced7e284aba12472891be1da3ab34db84cc05cc02b5889535796dbf2d8b0cb34",
+        "size": 523420,
+        "pointerSize": 131
+      },
+      "xetHash": "cc20454dba0771585374e35c6478f3d9be0e09178d07e35ecf54647f9c1415cb",
+      "path": "voices/am_adam.pt"
+    },
+    {
+      "type": "file",
+      "oid": "9e71bb84ce59989842ff0695f4119463fa72a35f",
+      "size": 523435,
+      "lfs": {
+        "oid": "9a443b79a4b22489a5b0ab7c651a0bcd1a30bef675c28333f06971abbd47bd37",
+        "size": 523435,
+        "pointerSize": 131
+      },
+      "xetHash": "e8fdf4a6802791a80a614ae4f8a5db8295cc7c030bbe091379e8d26ec23db6c3",
+      "path": "voices/am_michael.pt"
+    },
+    {
+      "type": "file",
+      "oid": "5004f161fa9fa923f031d6e925c6f5fbce9a9baf",
+      "size": 523430,
+      "lfs": {
+        "oid": "f1bc812213dc59774769e5c80004b13eeb79bd78130b11b2d7f934542dab811b",
+        "size": 523430,
+        "pointerSize": 131
+      },
+      "xetHash": "3ec68cd8f58b4670c2d2479074f89a46ef35674816c673229a3e63ec03673599",
+      "path": "voices/bm_george.pt"
+    },
+    {
+      "type": "file",
+      "oid": "5574f064d7aee6fafe88caa66000d7aa5f440c83",
+      "size": 523425,
+      "lfs": {
+        "oid": "b5204750dcba01029d2ac9cec17aec3b20a6d64073c579d694a23cb40effbd0e",
+        "size": 523425,
+        "pointerSize": 131
+      },
+      "xetHash": "fe4c5c78936b16bc0736c6d17f3497485498ffb43afaf83451ecb03e61451ced",
+      "path": "voices/bm_lewis.pt"
+    }
+  ],
+  "separate_license_notice_paths_found": [],
+  "records": {
+    "kokoro_model_card": {
+      "url": "https://huggingface.co/hexgrad/Kokoro-82M/raw/f3ff3571791e39611d31c381e3a41a3af07b4987/README.md",
+      "status": 200,
+      "sha256": "91dcabced89db6f109b8786642f50402d3ee87450e8189589b6f85520e7f4d78",
+      "content": "---\nlicense: apache-2.0\nlanguage:\n- en\nbase_model:\n- yl4579/StyleTTS2-LJSpeech\npipeline_tag: text-to-speech\n---\n**Kokoro** is an open-weight TTS model with 82 million parameters. Despite its lightweight architecture, it delivers comparable quality to larger models while being significantly faster and more cost-efficient. With Apache-licensed weights, Kokoro can be deployed anywhere from production environments to personal projects.\n\n<audio controls><source src=\"https://huggingface.co/hexgrad/Kokoro-82M/resolve/main/samples/HEARME.wav\" type=\"audio/wav\"></audio>\n\n🐈 **GitHub**: https://github.com/hexgrad/kokoro\n\n🚀 **Demo**: https://hf.co/spaces/hexgrad/Kokoro-TTS\n\n> [!NOTE]\n> As of April 2025, the market rate of Kokoro served over API is **under $1 per million characters of text input**, or under $0.06 per hour of audio output. (On average, 1000 characters of input is about 1 minute of output.) Sources: [ArtificialAnalysis/Replicate at 65 cents per M chars](https://artificialanalysis.ai/text-to-speech/model-family/kokoro#price) and [DeepInfra at 80 cents per M chars](https://deepinfra.com/hexgrad/Kokoro-82M).\n>\n> This is an Apache-licensed model, and Kokoro has been deployed in numerous projects and commercial APIs. We welcome the deployment of the model in real use cases.\n\n> [!CAUTION]\n> Fake websites like kokorottsai_com (snapshot: https://archive.ph/nRRnk) and kokorotts_net (snapshot: https://archive.ph/60opa) are likely scams masquerading under the banner of a popular model.\n>\n> Any website containing \"kokoro\" in its root domain (e.g. kokorottsai_com, kokorotts_net) is **NOT owned by and NOT affiliated with this model page or its author**, and attempts to imply otherwise are red flags.\n\n- [Releases](#releases)\n- [Usage](#usage)\n- [EVAL.md](https://huggingface.co/hexgrad/Kokoro-82M/blob/main/EVAL.md) ↗️\n- [SAMPLES.md](https://huggingface.co/hexgrad/Kokoro-82M/blob/main/SAMPLES.md) ↗️\n- [VOICES.md](https://huggingface.co/hexgrad/Kokoro-82M/blob/main/VOICES.md) ↗️\n- [Model Facts](#model-facts)\n- [Training Details](#training-details)\n- [Creative Commons Attribution](#creative-commons-attribution)\n- [Acknowledgements](#acknowledgements)\n\n### Releases\n\n| Model | Published | Training Data | Langs & Voices | SHA256 |\n| ----- | --------- | ------------- | -------------- | ------ |\n| **v1.0** | **2025 Jan 27** | **Few hundred hrs** | [**8 & 54**](https://huggingface.co/hexgrad/Kokoro-82M/blob/main/VOICES.md) | `496dba11` |\n| [v0.19](https://huggingface.co/hexgrad/kLegacy/tree/main/v0.19) | 2024 Dec 25 | <100 hrs | 1 & 10 | `3b0c392f` |\n\n| Training Costs | v0.19 | v1.0 | **Total** |\n| -------------- | ----- | ---- | ----- |\n| in A100 80GB GPU hours | 500 | 500 | **1000** |\n| average hourly rate | $0.80/h | $1.20/h | **$1/h** |\n| in USD | $400 | $600 | **$1000** |\n\n### Usage\nYou can run this basic cell on [Google Colab](https://colab.research.google.com/). [Listen to samples](https://huggingface.co/hexgrad/Kokoro-82M/blob/main/SAMPLES.md). For more languages and details, see [Advanced Usage](https://github.com/hexgrad/kokoro?tab=readme-ov-file#advanced-usage).\n```py\n!pip install -q kokoro>=0.9.2 soundfile\n!apt-get -qq -y install espeak-ng > /dev/null 2>&1\nfrom kokoro import KPipeline\nfrom IPython.display import display, Audio\nimport soundfile as sf\nimport torch\npipeline = KPipeline(lang_code='a')\ntext = '''\n[Kokoro](/kˈOkəɹO/) is an open-weight TTS model with 82 million parameters. Despite its lightweight architecture, it delivers comparable quality to larger models while being significantly faster and more cost-efficient. With Apache-licensed weights, [Kokoro](/kˈOkəɹO/) can be deployed anywhere from production environments to personal projects.\n'''\ngenerator = pipeline(text, voice='af_heart')\nfor i, (gs, ps, audio) in enumerate(generator):\n    print(i, gs, ps)\n    display(Audio(data=audio, rate=24000, autoplay=i==0))\n    sf.write(f'{i}.wav', audio, 24000)\n```\nUnder the hood, `kokoro` uses [`misaki`](https://pypi.org/project/misaki/), a G2P library at https://github.com/hexgrad/misaki\n\n### Model Facts\n\n**Architecture:**\n- StyleTTS 2: https://arxiv.org/abs/2306.07691\n- ISTFTNet: https://arxiv.org/abs/2203.02395\n- Decoder only: no diffusion, no encoder release\n\n**Architected by:** Li et al @ https://github.com/yl4579/StyleTTS2\n\n**Trained by**: `@rzvzn` on Discord\n\n**Languages:** Multiple\n\n**Model SHA256 Hash:** `496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4`\n\n### Training Details\n\n**Data:** Kokoro was trained exclusively on **permissive/non-copyrighted audio data** and IPA phoneme labels. Examples of permissive/non-copyrighted audio include:\n- Public domain audio\n- Audio licensed under Apache, MIT, etc\n- Synthetic audio<sup>[1]</sup> generated by closed<sup>[2]</sup> TTS models from large providers<br/>\n[1] https://copyright.gov/ai/ai_policy_guidance.pdf<br/>\n[2] No synthetic audio from open TTS models or \"custom voice clones\"\n\n**Total Dataset Size:** A few hundred hours of audio\n\n**Total Training Cost:** About $1000 for 1000 hours of A100 80GB vRAM\n\n### Creative Commons Attribution\n\nThe following CC BY audio was part of the dataset used to train Kokoro v1.0.\n\n| Audio Data | Duration Used | License | Added to Training Set After |\n| ---------- | ------------- | ------- | --------------------------- |\n| [Koniwa](https://github.com/koniwa/koniwa) `tnc` | <1h | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/deed.ja) | v0.19 / 22 Nov 2024 |\n| [SIWIS](https://datashare.ed.ac.uk/handle/10283/2353) | <11h | [CC BY 4.0](https://datashare.ed.ac.uk/bitstream/handle/10283/2353/license_text) | v0.19 / 22 Nov 2024 |\n\n### Acknowledgements\n\n- 🛠️ [@yl4579](https://huggingface.co/yl4579) for architecting StyleTTS 2.\n- 🏆 [@Pendrokar](https://huggingface.co/Pendrokar) for adding Kokoro as a contender in the TTS Spaces Arena.\n- 📊 Thank you to everyone who contributed synthetic training data.\n- ❤️ Special thanks to all compute sponsors.\n- 👾 Discord server: https://discord.gg/QuGxSWBfQy\n- 🪽 Kokoro is a Japanese word that translates to \"heart\" or \"spirit\". It is also the name of an [AI in the Terminator franchise](https://terminator.fandom.com/wiki/Kokoro).\n\n<img src=\"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/08/terminator-zero-41-1.jpg\" width=\"400\" alt=\"kokoro\" />\n"
+    },
+    "kokoro_voices": {
+      "url": "https://huggingface.co/hexgrad/Kokoro-82M/raw/f3ff3571791e39611d31c381e3a41a3af07b4987/VOICES.md",
+      "status": 200,
+      "sha256": "ec7e4941ad7e194af61e3455928528a9ff5360c7c505e412efab27d6a69ea106",
+      "content": "# Voices\n\n- 🇺🇸 [American English](#american-english): 11F 9M\n- 🇬🇧 [British English](#british-english): 4F 4M\n- 🇯🇵 [Japanese](#japanese): 4F 1M\n- 🇨🇳 [Mandarin Chinese](#mandarin-chinese): 4F 4M\n- 🇪🇸 [Spanish](#spanish): 1F 2M\n- 🇫🇷 [French](#french): 1F\n- 🇮🇳 [Hindi](#hindi): 2F 2M\n- 🇮🇹 [Italian](#italian): 1F 1M\n- 🇧🇷 [Brazilian Portuguese](#brazilian-portuguese): 1F 2M\n\nFor each voice, the given grades are intended to be estimates of the **quality and quantity** of its associated training data, both of which impact overall inference quality.\n\nSubjectively, voices will sound better or worse to different people.\n\nSupport for non-English languages may be absent or thin due to weak G2P and/or lack of training data. Some languages are only represented by a small handful or even just one voice (French).\n\nMost voices perform best on a \"goldilocks range\" of 100-200 tokens out of ~500 possible. Voices may perform worse at the extremes:\n- **Weakness** on short utterances, especially less than 10-20 tokens. Root cause could be lack of short-utterance training data and/or model architecture. One possible inference mitigation is to bundle shorter utterances together.\n- **Rushing** on long utterances, especially over 400 tokens. You can chunk down to shorter utterances or adjust the `speed` parameter to mitigate this.\n\n**Target Quality**\n- How high quality is the reference voice? This grade may be impacted by audio quality, artifacts, compression, & sample rate.\n- How well do the text labels match the audio? Text/audio misalignment (e.g. from hallucinations) will lower this grade.\n\n**Training Duration**\n- How much audio was seen during training? Smaller durations result in a lower overall grade.\n- 10 hours <= **HH hours** < 100 hours\n- 1 hour <= H hours < 10 hours\n- 10 minutes <= MM minutes < 100 minutes\n- 1 minute <= _M minutes_ 🤏 < 10 minutes\n\n### American English\n\n- `lang_code='a'` in [`misaki[en]`](https://github.com/hexgrad/misaki)\n- espeak-ng `en-us` fallback\n\n| Name | Traits | Target Quality | Training Duration | Overall Grade | SHA256 |\n| ---- | ------ | -------------- | ----------------- | ------------- | ------ |\n| **af\\_heart** | 🚺❤️ | | | **A** | `0ab5709b` |\n| af_alloy | 🚺 | B | MM minutes | C | `6d877149` |\n| af_aoede | 🚺 | B | H hours | C+ | `c03bd1a4` |\n| af_bella | 🚺🔥 | **A** | **HH hours** | **A-** | `8cb64e02` |\n| af_jessica | 🚺 | C | MM minutes | D | `cdfdccb8` |\n| af_kore | 🚺 | B | H hours | C+ | `8bfbc512` |\n| af_nicole | 🚺🎧 | B | **HH hours** | B- | `c5561808` |\n| af_nova | 🚺 | B | MM minutes | C | `e0233676` |\n| af_river | 🚺 | C | MM minutes | D | `e149459b` |\n| af_sarah | 🚺 | B | H hours | C+ | `49bd364e` |\n| af_sky | 🚺 | B | _M minutes_ 🤏 | C- | `c799548a` |\n| am_adam | 🚹 | D | H hours | F+ | `ced7e284` |\n| am_echo | 🚹 | C | MM minutes | D | `8bcfdc85` |\n| am_eric | 🚹 | C | MM minutes | D | `ada66f0e` |\n| am_fenrir | 🚹 | B | H hours | C+ | `98e507ec` |\n| am_liam | 🚹 | C | MM minutes | D | `c8255075` |\n| am_michael | 🚹 | B | H hours | C+ | `9a443b79` |\n| am_onyx | 🚹 | C | MM minutes | D | `e8452be1` |\n| am_puck | 🚹 | B | H hours | C+ | `dd1d8973` |\n| am_santa | 🚹 | C | _M minutes_ 🤏 | D- | `7f2f7582` |\n\n### British English\n\n- `lang_code='b'` in [`misaki[en]`](https://github.com/hexgrad/misaki)\n- espeak-ng `en-gb` fallback\n\n| Name | Traits | Target Quality | Training Duration | Overall Grade | SHA256 |\n| ---- | ------ | -------------- | ----------------- | ------------- | ------ |\n| bf_alice | 🚺 | C | MM minutes | D | `d292651b` |\n| bf_emma | 🚺 | B | **HH hours** | B- | `d0a423de` |\n| bf_isabella | 🚺 | B | MM minutes | C | `cdd4c370` |\n| bf_lily | 🚺 | C | MM minutes | D | `6e09c2e4` |\n| bm_daniel | 🚹 | C | MM minutes | D | `fc3fce4e` |\n| bm_fable | 🚹 | B | MM minutes | C | `d44935f3` |\n| bm_george | 🚹 | B | MM minutes | C | `f1bc8122` |\n| bm_lewis | 🚹 | C | H hours | D+ | `b5204750` |\n\n### Japanese\n\n- `lang_code='j'` in [`misaki[ja]`](https://github.com/hexgrad/misaki)\n- Total Japanese training data: H hours\n\n| Name | Traits | Target Quality | Training Duration | Overall Grade | SHA256 | CC BY |\n| ---- | ------ | -------------- | ----------------- | ------------- | ------ | ----- |\n| jf_alpha | 🚺 | B | H hours | C+ | `1bf4c9dc` | |\n| jf_gongitsune | 🚺 | B | MM minutes | C | `1b171917` | [gongitsune](https://github.com/koniwa/koniwa/blob/master/source/tnc/tnc__gongitsune.txt) |\n| jf_nezumi | 🚺 | B | _M minutes_ 🤏 | C- | `d83f007a` | [nezuminoyomeiri](https://github.com/koniwa/koniwa/blob/master/source/tnc/tnc__nezuminoyomeiri.txt) |\n| jf_tebukuro | 🚺 | B | MM minutes | C | `0d691790` | [tebukurowokaini](https://github.com/koniwa/koniwa/blob/master/source/tnc/tnc__tebukurowokaini.txt) |\n| jm_kumo | 🚹 | B | _M minutes_ 🤏 | C- | `98340afd` | [kumonoito](https://github.com/koniwa/koniwa/blob/master/source/tnc/tnc__kumonoito.txt) |\n\n### Mandarin Chinese\n\n- `lang_code='z'` in [`misaki[zh]`](https://github.com/hexgrad/misaki)\n- Total Mandarin Chinese training data: H hours\n\n| Name | Traits | Target Quality | Training Duration | Overall Grade | SHA256 |\n| ---- | ------ | -------------- | ----------------- | ------------- | ------ |\n| zf_xiaobei | 🚺 | C | MM minutes | D | `9b76be63` |\n| zf_xiaoni | 🚺 | C | MM minutes | D | `95b49f16` |\n| zf_xiaoxiao | 🚺 | C | MM minutes | D | `cfaf6f2d` |\n| zf_xiaoyi | 🚺 | C | MM minutes | D | `b5235dba` |\n| zm_yunjian | 🚹 | C | MM minutes | D | `76cbf8ba` |\n| zm_yunxi | 🚹 | C | MM minutes | D | `dbe6e1ce` |\n| zm_yunxia | 🚹 | C | MM minutes | D | `bb2b03b0` |\n| zm_yunyang | 🚹 | C | MM minutes | D | `5238ac22` |\n\n### Spanish\n\n- `lang_code='e'` in [`misaki[en]`](https://github.com/hexgrad/misaki)\n- espeak-ng `es`\n\n| Name | Traits | SHA256 |\n| ---- | ------ | ------ |\n| ef_dora | 🚺 | `d9d69b0f` |\n| em_alex | 🚹 | `5eac53f7` |\n| em_santa | 🚹 | `aa8620cb` |\n\n### French\n\n- `lang_code='f'` in [`misaki[en]`](https://github.com/hexgrad/misaki)\n- espeak-ng `fr-fr`\n- Total French training data: <11 hours\n\n| Name | Traits | Target Quality | Training Duration | Overall Grade | SHA256 | CC BY |\n| ---- | ------ | -------------- | ----------------- | ------------- | ------ | ----- |\n| ff_siwis | 🚺 | B | <11 hours | B- | `8073bf2d` | [SIWIS](https://datashare.ed.ac.uk/handle/10283/2353) |\n\n### Hindi\n\n- `lang_code='h'` in [`misaki[en]`](https://github.com/hexgrad/misaki)\n- espeak-ng `hi`\n- Total Hindi training data: H hours\n\n| Name | Traits | Target Quality | Training Duration | Overall Grade | SHA256 |\n| ---- | ------ | -------------- | ----------------- | ------------- | ------ |\n| hf_alpha | 🚺 | B | MM minutes | C | `06906fe0` |\n| hf_beta | 🚺 | B | MM minutes | C | `63c0a1a6` |\n| hm_omega | 🚹 | B | MM minutes | C | `b55f02a8` |\n| hm_psi | 🚹 | B | MM minutes | C | `2f0f055c` |\n\n### Italian\n\n- `lang_code='i'` in [`misaki[en]`](https://github.com/hexgrad/misaki)\n- espeak-ng `it`\n- Total Italian training data: H hours\n\n| Name | Traits | Target Quality | Training Duration | Overall Grade | SHA256 |\n| ---- | ------ | -------------- | ----------------- | ------------- | ------ |\n| if_sara | 🚺 | B | MM minutes | C | `6c0b253b` |\n| im_nicola | 🚹 | B | MM minutes | C | `234ed066` |\n\n### Brazilian Portuguese\n\n- `lang_code='p'` in [`misaki[en]`](https://github.com/hexgrad/misaki)\n- espeak-ng `pt-br`\n\n| Name | Traits | SHA256 |\n| ---- | ------ | ------ |\n| pf_dora | 🚺 | `07e4ff98` |\n| pm_alex | 🚹 | `cf0ba8c5` |\n| pm_santa | 🚹 | `d4210316` |\n"
+    },
+    "kokoro_tree": {
+      "url": "https://huggingface.co/api/models/hexgrad/Kokoro-82M/tree/f3ff3571791e39611d31c381e3a41a3af07b4987?recursive=true&expand=false",
+      "status": 200,
+      "sha256": "a936b92eba7429e0c657ab5891383516548cb86ebb1635f16dd33f68c98bb3ec",
+      "content": [
+        {
+          "type": "directory",
+          "oid": "b2e65df8cbc39e5fa11ee92a313f03f432cf7576",
+          "size": 0,
+          "path": "eval"
+        },
+        {
+          "type": "directory",
+          "oid": "023e480044cc505599ebb24f37bb7dceeda3843d",
+          "size": 0,
+          "path": "samples"
+        },
+        {
+          "type": "directory",
+          "oid": "1861ef3fd405d6f50f35edc17e879d96f4616512",
+          "size": 0,
+          "path": "voices"
+        },
+        {
+          "type": "file",
+          "oid": "5e51cb80d60d400f8a6930b96feffb99f97fa5d5",
+          "size": 1913,
+          "path": ".gitattributes"
+        },
+        {
+          "type": "file",
+          "oid": "cd202d28b065e6d9eb396ca0c307d01520e1e296",
+          "size": 2562,
+          "path": "DONATE.md"
+        },
+        {
+          "type": "file",
+          "oid": "484ac8dcd971465258007528fb8bc4a99cf98633",
+          "size": 534,
+          "path": "EVAL.md"
+        },
+        {
+          "type": "file",
+          "oid": "d6dc124205ad567631d14cd8700f1af77a861c3f",
+          "size": 6348,
+          "path": "README.md"
+        },
+        {
+          "type": "file",
+          "oid": "d970051855ba0d8a16064c718af5dc29bcdd961a",
+          "size": 5956,
+          "path": "SAMPLES.md"
+        },
+        {
+          "type": "file",
+          "oid": "ed78a806ffa121525449a848624600eae34037c7",
+          "size": 7625,
+          "path": "VOICES.md"
+        },
+        {
+          "type": "file",
+          "oid": "14a726edd3718279eac426630879ff743955b16a",
+          "size": 2351,
+          "path": "config.json"
+        },
+        {
+          "type": "file",
+          "oid": "252249b9482520322f9f2a230eb476d232957d21",
+          "size": 939504,
+          "lfs": {
+            "oid": "a312447a7801982507545380cce5d5ab5ef60081a5edb2001ca096b19f8f4621",
+            "size": 939504,
+            "pointerSize": 131
+          },
+          "xetHash": "4d694be9a855840377fe8cf343d1f3bedf4d45909a31b7567d63499dd8bafc1c",
+          "path": "eval/ArtificialAnalysis-2025-02-26.jpeg"
+        },
+        {
+          "type": "file",
+          "oid": "1fe20f83a9a85451c0030f987248b69dcdf6d56e",
+          "size": 560066,
+          "lfs": {
+            "oid": "f2caf29f9ad1108cdbf892dc6713423882a8e006c99930f61a17e15a79c3ef6f",
+            "size": 560066,
+            "pointerSize": 131
+          },
+          "xetHash": "129f64e8477228d993243d6e94bea6944a458b2ba82257160acb34977fef4e9f",
+          "path": "eval/TTS_Arena-2025-02-26.jpeg"
+        },
+        {
+          "type": "file",
+          "oid": "6e8885e4860f968ead5f7ceb7013a0e013e23801",
+          "size": 515255,
+          "lfs": {
+            "oid": "b095b1048199fd2b23971595226c1c29200a779ff310c90273b766aa3f725fc9",
+            "size": 515255,
+            "pointerSize": 131
+          },
+          "xetHash": "dca006c9f6ff5d8231aeb3e7bb2f74a6dca2506655c9f41f48f7a2b47d693083",
+          "path": "eval/TTS_Spaces_Arena-2025-02-26.jpeg"
+        },
+        {
+          "type": "file",
+          "oid": "15769c415594dcb424579ba3dfae3085578aac4e",
+          "size": 327212226,
+          "lfs": {
+            "oid": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+            "size": 327212226,
+            "pointerSize": 134
+          },
+          "xetHash": "0c0ac263f5ae91312df578d1b6adfb4c6dfda401cc3696ba97042f835619c52f",
+          "path": "kokoro-v1_0.pth"
+        },
+        {
+          "type": "file",
+          "oid": "b5d5ac0109e1dbeadcec3071936dd3ee0f7228e9",
+          "size": 996044,
+          "path": "samples/HEARME.wav"
+        },
+        {
+          "type": "file",
+          "oid": "d74d88d983a628cb6848433dab8797b184e712d6",
+          "size": 237644,
+          "path": "samples/af_heart_0.wav"
+        },
+        {
+          "type": "file",
+          "oid": "92abcdd3c256d530ea8f1bee4a9ed19cd69b691b",
+          "size": 517244,
+          "path": "samples/af_heart_1.wav"
+        },
+        {
+          "type": "file",
+          "oid": "421bf43c7c0dccc433846cf9b2f0273bba8d8168",
+          "size": 496844,
+          "path": "samples/af_heart_2.wav"
+        },
+        {
+          "type": "file",
+          "oid": "f9b787da5b4ac0fc5c8e8f34f046f4582e6035b1",
+          "size": 1407644,
+          "lfs": {
+            "oid": "e758efcd852e77569772ee5a424df724695903db61a323a6021ee1c6a50ca616",
+            "size": 1407644,
+            "pointerSize": 132
+          },
+          "xetHash": "efe103aaf3e8a410d02506c0bee93ac4a924653e2fff02edf1d73b3da3a5093e",
+          "path": "samples/af_heart_3.wav"
+        },
+        {
+          "type": "file",
+          "oid": "1f4423f8369262d3bbad8ec3c7372bd3f0e83698",
+          "size": 1116044,
+          "lfs": {
+            "oid": "d50c90f447686200052f4375dee55a3406ec0aa140473cf946e98fdfe860989b",
+            "size": 1116044,
+            "pointerSize": 132
+          },
+          "xetHash": "3a20688218786ef7bedf16894298cc9a89f4b8590773de1c653b933c8768c1c8",
+          "path": "samples/af_heart_4.wav"
+        },
+        {
+          "type": "file",
+          "oid": "488c49532fe322dda735b85eac881526e5e5e779",
+          "size": 1033244,
+          "lfs": {
+            "oid": "bc4515b9479c219e4e9347463a859ea6716dd0eb45a520f5f42825a7662b5054",
+            "size": 1033244,
+            "pointerSize": 132
+          },
+          "xetHash": "09d82f8006640f02c79d6d03defd96509649822901c8d695ce39569e56566349",
+          "path": "samples/af_heart_5.wav"
+        },
+        {
+          "type": "file",
+          "oid": "c0f72034c4e1369e4d17990442ffe35aeceb21f3",
+          "size": 523425,
+          "lfs": {
+            "oid": "6d877149dd8b348fbad12e5845b7e43d975390e9f3b68a811d1d86168bef5aa3",
+            "size": 523425,
+            "pointerSize": 131
+          },
+          "xetHash": "2cf15552fe7e23890ba834d9e6f3f058f8cdfb37466ad6f81185c33b1bc893b2",
+          "path": "voices/af_alloy.pt"
+        },
+        {
+          "type": "file",
+          "oid": "047c8e54f2fac7b9175dd5a2f85ac45f1813a4e3",
+          "size": 523425,
+          "lfs": {
+            "oid": "c03bd1a4c3716c2d8eaa3d50022f62d5c31cfbd6e15933a00b17fefe13841cc4",
+            "size": 523425,
+            "pointerSize": 131
+          },
+          "xetHash": "0945d0dc0f97799805a80b430912f3edd7641d10a2799036bdf9db6bf49a95c4",
+          "path": "voices/af_aoede.pt"
+        },
+        {
+          "type": "file",
+          "oid": "67135fde4b0f0ab1d8bfe6d3b1ab46d37675279b",
+          "size": 523425,
+          "lfs": {
+            "oid": "8cb64e02fcc8de0327a8e13817e49c76c945ecf0052ceac97d3081480e8e48d6",
+            "size": 523425,
+            "pointerSize": 131
+          },
+          "xetHash": "359e602cbcd2506063b2fddd89a0644137c8c41fee30cf20a2751463db7bd56a",
+          "path": "voices/af_bella.pt"
+        },
+        {
+          "type": "file",
+          "oid": "23a296174457c31b22b694f6e07e4e1b558122bf",
+          "size": 523425,
+          "lfs": {
+            "oid": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+            "size": 523425,
+            "pointerSize": 131
+          },
+          "xetHash": "feb6de2a4ed45b3653eee237b058d0a581547de52a2916835b2e5c3e75fd5795",
+          "path": "voices/af_heart.pt"
+        },
+        {
+          "type": "file",
+          "oid": "9740b43fd7ce43473fb5e673a16173136876ba04",
+          "size": 523435,
+          "lfs": {
+            "oid": "cdfdccb8cc975aa34ee6b89642963b0064237675de0e41a30ae64cc958dd4e87",
+            "size": 523435,
+            "pointerSize": 131
+          },
+          "xetHash": "6bdbb2e28f044d046e798859aa63bd4653cf615ee502588322ddb20a11d921a9",
+          "path": "voices/af_jessica.pt"
+        },
+        {
+          "type": "file",
+          "oid": "e5532ee773d500ac62cb2fdcc92e8847a867e8f8",
+          "size": 523420,
+          "lfs": {
+            "oid": "8bfbc512321c3db49dff984ac675fa5ac7eaed5a96cc31104d3a9080e179d69d",
+            "size": 523420,
+            "pointerSize": 131
+          },
+          "xetHash": "0b56691390f853faa13881a61739746342367f9c33894090b19b9f59e6a72358",
+          "path": "voices/af_kore.pt"
+        },
+        {
+          "type": "file",
+          "oid": "8be29483c47b630ec3ce1315be802c79126be9da",
+          "size": 523430,
+          "lfs": {
+            "oid": "c5561808bcf5250fe8c5f5de32caf2d94f27e57e95befdb098c5c85991d4c5da",
+            "size": 523430,
+            "pointerSize": 131
+          },
+          "xetHash": "24d1c769e95553fbfca561b3b21f9e52237959df44b8bd98dd0dab169644ec64",
+          "path": "voices/af_nicole.pt"
+        },
+        {
+          "type": "file",
+          "oid": "4f781bca452e06e7acd8c5a5f80d73bf5abca5f7",
+          "size": 523420,
+          "lfs": {
+            "oid": "e0233676ddc21908c37a1f102f6b88a59e4e5c1bd764983616eb9eda629dbcd2",
+            "size": 523420,
+            "pointerSize": 131
+          },
+          "xetHash": "3d4747e84df33e60c7f64fc07b4c705dd0aaf53ebeb9c6d2afa67975cd29a6ed",
+          "path": "voices/af_nova.pt"
+        },
+        {
+          "type": "file",
+          "oid": "78a4f7b3aba66fa78e82916f73028a3f24d894b8",
+          "size": 523425,
+          "lfs": {
+            "oid": "e149459bd9c084416b74756b9bd3418256a8b839088abb07d463730c369dab8f",
+            "size": 523425,
+            "pointerSize": 131
+          },
+          "xetHash": "03141288f440a71e1475cb920b44ce22bd31692258ad2d240392f23a481d1e21",
+          "path": "voices/af_river.pt"
+        },
+        {
+          "type": "file",
+          "oid": "6e64a6594789ae709973e5902b111b77d8b40043",
+          "size": 523425,
+          "lfs": {
+            "oid": "49bd364ea3be9eb3e9685e8f9a15448c4883112a7c0ff7ab139fa4088b08cef9",
+            "size": 523425,
+            "pointerSize": 131
+          },
+          "xetHash": "90b9da97f8dcda67ab0a3fc9b593f618bd1d937fa2d7f9b09fd34bf7b88613c2",
+          "path": "voices/af_sarah.pt"
+        },
+        {
+          "type": "file",
+          "oid": "097b254d4b6baf42efb838bf569d1064caeeeb86",
+          "size": 523351,
+          "lfs": {
+            "oid": "c799548aed06e0cb0d655a85a01b48e7f10484d71663f9a3045a5b9362e8512c",
+            "size": 523351,
+            "pointerSize": 131
+          },
+          "xetHash": "9bbc284626b619d6919073323107cf3f1cf99d9389225a7943f012cece6bfcd6",
+          "path": "voices/af_sky.pt"
+        },
+        {
+          "type": "file",
+          "oid": "bcadf28e7b574cdc1eb1f4df59bae0b0303bd9f7",
+          "size": 523420,
+          "lfs": {
+            "oid": "ced7e284aba12472891be1da3ab34db84cc05cc02b5889535796dbf2d8b0cb34",
+            "size": 523420,
+            "pointerSize": 131
+          },
+          "xetHash": "cc20454dba0771585374e35c6478f3d9be0e09178d07e35ecf54647f9c1415cb",
+          "path": "voices/am_adam.pt"
+        },
+        {
+          "type": "file",
+          "oid": "424d55379346413fdf0282ab65518a10eab27c2a",
+          "size": 523420,
+          "lfs": {
+            "oid": "8bcfdc852bc985fb45c396c561e571ffb9183930071f962f1b50df5c97b161e8",
+            "size": 523420,
+            "pointerSize": 131
+          },
+          "xetHash": "ac76ecaadc7312537a96a613565c05a4b3c1455d11bd20c6d747672c6b4830d9",
+          "path": "voices/am_echo.pt"
+        },
+        {
+          "type": "file",
+          "oid": "5c6a5e836ef7d9d104c5d42f8a48e6f95afc0365",
+          "size": 523420,
+          "lfs": {
+            "oid": "ada66f0eefff34ec921b1d7474d7ac8bec00cd863c170f1c534916e9b8212aae",
+            "size": 523420,
+            "pointerSize": 131
+          },
+          "xetHash": "7424942f729aef75329d5bbfff93fab2789e11f66c647fa4a9c9620306491c27",
+          "path": "voices/am_eric.pt"
+        },
+        {
+          "type": "file",
+          "oid": "78f7a7d984453b438d546bb6006dabbe565a9884",
+          "size": 523430,
+          "lfs": {
+            "oid": "98e507eca1db08230ae3b6232d59c10aec9630022d19accac4f5d12fcec3c37a",
+            "size": 523430,
+            "pointerSize": 131
+          },
+          "xetHash": "05fe393569bff5121957f6ff17a95f60e3e873dfcce8f4a04aa711cbeed757f6",
+          "path": "voices/am_fenrir.pt"
+        },
+        {
+          "type": "file",
+          "oid": "ee88bcc01c91aa7ae5c6687de4444d2107f8c4f9",
+          "size": 523420,
+          "lfs": {
+            "oid": "c82550757ddb31308b97f30040dda8c2d609a9e2de6135848d0a948368138518",
+            "size": 523420,
+            "pointerSize": 131
+          },
+          "xetHash": "fd82957d97d0ae57e49e9e707540b31c53ae29cd50bee19afdc029c372ccf7ad",
+          "path": "voices/am_liam.pt"
+        },
+        {
+          "type": "file",
+          "oid": "9e71bb84ce59989842ff0695f4119463fa72a35f",
+          "size": 523435,
+          "lfs": {
+            "oid": "9a443b79a4b22489a5b0ab7c651a0bcd1a30bef675c28333f06971abbd47bd37",
+            "size": 523435,
+            "pointerSize": 131
+          },
+          "xetHash": "e8fdf4a6802791a80a614ae4f8a5db8295cc7c030bbe091379e8d26ec23db6c3",
+          "path": "voices/am_michael.pt"
+        },
+        {
+          "type": "file",
+          "oid": "258cfa7e3a745f9379453e06bd21d1aa397487b5",
+          "size": 523420,
+          "lfs": {
+            "oid": "e8452be16cd0f6da7b4579eaf7b1e4506e92524882053d86d72b96b9a7fed584",
+            "size": 523420,
+            "pointerSize": 131
+          },
+          "xetHash": "bc38dce397c72de4ef54cbf452ff34d45d7d6585b0c3a4971c05a43f1dbb9122",
+          "path": "voices/am_onyx.pt"
+        },
+        {
+          "type": "file",
+          "oid": "1bf5747ea6c19ef35d673a9ce066ff9cfa25295c",
+          "size": 523420,
+          "lfs": {
+            "oid": "dd1d8973f4ce4b7d8ae407c77a435f485dabc052081b80ea75c4f30b84f36223",
+            "size": 523420,
+            "pointerSize": 131
+          },
+          "xetHash": "456ae32dac1297f05863d69228b5c8e67248b3139e1bf48e32ad745633819abb",
+          "path": "voices/am_puck.pt"
+        },
+        {
+          "type": "file",
+          "oid": "a18e725bbe8790303fe5cb982457fd701a237bd8",
+          "size": 523425,
+          "lfs": {
+            "oid": "7f2f7582fa2b1f160e90aafe6d0b442a685e773608b6667e545d743b073e97a7",
+            "size": 523425,
+            "pointerSize": 131
+          },
+          "xetHash": "8f56b18020c7553ef16ded55bc6a6e3cf334fca70453d78eac50ebfbb8954cd1",
+          "path": "voices/am_santa.pt"
+        },
+        {
+          "type": "file",
+          "oid": "ae3a0a1db073ef34170583f2a55e8034bfa15932",
+          "size": 523425,
+          "lfs": {
+            "oid": "d292651b6af6c0d81705c2580dcb4463fccc0ff7b8d618a471dbb4e45655b3f3",
+            "size": 523425,
+            "pointerSize": 131
+          },
+          "xetHash": "3750b498bc11d28691cde8a57f43a078a59c03a3c043a4a478260b953d5046fa",
+          "path": "voices/bf_alice.pt"
+        },
+        {
+          "type": "file",
+          "oid": "6b75d4188b780acb738f89f662133be5e24e42a0",
+          "size": 523420,
+          "lfs": {
+            "oid": "d0a423deabf4a52b4f49318c51742c54e21bb89bbbe9a12141e7758ddb5da701",
+            "size": 523420,
+            "pointerSize": 131
+          },
+          "xetHash": "0b710dc085c412b32df00eb48fb89a9f091b8f1fb56041f3ff4453e87da52903",
+          "path": "voices/bf_emma.pt"
+        },
+        {
+          "type": "file",
+          "oid": "b08811a075e0212355bd1b283dda61b6ab5679d5",
+          "size": 523440,
+          "lfs": {
+            "oid": "cdd4c37003805104d1d08fb1e05855c8fb2c68de24ca6e71f264a30aaa59eefd",
+            "size": 523440,
+            "pointerSize": 131
+          },
+          "xetHash": "c06013890a574090f2410b8bbf9a80efd2fa206f53d07c85fe56f1da30519e4a",
+          "path": "voices/bf_isabella.pt"
+        },
+        {
+          "type": "file",
+          "oid": "7a57a8c0ae8f8b66c9db54b79faf6e1345e2ca20",
+          "size": 523420,
+          "lfs": {
+            "oid": "6e09c2e481e2d53004d7e5ae7d3a325369e130a6f45c35a6002de75084be9285",
+            "size": 523420,
+            "pointerSize": 131
+          },
+          "xetHash": "4d28786ad7d53dee17c10245bb474bf2396fa9377ad68060b625e4217ae0778a",
+          "path": "voices/bf_lily.pt"
+        },
+        {
+          "type": "file",
+          "oid": "91e84f5066a015f03e3b37cbf0a1917739c6dbd2",
+          "size": 523430,
+          "lfs": {
+            "oid": "fc3fce4e9c12ed4dbc8fa9680cfe51ee190a96444ce7c3ad647549a30823fc5d",
+            "size": 523430,
+            "pointerSize": 131
+          },
+          "xetHash": "a56ca519334c05b58592460bdc34b75c3425110d77cd370ab9ab5e8299b54dab",
+          "path": "voices/bm_daniel.pt"
+        },
+        {
+          "type": "file",
+          "oid": "fd7542dc771b77a7048d80d019a5dc2617d06325",
+          "size": 523425,
+          "lfs": {
+            "oid": "d44935f3135257a9064df99f007fc1342ff1aa767552b4a4fa4c3b2e6e59079c",
+            "size": 523425,
+            "pointerSize": 131
+          },
+          "xetHash": "ca41f70de38c9e318fc073d05c597a3140a48f6d08559f70fbb48d1c39537fef",
+          "path": "voices/bm_fable.pt"
+        },
+        {
+          "type": "file",
+          "oid": "5004f161fa9fa923f031d6e925c6f5fbce9a9baf",
+          "size": 523430,
+          "lfs": {
+            "oid": "f1bc812213dc59774769e5c80004b13eeb79bd78130b11b2d7f934542dab811b",
+            "size": 523430,
+            "pointerSize": 131
+          },
+          "xetHash": "3ec68cd8f58b4670c2d2479074f89a46ef35674816c673229a3e63ec03673599",
+          "path": "voices/bm_george.pt"
+        },
+        {
+          "type": "file",
+          "oid": "5574f064d7aee6fafe88caa66000d7aa5f440c83",
+          "size": 523425,
+          "lfs": {
+            "oid": "b5204750dcba01029d2ac9cec17aec3b20a6d64073c579d694a23cb40effbd0e",
+            "size": 523425,
+            "pointerSize": 131
+          },
+          "xetHash": "fe4c5c78936b16bc0736c6d17f3497485498ffb43afaf83451ecb03e61451ced",
+          "path": "voices/bm_lewis.pt"
+        },
+        {
+          "type": "file",
+          "oid": "44cf5fc201c1f21711c24e46cc1053323959d9b5",
+          "size": 523420,
+          "lfs": {
+            "oid": "d9d69b0f8a2b87a345f269d89639f89dfbd1a6c9da0c498ae36dd34afcf35530",
+            "size": 523420,
+            "pointerSize": 131
+          },
+          "xetHash": "8e64be1348887dbd618d01163d2ee1a13daf6725262156c4e0baf0cf2522a722",
+          "path": "voices/ef_dora.pt"
+        },
+        {
+          "type": "file",
+          "oid": "c65475a0a9be83b6ffa0524cc79ac853e7371f9b",
+          "size": 523420,
+          "lfs": {
+            "oid": "5eac53f767c3f31a081918ba531969aea850bed18fe56419b804d642c6973431",
+            "size": 523420,
+            "pointerSize": 131
+          },
+          "xetHash": "0b9ba562aa510ba78eb10903569c885d8b1c862a3fcfcfbdf2e9fd397d8a1299",
+          "path": "voices/em_alex.pt"
+        },
+        {
+          "type": "file",
+          "oid": "a1bc30fe579c46ecb4abeed3498888580e45851c",
+          "size": 523430,
+          "lfs": {
+            "oid": "aa8620cb96cec705823efca0d956a63e158e09ad41aca934d354b7f0778f63cb",
+            "size": 523430,
+            "pointerSize": 131
+          },
+          "xetHash": "069b2adc07de9c0f558f099a5d913dcd81b64dea9361c768ab2ce3f6c9b8dced",
+          "path": "voices/em_santa.pt"
+        },
+        {
+          "type": "file",
+          "oid": "02cfd3620a285f8f08732c4ab41c1ab9ef50a35d",
+          "size": 523425,
+          "lfs": {
+            "oid": "8073bf2d2c4b9543a90f2f0fd2144de4ed157e2d4b79ddeb0d5123066171fbc9",
+            "size": 523425,
+            "pointerSize": 131
+          },
+          "xetHash": "b103e5d9e13f18e8b28b3b4a4decbae5ec1aaa08d5e6ae5b28185d974160b122",
+          "path": "voices/ff_siwis.pt"
+        },
+        {
+          "type": "file",
+          "oid": "f9b43af195be13769599d796465799c6ad73b64f",
+          "size": 523425,
+          "lfs": {
+            "oid": "06906fe05746d13a79c5c01e21fd7233b05027221a933c9ada650f5aafc8f044",
+            "size": 523425,
+            "pointerSize": 131
+          },
+          "xetHash": "da745260a3c2acd00d74ae112476fdcacb217dcbb82ef2a7c033f51cf355178c",
+          "path": "voices/hf_alpha.pt"
+        },
+        {
+          "type": "file",
+          "oid": "d70cb8bb354db58ca3b10b94cdd03a11507b530c",
+          "size": 523420,
+          "lfs": {
+            "oid": "63c0a1a6272e98d43f4511bba40e30dd9c8ceaf5f39af869509b9f51a71c503e",
+            "size": 523420,
+            "pointerSize": 131
+          },
+          "xetHash": "8c55417af3c46e7d63b037f5bb0638cb1f667dc6dc916f4099f776fd0e31d353",
+          "path": "voices/hf_beta.pt"
+        },
+        {
+          "type": "file",
+          "oid": "75db739db8c65a70f4ed5e456a92fe3387c2bab9",
+          "size": 523425,
+          "lfs": {
+            "oid": "b55f02a8e8483fffe0afa566e7d22ed8013acf47ad4f6bbee2795a840155703e",
+            "size": 523425,
+            "pointerSize": 131
+          },
+          "xetHash": "72981915401539d5f997be3e3434b8e2ed21f89437907e3ffcdf70180ef6b2dd",
+          "path": "voices/hm_omega.pt"
+        },
+        {
+          "type": "file",
+          "oid": "2a43144c80e9bf1a733676ad1b9d8367116f0d2e",
+          "size": 523351,
+          "lfs": {
+            "oid": "2f0f055cea4f1083f4ef127ece48d71606347f6557dbb961c0ca5740a2da485b",
+            "size": 523351,
+            "pointerSize": 131
+          },
+          "xetHash": "9e8ff11d4f2194050795e1e1a653c281afbd922d59379e15ae6dfaa69aeca6cd",
+          "path": "voices/hm_psi.pt"
+        },
+        {
+          "type": "file",
+          "oid": "b7a52593153d6711f7d6f245b9df7d4ad7eaf15d",
+          "size": 523425,
+          "lfs": {
+            "oid": "6c0b253b955fe32f1a1a86006aebe83d050ea95afd0e7be15182f087deedbf55",
+            "size": 523425,
+            "pointerSize": 131
+          },
+          "xetHash": "116889572ddcea470d5cbb3ac972038c93db70024efba1b19f800c4e9739b36a",
+          "path": "voices/if_sara.pt"
+        },
+        {
+          "type": "file",
+          "oid": "9249ede7c997408dd1bc56d16abedfc031b2aed6",
+          "size": 523341,
+          "lfs": {
+            "oid": "234ed06648649f9bd874b37508ea17560b9c993ef85b4ddb3e3a71e062bd2c12",
+            "size": 523341,
+            "pointerSize": 131
+          },
+          "xetHash": "ebc8dac4c6c8c49de5f3890af5bcf0d517e974ad872c4ef353c707a945c83c8e",
+          "path": "voices/im_nicola.pt"
+        },
+        {
+          "type": "file",
+          "oid": "90da6c92332481e222ddc5fa67c226f9ed4a7fdf",
+          "size": 523425,
+          "lfs": {
+            "oid": "1bf4c9dc69e45ee46183b071f4db766349aac5592acbcfeaf051018048a5d787",
+            "size": 523425,
+            "pointerSize": 131
+          },
+          "xetHash": "362860762a3287fadc1146e2260308556825fc9e4995ff2df964086f30ad3af6",
+          "path": "voices/jf_alpha.pt"
+        },
+        {
+          "type": "file",
+          "oid": "b806c5c2688b32b805ec266e29356f2d009ec7bf",
+          "size": 523351,
+          "lfs": {
+            "oid": "1b171917f18f351e65f2bf9657700cd6bfec4e65589c297525b9cf3c20105770",
+            "size": 523351,
+            "pointerSize": 131
+          },
+          "xetHash": "497a689c53e3da37039786a230c16c0940dabdeb999f25c9be6489076a7b7160",
+          "path": "voices/jf_gongitsune.pt"
+        },
+        {
+          "type": "file",
+          "oid": "0a93ba4639655cfba1d111a6273e4eca75aeacf7",
+          "size": 523420,
+          "lfs": {
+            "oid": "d83f007a7f01783b77014561a7d493d327a0210e143440e91c9b697590d27661",
+            "size": 523420,
+            "pointerSize": 131
+          },
+          "xetHash": "7c25529b2549a361509f0c813cd14fbd6d676e1790108c2d30dc73137fdf617d",
+          "path": "voices/jf_nezumi.pt"
+        },
+        {
+          "type": "file",
+          "oid": "e52eb2e40b0d6697a959c5a2b5dbd34bcc7bb903",
+          "size": 523435,
+          "lfs": {
+            "oid": "0d6917904438aec85f73a6fa1f7ac2be6481aae47c697834936930a91796c576",
+            "size": 523435,
+            "pointerSize": 131
+          },
+          "xetHash": "b1451bfe5686d6dacfa5aea7806a57749e303e9b9ae19e2172d96ff6d4928e38",
+          "path": "voices/jf_tebukuro.pt"
+        },
+        {
+          "type": "file",
+          "oid": "bb64b41e33422b9e522d90aa58e5f4501e9d9548",
+          "size": 523425,
+          "lfs": {
+            "oid": "98340afd68b1cee84fe0cd95528cfa6d4b39e416aa75a9df64049d52c8b55896",
+            "size": 523425,
+            "pointerSize": 131
+          },
+          "xetHash": "80ac4d27cd2bb4147704d9401468fe8295e56e6105dcf6332fcc61855a084a31",
+          "path": "voices/jm_kumo.pt"
+        },
+        {
+          "type": "file",
+          "oid": "887042c91adf283cb1a10b01f8ed9c50731e6cbb",
+          "size": 523425,
+          "lfs": {
+            "oid": "07e4ff987c5d5a8c3995efd15cc4f0db7c4c15e881b198d8ab7f67ecf51f5eb7",
+            "size": 523425,
+            "pointerSize": 131
+          },
+          "xetHash": "4c59e339e134f5d104d0ac974e3d9f545f70dc0a9d5d5ef0427a205d9a04f269",
+          "path": "voices/pf_dora.pt"
+        },
+        {
+          "type": "file",
+          "oid": "c2146a38bed0114ed76db751ea11ca1c8119e4d3",
+          "size": 523425,
+          "lfs": {
+            "oid": "cf0ba8c573c2480fc54123683a35cf1e2ae130428e441eb91f9149bdb188a526",
+            "size": 523425,
+            "pointerSize": 131
+          },
+          "xetHash": "8885fedffa1db36f2cbe8438e6f2bb51a8e9a6f1227711e5de80e3ee18af5d8e",
+          "path": "voices/pm_alex.pt"
+        },
+        {
+          "type": "file",
+          "oid": "0d25b990d6c2e29fcd0fc1dec3a68ec5f2ebd01d",
+          "size": 523430,
+          "lfs": {
+            "oid": "d42103169c5c872abbafb9129133af7e942bb9d272c3cc3b95c203e7d7198c29",
+            "size": 523430,
+            "pointerSize": 131
+          },
+          "xetHash": "c1fe14c765c42316a93c418bbc21bd4438efb3e340dc18984812098884d4316d",
+          "path": "voices/pm_santa.pt"
+        },
+        {
+          "type": "file",
+          "oid": "98d012c808d0c720f343605125b378c0390e7cfe",
+          "size": 523435,
+          "lfs": {
+            "oid": "9b76be63dab4f4f96962030acc0126a9aee9728608fbbe115e2b58a2bd504df6",
+            "size": 523435,
+            "pointerSize": 131
+          },
+          "xetHash": "8ad773315279776b5240b7762fa4f1d56bcd00016e2eda2223949a419261ad36",
+          "path": "voices/zf_xiaobei.pt"
+        },
+        {
+          "type": "file",
+          "oid": "042a3588212e7f44dfe8545c5a42bd1bc1df7473",
+          "size": 523430,
+          "lfs": {
+            "oid": "95b49f169bf1640f4f43c25e13daa39f7b98d15d00823e83ef5c14b3ced59e49",
+            "size": 523430,
+            "pointerSize": 131
+          },
+          "xetHash": "4538b47a1ba023509bd457f9d2d946c882e0dfc4ea7fc0a742289fc0ec288610",
+          "path": "voices/zf_xiaoni.pt"
+        },
+        {
+          "type": "file",
+          "oid": "009434acf1f3b1f6430a404af1612ba480b8344c",
+          "size": 523440,
+          "lfs": {
+            "oid": "cfaf6f2ded1ee56f1ff94fcd2b0e6cdf32e5b794bdc05b44e7439d44aef5887c",
+            "size": 523440,
+            "pointerSize": 131
+          },
+          "xetHash": "0730e75530375b252044ffea928e1872aeb515c2cad185c51aa75242025cbc6b",
+          "path": "voices/zf_xiaoxiao.pt"
+        },
+        {
+          "type": "file",
+          "oid": "4eab21f6b047099939d8dcab0684409d76dcffbe",
+          "size": 523430,
+          "lfs": {
+            "oid": "b5235dbaeef85a4c613bf78af9a88ff63c25bac5f26ba77e36186d8b7ebf05e2",
+            "size": 523430,
+            "pointerSize": 131
+          },
+          "xetHash": "6ea69ed9cccebd332470178a34b43536fb1e2167e7620374dcd2b9ab5a05941b",
+          "path": "voices/zf_xiaoyi.pt"
+        },
+        {
+          "type": "file",
+          "oid": "eca150f12119b9766fa063f658648dadfa5f42df",
+          "size": 523435,
+          "lfs": {
+            "oid": "76cbf8bad35901d011d9628a2fdceb7b4f1f127e7a3269cb393b3941eb7fc417",
+            "size": 523435,
+            "pointerSize": 131
+          },
+          "xetHash": "b84b818c4ac2a27774625c7e62367bc5ea362abdc46253220fa0d28051e12cd5",
+          "path": "voices/zm_yunjian.pt"
+        },
+        {
+          "type": "file",
+          "oid": "ab5b4af8e051d3940b7f265e0ff6a113a7a68f2a",
+          "size": 523425,
+          "lfs": {
+            "oid": "dbe6e1ce7c3dbaf2f5667432947b638b1c6831ccbe154c4610dbcc44f431e27b",
+            "size": 523425,
+            "pointerSize": 131
+          },
+          "xetHash": "6febdf2d2ee24b365ae477eee15a3bb69b29ebc85f313c9ad26082a05835e912",
+          "path": "voices/zm_yunxi.pt"
+        },
+        {
+          "type": "file",
+          "oid": "edfa288b4b47ddff15c37b00fa9810ec3079be2e",
+          "size": 523430,
+          "lfs": {
+            "oid": "bb2b03b08e84d64e1214440ce3b624987fac177f2eeb5bab8571799a3d980acd",
+            "size": 523430,
+            "pointerSize": 131
+          },
+          "xetHash": "ea4a8fc680949d002bf9c6c459c3142048c3c88f96e1e5d34280cc6d3df180a2",
+          "path": "voices/zm_yunxia.pt"
+        },
+        {
+          "type": "file",
+          "oid": "98a1f6e521fa581791c24c6f7c8845307a98cf02",
+          "size": 523435,
+          "lfs": {
+            "oid": "5238ac22e0c7f8b6cdd2eddd6e444b8a700b73c4674d9a047d59a94ff96379a2",
+            "size": 523435,
+            "pointerSize": 131
+          },
+          "xetHash": "790800afcb7fe9860590f223d76b6764e200737b33bcd6f6ff1ff8a4f7221321",
+          "path": "voices/zm_yunyang.pt"
+        }
+      ]
+    },
+    "kokoro_code_license": {
+      "url": "https://raw.githubusercontent.com/hexgrad/kokoro/main/LICENSE",
+      "status": 200,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "content": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,\n      \"control\" means (i) the power, direct or indirect, to cause the\n      direction or management of such entity, whether by contract or\n      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n      outstanding shares, or (iii) beneficial ownership of such entity.\n\n      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n      exercising permissions granted by this License.\n\n      \"Source\" form shall mean the preferred form for making modifications,\n      including but not limited to software source code, documentation\n      source, and configuration files.\n\n      \"Object\" form shall mean any form resulting from mechanical\n      transformation or translation of a Source form, including but\n      not limited to compiled object code, generated documentation,\n      and conversions to other media types.\n\n      \"Work\" shall mean the work of authorship, whether in Source or\n      Object form, made available under the License, as indicated by a\n      copyright notice that is included in or attached to the work\n      (an example is provided in the Appendix below).\n\n      \"Derivative Works\" shall mean any work, whether in Source or Object\n      form, that is based on (or derived from) the Work and for which the\n      editorial revisions, annotations, elaborations, or other modifications\n      represent, as a whole, an original work of authorship. For the purposes\n      of this License, Derivative Works shall not include works that remain\n      separable from, or merely link (or bind by name) to the interfaces of,\n      the Work and Derivative Works thereof.\n\n      \"Contribution\" shall mean any work of authorship, including\n      the original version of the Work and any modifications or additions\n      to that Work or Derivative Works thereof, that is intentionally\n      submitted to Licensor for inclusion in the Work by the copyright owner\n      or by an individual or Legal Entity authorized to submit on behalf of\n      the copyright owner. For the purposes of this definition, \"submitted\"\n      means any form of electronic, verbal, or written communication sent\n      to the Licensor or its representatives, including but not limited to\n      communication on electronic mailing lists, source code control systems,\n      and issue tracking systems that are managed by, or on behalf of, the\n      Licensor for the purpose of discussing and improving the Work, but\n      excluding communication that is conspicuously marked or otherwise\n      designated in writing by the copyright owner as \"Not a Contribution.\"\n\n      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n      on behalf of whom a Contribution has been received by Licensor and\n      subsequently incorporated within the Work.\n\n   2. Grant of Copyright License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      copyright license to reproduce, prepare Derivative Works of,\n      publicly display, publicly perform, sublicense, and distribute the\n      Work and such Derivative Works in Source or Object form.\n\n   3. Grant of Patent License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      (except as stated in this section) patent license to make, have made,\n      use, offer to sell, sell, import, and otherwise transfer the Work,\n      where such license applies only to those patent claims licensable\n      by such Contributor that are necessarily infringed by their\n      Contribution(s) alone or by combination of their Contribution(s)\n      with the Work to which such Contribution(s) was submitted. If You\n      institute patent litigation against any entity (including a\n      cross-claim or counterclaim in a lawsuit) alleging that the Work\n      or a Contribution incorporated within the Work constitutes direct\n      or contributory patent infringement, then any patent licenses\n      granted to You under this License for that Work shall terminate\n      as of the date such litigation is filed.\n\n   4. Redistribution. You may reproduce and distribute copies of the\n      Work or Derivative Works thereof in any medium, with or without\n      modifications, and in Source or Object form, provided that You\n      meet the following conditions:\n\n      (a) You must give any other recipients of the Work or\n          Derivative Works a copy of this License; and\n\n      (b) You must cause any modified files to carry prominent notices\n          stating that You changed the files; and\n\n      (c) You must retain, in the Source form of any Derivative Works\n          that You distribute, all copyright, patent, trademark, and\n          attribution notices from the Source form of the Work,\n          excluding those notices that do not pertain to any part of\n          the Derivative Works; and\n\n      (d) If the Work includes a \"NOTICE\" text file as part of its\n          distribution, then any Derivative Works that You distribute must\n          include a readable copy of the attribution notices contained\n          within such NOTICE file, excluding those notices that do not\n          pertain to any part of the Derivative Works, in at least one\n          of the following places: within a NOTICE text file distributed\n          as part of the Derivative Works; within the Source form or\n          documentation, if provided along with the Derivative Works; or,\n          within a display generated by the Derivative Works, if and\n          wherever such third-party notices normally appear. The contents\n          of the NOTICE file are for informational purposes only and\n          do not modify the License. You may add Your own attribution\n          notices within Derivative Works that You distribute, alongside\n          or as an addendum to the NOTICE text from the Work, provided\n          that such additional attribution notices cannot be construed\n          as modifying the License.\n\n      You may add Your own copyright statement to Your modifications and\n      may provide additional or different license terms and conditions\n      for use, reproduction, or distribution of Your modifications, or\n      for any such Derivative Works as a whole, provided Your use,\n      reproduction, and distribution of the Work otherwise complies with\n      the conditions stated in this License.\n\n   5. Submission of Contributions. Unless You explicitly state otherwise,\n      any Contribution intentionally submitted for inclusion in the Work\n      by You to the Licensor shall be under the terms and conditions of\n      this License, without any additional terms or conditions.\n      Notwithstanding the above, nothing herein shall supersede or modify\n      the terms of any separate license agreement you may have executed\n      with Licensor regarding such Contributions.\n\n   6. Trademarks. This License does not grant permission to use the trade\n      names, trademarks, service marks, or product names of the Licensor,\n      except as required for reasonable and customary use in describing the\n      origin of the Work and reproducing the content of the NOTICE file.\n\n   7. Disclaimer of Warranty. Unless required by applicable law or\n      agreed to in writing, Licensor provides the Work (and each\n      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n      implied, including, without limitation, any warranties or conditions\n      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n      PARTICULAR PURPOSE. You are solely responsible for determining the\n      appropriateness of using or redistributing the Work and assume any\n      risks associated with Your exercise of permissions under this License.\n\n   8. Limitation of Liability. In no event and under no legal theory,\n      whether in tort (including negligence), contract, or otherwise,\n      unless required by applicable law (such as deliberate and grossly\n      negligent acts) or agreed to in writing, shall any Contributor be\n      liable to You for damages, including any direct, indirect, special,\n      incidental, or consequential damages of any character arising as a\n      result of this License or out of the use or inability to use the\n      Work (including but not limited to damages for loss of goodwill,\n      work stoppage, computer failure or malfunction, or any and all\n      other commercial damages or losses), even if such Contributor\n      has been advised of the possibility of such damages.\n\n   9. Accepting Warranty or Additional Liability. While redistributing\n      the Work or Derivative Works thereof, You may choose to offer,\n      and charge a fee for, acceptance of support, warranty, indemnity,\n      or other liability obligations and/or rights consistent with this\n      License. However, in accepting such obligations, You may act only\n      on Your own behalf and on Your sole responsibility, not on behalf\n      of any other Contributor, and only if You agree to indemnify,\n      defend, and hold each Contributor harmless for any liability\n      incurred by, or claims asserted against, such Contributor by reason\n      of your accepting any such warranty or additional liability.\n\n   END OF TERMS AND CONDITIONS\n\n   APPENDIX: How to apply the Apache License to your work.\n\n      To apply the Apache License to your work, attach the following\n      boilerplate notice, with the fields enclosed by brackets \"[]\"\n      replaced with your own identifying information. (Don't include\n      the brackets!)  The text should be enclosed in the appropriate\n      comment syntax for the file format. We also recommend that a\n      file or class name and description of purpose be included on the\n      same \"printed page\" as the copyright notice for easier\n      identification within third-party archives.\n\n   Copyright [yyyy] [name of copyright owner]\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\n   limitations under the License.\n"
+    },
+    "kokoro_code_readme": {
+      "url": "https://raw.githubusercontent.com/hexgrad/kokoro/main/README.md",
+      "status": 200,
+      "sha256": "b50b84220668f8247a2405b249c34c7083acc24114279ff1429fd79f46a2c04b",
+      "content": "# kokoro\n\nAn inference library for [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M). You can [`pip install kokoro`](https://pypi.org/project/kokoro/).\n\n> **Kokoro** is an open-weight TTS model with 82 million parameters. Despite its lightweight architecture, it delivers comparable quality to larger models while being significantly faster and more cost-efficient. With Apache-licensed weights, Kokoro can be deployed anywhere from production environments to personal projects.\n\n### Usage\nYou can run this basic cell on [Google Colab](https://colab.research.google.com/). [Listen to samples](https://huggingface.co/hexgrad/Kokoro-82M/blob/main/SAMPLES.md).\n```py\n!pip install -q kokoro>=0.9.4 soundfile\n!apt-get -qq -y install espeak-ng > /dev/null 2>&1\nfrom kokoro import KPipeline\nfrom IPython.display import display, Audio\nimport soundfile as sf\nimport torch\npipeline = KPipeline(lang_code='a')\ntext = '''\n[Kokoro](/kˈOkəɹO/) is an open-weight TTS model with 82 million parameters. Despite its lightweight architecture, it delivers comparable quality to larger models while being significantly faster and more cost-efficient. With Apache-licensed weights, [Kokoro](/kˈOkəɹO/) can be deployed anywhere from production environments to personal projects.\n'''\ngenerator = pipeline(text, voice='af_heart')\nfor i, (gs, ps, audio) in enumerate(generator):\n    print(i, gs, ps)\n    display(Audio(data=audio, rate=24000, autoplay=i==0))\n    sf.write(f'{i}.wav', audio, 24000)\n```\nUnder the hood, `kokoro` uses [`misaki`](https://pypi.org/project/misaki/), a G2P library at https://github.com/hexgrad/misaki\n\n### Advanced Usage\nYou can run this advanced cell on [Google Colab](https://colab.research.google.com/).\n```py\n# 1️⃣ Install kokoro\n!pip install -q kokoro>=0.9.4 soundfile\n# 2️⃣ Install espeak, used for English OOD fallback and some non-English languages\n!apt-get -qq -y install espeak-ng > /dev/null 2>&1\n\n# 3️⃣ Initalize a pipeline\nfrom kokoro import KPipeline\nfrom IPython.display import display, Audio\nimport soundfile as sf\nimport torch\n# 🇺🇸 'a' => American English, 🇬🇧 'b' => British English\n# 🇪🇸 'e' => Spanish es\n# 🇫🇷 'f' => French fr-fr\n# 🇮🇳 'h' => Hindi hi\n# 🇮🇹 'i' => Italian it\n# 🇯🇵 'j' => Japanese: pip install misaki[ja]\n# 🇧🇷 'p' => Brazilian Portuguese pt-br\n# 🇨🇳 'z' => Mandarin Chinese: pip install misaki[zh]\npipeline = KPipeline(lang_code='a') # <= make sure lang_code matches voice, reference above.\n\n# This text is for demonstration purposes only, unseen during training\ntext = '''\nThe sky above the port was the color of television, tuned to a dead channel.\n\"It's not like I'm using,\" Case heard someone say, as he shouldered his way through the crowd around the door of the Chat. \"It's like my body's developed this massive drug deficiency.\"\nIt was a Sprawl voice and a Sprawl joke. The Chatsubo was a bar for professional expatriates; you could drink there for a week and never hear two words in Japanese.\n\nThese were to have an enormous impact, not only because they were associated with Constantine, but also because, as in so many other areas, the decisions taken by Constantine (or in his name) were to have great significance for centuries to come. One of the main issues was the shape that Christian churches were to take, since there was not, apparently, a tradition of monumental church buildings when Constantine decided to help the Christian church build a series of truly spectacular structures. The main form that these churches took was that of the basilica, a multipurpose rectangular structure, based ultimately on the earlier Greek stoa, which could be found in most of the great cities of the empire. Christianity, unlike classical polytheism, needed a large interior space for the celebration of its religious services, and the basilica aptly filled that need. We naturally do not know the degree to which the emperor was involved in the design of new churches, but it is tempting to connect this with the secular basilica that Constantine completed in the Roman forum (the so-called Basilica of Maxentius) and the one he probably built in Trier, in connection with his residence in the city at a time when he was still caesar.\n\n[Kokoro](/kˈOkəɹO/) is an open-weight TTS model with 82 million parameters. Despite its lightweight architecture, it delivers comparable quality to larger models while being significantly faster and more cost-efficient. With Apache-licensed weights, [Kokoro](/kˈOkəɹO/) can be deployed anywhere from production environments to personal projects.\n'''\n# text = '「もしおれがただ偶然、そしてこうしようというつもりでなくここに立っているのなら、ちょっとばかり絶望するところだな」と、そんなことが彼の頭に思い浮かんだ。'\n# text = '中國人民不信邪也不怕邪，不惹事也不怕事，任何外國不要指望我們會拿自己的核心利益做交易，不要指望我們會吞下損害我國主權、安全、發展利益的苦果！'\n# text = 'Los partidos políticos tradicionales compiten con los populismos y los movimientos asamblearios.'\n# text = 'Le dromadaire resplendissant déambulait tranquillement dans les méandres en mastiquant de petites feuilles vernissées.'\n# text = 'ट्रांसपोर्टरों की हड़ताल लगातार पांचवें दिन जारी, दिसंबर से इलेक्ट्रॉनिक टोल कलेक्शनल सिस्टम'\n# text = \"Allora cominciava l'insonnia, o un dormiveglia peggiore dell'insonnia, che talvolta assumeva i caratteri dell'incubo.\"\n# text = 'Elabora relatórios de acompanhamento cronológico para as diferentes unidades do Departamento que propõem contratos.'\n\n# 4️⃣ Generate, display, and save audio files in a loop.\ngenerator = pipeline(\n    text, voice='af_heart', # <= change voice here\n    speed=1, split_pattern=r'\\n+'\n)\n# Alternatively, load voice tensor directly:\n# voice_tensor = torch.load('path/to/voice.pt', weights_only=True)\n# generator = pipeline(\n#     text, voice=voice_tensor,\n#     speed=1, split_pattern=r'\\n+'\n# )\n\nfor i, (gs, ps, audio) in enumerate(generator):\n    print(i)  # i => index\n    print(gs) # gs => graphemes/text\n    print(ps) # ps => phonemes\n    display(Audio(data=audio, rate=24000, autoplay=i==0))\n    sf.write(f'{i}.wav', audio, 24000) # save each audio file\n```\n\n### Windows Installation\nTo install espeak-ng on Windows:\n1. Go to [espeak-ng releases](https://github.com/espeak-ng/espeak-ng/releases)\n2. Click on **Latest release** \n3. Download the appropriate `*.msi` file (e.g. **espeak-ng-20191129-b702b03-x64.msi**)\n4. Run the downloaded installer\n\nFor advanced configuration and usage on Windows, see the [official espeak-ng Windows guide](https://github.com/espeak-ng/espeak-ng/blob/master/docs/guide.md)\n\n### MacOS Apple Silicon GPU Acceleration\n\nOn Mac M1/M2/M3/M4 devices, you can explicitly specify the environment variable `PYTORCH_ENABLE_MPS_FALLBACK=1` to enable GPU acceleration.\n\n```bash\nPYTORCH_ENABLE_MPS_FALLBACK=1 python run-your-kokoro-script.py\n```\n\n### Conda Environment\nUse the following conda `environment.yml` if you're facing any dependency issues.\n```yaml\nname: kokoro\nchannels:\n  - defaults\ndependencies:\n  - python==3.9       \n  - libstdcxx~=12.4.0 # Needed to load espeak correctly. Try removing this if you're facing issues with Espeak fallback. \n  - pip:\n      - kokoro>=0.3.1\n      - soundfile\n      - misaki[en]\n```\n\n### Acknowledgements\n- 🛠️ [@yl4579](https://huggingface.co/yl4579) for architecting StyleTTS 2.\n- 🏆 [@Pendrokar](https://huggingface.co/Pendrokar) for adding Kokoro as a contender in the TTS Spaces Arena.\n- 📊 Thank you to everyone who contributed synthetic training data.\n- ❤️ Special thanks to all compute sponsors.\n- 👾 Discord server: https://discord.gg/QuGxSWBfQy\n- 🪽 Kokoro is a Japanese word that translates to \"heart\" or \"spirit\". Kokoro is also a [character in the Terminator franchise](https://terminator.fandom.com/wiki/Kokoro) along with [Misaki](https://github.com/hexgrad/misaki?tab=readme-ov-file#acknowledgements).\n\n<img src=\"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/08/terminator-zero-41-1.jpg\" width=\"400\" alt=\"kokoro\" />\n"
+    },
+    "chatterbox_model_card": {
+      "url": "https://huggingface.co/ResembleAI/chatterbox/raw/main/README.md",
+      "status": 200,
+      "sha256": "6ac86d5ec7e85a9cf6566a34c6aae60ac1d50a6fceccade4c2aa57cfa6f590b4",
+      "content": "---\nlicense: mit\nlanguage:\n- ar\n- da\n- de\n- el\n- en\n- es\n- fi\n- fr\n- he\n- hi\n- it\n- ja\n- ko\n- ms\n- nl\n- no\n- pl\n- pt\n- ru\n- sv\n- sw\n- tr\n- zh\npipeline_tag: text-to-speech\ntags:\n- text-to-speech\n- speech\n- speech-generation\n- voice-cloning\n- multilingual-tts\nlibrary_name: chatterbox\n---\n\n<img width=\"800\" alt=\"cb-big2\" src=\"https://github.com/user-attachments/assets/bd8c5f03-e91d-4ee5-b680-57355da204d1\" />\n\n<h1 style=\"font-size: 32px\">Chatterbox TTS</h1>\n\n<div style=\"display: flex; align-items: center; gap: 12px\">\n  <a href=\"https://resemble-ai.github.io/chatterbox_demopage/\">\n    <img src=\"https://img.shields.io/badge/listen-demo_samples-blue\" alt=\"Listen to Demo Samples\" />\n  </a>\n  <a href=\"https://huggingface.co/spaces/ResembleAI/Chatterbox\">\n    <img src=\"https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-sm.svg\" alt=\"Open in HF Spaces\" />\n  </a>\n  <a href=\"https://podonos.com/resembleai/chatterbox\">\n    <img src=\"https://static-public.podonos.com/badges/insight-on-pdns-sm-dark.svg\" alt=\"Insight on Podos\" />\n  </a>\n</div>\n\n<div style=\"display: flex; align-items: center; gap: 8px;\">\n  <span style=\"font-style: italic;white-space: pre-wrap\">Made with  ❤️  by</span>\n  <img width=\"100\" alt=\"resemble-logo-horizontal\" src=\"https://github.com/user-attachments/assets/35cf756b-3506-4943-9c72-c05ddfa4e525\" />\n</div>\n\n## Latest Release: Chatterbox Multilingual V3\n\n**Chatterbox Multilingual V3** is the latest general-purpose multilingual TTS model in the Chatterbox family. It keeps the same 0.5B model size while improving speaker similarity, reducing hallucinations, and producing more natural, conversational speech across languages.\n\nV3 is designed for broad language coverage like V2, but with stronger stability and more expressive generation. It is the recommended multilingual model for users who want one voice cloning model that works across many languages. Try it in the [Chatterbox Multilingual TTS V3 Space](https://huggingface.co/spaces/ResembleAI/Chatterbox-Multilingual-TTS-V3).\n\nAlongside V3, we are releasing the **Single Language Pack**: dedicated finetunes for priority languages where tighter quality control, stronger language-specific behavior, and more specialized speech generation are valuable.\n\n- **Broad Multilingual Coverage:** Designed as the main general-purpose multilingual Chatterbox model, supporting wide language coverage similar to V2.\n- **Single Language Pack:** Dedicated single-language models provide stronger specialization and quality control where language- and regional-dialect-specific performance matters most.\n- **More Consistent Speaker Similarity:** Improves voice identity and accent preservation across languages, making cross-language voice cloning more stable and reliable.\n- **Reduced Hallucination:** V3 is optimized to reduce unwanted continuation, repetition, and off-prompt speech, especially in cases where earlier multilingual models were less stable.\n\n## Model Zoo\n\nChoose the right Chatterbox model for your application.\n\n| Model | Size | Languages | Key Features | Best For | Demo |\n| --- | --- | --- | --- | --- | --- |\n| **Chatterbox Multilingual V3** | **500M** | **23+** | Improved speaker similarity, reduced hallucinations, more natural multilingual speech | Global applications, localization, cross-language voice cloning | [Demo](https://huggingface.co/spaces/ResembleAI/Chatterbox-Multilingual-TTS-V3) |\n| **Single Language Pack** | 500M each | 6 dedicated finetunes | Language- and region-specific quality control | Priority languages and dialect-sensitive applications | [Demos](#single-language-pack) |\n| Chatterbox | 500M | English | CFG and exaggeration tuning | General zero-shot TTS with creative controls | [Demo](https://huggingface.co/spaces/ResembleAI/Chatterbox) |\n\n**09/04 🔥 Introducing Chatterbox Multilingual in 23 Languages!**\n\nWe're excited to introduce **Chatterbox** and **Chatterbox Multilingual**, [Resemble AI's](https://resemble.ai) production-grade open source TTS models. Chatterbox Multilingual supports **Arabic, Danish, German, Greek, English, Spanish, Finnish, French, Hebrew, Hindi, Italian, Japanese, Korean, Malay, Dutch, Norwegian, Polish, Portuguese, Russian, Swedish, Swahili, Turkish, Chinese** out of the box. Licensed under MIT, Chatterbox has been benchmarked against leading closed-source systems like ElevenLabs, and is consistently preferred in side-by-side evaluations.\n\nWhether you're working on memes, videos, games, or AI agents, Chatterbox brings your content to life. It's also the first open source TTS model to support **emotion exaggeration control**, a powerful feature that makes your voices stand out. Try it now on our [Hugging Face Gradio app.](https://huggingface.co/spaces/ResembleAI/Chatterbox)\n\nIf you like the model but need to scale or tune it for higher accuracy, check out our competitively priced TTS service (<a href=\"https://resemble.ai\">link</a>). It delivers reliable performance with ultra-low latency of sub 200ms—ideal for production use in agents, applications, or interactive media.\n\n# Key Details\n- Chatterbox Multilingual V3, a 0.5B general-purpose multilingual TTS model supporting 23 languages\n- Dedicated single-language finetunes for Chinese, LatAm Spanish, Brazilian Portuguese, Spain Spanish, Portugal Portuguese, and Hindi\n- SoTA zeroshot English TTS\n- 0.5B Llama backbone\n- Unique exaggeration/intensity control\n- Ultra-stable with alignment-informed inference\n- Trained on 0.5M hours of cleaned data\n- Watermarked outputs\n- Easy voice conversion script\n- [Outperforms ElevenLabs](https://podonos.com/resembleai/chatterbox)\n\n# Tips\n- **General Use (TTS and Voice Agents):**\n  - The default settings (`exaggeration=0.5`, `cfg=0.5`) work well for most prompts.\n  - If the reference speaker has a fast speaking style, lowering `cfg` to around `0.3` can improve pacing.\n\n- **Expressive or Dramatic Speech:**\n  - Try lower `cfg` values (e.g. `~0.3`) and increase `exaggeration` to around `0.7` or higher.\n  - Higher `exaggeration` tends to speed up speech; reducing `cfg` helps compensate with slower, more deliberate pacing.\n\n  \n***Note:*** Ensure that the reference clip matches the specified language tag. Otherwise, language transfer outputs may inherit the accent of the reference clip’s language.  \n***To mitigate this, set the CFG weight to 0.***\n\n\n# Installation\n```\npip install chatterbox-tts\n```\n\n\n# Usage\n```python\nimport torchaudio as ta\nfrom chatterbox.tts import ChatterboxTTS\n\nmodel = ChatterboxTTS.from_pretrained(device=\"cuda\")\n\ntext = \"Ezreal and Jinx teamed up with Ahri, Yasuo, and Teemo to take down the enemy's Nexus in an epic late-game pentakill.\"\nwav = model.generate(text)\nta.save(\"test-1.wav\", wav, model.sr)\n\n# If you want to synthesize with a different voice, specify the audio prompt\nAUDIO_PROMPT_PATH=\"YOUR_FILE.wav\"\nwav = model.generate(text, audio_prompt_path=AUDIO_PROMPT_PATH)\nta.save(\"test-2.wav\", wav, model.sr)\n```\n\n# Multilingual Quickstart\n```python\nimport torchaudio as ta\nfrom chatterbox.mtl_tts import ChatterboxMultilingualTTS\n\nmultilingual_model = ChatterboxMultilingualTTS.from_pretrained(\n    device=\"cuda\",\n    t3_model=\"v3\",\n)\n# To use the legacy V2 multilingual checkpoint, omit t3_model or pass t3_model=\"v2\".\n\nfrench_text = \"Bonjour, comment ça va? Ceci est le modèle de synthèse vocale multilingue Chatterbox, il prend en charge 23 langues.\"\nwav_french = multilingual_model.generate(french_text, language_id=\"fr\")\nta.save(\"test-french.wav\", wav_french, multilingual_model.sr)\n\nchinese_text = \"你好，今天天气真不错，希望你有一个愉快的周末。\"\nwav_chinese = multilingual_model.generate(chinese_text, language_id=\"zh\")\nta.save(\"test-chinese.wav\", wav_chinese, multilingual_model.sr)\n```\nSee `example_tts.py` for more examples.\n\n## Single Language Pack\n\nThe Single Language Pack provides dedicated finetunes for priority languages and regional variants. Use these when you want stronger language-specific behavior, tighter quality control, or dialect-aware generation beyond the general multilingual model.\n\n| Language | Model Card | Demo Space |\n| --- | --- | --- |\n| Chinese | [ResembleAI/Chatterbox-Multilingual-zh-cmn](https://huggingface.co/ResembleAI/Chatterbox-Multilingual-zh-cmn) | [Demo](https://huggingface.co/spaces/ResembleAI/Chatterbox-Multilingual-TTS-zh-cmn) |\n| LatAm Spanish | [ResembleAI/Chatterbox-Multilingual-es-mx-latam](https://huggingface.co/ResembleAI/Chatterbox-Multilingual-es-mx-latam) | [Demo](https://huggingface.co/spaces/ResembleAI/Chatterbox-Multilingual-TTS-es-mx-latam) |\n| Brazilian Portuguese | [ResembleAI/Chatterbox-Multilingual-pt-br](https://huggingface.co/ResembleAI/Chatterbox-Multilingual-pt-br) | [Demo](https://huggingface.co/spaces/ResembleAI/Chatterbox-Multilingual-TTS-pt-br) |\n| Spain Spanish | [ResembleAI/Chatterbox-Multilingual-es-es](https://huggingface.co/ResembleAI/Chatterbox-Multilingual-es-es) | [Demo](https://huggingface.co/spaces/ResembleAI/Chatterbox-Multilingual-TTS-es-es) |\n| Portugal Portuguese | [ResembleAI/Chatterbox-Multilingual-pt-pt](https://huggingface.co/ResembleAI/Chatterbox-Multilingual-pt-pt) | [Demo](https://huggingface.co/spaces/ResembleAI/Chatterbox-Multilingual-TTS-pt-pt) |\n| Hindi | [ResembleAI/Chatterbox-Multilingual-hi](https://huggingface.co/ResembleAI/Chatterbox-Multilingual-hi) | [Demo](https://huggingface.co/spaces/ResembleAI/Chatterbox-Multilingual-TTS-hi) |\n\n\n# Acknowledgements\n- [Cosyvoice](https://github.com/FunAudioLLM/CosyVoice)\n- [HiFT-GAN](https://github.com/yl4579/HiFTNet)\n- [Llama 3](https://github.com/meta-llama/llama3)\n\n# Built-in PerTh Watermarking for Responsible AI\n\nEvery audio file generated by Chatterbox includes [Resemble AI's Perth (Perceptual Threshold) Watermarker](https://github.com/resemble-ai/perth) - imperceptible neural watermarks that survive MP3 compression, audio editing, and common manipulations while maintaining nearly 100% detection accuracy.\n\n# Disclaimer\nDon't use this model to do bad things. Prompts are sourced from freely available data on the internet.\n"
+    },
+    "chatterbox_code_license": {
+      "url": "https://raw.githubusercontent.com/resemble-ai/chatterbox/master/LICENSE",
+      "status": 200,
+      "sha256": "4248e910a928849fe5815a0f9236e17fa07768d95b9193212752c464b93d6caa",
+      "content": "MIT License\n\nCopyright (c) 2025 Resemble AI\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+    },
+    "chatterbox_code_readme": {
+      "url": "https://raw.githubusercontent.com/resemble-ai/chatterbox/master/README.md",
+      "status": 200,
+      "sha256": "fd9315cc529c65d46ddd21ded05ba3372b6f6f39242bd015f770145bf5e0448f",
+      "content": "![Chatterbox Multilingual Image](./Chatterbox-Multilingual.png)\n\n\n# Chatterbox TTS\n\n[![Alt Text](https://img.shields.io/badge/listen-demo_samples-blue)](https://resemble-ai.github.io/chatterbox_demopage/)\n[![Alt Text](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-sm.svg)](https://huggingface.co/spaces/ResembleAI/Chatterbox-Multilingual-TTS)\n[![Alt Text](https://static-public.podonos.com/badges/insight-on-pdns-sm-dark.svg)](https://podonos.com/resembleai/chatterbox)\n[![Discord](https://img.shields.io/discord/1377773249798344776?label=join%20discord&logo=discord&style=flat)](https://discord.gg/rJq9cRJBJ6)\n\n*Made with ♥️ by* <a href=\"https://resemble.ai\" target=\"_blank\"><img width=\"100\" alt=\"resemble-logo-horizontal\" src=\"https://github.com/user-attachments/assets/35cf756b-3506-4943-9c72-c05ddfa4e525\" /></a>\n\n**Chatterbox** is a family of state-of-the-art, open-source text-to-speech models by Resemble AI.\n\n## Latest Release: Chatterbox Multilingual V3\n\n**Chatterbox Multilingual V3** is the latest general-purpose multilingual TTS model in the Chatterbox family. It keeps the same 0.5B model size while improving speaker similarity, reducing hallucinations, and producing more natural, conversational speech across languages.\n\nV3 is designed for broad language coverage like V2, but with stronger stability and more expressive generation. It is the recommended multilingual model for users who want one voice cloning model that works across many languages.\n\nAlongside V3, we are releasing the **Single Language Pack**: dedicated finetunes for priority languages where tighter quality control, stronger language-specific behavior, and more specialized speech generation are valuable.\n\n- **Broad Multilingual Coverage:** Designed as the main general-purpose multilingual Chatterbox model, supporting wide language coverage similar to V2.\n- **Single Language Pack:** Dedicated single-language models provide stronger specialization and quality control where language- and regional-dialect-specific performance matters most.\n- **More Consistent Speaker Similarity:** Improves voice identity and accent preservation across languages, making cross-language voice cloning more stable and reliable.\n- **Reduced Hallucination:** V3 is optimized to reduce unwanted continuation, repetition, and off-prompt speech, especially in cases where earlier multilingual models were less stable.\n\nFor low-latency English voice agents, **Chatterbox-Turbo** is our most efficient model. Built on a streamlined 350M parameter architecture, **Turbo** delivers high-quality speech with less compute and VRAM than our previous models. We have also distilled the speech-token-to-mel decoder, previously a bottleneck, reducing generation from 10 steps to just **one**, while retaining high-fidelity audio output.\n\n**Paralinguistic tags** are now native to the Turbo model, allowing you to use `[cough]`, `[laugh]`, `[chuckle]`, and more to add distinct realism. While Turbo was built primarily for low-latency voice agents, it excels at narration and creative workflows.\n\nFor the most resource-constrained deployments, **Chatterbox-Nano** shares Turbo's architecture in an even smaller 110M parameter package. It targets on-device and CPU inference — running **3x faster than realtime on 8 CPU cores** — while keeping the same single-step decoder and native paralinguistic tag support. Nano is the recommended model when memory and latency budgets are tightest.\n\nIf you like the model but need to scale or tune it for higher accuracy, check out our competitively priced TTS service (<a href=\"https://resemble.ai\">link</a>). It delivers reliable performance with ultra-low latency of sub 200ms—ideal for production use in agents, applications, or interactive media.\n\n<img width=\"1200\" height=\"600\" alt=\"Podonos Turbo Eval\" src=\"https://storage.googleapis.com/chatterbox-demo-samples/turbo/podonos_turbo.png\" />\n\n### ⚡ Model Zoo\n\nChoose the right model for your application.\n\n| Model                                                                                                           | Size | Languages | Key Features                                            | Best For                                     | 🤗                                                                  | Examples |\n|:----------------------------------------------------------------------------------------------------------------| :--- | :--- |:--------------------------------------------------------|:---------------------------------------------|:--------------------------------------------------------------------------| :--- |\n| **Chatterbox-Turbo**                                                                                            | **350M** | **English** | Paralinguistic Tags (`[laugh]`), Lower Compute and VRAM | Zero-shot voice agents,  Production          | [Demo](https://huggingface.co/spaces/ResembleAI/chatterbox-turbo-demo)        | [Listen](https://resemble-ai.github.io/chatterbox_turbo_demopage/) |\n| **Chatterbox-Nano**                                                                                             | **110M** | **English** | Same architecture as Turbo, Paralinguistic Tags, Runs on CPU (3x realtime on 8 cores) | On-device / CPU inference, tight latency & memory budgets | [Model](https://huggingface.co/ResembleAI/chatterbox-nano)        | — |\n| **Chatterbox-Multilingual V3** [(Language list)](#supported-languages)                                          | **500M** | **23+** | Improved speaker similarity, reduced hallucinations, more natural multilingual speech | Global applications, localization, cross-language voice cloning | [Demo](https://huggingface.co/spaces/ResembleAI/Chatterbox-Multilingual-TTS) | [Listen](https://resemble-ai.github.io/chatterbox_demopage/) |\n| **Single Language Pack** [(Models)](#single-language-pack)                                                      | 500M each | 6 dedicated finetunes | Language- and region-specific quality control           | Priority languages and dialect-sensitive applications | [Models](#single-language-pack) | [Demos](#single-language-pack) |\n| Chatterbox [(Tips and Tricks)](#original-chatterbox-tips)                                                       | 500M | English | CFG & Exaggeration tuning                               | General zero-shot TTS with creative controls | [Demo](https://huggingface.co/spaces/ResembleAI/Chatterbox)              | [Listen](https://resemble-ai.github.io/chatterbox_demopage/) |\n\n## Installation\n```shell\npip install chatterbox-tts\n```\n\nAlternatively, you can install from source:\n```shell\n# conda create -yn chatterbox python=3.11\n# conda activate chatterbox\n\ngit clone https://github.com/resemble-ai/chatterbox.git\ncd chatterbox\npip install -e .\n```\nWe developed and tested Chatterbox on Python 3.11 on Debian 11 OS; the versions of the dependencies are pinned in `pyproject.toml` to ensure consistency. You can modify the code or dependencies in this installation mode.\n\n## Usage\n\n##### Chatterbox-Turbo\n\n```python\nimport torchaudio as ta\nimport torch\nfrom chatterbox.tts_turbo import ChatterboxTurboTTS\n\n# Load the Turbo model\nmodel = ChatterboxTurboTTS.from_pretrained(device=\"cuda\")\n\n# Generate with Paralinguistic Tags\ntext = \"Hi there, Sarah here from MochaFone calling you back [chuckle], have you got one minute to chat about the billing issue?\"\n\n# Generate audio (requires a reference clip for voice cloning)\nwav = model.generate(text, audio_prompt_path=\"your_10s_ref_clip.wav\")\n\nta.save(\"test-turbo.wav\", wav, model.sr)\n```\n\n##### Chatterbox-Nano\n\nNano shares Turbo's architecture and is loaded through the same `ChatterboxTurboTTS` class by passing `nano=True`:\n\n```python\nimport torchaudio as ta\nimport torch\nfrom chatterbox.tts_turbo import ChatterboxTurboTTS\n\n# Load the Nano model (also runs on CPU: device=\"cpu\")\nmodel = ChatterboxTurboTTS.from_pretrained(device=\"cuda\", nano=True)\n\n# Generate with Paralinguistic Tags\ntext = \"Hi there, Sarah here from MochaFone calling you back [chuckle], have you got one minute to chat about the billing issue?\"\n\n# Generate audio (requires a reference clip for voice cloning)\nwav = model.generate(text, audio_prompt_path=\"your_10s_ref_clip.wav\")\n\nta.save(\"test-nano.wav\", wav, model.sr)\n```\n\n##### Chatterbox and Chatterbox-Multilingual\n\n```python\n\nimport torchaudio as ta\nfrom chatterbox.tts import ChatterboxTTS\nfrom chatterbox.mtl_tts import ChatterboxMultilingualTTS\n\ndevice = \"cuda\"  # or \"cpu\" / \"mps\"\n\n# English example\nmodel = ChatterboxTTS.from_pretrained(device=device)\n\ntext = \"Ezreal and Jinx teamed up with Ahri, Yasuo, and Teemo to take down the enemy's Nexus in an epic late-game pentakill.\"\nwav = model.generate(text)\nta.save(\"test-english.wav\", wav, model.sr)\n\n# Multilingual V3 examples\nmultilingual_model = ChatterboxMultilingualTTS.from_pretrained(device=device, t3_model=\"v3\")\n# To use the legacy V2 multilingual checkpoint, omit t3_model or pass t3_model=\"v2\".\n\nfrench_text = \"Bonjour, comment ça va? Ceci est le modèle de synthèse vocale multilingue Chatterbox, il prend en charge 23 langues.\"\nwav_french = multilingual_model.generate(french_text, language_id=\"fr\")\nta.save(\"test-french.wav\", wav_french, multilingual_model.sr)\n\nchinese_text = \"你好，今天天气真不错，希望你有一个愉快的周末。\"\nwav_chinese = multilingual_model.generate(chinese_text, language_id=\"zh\")\nta.save(\"test-chinese.wav\", wav_chinese, multilingual_model.sr)\n\n# If you want to synthesize with a different voice, specify the audio prompt\nAUDIO_PROMPT_PATH = \"YOUR_FILE.wav\"\nwav = model.generate(text, audio_prompt_path=AUDIO_PROMPT_PATH)\nta.save(\"test-2.wav\", wav, model.sr)\n```\nSee `example_tts.py`, `example_tts_turbo.py`, `example_tts_nano.py`, and `example_vc.py` for more examples.\n\n## Supported Languages\nThe general-purpose Chatterbox Multilingual model supports the following languages:\n\nArabic (ar) • Danish (da) • German (de) • Greek (el) • English (en) • Spanish (es) • Finnish (fi) • French (fr) • Hebrew (he) • Hindi (hi) • Italian (it) • Japanese (ja) • Korean (ko) • Malay (ms) • Dutch (nl) • Norwegian (no) • Polish (pl) • Portuguese (pt) • Russian (ru) • Swedish (sv) • Swahili (sw) • Turkish (tr) • Chinese (zh)\n\n## Single Language Pack\n\nThe Single Language Pack provides dedicated finetunes for priority languages and regional variants. Use these when you want stronger language-specific behavior, tighter quality control, or dialect-aware generation beyond the general multilingual model.\n\n| Language | Model Card | Demo Space |\n| --- | --- | --- |\n| Chinese | [ResembleAI/Chatterbox-Multilingual-zh-cmn](https://huggingface.co/ResembleAI/Chatterbox-Multilingual-zh-cmn) | [Demo](https://huggingface.co/spaces/ResembleAI/Chatterbox-Multilingual-TTS-zh-cmn) |\n| Latam Spanish | [ResembleAI/Chatterbox-Multilingual-es-mx-latam](https://huggingface.co/ResembleAI/Chatterbox-Multilingual-es-mx-latam) | [Demo](https://huggingface.co/spaces/ResembleAI/Chatterbox-Multilingual-TTS-es-mx-latam) |\n| Brazilian Portuguese | [ResembleAI/Chatterbox-Multilingual-pt-br](https://huggingface.co/ResembleAI/Chatterbox-Multilingual-pt-br) | [Demo](https://huggingface.co/spaces/ResembleAI/Chatterbox-Multilingual-TTS-pt-br) |\n| Spain Spanish | [ResembleAI/Chatterbox-Multilingual-es-es](https://huggingface.co/ResembleAI/Chatterbox-Multilingual-es-es) | [Demo](https://huggingface.co/spaces/ResembleAI/Chatterbox-Multilingual-TTS-es-es) |\n| Portugal Portuguese | [ResembleAI/Chatterbox-Multilingual-pt-pt](https://huggingface.co/ResembleAI/Chatterbox-Multilingual-pt-pt) | [Demo](https://huggingface.co/spaces/ResembleAI/Chatterbox-Multilingual-TTS-pt-pt) |\n| Hindi | [ResembleAI/Chatterbox-Multilingual-hi](https://huggingface.co/ResembleAI/Chatterbox-Multilingual-hi) | [Demo](https://huggingface.co/spaces/ResembleAI/Chatterbox-Multilingual-TTS-hi) |\n\n## Original Chatterbox Tips\n- **General Use (TTS and Voice Agents):**\n  - Ensure that the reference clip matches the specified language tag. Otherwise, language transfer outputs may inherit the accent of the reference clip’s language. To mitigate this, set `cfg_weight` to `0`.\n  - The default settings (`exaggeration=0.5`, `cfg_weight=0.5`) work well for most prompts across all languages.\n  - If the reference speaker has a fast speaking style, lowering `cfg_weight` to around `0.3` can improve pacing.\n\n- **Expressive or Dramatic Speech:**\n  - Try lower `cfg_weight` values (e.g. `~0.3`) and increase `exaggeration` to around `0.7` or higher.\n  - Higher `exaggeration` tends to speed up speech; reducing `cfg_weight` helps compensate with slower, more deliberate pacing.\n\n\n## Built-in PerTh Watermarking for Responsible AI\n\nEvery audio file generated by Chatterbox includes [Resemble AI's Perth (Perceptual Threshold) Watermarker](https://github.com/resemble-ai/perth) - imperceptible neural watermarks that survive MP3 compression, audio editing, and common manipulations while maintaining nearly 100% detection accuracy.\n\n\n## Watermark extraction\n\nYou can look for the watermark using the following script.\n\n```python\nimport perth\nimport librosa\n\nAUDIO_PATH = \"YOUR_FILE.wav\"\n\n# Load the watermarked audio\nwatermarked_audio, sr = librosa.load(AUDIO_PATH, sr=None)\n\n# Initialize watermarker (same as used for embedding)\nwatermarker = perth.PerthImplicitWatermarker()\n\n# Extract watermark\nwatermark = watermarker.get_watermark(watermarked_audio, sample_rate=sr)\nprint(f\"Extracted watermark: {watermark}\")\n# Output: 0.0 (no watermark) or 1.0 (watermarked)\n```\n\n\n## Official Discord\n\n👋 Join us on [Discord](https://discord.gg/rJq9cRJBJ6) and let's build something awesome together!\n\n## Evaluation\nChatterbox Turbo was evaluated using Podonos, a platform for reproducible subjective speech evaluation.\n\nWe compared Chatterbox Turbo to competitive TTS systems using Podonos' standardized evaluation suite, focusing on overall preference, naturalness, and expressiveness.\n\nEvaluation reports:\n- [Chatterbox Turbo vs ElevenLabs Turbo v2.5](https://podonos.com/resembleai/chatterbox-turbo-vs-elevenlabs-turbo)\n- [Chatterbox Turbo vs Cartesia Sonic 3](https://podonos.com/resembleai/chatterbox-turbo-vs-cartesia-sonic3)\n- [Chatterbox Turbo vs VibeVoice 7B](https://podonos.com/resembleai/chatterbox-turbo-vs-vibevoice7b)\n\nThese evaluations were conducted under identical conditions and are publicly accessible via Podonos.\n\n## Acknowledgements\n- [Podonos](https://podonos.com) — for supporting reproducible subjective speech evaluation\n- [Cosyvoice](https://github.com/FunAudioLLM/CosyVoice)\n- [Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning)\n- [HiFT-GAN](https://github.com/yl4579/HiFTNet)\n- [Llama 3](https://github.com/meta-llama/llama3)\n- [S3Tokenizer](https://github.com/xingchensong/S3Tokenizer)\n\n## Citation\nIf you find this model useful, please consider citing.\n```\n@misc{chatterboxtts2025,\n  author       = {{Resemble AI}},\n  title        = {{Chatterbox-TTS}},\n  year         = {2025},\n  howpublished = {\\url{https://github.com/resemble-ai/chatterbox}},\n  note         = {GitHub repository}\n}\n```\n## Disclaimer\nDon't use this model to do bad things. Prompts are sourced from freely available data on the internet.\n"
+    }
+  }
+}
