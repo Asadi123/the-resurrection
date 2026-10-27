@@ -114,7 +114,22 @@ def composition(index,variation):
   # Genuine source excerpt occupies more than half the frame.
   d.rounded_rectangle((35,147,1245,630),radius=12,fill=(220,213,199),outline=(185,160,127),width=2)
   if pic:
-   frame=fitimg(pic,(60,170,1160,424),False)
+   if variation==1:
+    # Second shot punches into the photographed evidence, preserving original pixels.
+    pw,ph=pic.size
+    if ph>pw*1.2:
+     region=pic.crop((int(pw*.07),int(ph*.32),int(pw*.93),int(ph*.69)))
+    elif pw>ph*2.8:
+     region=pic.crop((int(pw*.12),int(ph*.06),int(pw*.91),int(ph*.94)))
+    else:
+     region=pic.crop((int(pw*.055),int(ph*.25),int(pw*.945),int(ph*.76)))
+    frame=fitimg(region,(60,170,1160,424),False)
+    maxup=1160/frame.width
+    if maxup>1 and frame.height*maxup<=424:
+     frame=frame.resize((1160,int(frame.height*maxup)),Image.Resampling.LANCZOS)
+    tx(d,(87,568),'CLOSE-UP  /  ORIGINAL DOCUMENT',15,RED,True)
+   else:
+    frame=fitimg(pic,(60,170,1160,424),False)
    im.paste(frame,(60+(1160-frame.width)//2,170+(424-frame.height)//2))
   else:
    tx(d,(85,280),'SOURCE IMAGE UNAVAILABLE',40,(120,54,45),True)
