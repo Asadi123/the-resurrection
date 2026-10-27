@@ -10,10 +10,11 @@ on:
 
 permissions:
   contents: read
+  actions: read
 
 concurrency:
   group: iran-iraq-rebuild-${{ github.ref }}
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   produce-new-film:
@@ -37,6 +38,27 @@ jobs:
           python -m pip install --disable-pip-version-check --upgrade pip
           python -m pip install --disable-pip-version-check requests Pillow 'PyMuPDF<2' numpy soundfile
           python -m pip install --disable-pip-version-check pocket-tts
+
+      - name: Recover authentic previously acquired originals (no repeated CDN request)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p film/original /tmp/archive-cache /tmp/new-cache
+          gh run download 40581664197 -n EIGHT-YEAR-FRONT-ORIGINAL-SOURCES -D /tmp/new-cache || true
+          if test -d /tmp/new-cache/original; then
+            cp -n /tmp/new-cache/original/* film/original/ || true
+          fi
+          gh run download 40576139115 -n IRAN-IRAQ-ORIGINAL-ARCHIVE-AND-UN-DOCUMENTS -D /tmp/archive-cache || true
+          for pair in "abadan-1980.webm:abadan-footage.webm" "andimeshk-1986.webm:andimeshk-footage.webm" "khamenei-1986.webm:iran-1986-address.webm" "tehran-airport-1980.jpg:tehran-airport.jpg"; do
+            original="${pair%%:*}"
+            local_name="${pair##*:}"
+            file="$(find /tmp/archive-cache -type f -name "$original" -print -quit)"
+            if test -n "$file" && test -s "$file"; then
+              cp -n "$file" "film/original/$local_name"
+              echo "Reused authentic pinned artifact: $original"
+            fi
+          done
 
       - name: Acquire original scans and archival images only
         id: archival
