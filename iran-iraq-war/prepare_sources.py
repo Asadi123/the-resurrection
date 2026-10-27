@@ -33,6 +33,8 @@ FILES = [
 PDFS = [
     ("un-479-1980", "https://digitallibrary.un.org/record/16029/files/S_RES_479%281980%29-EN.pdf"),
     ("un-sg-1980", "https://digitallibrary.un.org/record/16000/files/S_14205-EN.pdf"),
+    ("un-iran-letter-1980", "https://digitallibrary.un.org/record/44462/files/S_SUPP_1980_4--%5EOR_SC_1980_IV%5E-EN.pdf"),
+    ("un-iraq-letter-1983", "https://digitallibrary.un.org/record/86834/files/S_SUPP_1983_2--%5EOR_SC_1983_II%5E-EN.pdf"),
     ("un-598-1987", "https://digitallibrary.un.org/record/137345/files/S_RES_598%281987%29-EN.pdf"),
 ]
 
@@ -64,7 +66,6 @@ def main():
     errors = []
     for asset_id, filename, kind in FILES:
         try:
-            result = fetch("https://commons.wikimedia.org/w/api.php", timeout=45) if False else None
             q = S.get("https://commons.wikimedia.org/w/api.php", params={
                 "action": "query", "format": "json", "prop": "imageinfo",
                 "iiprop": "url|size|extmetadata", "titles": "File:" + filename}, timeout=45)
