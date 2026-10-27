@@ -25,6 +25,8 @@ All production and rendering run on GitHub's Linux runner. No local computer is 
 
 No image-generation or synthetic reenactment tool is used. Unavailable archival coverage remains a recorded gap. New photos require their own source record; an image being on the web does not establish reuse rights.
 
+The cleared archival photographs and soundtrack recordings are included as a licensed production cache. This avoids repeated requests to archive servers; their original source URLs, conditions, and pinned hashes remain authoritative. Acquisition verifies the bundled bytes before use and only downloads an asset if it is missing. The public-domain narration model is fetched separately.
+
 ## Production sequence
 
 The opening begins on black with three separate white text cards, then archival Baghdad and the bilingual opening title. The central sequence uses unique historical imagery, proportional full-frame crops, slow pans/zooms, restrained opening sepia, natural central colors, and warm closing grading. The ending fades to black, holds **أمة عربية واحدة ذات رسالة خالدة** in gold from 151 to 159 seconds, then fades to black by 160 seconds. The final card contains no English translation.
