@@ -207,7 +207,7 @@ def create_caption_track():
             b=float(timing["start"])+usable*(passed+weight)/total
             captions.append((a,b," ".join(group)))
             passed+=weight
-    text="".join(f"{n}\\n{srt_timestamp(a)} --> {srt_timestamp(b)}\\n{txt}\\n\\n"
+    text="".join(f"{n}\n{srt_timestamp(a)} --> {srt_timestamp(b)}\n{txt}\n\n"
         for n,(a,b,txt) in enumerate(captions,1))
     path=OUT/"english-captions.srt"
     path.write_text(text)
