@@ -79,6 +79,12 @@ def check():
     if editorial.get("caption_sync", {}).get("timing_sha256") != digest(timing_path):
         errors.append("Editorial captions are stale: re-run scripts/sync_editorial.py after audio preparation")
     timing = read_json("output/audio-timing.json")
+    if timing.get("origin", "").startswith("Uploaded"):
+        uploaded = timing.get("uploaded_audio_source", {})
+        if not uploaded.get("rights_confirmed") or not all(uploaded.get(k) for k in ["creator", "source_url", "license", "license_url", "sha256", "local_filename"]):
+            errors.append("Uploaded narration is missing a complete rights declaration")
+        elif digest(safe_path(uploaded["local_filename"])) != uploaded["sha256"]:
+            errors.append("Uploaded narration differs from its rights-declared SHA-256")
     if timing.get("mix_sha256") != digest(ROOT / "output/audio_mix.wav"):
         errors.append("Audio timing report does not match the current audio mix")
     if not any("context_repression" in c.get("claim_ids", []) and c["end"]-c["start"] >= 6 for c in captions):

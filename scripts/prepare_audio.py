@@ -181,6 +181,9 @@ def read_uploaded(args, config):
         raise ValueError('Uploaded narration rights declaration is incomplete or uncleared')
     if not re.fullmatch(r'[0-9a-f]{64}', rights['sha256']):
         raise ValueError('Uploaded narration rights SHA-256 must be 64 lowercase hex characters')
+    if rights['license'] not in {'CC0 1.0', 'CC BY 4.0', 'CC BY-SA 4.0', 'Public domain'}:
+        raise ValueError('Uploaded narration must have a confirmed compatible reuse license: '
+                         'CC0 1.0, CC BY 4.0, CC BY-SA 4.0, or Public domain')
     path = Path(args.narration) if args.narration else ROOT / 'assets/audio/uploaded-narration'
     if args.narration_url:
         if not args.narration_url.startswith('https://'):
@@ -189,6 +192,7 @@ def read_uploaded(args, config):
             path.write_bytes(response.read())
     if digest(path) != rights['sha256']:
         raise ValueError('Uploaded narration SHA-256 differs from its rights declaration')
+    rights['local_filename'] = str(path.relative_to(ROOT)) if path.is_relative_to(ROOT) else str(path)
     if not args.narration_transcript:
         raise ValueError('Uploaded narration requires --narration-transcript text file '
                          'and --narration-timing JSON; no unverifiable replacement is published.')

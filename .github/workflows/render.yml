@@ -40,11 +40,14 @@ jobs:
           python-version: '3.12'
           cache: pip
       - name: Install open-source rendering tools
+        timeout-minutes: 10
         run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y ffmpeg fonts-noto-core
-          python -m pip install --upgrade pip
-          python -m pip install -r requirements.txt
+          if ! command -v ffmpeg || ! command -v ffprobe || ! command -v fc-match; then
+            sudo apt-get update -qq
+            sudo apt-get install -y ffmpeg fontconfig fonts-dejavu-core
+          fi
+          ffmpeg -version | head -n 1
+          python -m pip install --disable-pip-version-check -r requirements.txt
       - name: Test export validation
         run: python -m unittest discover -s tests -v
       - name: Rasterize Arabic cards for visual inspection

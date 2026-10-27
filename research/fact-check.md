@@ -292,3 +292,7 @@ The opening text cards are also assertions and need contextual qualifications, e
 - **S15: [Report of the Commission Entrusted by the Council with the Study of the Frontier between Syria and Iraq](https://www.loc.gov/resource/g7461f.ct000889b/)** — Library of Congress, League of Nations historical item. Indexed Library of Congress catalogue summary: 1920 Anglo-French convention and subsequent boundary commission.
 
 - **S16: [Just a Line in the Sand? The Making of an Arabian Border, 1925](https://www.qdl.qa/en/just-line-sand-making-arabian-border-1925)** — Qatar Digital Library / British Library, William Monk, 24 March 2021. Indexed institutional archival interpretation; cautions that modern frontiers were not simply the Sykes-Picot map and involved multiple negotiations.
+
+## Constitutional qualification
+
+The party’s secular ideological ideal did not remove Islam’s status as state religion under Article4 of the 1970constitution. The film explicitly distinguishes these. Primary reprint: https://www.sjc.iq/view.81/ ; corroborating ILO NATLEX record: https://natlex.ilo.org/dyn/natlex2/r/natlex/fe/details?p3_isn=42152 . Religious personal-status rules persisted (HRW evidence S5 above).

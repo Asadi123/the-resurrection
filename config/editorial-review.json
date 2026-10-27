@@ -402,6 +402,14 @@
       "url": "https://www.qdl.qa/en/just-line-sand-making-arabian-border-1925",
       "locator": "Overview",
       "retrieval": "Indexed institutional archival interpretation; cautions that modern frontiers were not simply the Sykes-Picot map and involved multiple negotiations."
+    },
+    {
+      "id": "S17",
+      "title": "1970 Constitution of Iraq, Article 4",
+      "publisher": "Iraqi Supreme Judicial Council",
+      "url": "https://www.sjc.iq/view.81/",
+      "locator": "Article 4: Islam is the state religion; corroborated by ILO NATLEX record42152",
+      "retrieval": "Primary constitutional text read; ILO record https://natlex.ilo.org/dyn/natlex2/r/natlex/fe/details?p3_isn=42152"
     }
   ],
   "research_limitations": [
@@ -644,7 +652,7 @@
       "id": "secular-ideal",
       "start": 90.833333,
       "end": 100.266667,
-      "text": "A secular, pan-Arab state was the party’s ideal.\nIraq’s people held diverse identities; discrimination persisted.",
+      "text": "Ba’athism promoted a secular, pan-Arab ideal.\nIslam remained Iraq’s state religion; religious personal-status rules persisted.",
       "heading": "HISTORICAL CONTEXT",
       "covers": [
         "secular"
@@ -654,8 +662,7 @@
       ],
       "source_ids": [
         "S5",
-        "S10",
-        "S12"
+        "S17"
       ],
       "minimum_reading_seconds": 5.0
     },

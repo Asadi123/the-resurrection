@@ -101,7 +101,7 @@ def synchronize(timing_path=None, write=True):
         ("aziz-and-land", aziz_start, secular_start,
          "Tariq Aziz, a Chaldean Christian: Foreign Minister, 1983–91.\nLand reform began in 1958 and continued under Ba’ath rule.", ["aziz", "land"], ["S7", "S8", "S9", "S11", "S14"]),
         ("secular-ideal", secular_start, context_start,
-         "A secular, pan-Arab state was the party’s ideal.\nIraq’s people held diverse identities; discrimination persisted.", ["secular"], ["S5", "S10", "S12"]),
+         "Ba’athism promoted a secular, pan-Arab ideal.\nIslam remained Iraq’s state religion; religious personal-status rules persisted.", ["secular"], ["S5", "S17"]),
         ("repression-context", context_start, oil_start,
          "Development coexisted with dictatorship.\nThe 1988 Anfal campaign targeted Kurdish civilians.", ["dangerous"], ["S10"]),
         ("oil-dispute", oil_start, interpretation_start,
