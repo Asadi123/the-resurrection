@@ -183,6 +183,36 @@ def make_archive_video(path,dst,secs,beat,source,seed):
         "-an","-c:v","libx264","-preset","veryfast","-crf","20",
         "-r",FPS,"-pix_fmt","yuv420p","-video_track_timescale","15360",dst])
 
+def srt_timestamp(t):
+    t=max(0.0,float(t))
+    ms=round(t*1000)
+    hh=ms//3600000; ms%=3600000
+    mm=ms//60000; ms%=60000
+    ss=ms//1000; ms%=1000
+    return f"{hh:02}:{mm:02}:{ss:02},{ms:03}"
+
+def create_caption_track():
+    """Optional caption track from aligned chapter durations; needs human sync QA."""
+    captions=[]
+    for beat,timing in zip(DATA["beats"],CLOCK["timings"]):
+        words=beat["text"].split()
+        # Short, readable 2-line excerpts, not a full paragraph on screen.
+        groups=[words[i:i+9] for i in range(0,len(words),9)]
+        usable=float(timing["speech_duration"])
+        weights=[sum(len(w)+1 for w in g) for g in groups]
+        total=sum(weights)
+        passed=0
+        for group,weight in zip(groups,weights):
+            a=float(timing["start"])+usable*passed/total
+            b=float(timing["start"])+usable*(passed+weight)/total
+            captions.append((a,b," ".join(group)))
+            passed+=weight
+    text="".join(f"{n}\\n{srt_timestamp(a)} --> {srt_timestamp(b)}\\n{txt}\\n\\n"
+        for n,(a,b,txt) in enumerate(captions,1))
+    path=OUT/"english-captions.srt"
+    path.write_text(text)
+    return path
+
 def make_score(duration,sr=24000):
     # Original restrained documentary score: sub-bass drones and sparse timed accents.
     t=np.arange(int(duration*sr),dtype=np.float32)/sr
@@ -249,15 +279,19 @@ def main():
     run(["ffmpeg","-hide_banner","-loglevel","error","-y","-f","concat",
         "-safe","0","-i",OUT/"edit-list.txt","-c","copy",video])
     make_score(float(CLOCK["duration"]))
+    subs=create_caption_track()
     mp4=OUT/"THE-EIGHT-YEAR-FRONT-1080p.mp4"
     run(["ffmpeg","-hide_banner","-loglevel","error","-y","-i",video,
         "-i",ROOT/"audio/narration.wav","-i",OUT/"original_score.wav",
+        "-i",subs,
         "-filter_complex",
         "[1:a]aresample=48000,loudnorm=I=-17:TP=-2:LRA=9[voice];"
         "[2:a]aresample=48000,volume=0.75[score];"
         "[voice][score]amix=inputs=2:duration=first:dropout_transition=0,"
         "alimiter=limit=0.90[a]",
-        "-map","0:v:0","-map","[a]","-c:v","copy",
+        "-map","0:v:0","-map","[a]","-map","3:s:0",
+        "-c:s","mov_text","-metadata:s:s:0","language=eng",
+        "-c:v","copy",
         "-c:a","aac","-b:a","192k","-ac","2",
         "-t",str(CLOCK["duration"]),
         "-movflags","+faststart","-metadata","title=THE EIGHT-YEAR FRONT · 1980—1988",mp4])
