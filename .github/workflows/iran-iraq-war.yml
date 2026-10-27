@@ -38,6 +38,19 @@ jobs:
           set -euo pipefail
           python iran-iraq-war/prepare_sources.py
 
+      - name: Save untouched source media with provenance
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: IRAN-IRAQ-ORIGINAL-ARCHIVE-AND-UN-DOCUMENTS
+          path: |
+            iran-iraq-war/assets/original/**
+            iran-iraq-war/source-audit.json
+            iran-iraq-war/research/source-register.json
+          if-no-files-found: warn
+          retention-days: 30
+          compression-level: 0
+
       - name: Enforce independently verified inputs
         run: |
           set -euo pipefail
