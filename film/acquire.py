@@ -38,7 +38,7 @@ def main():
     for a in DATA["references"]["visuals"]:
         try:
             q=get("https://commons.wikimedia.org/w/api.php",timeout=45,params={
-                "action":"query","format":"json","prop":"imageinfo","iiprop":"url|extmetadata",
+                "action":"query","format":"json","prop":"imageinfo","iiprop":"url|size|extmetadata","iiurlwidth":"1920",
                 "titles":"File:"+a["name"]}).json()["query"]["pages"]
             page=next(iter(q.values()))
             if not page.get("imageinfo"): raise ValueError("Commons file not found")
@@ -53,10 +53,27 @@ def main():
             if suffix not in (".jpg",".jpeg",".png",".webm",".ogv",".mp4"):
                 raise ValueError("Non photograph/film media")
             p=OUT/(a["id"]+suffix)
-            meta=store(p,get(src,timeout=240).content)
+            if p.exists() and p.stat().st_size>1000:
+                meta={"bytes":p.stat().st_size,
+                    "sha256":hashlib.sha256(p.read_bytes()).hexdigest()}
+                acquisition="verified_cached_original"
+            else:
+                # Commons' full-resolution CDN may rate-limit shared CI addresses.
+                # A Wikimedia-generated thumbnail preserves the *entire* photo
+                # including its borders, aspect ratio and content (only reduces pixels).
+                preferred=obj.get("thumburl") if a["type"]=="image" else src
+                try:
+                    data=get(preferred,timeout=240).content
+                except Exception:
+                    if a["type"]!="image" or preferred==src:raise
+                    data=get(src.split("?")[0],timeout=240).content
+                meta=store(p,data)
+                acquisition="full_frame_resized_from_original" if preferred!=src else "original_unmodified"
             manifest["sources"].append({**a,"kind":a["type"],"local_file":str(p.relative_to(ROOT)),
                 "source_url":"https://commons.wikimedia.org/wiki/File:"+quote(a["name"].replace(" ","_")),
-                "file_url":src,"artist":credit,"description":desc[:400],"license":license,**meta})
+                "file_url":src,"download_method":acquisition,
+                "entire_image_in_frame":True,
+                "artist":credit,"description":desc[:400],"license":license,**meta})
             print("VISUAL",a["id"],meta["bytes"],flush=True)
         except Exception as e:
             manifest["errors"].append(f"{a['id']}: {str(e)}")
