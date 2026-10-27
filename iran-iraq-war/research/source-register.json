@@ -1,0 +1,119 @@
+{
+  "title": "THE IRAN–IRAQ WAR, 1980–1988",
+  "updated": "2026-10-27",
+  "visual_policy": "Original historical sources only. Preserve full image/document boundaries. No AI historical images, generated battlefield footage or social-media interface.",
+  "narrative_policy": "Iraqi and Iranian contemporaneous correspondence is party testimony, not an independent factual verdict.",
+  "inputs": [
+    {
+      "id": "thread_research_2023",
+      "type": "research_lead_not_evidence",
+      "url": "https://threadreaderapp.com/thread/1668916665550094339",
+      "status": "retrieved",
+      "usage": "Internal leads only. Locate and verify underlying original documents; do not show intermediary social-media authors, screenshots or interfaces."
+    },
+    {
+      "id": "thread_research_2026",
+      "type": "research_lead_not_evidence",
+      "url": "https://x.com/3rab_vision/status/1986782578565579207",
+      "status": "not_independently_retrieved",
+      "usage": "No claims or visuals from inaccessible thread may be used until retrieved and checked."
+    },
+    {
+      "id": "un_479",
+      "type": "primary_document",
+      "title": "UN Security Council Resolution 479",
+      "date": "1980-09-28",
+      "url": "https://digitallibrary.un.org/record/16029",
+      "pdf": "https://digitallibrary.un.org/record/16029/files/S_RES_479%281980%29-EN.pdf",
+      "status": "verified_record",
+      "claim": "Called on Iran and Iraq to refrain immediately from further use of force and seek mediation."
+    },
+    {
+      "id": "un_14205",
+      "type": "primary_document",
+      "title": "UN Secretary-General report S/14205",
+      "date": "1980-09-30",
+      "url": "https://digitallibrary.un.org/record/16000/files/S_14205-EN.pdf",
+      "status": "verified_text",
+      "claim": "Recorded an Iraqi response dated September 29 and expected formal Iranian response soon afterward."
+    },
+    {
+      "id": "iran_letter_14206",
+      "type": "party_position",
+      "title": "Iran letter S/14206",
+      "date": "1980-10-01",
+      "url": "https://digitallibrary.un.org/record/44462/files/S_SUPP_1980_4--%5EOR_SC_1980_IV%5E-EN.pdf",
+      "status": "verified_text",
+      "claim": "Iran alleged Iraqi incursions and support for Iranian counter-revolutionary activity.",
+      "caveat": "The letter contains claims made by the Iranian government."
+    },
+    {
+      "id": "iraq_letter_15826",
+      "type": "party_position",
+      "title": "Iraq letter S/15826",
+      "date": "1983-06-10",
+      "url": "https://digitallibrary.un.org/record/86834",
+      "status": "verified_text",
+      "claim": "Iraq alleged Iranian artillery attacks preceding its September 1980 offensive.",
+      "caveat": "The letter contains claims made by the Iraqi government."
+    },
+    {
+      "id": "un_598",
+      "type": "primary_document",
+      "title": "UN Security Council Resolution 598",
+      "date": "1987-07-20",
+      "url": "https://digitallibrary.un.org/record/137345",
+      "pdf": "https://digitallibrary.un.org/record/137345/files/S_RES_598%281987%29-EN.pdf",
+      "status": "verified_record",
+      "claim": "Demanded a ceasefire and withdrawal of forces."
+    },
+    {
+      "id": "un_peacemaker_1988",
+      "type": "institutional_history",
+      "title": "UN Peacemaker — implementation of Resolution 598",
+      "url": "https://peacemaker.un.org/en/node/9413",
+      "status": "verified_text",
+      "claim": "Iran formally accepted on July 17, 1988 and Iraq reaffirmed acceptance the next day."
+    },
+    {
+      "id": "abadan_1980",
+      "type": "archival_video",
+      "title": "Siege of Abadan wartime recording",
+      "url": "https://commons.wikimedia.org/wiki/File:Siege_of_Abadan,_Iran%E2%80%93Iraq_War.webm",
+      "date": "1980",
+      "license_claim": "PD-Iraq per Wikimedia Commons (check reuse in target jurisdictions)",
+      "status": "candidate_visual_provenance_checked",
+      "caveat": "Low resolution, source described by Commons as Iraqi propaganda; confirm exact content and in/out before final edit."
+    },
+    {
+      "id": "andimeshk_1986",
+      "type": "archival_video",
+      "title": "Andimeshk wartime recording",
+      "url": "https://commons.wikimedia.org/wiki/File:Andimeshk-25november.webm",
+      "date": "1986-11-25",
+      "license_claim": "PD-Iran per Wikimedia Commons (check reuse in target jurisdictions)",
+      "status": "candidate_visual_provenance_checked",
+      "caveat": "Review for context and editing ethics before rendering."
+    },
+    {
+      "id": "us_iran_hostage_1980",
+      "type": "archival_video",
+      "title": "US Information Agency Iranian hostage crisis newsreel",
+      "url": "https://commons.wikimedia.org/wiki/File:Iran_Hostage_Crisis_Newsreel.ogv",
+      "date": "1980",
+      "license_claim": "US federal public domain",
+      "status": "candidate_not_war_footage",
+      "caveat": "Only use if explicitly explaining Iran's 1980 diplomatic context; do not label as Iran–Iraq battlefield scenes."
+    }
+  ],
+  "claims_to_verify_before_publication": [
+    "September 1980 shelling dates, sites and frequency",
+    "Any quoted confession by Ebrahim Yazdi",
+    "Claim of an Iranian Shatt al-Arab blockade on 16 September 1980",
+    "Precise number of prewar border violations",
+    "Disputed characterization of September 1980 Iraqi operation as only coercive diplomacy",
+    "Claims about money value of Israeli military sales",
+    "All audio and photographic licensing in destination jurisdiction"
+  ],
+  "provenance": "Internal register only; finished film must cite original historical institutions and works without displaying social media source interfaces."
+}
