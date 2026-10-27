@@ -26,7 +26,9 @@ jobs:
       - name: Install source verification and editing dependencies
         run: |
           set -euo pipefail
-          python -m pip install --disable-pip-version-check requests Pillow PyMuPDF
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg fonts-dejavu-core
+          python -m pip install --disable-pip-version-check requests Pillow 'PyMuPDF<2'
           ffmpeg -version | head -n 1
 
       - name: Acquire original wartime film and full UN document scans
