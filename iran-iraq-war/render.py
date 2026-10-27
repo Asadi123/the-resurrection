@@ -34,6 +34,8 @@ SHOTS = [
     ("video", "abadan-1980", 7, "THE SHATT AL-ARAB", "Strategic waterway between Iraq and Iran", 37),
     ("graphic", None, 7, "1979", "Revolution in Iran · political tensions rise", 0),
     ("document", "un-sg-1980", 10, "SEPTEMBER 1980", "UN Secretary-General's report · 30 Sep 1980", 0),
+    ("document", "un-iraq-letter-1983", 8, "IRAQ'S POSITION", "Iraqi letter of 10 June 1983 · retrospective claim", 0),
+    ("document", "un-iran-letter-1980", 8, "IRAN'S POSITION", "Iranian letter of 1 October 1980 · competing claim", 0),
     ("video", "abadan-1980", 8, "EARLY SEPTEMBER", "Competing accusations of border violations", 74),
     ("document", "un-479-1980", 9, "RESOLUTION 479", "UN Security Council · 28 Sep 1980", 0),
     ("video", "abadan-1980", 8, "THE FRONT", "Siege of Abadan · actual period footage", 115),
@@ -100,7 +102,19 @@ def document_source(asset_path, title, subtitle):
     doc = fitz.open(asset_path)
     if not doc.page_count:
         raise ValueError("Source document has no pages")
-    pix = doc[0].get_pixmap(matrix=fitz.Matrix(2.5, 2.5), alpha=False)
+    page_index = 0
+    # Preserve an entire original printed page from each bound UN volume.
+    target = None
+    if "un-iraq-letter-1983" in asset_path.name:
+        target = "S/15826"
+    elif "un-iran-letter-1980" in asset_path.name:
+        target = "S/14206"
+    if target:
+        hits = [i for i in range(doc.page_count) if target in doc[i].get_text()]
+        if not hits:
+            raise RuntimeError(f"Original UN letter {target} was not located in the source PDF")
+        page_index = hits[0]
+    pix = doc[page_index].get_pixmap(matrix=fitz.Matrix(2.5, 2.5), alpha=False)
     page = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
     canvas = Image.new("RGB", (W,H), NAVY)
     img = fitted(page, (820,960))
