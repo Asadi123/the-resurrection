@@ -1,0 +1,417 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "152827238": {
+        "pageid": 152827238,
+        "ns": 6,
+        "title": "File:1978 - Baghdad - Academy of Fine Arts, Farid Allawerdi, Jassim Al-Aboudi with students of the Academy.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 1131019,
+            "width": 993,
+            "height": 722,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/1978_-_Baghdad_-_Academy_of_Fine_Arts%2C_Farid_Allawerdi%2C_Jassim_Al-Aboudi_with_students_of_the_Academy.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:1978_-_Baghdad_-_Academy_of_Fine_Arts,_Farid_Allawerdi,_Jassim_Al-Aboudi_with_students_of_the_Academy.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=152827238",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-09-18 18:13:11",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "1978 - Baghdad - Academy of Fine Arts, Farid Allawerdi, Jassim Al-Aboudi with students of the Academy",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|1978 in Baghdad|Template Unknown (author)|Farid Allawerdi",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "1978 - Baghdad - Academy of Fine Arts, Farid Allawerdi, Jassim Al-Aboudi with students of the Academy",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1978",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "Farid Allawerdi Music Archives",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "slots": {
+              "main": {
+                "contentmodel": "wikitext",
+                "contentformat": "text/x-wiki",
+                "*": "=={{int:filedesc}}==\n{{Information\n|description={{en|1=1978 - Baghdad - Academy of Fine Arts, Farid Allawerdi, Jassim Al-Aboudi with students of the Academy}}\n|date=1978\n|source=Farid Allawerdi Music Archives\n|author={{Unknown|author}}\n|permission=\n|other versions=\n}}\n\n=={{int:license-header}}==\n{{cc-zero}}\n\n[[Category:1978 in Baghdad]]\n[[Category:Farid Allawerdi]]"
+              }
+            }
+          }
+        ]
+      },
+      "152827248": {
+        "pageid": 152827248,
+        "ns": 6,
+        "title": "File:1980s - Baghdad - Mila Allawerdi, Lorna Salim, Selwa Al-Hossary with Mila's daughter, Mariam, in Allawerdi house on Attar Street in Karrada Al-Sharkiya.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 984968,
+            "width": 912,
+            "height": 606,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/1980s_-_Baghdad_-_Mila_Allawerdi%2C_Lorna_Salim%2C_Selwa_Al-Hossary_with_Mila%27s_daughter%2C_Mariam%2C_in_Allawerdi_house_on_Attar_Street_in_Karrada_Al-Sharkiya.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:1980s_-_Baghdad_-_Mila_Allawerdi,_Lorna_Salim,_Selwa_Al-Hossary_with_Mila%27s_daughter,_Mariam,_in_Allawerdi_house_on_Attar_Street_in_Karrada_Al-Sharkiya.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=152827248",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-09-18 18:13:16",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "1980s - Baghdad - Mila Allawerdi, Lorna Salim, Selwa Al-Hossary with Mila's daughter, Mariam, in Allawerdi house on Attar Street in Karrada Al-Sharkiya",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Baghdad in the 1980s|Template Unknown (author)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "1980s - Baghdad - Mila Allawerdi, Lorna Salim, Selwa Al-Hossary with Mila's daughter, Mariam, in Allawerdi house on Attar Street in Karrada Al-Sharkiya",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1980s",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "Farid Allawerdi Music Archives",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "slots": {
+              "main": {
+                "contentmodel": "wikitext",
+                "contentformat": "text/x-wiki",
+                "*": "=={{int:filedesc}}==\n{{Information\n|description={{en|1=1980s - Baghdad - Mila Allawerdi, Lorna Salim, Selwa Al-Hossary with Mila's daughter, Mariam, in Allawerdi house on Attar Street in Karrada Al-Sharkiya}}\n|date=1980s\n|source=Farid Allawerdi Music Archives\n|author={{Unknown|author}}\n|permission=\n|other versions=\n}}\n\n=={{int:license-header}}==\n{{cc-zero}}\n\n[[Category:Baghdad in the 1980s]]"
+              }
+            }
+          }
+        ]
+      },
+      "96529157": {
+        "pageid": 96529157,
+        "ns": 6,
+        "title": "File:Baghdad - Chancery Office Building - 1985 - DPLA - 4eda9569275b03d662ffe80acb9f06a9.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 4004943,
+            "width": 2400,
+            "height": 1691,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Baghdad_-_Chancery_Office_Building_-_1985_-_DPLA_-_4eda9569275b03d662ffe80acb9f06a9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Baghdad_-_Chancery_Office_Building_-_1985_-_DPLA_-_4eda9569275b03d662ffe80acb9f06a9.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=96529157",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-11-22 09:14:31",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nBaghdad - Chancery Office Building - 1985</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US|Media contributed by the National Archives and Records Administration|Media contributed by the Digital Public Library of America|Buildings in Baghdad|Artworks without Wikidata item|Media contributed by National Archives at College Park - Still Pictures|NARA images of Iraq|Baghdad in the 1980s|US National Archives series: Photographs Related to Embassies, Consulates, and Other Overseas Buildings, ca. 1945 - ca. 2006",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "Department of State. Office of the Undersecretary for Management. Bureau of Overseas Buildings Operations. (2001)",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\nThe original finding aid described this item as: Property Number: s 98512</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "This file was contributed to Wikimedia Commons by <a href=\"https://en.wikipedia.org/wiki/en:National_Archives_and_Records_Administration\" class=\"extiw\" title=\"w:en:National Archives and Records Administration\"><span title=\"United States government agency\">National Archives and Records Administration</span></a> as part of a cooperation project. The donation was facilitated by the <a href=\"https://en.wikipedia.org/wiki/Digital_Public_Library_of_America\" class=\"extiw\" title=\"w:Digital Public Library of America\">Digital Public Library of America</a>, via its partner <a href=\"https://en.wikipedia.org/wiki/en:Digital_Public_Library_of_America\" class=\"extiw\" title=\"w:en:Digital Public Library of America\"><span title=\"American aggregation platform providing open access to digital collections from libraries, archives, and museums.\">Digital Public Library of America</span></a>.<span style=\"text-align:left\">\n<ul><li><a rel=\"nofollow\" class=\"external text\" data-mw-original-href=\"http://catalog.archives.gov/id/24224893\" href=\"https://catalog.archives.gov/id/24224893\">Record in source catalog</a></li>\n<li>DPLA identifier: <a rel=\"nofollow\" class=\"external text\" href=\"https://dp.la/item/4eda9569275b03d662ffe80acb9f06a9\">4eda9569275b03d662ffe80acb9f06a9</a></li>\n<li>National Archives Identifier: 24224893</li></ul>\n</span>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "This image might not be in the public domain outside of the United States; this especially applies in the countries and areas that do not apply the <a href=\"https://en.wikipedia.org/wiki/rule_of_the_shorter_term\" class=\"extiw\" title=\"w:rule of the shorter term\">rule of the shorter term</a> for US works, such as Canada, Mainland China (not Hong Kong or Macao), Germany, Mexico, and Switzerland. The creator and year of publication are essential information and must be provided. See <a href=\"https://en.wikipedia.org/wiki/Wikipedia:Public_domain\" class=\"extiw\" title=\"w:Wikipedia:Public domain\">Wikipedia:Public domain</a> and <a href=\"https://en.wikipedia.org/wiki/Wikipedia:Copyrights\" class=\"extiw\" title=\"w:Wikipedia:Copyrights\">Wikipedia:Copyrights</a> for more details.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "slots": {
+              "main": {
+                "contentmodel": "wikitext",
+                "contentformat": "text/x-wiki",
+                "*": "== {{int:filedesc}} ==\n {{ Artwork\n   | Other fields 1 = {{ InFi | Creator | Department of State. Office of the Undersecretary for Management. Bureau of Overseas Buildings Operations. (2001) }}\n   | title = Baghdad - Chancery Office Building - 1985\n   | description = The original finding aid described this item as: Property Number: s 98512\n   | date = \n   | permission = {{PD-US}}\n   | source = {{ DPLA\n       | Q59661040\n       | hub = National Archives and Records Administration\n       | url = http://catalog.archives.gov/id/24224893\n       | dpla_id = 4eda9569275b03d662ffe80acb9f06a9\n       | local_id = 24224893\n   }}\n   | Institution = {{ Institution | wikidata = Q59661040 }}\n   | Other fields = {{ InFi | Standardized rights statement | {{ rights statement | http://rightsstatements.org/vocab/NoC-US/1.0/ }} }}\n }}\n[[Category:NARA images of Iraq]]\n[[Category:Baghdad in the 1980s]]\n[[Category:US National Archives series: Photographs Related to Embassies, Consulates, and Other Overseas Buildings, ca. 1945 - ca. 2006]]\n[[Category:Buildings in Baghdad]]"
+              }
+            }
+          }
+        ]
+      },
+      "5358478": {
+        "pageid": 5358478,
+        "ns": 6,
+        "title": "File:Bundesarchiv Bild 183-78265-0003, Jena, irakische Gaststudenten beim Selbststudium.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 51776,
+            "width": 682,
+            "height": 572,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Bundesarchiv_Bild_183-78265-0003%2C_Jena%2C_irakische_Gaststudenten_beim_Selbststudium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-78265-0003,_Jena,_irakische_Gaststudenten_beim_Selbststudium.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=5358478",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-03-25 09:33:56",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Bundesarchiv Bild 183-78265-0003, Jena, irakische Gaststudenten beim Selbststudium",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "People associated with Friedrich-Schiller-Universität Jena|Images from the German Federal Archive|People of Jena|People of Baghdad|Jena photographs taken on 1960-12-06",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nStiele</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\n<div style=\"background:var(--background-color-neutral, #eaecf0); color:inherit; font-size:86%; direction:ltr;\">For documentary purposes the German Federal Archive often retained the <b>original image captions</b>, which may be <b>erroneous, biased, obsolete or politically extreme</b>. <abbr class=\"BArchtooltips\" title=\"Files from the inventories “Bild 101 Propagandakompanien der Wehrmacht” and “Bild 183 ADN” may have particularly biased or politically extreme descriptions.\"><span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Info_non-talk.svg/20px-Info_non-talk.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"15\" height=\"15\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Info_non-talk.svg/40px-Info_non-talk.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"62\" data-file-height=\"62\"></span></span></abbr></div><div class=\"language de\"><b>Jena, irakische Gaststudenten beim Selbststudium</b>\nZentralbild Stiele 6.12.1960 Ausländische Studenten an der Friedrich-Schiller-Universität Jena. UBz: Die irakischen Studenten Madiha Jassani und Abrahim Abass beim gemeinsamen Studium.</div></div>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 6 December 1960",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<table style=\"width:100%; clear: both; text-align: center; margin: 0.5em auto; background-color: var(--background-color-interactive-subtle, #f9f9f9); color: inherit; border: 2px solid var(--border-color-muted, #e0e0e0);\" dir=\"ltr\" lang=\"en\" class=\"layouttemplate partnershiptemplate\" role=\"presentation\">\n<tbody><tr>\n<td style=\"width:100px;\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/Commons:Bundesarchiv/en\" title=\"Logo Bundesarchiv\"><img alt=\"Logo Bundesarchiv\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Bundesarchiv-Logo-ohne-Wappen.svg/120px-Bundesarchiv-Logo-ohne-Wappen.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"100\" height=\"83\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Bundesarchiv-Logo-ohne-Wappen.svg/250px-Bundesarchiv-Logo-ohne-Wappen.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"240\" data-file-height=\"200\"></a></span>\n</td>\n<td>This image was provided to Wikimedia Commons by the <a rel=\"nofollow\" class=\"external text\" href=\"http://www.bundesarchiv.de/\">German Federal Archive</a> (Deutsches Bundesarchiv) as part of a <a href=\"//commons.wikimedia.org/wiki/Commons:Bundesarchiv\" title=\"Commons:Bundesarchiv\">cooperation project</a>. The German Federal Archive guarantees an authentic representation only using the originals (negative and/or positive), resp. the digitalization of the originals as provided by the <a rel=\"nofollow\" class=\"external text\" href=\"http://www.bild.bundesarchiv.de\">Digital Image Archive</a>.\n</td></tr></tbody></table>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0 de",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0 de",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "Bundesarchiv, Bild 183-78265-0003 / CC-BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0-de",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "slots": {
+              "main": {
+                "contentmodel": "wikitext",
+                "contentformat": "text/x-wiki",
+                "*": "== {{int:filedesc}} ==\n{{BArch-image\n|wiki description =\n|short title      =\n|archive title    =\n|original title   = '''Jena, irakische Gaststudenten beim Selbststudium'''\n\t\nZentralbild Stiele 6.12.1960 Ausländische Studenten an der Friedrich-Schiller-Universität Jena. UBz: Die irakischen Studenten Madiha Jassani und Abrahim Abass beim gemeinsamen Studium.\n|biased           =\n|depicted people  =\n|depicted place   = Jena\n|photographer     = Stiele\n|date             = {{taken on|1960-12-06|location=Jena}}\n|year             = 1960\n|ID               = Bild 183-78265-0003\n|inventory        = Bild 183\n|other versions   = \n}}\n\n== {{int:license-header}} ==\n{{Cc-by-sa-3.0-de|attribution=Bundesarchiv, Bild 183-78265-0003 / CC-BY-SA 3.0}}\n\n[[Category:People of Jena]]\n[[Category:People associated with Friedrich-Schiller-Universität Jena]]\n[[Category:People of Baghdad]]"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

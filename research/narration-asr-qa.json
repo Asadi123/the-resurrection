@@ -1,0 +1,146 @@
+{
+  "engine": "faster-whisper small.en CPU int8",
+  "purpose": "Per-sentence automated pronunciation/transcript spot check; not human listening review",
+  "segments": [
+    {
+      "id": "main-01",
+      "expected": "June 1st 1972.",
+      "recognized": " June 1st, 1978."
+    },
+    {
+      "id": "main-02",
+      "expected": "Iraq nationalized its oil.",
+      "recognized": " Iraq nationalized its oil."
+    },
+    {
+      "id": "main-03",
+      "expected": "The wealth extracted for fifty years by British Petroleum — came home.",
+      "recognized": " The wealth extracted for 50 years by British Petroleum came home."
+    },
+    {
+      "id": "main-04",
+      "expected": "Per capita income tripled.",
+      "recognized": " per capita income tripled."
+    },
+    {
+      "id": "main-05",
+      "expected": "Every child received free education through university.",
+      "recognized": " Every child received free education through university."
+    },
+    {
+      "id": "main-06",
+      "expected": "Every citizen received free healthcare.",
+      "recognized": " Every citizen receives free health care."
+    },
+    {
+      "id": "main-07",
+      "expected": "UNESCO awarded Iraq its literacy prize.",
+      "recognized": " UNESCO awarded Iraq its literacy prize."
+    },
+    {
+      "id": "main-08",
+      "expected": "The Arab world watched and understood — this is what sovereignty looks like.",
+      "recognized": " The Arab world watched and understood.  This is what sovereignty looks like."
+    },
+    {
+      "id": "main-09",
+      "expected": "Ba’athism answered the oldest question — what does the Arab nation owe itself?",
+      "recognized": " Baytism answered the oldest question, what does the Arab nation owe itself?"
+    },
+    {
+      "id": "main-10",
+      "expected": "Everything.",
+      "recognized": " everything."
+    },
+    {
+      "id": "main-11",
+      "expected": "Its language taught without shame.",
+      "recognized": " its language taught without shame."
+    },
+    {
+      "id": "main-12",
+      "expected": "Its women standing in every courtroom, every hospital, every military rank.",
+      "recognized": " It's women standing in every courtroom, every hospital, every military rank."
+    },
+    {
+      "id": "main-13",
+      "expected": "A Christian as Foreign Minister.",
+      "recognized": " A Christian is foreign minister."
+    },
+    {
+      "id": "main-14",
+      "expected": "A farmer owning his land.",
+      "recognized": " a former owning his land."
+    },
+    {
+      "id": "main-15",
+      "expected": "One secular state.",
+      "recognized": " one secular state."
+    },
+    {
+      "id": "main-16",
+      "expected": "One Arab identity.",
+      "recognized": " one Arab identity."
+    },
+    {
+      "id": "main-17",
+      "expected": "No foreign permission required.",
+      "recognized": " No foreign permission required."
+    },
+    {
+      "id": "main-18",
+      "expected": "They called Ba’athism dangerous.",
+      "recognized": " They called baptism dangerous."
+    },
+    {
+      "id": "main-19",
+      "expected": "They were right.",
+      "recognized": " They were right."
+    },
+    {
+      "id": "main-20",
+      "expected": "A sovereign Arab state that nationalized its oil threatened every company grown rich on Arab resources.",
+      "recognized": " a sovereign Arab state that nationalized its oil threatened every company grown rich on  Arab resources."
+    },
+    {
+      "id": "main-21",
+      "expected": "An educated Arab population threatened every power that depended on Arab dependency.",
+      "recognized": " An educated Arab population threatened every power that depended on Arab dependency."
+    },
+    {
+      "id": "main-22",
+      "expected": "They called it instability.",
+      "recognized": " They called it instability."
+    },
+    {
+      "id": "main-23",
+      "expected": "Stability for whom?",
+      "recognized": " stability for whom"
+    },
+    {
+      "id": "closing-01",
+      "expected": "The oil was Arab.",
+      "recognized": " The oil was zero."
+    },
+    {
+      "id": "closing-02",
+      "expected": "The schools were full.",
+      "recognized": " The schools were full."
+    },
+    {
+      "id": "closing-03",
+      "expected": "The women were free.",
+      "recognized": " The women were free."
+    },
+    {
+      "id": "closing-04",
+      "expected": "The borders were challenged.",
+      "recognized": " The borders were challenged."
+    },
+    {
+      "id": "closing-05",
+      "expected": "Remember that Iraq.",
+      "recognized": " Remember that Iraq"
+    }
+  ]
+}

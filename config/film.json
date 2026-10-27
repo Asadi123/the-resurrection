@@ -1,0 +1,164 @@
+{
+  "title": "THE RESURRECTION — البعث",
+  "duration": 160,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "opening": [
+    {
+      "start": 0,
+      "end": 1,
+      "text": ""
+    },
+    {
+      "start": 1,
+      "end": 5,
+      "text": "They drew your borders without asking."
+    },
+    {
+      "start": 5,
+      "end": 9,
+      "text": "They took your oil without sharing."
+    },
+    {
+      "start": 9,
+      "end": 13,
+      "text": "One party said enough."
+    }
+  ],
+  "title_start": 13,
+  "title_end": 21,
+  "archive_end": 150,
+  "black_transition_end": 151,
+  "final_hold_start": 151,
+  "final_hold_end": 159,
+  "final_text": "أمة عربية واحدة ذات رسالة خالدة",
+  "final_fade_end": 160,
+  "publication_mode": "exact_with_specific_corrections",
+  "editorial_attribution": "An ideological retrospective • factual qualifications appear on screen",
+  "transition": "0.35-second fades through black between unique archival shots",
+  "shots": [
+    {
+      "asset": "baghdad_1976_fortepan",
+      "start": 13.0,
+      "end": 21.0,
+      "label": "Umm al-Tubul mosque and streetscape, 1976",
+      "grade": "sepia",
+      "motion": "in",
+      "title": true
+    },
+    {
+      "asset": "baghdad_1966",
+      "start": 21.0,
+      "end": 35.4,
+      "label": "Baghdad street life, 6 October 1966",
+      "grade": "sepia",
+      "motion": "out"
+    },
+    {
+      "asset": "fine_arts_1972",
+      "start": 35.4,
+      "end": 49.3,
+      "label": "Aram Tajarian and Farid Allawerdi at Fine Arts Institute, 1972",
+      "grade": "natural",
+      "motion": "in"
+    },
+    {
+      "asset": "academy_1978",
+      "start": 49.3,
+      "end": 55.766666666666666,
+      "label": "Farid Allawerdi, Jassim Al-Aboudi and Academy of Fine Arts students, 1978",
+      "grade": "natural",
+      "motion": "out"
+    },
+    {
+      "asset": "arab_summit_1978",
+      "start": 55.766666666666666,
+      "end": 63.4,
+      "label": "Ahmad Hasan al-Bakr and Hafez al-Assad at Arab Summit, November 1978",
+      "grade": "natural",
+      "motion": "in",
+      "source_crop": [
+        0,
+        0,
+        711,
+        263
+      ]
+    },
+    {
+      "asset": "aflaq_1963",
+      "start": 63.4,
+      "end": 77.23333333333333,
+      "label": "Michel Aflaq portrait, 25 March 1963",
+      "grade": "natural",
+      "motion": "out",
+      "source_crop": [
+        850,
+        985,
+        810,
+        1125
+      ],
+      "layout": "portrait",
+      "focus": [
+        0.5,
+        0.33
+      ]
+    },
+    {
+      "asset": "women_baghdad_1980s",
+      "start": 77.23333333333333,
+      "end": 85.26666666666667,
+      "label": "Mila Allawerdi, Lorna Salim, Selwa Al-Hossary and Mariam in a Baghdad home, 1980s",
+      "grade": "natural",
+      "motion": "in"
+    },
+    {
+      "asset": "aziz_1984",
+      "start": 85.26666666666667,
+      "end": 92.53333333333333,
+      "label": "Tariq Aziz with Ronald Reagan in the Oval Office, 26 November 1984",
+      "grade": "natural",
+      "motion": "out"
+    },
+    {
+      "asset": "baghdad_1977_street1",
+      "start": 92.53333333333333,
+      "end": 102.73333333333333,
+      "label": "Baghdad street, June 1977",
+      "grade": "natural",
+      "motion": "in"
+    },
+    {
+      "asset": "folk_recording_1970s",
+      "start": 102.73333333333333,
+      "end": 118.9,
+      "label": "Traditional and folk music recording in northern Iraq, 1970–1975",
+      "grade": "natural",
+      "motion": "out"
+    },
+    {
+      "asset": "academy_1979",
+      "start": 118.9,
+      "end": 132.0,
+      "label": "Farid Allawerdi and Academy of Fine Arts students, 1979",
+      "grade": "natural",
+      "motion": "in"
+    },
+    {
+      "asset": "fine_arts_1974",
+      "start": 132.0,
+      "end": 139.43333333333334,
+      "label": "Farid Allawerdi and oud player Salman Shuker at Fine Arts Institute, 1974",
+      "grade": "golden",
+      "motion": "out"
+    },
+    {
+      "asset": "baghdad_1977_street2",
+      "start": 139.43333333333334,
+      "end": 150.0,
+      "label": "Baghdad vehicles, June 1977",
+      "grade": "golden",
+      "motion": "in"
+    }
+  ]
+}

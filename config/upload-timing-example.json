@@ -1,0 +1,142 @@
+[
+  {
+    "id": "main-01",
+    "source_start": 13.0,
+    "source_end": 15.427417
+  },
+  {
+    "id": "main-02",
+    "source_start": 16.767125,
+    "source_end": 19.190083
+  },
+  {
+    "id": "main-03",
+    "source_start": 20.529792,
+    "source_end": 26.689812
+  },
+  {
+    "id": "main-04",
+    "source_start": 28.029521,
+    "source_end": 30.063667
+  },
+  {
+    "id": "main-05",
+    "source_start": 35.369229,
+    "source_end": 40.153229
+  },
+  {
+    "id": "main-06",
+    "source_start": 42.708937,
+    "source_end": 45.887563
+  },
+  {
+    "id": "main-07",
+    "source_start": 49.048646,
+    "source_end": 52.297125
+  },
+  {
+    "id": "main-08",
+    "source_start": 55.388354,
+    "source_end": 60.848813
+  },
+  {
+    "id": "main-09",
+    "source_start": 62.188521,
+    "source_end": 67.446938
+  },
+  {
+    "id": "main-10",
+    "source_start": 69.255542,
+    "source_end": 70.449875
+  },
+  {
+    "id": "main-11",
+    "source_start": 71.789583,
+    "source_end": 74.029813
+  },
+  {
+    "id": "main-12",
+    "source_start": 75.369521,
+    "source_end": 81.841771
+  },
+  {
+    "id": "main-13",
+    "source_start": 83.181479,
+    "source_end": 85.677562
+  },
+  {
+    "id": "main-14",
+    "source_start": 87.017271,
+    "source_end": 89.497625
+  },
+  {
+    "id": "main-15",
+    "source_start": 90.837333,
+    "source_end": 92.288
+  },
+  {
+    "id": "main-16",
+    "source_start": 93.627708,
+    "source_end": 95.423479
+  },
+  {
+    "id": "main-17",
+    "source_start": 96.763188,
+    "source_end": 98.939813
+  },
+  {
+    "id": "main-18",
+    "source_start": 100.279521,
+    "source_end": 102.318042
+  },
+  {
+    "id": "main-19",
+    "source_start": 105.619229,
+    "source_end": 106.659
+  },
+  {
+    "id": "main-20",
+    "source_start": 107.998708,
+    "source_end": 116.887
+  },
+  {
+    "id": "main-21",
+    "source_start": 118.226708,
+    "source_end": 124.622062
+  },
+  {
+    "id": "main-22",
+    "source_start": 125.961771,
+    "source_end": 127.629542
+  },
+  {
+    "id": "main-23",
+    "source_start": 128.96925,
+    "source_end": 130.799917
+  },
+  {
+    "id": "closing-01",
+    "source_start": 132.0,
+    "source_end": 133.975333
+  },
+  {
+    "id": "closing-02",
+    "source_start": 135.767063,
+    "source_end": 137.381458
+  },
+  {
+    "id": "closing-03",
+    "source_start": 139.173188,
+    "source_end": 141.5025
+  },
+  {
+    "id": "closing-04",
+    "source_start": 143.294229,
+    "source_end": 145.395979
+  },
+  {
+    "id": "closing-05",
+    "source_start": 147.187708,
+    "source_end": 149.0
+  }
+]

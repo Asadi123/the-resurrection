@@ -1,0 +1,1124 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "151996193": {
+        "pageid": 151996193,
+        "ns": 6,
+        "title": "File:1970-1975 - North of Iraq - Iraqi Traditional & Folk music recording.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 191304,
+            "width": 1000,
+            "height": 622,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/1970-1975_-_North_of_Iraq_-_Iraqi_Traditional_%26_Folk_music_recording.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:1970-1975_-_North_of_Iraq_-_Iraqi_Traditional_%26_Folk_music_recording.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=151996193",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-08-30 14:29:47",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "1970-1975 - North of Iraq - Iraqi Traditional & Folk music recording",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Music of Iraq|CC-Zero|Iraq in the 1970s|Template Unknown (author)|Farid Allawerdi",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "1970-1975 - North of Iraq - Iraqi Traditional &amp; Folk music recording",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "between 1970 and 1975<div style=\"display: none;\">date QS:P,+1970-00-00T00:00:00Z/8,P1319,+1970-00-00T00:00:00Z/9,P1326,+1975-00-00T00:00:00Z/9</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "Farid Allawerdi Music archives",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "slots": {
+              "main": {
+                "contentmodel": "wikitext",
+                "contentformat": "text/x-wiki",
+                "*": "=={{int:filedesc}}==\n{{Information\n|description={{en|1=1970-1975 - North of Iraq - Iraqi Traditional & Folk music recording}}\n|date={{other date|between|1970|1975}}\n|source=Farid Allawerdi Music archives\n|author={{Unknown|author}}\n|permission=\n|other versions=\n}}\n\n=={{int:license-header}}==\n{{cc-zero}}\n\n[[Category:Iraq in the 1970s]]\n[[Category:Farid Allawerdi]]\n[[Category:Music of Iraq]]"
+              }
+            }
+          }
+        ]
+      },
+      "152827234": {
+        "pageid": 152827234,
+        "ns": 6,
+        "title": "File:1972 - Baghdad - Fine Arts Institute - Aram Tajarian (Violinist) and Farid Allawerdi.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 969487,
+            "width": 1087,
+            "height": 616,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/1972_-_Baghdad_-_Fine_Arts_Institute_-_Aram_Tajarian_%28Violinist%29_and_Farid_Allawerdi.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:1972_-_Baghdad_-_Fine_Arts_Institute_-_Aram_Tajarian_(Violinist)_and_Farid_Allawerdi.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=152827234",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-09-18 18:13:08",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "1972 - Baghdad - Fine Arts Institute - Aram Tajarian (Violinist) and Farid Allawerdi",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Baghdad in the 1970s|Template Unknown (author)|Farid Allawerdi",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "1972 - Baghdad - Fine Arts Institute - Aram Tajarian (Violinist) and Farid Allawerdi",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1972",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "Farid Allawerdi Music Archives",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "slots": {
+              "main": {
+                "contentmodel": "wikitext",
+                "contentformat": "text/x-wiki",
+                "*": "=={{int:filedesc}}==\n{{Information\n|description={{en|1=1972 - Baghdad - Fine Arts Institute - Aram Tajarian (Violinist) and Farid Allawerdi}}\n|date=1972\n|source=Farid Allawerdi Music Archives\n|author={{Unknown|author}}\n|permission=\n|other versions=\n}}\n\n=={{int:license-header}}==\n{{cc-zero}}\n\n[[Category:Baghdad in the 1970s]]\n[[Category:Farid Allawerdi]]"
+              }
+            }
+          }
+        ]
+      },
+      "152827239": {
+        "pageid": 152827239,
+        "ns": 6,
+        "title": "File:1974 - Baghdad - Fine Arts Institute - Farid Allawerdi and Salman Shuker (Ud player).png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 1428993,
+            "width": 1231,
+            "height": 733,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/1974_-_Baghdad_-_Fine_Arts_Institute_-_Farid_Allawerdi_and_Salman_Shuker_%28Ud_player%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:1974_-_Baghdad_-_Fine_Arts_Institute_-_Farid_Allawerdi_and_Salman_Shuker_(Ud_player).png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=152827239",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-09-18 18:13:11",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "1974 - Baghdad - Fine Arts Institute - Farid Allawerdi and Salman Shuker (Ud player)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Baghdad in the 1970s|Template Unknown (author)|Farid Allawerdi",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "1974 - Baghdad - Fine Arts Institute - Farid Allawerdi and Salman Shuker (Ud player)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1974",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "Farid Allawerdi Music Archives",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "slots": {
+              "main": {
+                "contentmodel": "wikitext",
+                "contentformat": "text/x-wiki",
+                "*": "=={{int:filedesc}}==\n{{Information\n|description={{en|1=1974 - Baghdad - Fine Arts Institute - Farid Allawerdi and Salman Shuker (Ud player)}}\n|date=1974\n|source=Farid Allawerdi Music Archives\n|author={{Unknown|author}}\n|permission=\n|other versions=\n}}\n\n=={{int:license-header}}==\n{{cc-zero}}\n\n[[Category:Baghdad in the 1970s]]\n[[Category:Farid Allawerdi]]"
+              }
+            }
+          }
+        ]
+      },
+      "152827241": {
+        "pageid": 152827241,
+        "ns": 6,
+        "title": "File:1979 - Baghdad - Academy of Fine Arts - Farid Allawerdi with Academy students.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 1749181,
+            "width": 1183,
+            "height": 789,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/1979_-_Baghdad_-_Academy_of_Fine_Arts_-_Farid_Allawerdi_with_Academy_students.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:1979_-_Baghdad_-_Academy_of_Fine_Arts_-_Farid_Allawerdi_with_Academy_students.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=152827241",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-09-18 18:13:13",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "1979 - Baghdad - Academy of Fine Arts - Farid Allawerdi with Academy students",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Template Unknown (author)|1979 in Baghdad|Farid Allawerdi",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "1979 - Baghdad - Academy of Fine Arts - Farid Allawerdi with Academy students",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1979",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "Farid Allawerdi Music Archives",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "slots": {
+              "main": {
+                "contentmodel": "wikitext",
+                "contentformat": "text/x-wiki",
+                "*": "=={{int:filedesc}}==\n{{Information\n|description={{en|1=1979 - Baghdad - Academy of Fine Arts - Farid Allawerdi with Academy students}}\n|date=1979\n|source=Farid Allawerdi Music Archives\n|author={{Unknown|author}}\n|permission=\n|other versions=\n}}\n\n=={{int:license-header}}==\n{{cc-zero}}\n\n[[Category:1979 in Baghdad]]\n[[Category:Farid Allawerdi]]"
+              }
+            }
+          }
+        ]
+      },
+      "446513": {
+        "pageid": 446513,
+        "ns": 6,
+        "title": "File:Bagdad1 i juni 1977.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 27819,
+            "width": 352,
+            "height": 236,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Bagdad1_i_juni_1977.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bagdad1_i_juni_1977.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=446513",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-09-04 21:21:07",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Bagdad1 i juni 1977",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|PD-self|Baghdad in the 1970s|June 1977 in Asia",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Bagdad in june 1977",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1977-06",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Bobby~commonswiki\" title=\"User:Bobby~commonswiki\">Bobby Zlatevski</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "slots": {
+              "main": {
+                "contentmodel": "wikitext",
+                "contentformat": "text/x-wiki",
+                "*": "== {{int:filedesc}} ==\n{{Information\n |description = Bagdad in june 1977\n |date = 1977-06\n |source = {{own}}\n |author = [[User:Bobby~commonswiki|Bobby Zlatevski]]\n |permission = \n |other_versions = \n}}\n\n== {{int:license-header}} ==\n{{PD-self}}\n\n[[Category:Baghdad in the 1970s]]\n[[Category:June 1977 in Asia]]"
+              }
+            }
+          }
+        ]
+      },
+      "446517": {
+        "pageid": 446517,
+        "ns": 6,
+        "title": "File:Bagdad2 i juni 1977.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 50712,
+            "width": 352,
+            "height": 236,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Bagdad2_i_juni_1977.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bagdad2_i_juni_1977.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=446517",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-05-08 16:06:24",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Bagdad2 i juni 1977",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "1977 in Iraq|Self-published work|PD-self|Attribution metadata from licensed image|Baghdad in the 1970s|Taxis in 1977|Vehicles in Baghdad|Unidentified buses in Asia|Volga taxis",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Baghdad, Iraq in June 1977",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1977-06",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Bobby Zlatevski, Denmark",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "slots": {
+              "main": {
+                "contentmodel": "wikitext",
+                "contentformat": "text/x-wiki",
+                "*": "== {{int:filedesc}} ==\n{{Information\n|Description    = {{en|Baghdad, Iraq in June 1977}}\n|Source         = {{own}}\n|Date           = 1977-06\n|Author         = Bobby Zlatevski, Denmark\n|Permission     = \n|Other versions =\n}}\n\n== {{int:license-header}} ==\n{{PD-self}}\n{{Watermark removed}}\n\n[[Category:Baghdad in the 1970s]]\n[[Category:1977 in Iraq]]\n[[Category:Vehicles in Baghdad]]\n[[Category:Unidentified buses in Asia]]\n[[Category:Volga taxis]]\n[[Category:Taxis in 1977]]"
+              }
+            }
+          }
+        ]
+      },
+      "113359775": {
+        "pageid": 113359775,
+        "ns": 6,
+        "title": "File:Baghdad 1966.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 417871,
+            "width": 1800,
+            "height": 1151,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Baghdad_1966.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Baghdad_1966.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=113359775",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-12-14 14:01:33",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Baghdad 1966",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Buildings in Baghdad|Files from wilford peloquin Flickr stream|Red buses|Baghdad in the 1960s|People in Iraq|Unidentified automobiles in Iraq|Flickr images reviewed by FlickreviewR 2|Vehicles in Baghdad|Unidentified buses in Asia",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Baghdad in 1966",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1966-10-06 09:00:00",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/193055396@N08/51192854109/\">https://www.flickr.com/photos/193055396@N08/51192854109/</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "wilford peloquin",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "slots": {
+              "main": {
+                "contentmodel": "wikitext",
+                "contentformat": "text/x-wiki",
+                "*": "=={{int:filedesc}}==\n{{Information\n|description={{pl|1=Bagdad w 1966}}\n{{en|1=Baghdad in 1966}}\n|date=1966-10-06 09:00:00\n|source=https://www.flickr.com/photos/193055396@N08/51192854109/\n|author=wilford peloquin\n|permission=\n|other versions=\n}}\n\n=={{int:license-header}}==\n{{cc-by-2.0}}{{FlickreviewR|status=passed|author=wilfordpeloquin|sourceurl=https://flickr.com/photos/193055396@N08/51192854109|archive=|reviewdate=2021-12-14 14:02:29|reviewlicense=cc-by-2.0|reviewer=FlickreviewR 2}}\n[[Category:Vehicles in Baghdad]]\n[[Category:Unidentified automobiles in Iraq]]\n[[Category:Buildings in Baghdad]]\n[[Category:Baghdad in the 1960s]]\n[[Category:Files from wilford peloquin Flickr stream]]\n[[Category:Unidentified buses in Asia]]\n[[Category:Red buses]]\n[[Category:People in Iraq]]"
+              }
+            }
+          }
+        ]
+      },
+      "65469478": {
+        "pageid": 65469478,
+        "ns": 6,
+        "title": "File:Michel Acloq (leider Baathpartij) (kop), Bestanddeelnr 914-9662.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 1657789,
+            "width": 2604,
+            "height": 3304,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Michel_Acloq_%28leider_Baathpartij%29_%28kop%29%2C_Bestanddeelnr_914-9662.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Michel_Acloq_(leider_Baathpartij)_(kop),_Bestanddeelnr_914-9662.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=65469478",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-01-13 07:42:07",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Michel Acloq (leider Baathpartij) (kop), Bestanddeelnr 914-9662",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Images from Nationaal Archief|Michel Aflaq|Images from Anefo|Photographs by unknown photographer from Anefo",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Collectie / Archief : Fotocollectie Anefo<br>\n<p>Reportage / Serie : [ onbekend ]<br>\nBeschrijving : Michel Aflaq (leider Baathpartij)<br>\nDatum : 25 maart 1963<br>\nFotograaf : Doka / Anefo<br>\nAuteursrechthebbende : Nationaal Archief <br>\nMateriaalsoort : Negatief (zwart/wit)<br>\nNummer archiefinventaris : bekijk toegang 2.24.01.04<br>\n</p>\nBestanddeelnummer : 914-9662",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1963-03-25",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://proxy.handle.net/10648/aa2f5ae6-d0b4-102d-bcf8-003048976d84\">http://proxy.handle.net/10648/aa2f5ae6-d0b4-102d-bcf8-003048976d84</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Anefo",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "slots": {
+              "main": {
+                "contentmodel": "wikitext",
+                "contentformat": "text/x-wiki",
+                "*": "== {{int:filedesc}} ==\n{{Information\n|Description={{nl|Collectie / Archief : Fotocollectie Anefo<br />\nReportage / Serie : [ onbekend ]<br />\nBeschrijving : Michel Aflaq (leider Baathpartij)<br />\nDatum : 25 maart 1963<br />\nFotograaf : Doka / Anefo<br />\nAuteursrechthebbende : Nationaal Archief <br />\nMateriaalsoort : Negatief (zwart/wit)<br />\nNummer archiefinventaris : bekijk toegang 2.24.01.04<br />\nBestanddeelnummer : 914-9662}}\n|Source=http://proxy.handle.net/10648/aa2f5ae6-d0b4-102d-bcf8-003048976d84\n|Date= 1963-03-25\n|Author=Anefo\n|Permission=\n|other_versions=\n}}\n{{Nationaal Archief}}\n\n== {{int:license-header}} ==\n{{CC-zero}}\n\n[[Category:Images from Nationaal Archief]]\n[[Category:Images from Anefo]]\n[[Category:Michel Aflaq]]\n[[Category:Photographs by unknown photographer from Anefo]]"
+              }
+            }
+          }
+        ]
+      },
+      "2464322": {
+        "pageid": 2464322,
+        "ns": 6,
+        "title": "File:Saddam rumsfeld.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 71842,
+            "width": 319,
+            "height": 242,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Saddam_rumsfeld.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Saddam_rumsfeld.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=2464322",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2008-01-19 14:59:04",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Saddam rumsfeld",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Tariq Aziz|PD-Iraq|1983 in Baghdad|Files not protected by international copyright agreements|Men shaking hands with men|Photographs taken on 1983-12-20|Saddam Hussein in 1983|Donald Rumsfeld in 1983|Politicians of Iraq shaking hands|1983 in international relations of the United States|Donald Rumsfeld shaking hands|Relations of Iraq and the United States in the 1980s",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Original caption:\"Shaking Hands: Iraqi President Saddam Hussein greets Donald Rumsfeld, then special envoy of President Ronald Reagan, in Baghdad on December 20, 1983.\" As this is a simple report of news in progress, it appears to be a simple (ie non-artistic) audio-visual work, protected for only 5 years under Iraqi law",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1983-12-20",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.gwu.edu/~nsarchiv/NSAEBB/NSAEBB82/index.htm\">http://www.gwu.edu/~nsarchiv/NSAEBB/NSAEBB82/index.htm</a> National Security Archive, which credits this as a still image from footage shot by Iraqi state television and rebroadcast on CNN (\"Iraqi television; courtesy CNN\").",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Iraqi state television",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "This work was first published in <a href=\"https://en.wikipedia.org/wiki/Iraq\" class=\"extiw\" title=\"en:Iraq\">Iraq</a> and is now in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> because its copyright protection has expired by virtue of the <i><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20030402064355/http://www.agip.com/laws/iraq/c.htm\">Law No. 3 of 1971 on Copyright</a></i>, amended 2004 by <a rel=\"nofollow\" class=\"external text\" href=\"https://wipolex.wipo.int/en/legislation/details/6170\">Order No. 83, Amendment to the Copyright Law</a> (<a href=\"//commons.wikimedia.org/wiki/Commons:Copyright_rules_by_territory/Iraq\" title=\"Commons:Copyright rules by territory/Iraq\">details</a>). The work meets one of the following criteria:<br>\n<div style=\"font-size:85%;\">\n<ul><li>It is an anonymous work or pseudonymous work and 50 years have passed since the year of its publication <b>or</b>  it was published prior to 1 May 2004</li>\n<li>It is a work where the copyright holder is a legal entity or a work of applied art and 50 years have passed since the year of its publication</li>\n<li>It is a photographic or cinematic work that is not <i>compositive</i> (artistic in nature) first published before 1 May 1999</li>\n<li>It is work published in Iraq before 1 May 1954, <b>and</b> the author died before 1 May 1979</li>\n<li>It is another kind of work, and 50 years have passed since the year of death of the author (or last-surviving author)</li>\n<li>It is one of \"collections of official documents, such as texts of international laws, regulations and agreements, judicial judgements and various official documents.\"</li>\n<li>It is the work of a body corporate, public or private, published by January 1st, 1980 (Article 20, 1971 law).</li></ul></div>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "slots": {
+              "main": {
+                "contentmodel": "wikitext",
+                "contentformat": "text/x-wiki",
+                "*": "{{Information\n|Description=Original caption:\"Shaking Hands: Iraqi President Saddam Hussein greets Donald Rumsfeld, then special envoy of President Ronald Reagan, in Baghdad on December 20, 1983.\" As this is a simple report of news in progress, it appears to be a simple (ie non-artistic) audio-visual work, protected for only 5 years under Iraqi law\n|Source=http://www.gwu.edu/~nsarchiv/NSAEBB/NSAEBB82/index.htm National Security Archive, which credits this as a still image from footage shot by Iraqi state television and rebroadcast on CNN (\"Iraqi television; courtesy CNN\").\n|Date=1983-12-20\n|Author=Iraqi state television\n|Permission={{PD-Iraq}}\n|other_versions=[[Image:Shakinghands high.OGG]]\n}}\n[[Category:1983 in international relations of the United States]]\n[[Category:1983 in Baghdad]]\n[[Category:Photographs taken on 1983-12-20]]\n[[Category:Saddam Hussein in 1983]]\n[[Category:Men shaking hands with men]]\n[[Category:Tariq Aziz]]\n[[Category:Politicians of Iraq shaking hands]]\n[[Category:Donald Rumsfeld in 1983]]\n[[Category:Relations of Iraq and the United States in the 1980s]]\n[[Category:Donald Rumsfeld shaking hands]]"
+              }
+            }
+          }
+        ]
+      },
+      "2472675": {
+        "pageid": 2472675,
+        "ns": 6,
+        "title": "File:Shakinghands high.ogv",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3387421,
+            "width": 320,
+            "height": 240,
+            "duration": 60.04,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Shakinghands_high.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Shakinghands_high.ogv",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=2472675",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2007-07-28 13:03:15",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Shakinghands high",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Tariq Aziz|PD-Iraq|Handshakes involving the military|Ogv videos|1983 in Baghdad|Files not protected by international copyright agreements|Video display resolution 320 x 240|Saddam Hussein in 1983|Videos of 1983 from Iraq|Iran-Iraq War in 1983|Donald Rumsfeld in 1983|Videos of the Iraq War|Videos of handshakes|Politicians meeting foreign leaders|Videos of Donald Rumsfeld|Relations of Iraq and the United States in the 1980s",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Original caption:\"Shaking Hands: Iraqi President Saddam Hussein greets Donald Rumsfeld, then special envoy of President Ronald Reagan, in Baghdad on December 20, 1983.\" Video converted from .wmv to .ogg using <a href=\"https://en.wikipedia.org/wiki/SUPER_(software)\" class=\"extiw\" title=\"w:SUPER (software)\">w:SUPER (software)</a>. Audio channel in original consisted entirely of noise so it was simply deleted in the conversion. As this is a simple report of news in progress, it appears to be a simple (ie non-artistic) audio-visual work, protected for only 5 years under Iraqi law",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1983-12-20",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.gwu.edu/~nsarchiv/NSAEBB/NSAEBB82/index.htm\">http://www.gwu.edu/~nsarchiv/NSAEBB/NSAEBB82/index.htm</a> National Security Archive, which credits this as footage shot by Iraqi state television and rebroadcast on CNN (\"Iraqi television; courtesy CNN\").",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Iraqi state television",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "slots": {
+              "main": {
+                "contentmodel": "wikitext",
+                "contentformat": "text/x-wiki",
+                "*": "== {{int:filedesc}} ==\n{{Information\n|Description=Original caption:\"Shaking Hands: Iraqi President Saddam Hussein greets Donald Rumsfeld, then special envoy of President Ronald Reagan, in Baghdad on December 20, 1983.\" Video converted from .wmv to .ogg using [[w:SUPER (software)]]. Audio channel in original consisted entirely of noise so it was simply deleted in the conversion. As this is a simple report of news in progress, it appears to be a simple (ie non-artistic) audio-visual work, protected for only 5 years under Iraqi law\n|Source=http://www.gwu.edu/~nsarchiv/NSAEBB/NSAEBB82/index.htm National Security Archive, which credits this as footage shot by Iraqi state television and rebroadcast on CNN (\"Iraqi television; courtesy CNN\").\n|Date=1983-12-20\n|Author=Iraqi state television\n|Permission=\n|other_versions=[[:Image:Saddam rumsfeld.jpg]]\n}}\n== {{int:license-header}} ==\n{{PD-Iraq}}\n\n[[Category:1983 in Baghdad]]\n[[Category:Videos of Donald Rumsfeld]]\n[[Category:Videos of handshakes]]\n[[Category:Videos of 1983 from Iraq]]\n[[Category:Videos of the Iraq War]]\n[[Category:Iran-Iraq War in 1983]]\n[[Category:Video display resolution 320 x 240]]\n[[Category:Ogv videos]]\n[[Category:Politicians meeting foreign leaders]]\n[[Category:Handshakes involving the military]]\n[[Category:Tariq Aziz]]\n[[Category:Donald Rumsfeld in 1983]]\n[[Category:Relations of Iraq and the United States in the 1980s]]\n[[Category:Saddam Hussein in 1983]]"
+              }
+            }
+          }
+        ]
+      },
+      "51288952": {
+        "pageid": 51288952,
+        "ns": 6,
+        "title": "File:Um Al Tubool mecset. Fortepan 93562.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 10845290,
+            "width": 6799,
+            "height": 4160,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Um_Al_Tubool_mecset._Fortepan_93562.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Um_Al_Tubool_mecset._Fortepan_93562.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=51288952",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-09-10 04:57:32",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Um Al Tubool mecset. Fortepan 93562",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Images from Fortepan|Images uploaded by Fæ|1976 in Baghdad|Colour photographs from Fortepan|Mosques in Iraq photographed in 1976",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Um Al Tubool mosque",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1976",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.fortepan.hu/_photo/download/fortepan_93562.jpg\">http://www.fortepan.hu/_photo/download/fortepan_93562.jpg</a> <bdi lang=\"en\" dir=\"ltr\" title=\"archived on 24 January 2019 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20190124014220/http%3A//www.fortepan.hu/_photo/download/fortepan_93562.jpg\">archive copy</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "FOTO:Fortepan — <b>ID 93562</b>: <span typeof=\"mw:File\"><a href=\"https://fortepan.hu/\" rel=\"nofollow\"><img alt=\"Home page\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nuvola_filesystems_folder_home.svg/40px-Nuvola_filesystems_folder_home.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nuvola_filesystems_folder_home.svg/60px-Nuvola_filesystems_folder_home.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"128\" data-file-height=\"128\"></a></span><span typeof=\"mw:File\"><a href=\"http://www.fortepan.hu/_photo/download/fortepan_93562.jpg\" rel=\"nofollow\"><img alt=\"Picture\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Inkscape.svg/40px-Inkscape.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Inkscape.svg/60px-Inkscape.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"60\" data-file-height=\"60\"></a></span><span typeof=\"mw:File\"><a href=\"http://www.fortepan.hu/?lang=en&amp;img=93562\" rel=\"nofollow\"><img alt=\"Information page\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/60px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"620\" data-file-height=\"620\"></a></span><br>Adományozó/Donor: LHM. <br><bdi lang=\"en\" dir=\"ltr\" title=\"archived on 30 January 2019 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20190130200442/http%3A//www.fortepan.hu/%3Fimg%3D93562\">archive copy</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "FOTO:FORTEPAN / LHM",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "slots": {
+              "main": {
+                "contentmodel": "wikitext",
+                "contentformat": "text/x-wiki",
+                "*": "\n=={{int:filedesc}}==\n{{information\n| description = {{hu|1=\nUm Al Tubool mecset.}} {{en| Um Al Tubool mosque}} {{ar|جامع أم الطبول}}\n* Location: Iraq, Bagdad\n* Tags: mosque, bus, colorful\n* Title: Um Al Tubool mecset.\n| source = http://www.fortepan.hu/_photo/download/fortepan_93562.jpg {{Wayback|url=http%3A//www.fortepan.hu/_photo/download/fortepan_93562.jpg|date=20190124014220}}\n| date = 1976\n| author = {{Fortepan |id= 93562 |pic-url= http://www.fortepan.hu/_photo/download/fortepan_93562.jpg |info-url= http://www.fortepan.hu/?lang=en&img=93562 |orig= LHM|archive={{Wayback|url=http%3A//www.fortepan.hu/%3Fimg%3D93562|date=20190130200442}}}}\n| permission = \n| other_versions =\n}}\n\n=={{int:license-header}}== \n{{CC-BY-SA-3.0|1=FOTO:FORTEPAN / LHM}}\n\n\n{{DEFAULTSORT:Fortepan.093562}}\n[[Category:Colour photographs from Fortepan]]\n[[Category:Images uploaded by Fæ]]\n[[Category:1976 in Baghdad]]\n[[Category:Mosques in Iraq photographed in 1976]]"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

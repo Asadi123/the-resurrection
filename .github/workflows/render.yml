@@ -1,0 +1,90 @@
+name: Render THE RESURRECTION
+
+on:
+  workflow_dispatch:
+    inputs:
+      narration_url:
+        description: Optional HTTPS URL for your licensed exact English narration (omit for cleared local Piper voice)
+        required: false
+        type: string
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'config/**'
+      - 'research/**'
+      - 'assets/**'
+      - 'requirements.txt'
+      - '.github/workflows/render.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: resurrection-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    env:
+      NARRATION_URL: ${{ inputs.narration_url || '' }}
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install open-source rendering tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg fonts-noto-core
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+      - name: Test export validation
+        run: python -m unittest discover -s tests -v
+      - name: Rasterize Arabic cards for visual inspection
+        run: python scripts/render.py --cards-only
+      - name: Acquire rights-cleared archival assets
+        run: python scripts/acquire_assets.py
+      - name: Prepare exact narration and licensed score
+        run: python scripts/prepare_audio.py
+      - name: Synchronize historical qualifications with measured narration
+        run: python scripts/sync_editorial.py
+      - name: Check publication readiness
+        run: python scripts/preflight.py --report output/preflight.json
+      - name: Assemble 160-second master
+        run: python scripts/render.py --output output/the-resurrection.mp4
+      - name: Validate complete MP4 and final Arabic card
+        run: python scripts/validate.py output/the-resurrection.mp4
+      - name: Upload completed validated MP4
+        uses: actions/upload-artifact@v4
+        with:
+          name: THE-RESURRECTION-1080p-160s
+          path: |
+            output/the-resurrection.mp4
+            output/validation.json
+            CREDITS.md
+            FILM-LICENSE.md
+            research/asset-manifest.json
+            research/audio-assets.json
+          if-no-files-found: error
+          retention-days: 30
+          compression-level: 0
+      - name: Upload diagnostics and source records
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: production-diagnostics
+          path: |
+            output/**/*.json
+            output/qa/**
+            output/cards/**
+            research/**
+            config/**
+          if-no-files-found: warn
+          retention-days: 30

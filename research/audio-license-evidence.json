@@ -1,0 +1,198 @@
+{
+  "commons_api_url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3AOud+music+by+Andy+R.+Jordan+1V2+long.mp3%7CFile%3AOud+open+Strings.ogg&prop=imageinfo&iiprop=url%7Cextmetadata",
+  "commons_metadata": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "68284737": {
+          "pageid": 68284737,
+          "ns": 6,
+          "title": "File:Oud music by Andy R. Jordan 1V2 long.mp3",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Oud_music_by_Andy_R._Jordan_1V2_long.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Oud_music_by_Andy_R._Jordan_1V2_long.mp3",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=68284737",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2018-04-12 18:07:04",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Oud music by Andy R. Jordan 1V2 long",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Audio files of music|Sounds of ouds|Audio files of oud music|Oud music",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Oud music by Andy R. Jordan",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2018-04-12",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Andy R. Jordan - Work was commissioned by the Wikimedia Foundation and made by Andy R. Jordan.",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "Andy R. Jordan",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "6145134": {
+          "pageid": 6145134,
+          "ns": 6,
+          "title": "File:Oud open Strings.ogg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Oud_open_Strings.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Oud_open_Strings.ogg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=6145134",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2010-06-20 14:53:21",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Oud open Strings",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "GFDL|User-created GFDL images|License migration completed|Self-published work|Sounds of ouds|Audio files of oud music|Oud music",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Open strings of the Oud (common Arab tuning)",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "13 February 2006 (original upload date)",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Originally uploaded to Commons in WAV format as <a href=\"//commons.wikimedia.org/w/index.php?title=File:Oud_open_Strings.mid&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"File:Oud open Strings.mid (page does not exist)\">File:Oud open Strings.mid</a> by <a href=\"//commons.wikimedia.org/w/index.php?title=User:Bottomline&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Bottomline (page does not exist)\">User:Bottomline</a>; converted to Ogg Vorbis format with <a href=\"https://en.wikipedia.org/wiki/Audacity\" class=\"extiw\" title=\"w:Audacity\">Audacity</a>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Bottomline&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Bottomline (page does not exist)\">User:Bottomline</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Bottomline&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Bottomline (page does not exist)\">Bottomline</a>, the copyright holder of this work, hereby publishes it under the following license:",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Attribution": {
+                  "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Bottomline&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Bottomline (page does not exist)\">Bottomline</a>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "norman_creator_page": "https://brycebeattie.com/files/tts/",
+  "ibn_al_noor_license_page": "https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1100706"
+}

@@ -1,0 +1,919 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "44883782": {
+        "pageid": 44883782,
+        "ns": 6,
+        "title": "File:Ain Zalla.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 15756,
+            "width": 450,
+            "height": 299,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Ain_Zalla.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ain_Zalla.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=44883782",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2015-11-09 00:35:27",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Ain Zalla",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Iraq War|Water transport in Iraq|Iraq in the 2000s|Iraq in the 1980s|Iraq in the 1990s|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Ain Zalla Oil Tanker  الناقلة عين زالة بعد الغرق",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-11-09",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ibrahimuo&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ibrahimuo (page does not exist)\">Ibrahimuo</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "slots": {
+              "main": {
+                "contentmodel": "wikitext",
+                "contentformat": "text/x-wiki",
+                "*": "=={{int:filedesc}}==\n{{Information\n|description={{en|1=Ain Zalla Oil Tanker  الناقلة عين زالة بعد الغرق}}\n|date=2015-11-09\n|source={{own}}\n|author=[[User:Ibrahimuo|Ibrahimuo]]\n|permission=\n|other versions=\n}}\n\n=={{int:license-header}}==\n{{self|cc-by-sa-4.0}}\n\n[[Category:Water transport in Iraq]]\n[[Category:Iraq in the 2000s]]\n[[Category:Iraq War]]\n[[Category:Iraq in the 1980s]]\n[[Category:Iraq in the 1990s]]"
+              }
+            }
+          }
+        ]
+      },
+      "44883780": {
+        "pageid": 44883780,
+        "ns": 6,
+        "title": "File:Alyrmuk.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 81089,
+            "width": 600,
+            "height": 400,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Alyrmuk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Alyrmuk.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=44883780",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2015-11-09 00:35:27",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Alyrmuk",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Iraq War|Water transport in Iraq|Iraq in the 2000s|Iraq in the 1980s|Iraq in the 1990s|Iraq in the 1970s|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Al Yarmouk Oil Tanker, One of Iraqi Oil Tanker Company (IOTC) fleet in 70s and 80s.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-11-09",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ibrahimuo&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ibrahimuo (page does not exist)\">Ibrahimuo</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "slots": {
+              "main": {
+                "contentmodel": "wikitext",
+                "contentformat": "text/x-wiki",
+                "*": "=={{int:filedesc}}==\n{{Information\n|description={{en|1=Al Yarmouk Oil Tanker, One of Iraqi Oil Tanker Company (IOTC) fleet in 70s and 80s.}}\n|date=2015-11-09\n|source={{own}}\n|author=[[User:Ibrahimuo|Ibrahimuo]]\n|permission=\n|other versions=\n}}\n\n=={{int:license-header}}==\n{{self|cc-by-sa-4.0}}\n\n[[Category:Water transport in Iraq]]\n[[Category:Iraq War]]\n[[Category:Iraq in the 1980s]]\n[[Category:Iraq in the 1970s]]\n[[Category:Iraq in the 1990s]]\n[[Category:Iraq in the 2000s]]"
+              }
+            }
+          }
+        ]
+      },
+      "53044527": {
+        "pageid": 53044527,
+        "ns": 6,
+        "title": "File:IVS Trainees Operate a New German Loom in Shaqlawa, Iraq, circa 1980 (13875971444).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 212385,
+            "width": 600,
+            "height": 428,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/IVS_Trainees_Operate_a_New_German_Loom_in_Shaqlawa%2C_Iraq%2C_circa_1980_%2813875971444%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:IVS_Trainees_Operate_a_New_German_Loom_in_Shaqlawa,_Iraq,_circa_1980_(13875971444).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=53044527",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-11-11 06:12:41",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "IVS Trainees Operate a New German Loom in Shaqlawa, Iraq, circa 1980 (13875971444)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Iraq in the 1980s|Photos uploaded from Flickr by Fæ using a script|Flickr images reviewed by FlickreviewR|Files from Flickr's 'The Commons'|Photographs by Mennonite Church USA Archives",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Citation: International Voluntary Services Records, 1952-2003. Box 57 / Folder 2.   XI-014.  Mennonite Church USA Archives - Goshen.  Goshen, Indiana.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-04-15 13:03:16",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/mennonitechurchusa-archives/13875971444/\">https://www.flickr.com/photos/mennonitechurchusa-archives/13875971444/</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/52529054@N06\">Mennonite Church USA Archives</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "At the time of upload, the image license was automatically confirmed using the Flickr <a href=\"https://en.wikipedia.org/wiki/API\" class=\"extiw\" title=\"en:API\">API</a>. For more information see <a href=\"//commons.wikimedia.org/wiki/User:F%C3%A6/Flickr_API_detail\" title=\"User:Fæ/Flickr API detail\">Flickr API detail</a>.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "No restrictions",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "No known copyright restrictions",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://www.flickr.com/commons/usage/",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "slots": {
+              "main": {
+                "contentmodel": "wikitext",
+                "contentformat": "text/x-wiki",
+                "*": "== {{int:filedesc}} ==\n{{information\n|description={{en|1=Citation: International Voluntary Services Records, 1952-2003. Box 57 / Folder 2.   XI-014.  Mennonite Church USA Archives - Goshen.  Goshen, Indiana.\n}}\n|date=2014-04-15 13:03:16\n|author=[https://www.flickr.com/people/52529054@N06 Mennonite Church USA Archives]\n|source=https://www.flickr.com/photos/mennonitechurchusa-archives/13875971444/\n|permission={{User:Fæ/Flickr API}}\n|other_versions=\n|other_fields={{Information field|name=Flickr sets|value={{flatlist|\n*International Voluntary Services\n}}}}{{Information field|name=Flickr tags|value={{flatlist|\n*loom, weaving, Iraq, International Voluntary Services\n}}}}\n}}\n\n== {{int:license-header}} ==\n{{Flickr-no known copyright restrictions}}\n{{User:FlickreviewR/reviewed-pass|Mennonite Church USA Archives|https://flickr.com/photos/52529054@N06/13875971444|2016-11-13 05:10:17|No known copyright restrictions|}}\n\n\n[[Category:Photographs by Mennonite Church USA Archives]]\n[[Category:Photos uploaded from Flickr by Fæ using a script]]\n[[Category:Iraq in the 1980s]]"
+              }
+            }
+          }
+        ]
+      },
+      "44883779": {
+        "pageid": 44883779,
+        "ns": 6,
+        "title": "File:Iraqi Oil Tanker.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 4792873,
+            "width": 3737,
+            "height": 2302,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Iraqi_Oil_Tanker.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Iraqi_Oil_Tanker.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=44883779",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2015-11-09 00:35:27",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Iraqi Oil Tanker",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Iraq War|Water transport in Iraq|Iraq in the 1980s|Iraq in the 1970s|Self-published work|Scanned with Plustek OpticFilm 7600i",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "One of Iraqi Oil Tanker Company (IOTC) fleet in 70s and 80s.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-11-09",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ibrahimuo&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ibrahimuo (page does not exist)\">Ibrahimuo</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "slots": {
+              "main": {
+                "contentmodel": "wikitext",
+                "contentformat": "text/x-wiki",
+                "*": "=={{int:filedesc}}==\n{{Information\n|description={{en|1=One of Iraqi Oil Tanker Company (IOTC) fleet in 70s and 80s.}}\n|date=2015-11-09\n|source={{own}}\n|author=[[User:Ibrahimuo|Ibrahimuo]]\n|permission=\n|other versions=\n}}\n\n=={{int:license-header}}==\n{{self|cc-by-sa-4.0}}\n\n[[Category:Water transport in Iraq]]\n[[Category:Iraq War]]\n[[Category:Iraq in the 1980s]]\n[[Category:Iraq in the 1970s]]\n[[Category:Scanned with Plustek OpticFilm 7600i]]"
+              }
+            }
+          }
+        ]
+      },
+      "51186181": {
+        "pageid": 51186181,
+        "ns": 6,
+        "title": "File:Iraqi President Bakr and Syrian President Assad at the Arab Summit, November 1978 (10729685956).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 165509,
+            "width": 711,
+            "height": 299,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Iraqi_President_Bakr_and_Syrian_President_Assad_at_the_Arab_Summit%2C_November_1978_%2810729685956%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Iraqi_President_Bakr_and_Syrian_President_Assad_at_the_Arab_Summit,_November_1978_(10729685956).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=51186181",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-06-05 22:33:28",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Iraqi President Bakr and Syrian President Assad at the Arab Summit, November 1978 (10729685956)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD CIA|Ahmad Hasan al-Bakr|1978 in international relations|Flickr images reviewed by FlickreviewR|1978 in Baghdad|Files from the Central Intelligence Agency Flickr stream|Hafez al-Assad in 1978",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Photo courtesy of the DI Weekly Summary",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-11-07 14:04",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/ciagov/10729685956/\">Iraqi President Bakr and Syrian President Assad at the Arab Summit, November 1978</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/59094030@N08\">Central Intelligence Agency</a> from Washington, D.C.",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "slots": {
+              "main": {
+                "contentmodel": "wikitext",
+                "contentformat": "text/x-wiki",
+                "*": "== {{int:filedesc}} ==\n{{Information\n| Description = Photo courtesy of the DI Weekly Summary\n| Source      = [https://www.flickr.com/photos/ciagov/10729685956/ Iraqi President Bakr and Syrian President Assad at the Arab Summit, November 1978]\n| Date        = 2013-11-07 14:04\n| Author      = [https://www.flickr.com/people/59094030@N08 Central Intelligence Agency] from Washington, D.C.\n| Permission  = \n| other_versions=\n}}\n\n=={{int:license-header}}==\n{{PD-USGov-CIA}}\n{{User:FlickreviewR/reviewed-pass|The Central Intelligence Agency|https://flickr.com/photos/59094030@N08/10729685956|2016-09-06 19:11:50|United States Government Work|}}\n[[Category:1978 in international relations]]\n[[Category:Ahmad Hasan al-Bakr]]\n[[Category:Hafez al-Assad in 1978]]\n[[Category:1978 in Baghdad]]\n[[Category:Files from the Central Intelligence Agency Flickr stream]]"
+              }
+            }
+          }
+        ]
+      },
+      "93025087": {
+        "pageid": 93025087,
+        "ns": 6,
+        "title": "File:President Ronald Reagan During a Visit of Deputy Prime Minister and Minister of Foreign Affairs of Iraq Tariq Aziz in An Oval Office Meeting - DPLA - ec9cbef9ebf764e4538fd0bd470f9fdf.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3544474,
+            "width": 4000,
+            "height": 2654,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/President_Ronald_Reagan_During_a_Visit_of_Deputy_Prime_Minister_and_Minister_of_Foreign_Affairs_of_Iraq_Tariq_Aziz_in_An_Oval_Office_Meeting_-_DPLA_-_ec9cbef9ebf764e4538fd0bd470f9fdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:President_Ronald_Reagan_During_a_Visit_of_Deputy_Prime_Minister_and_Minister_of_Foreign_Affairs_of_Iraq_Tariq_Aziz_in_An_Oval_Office_Meeting_-_DPLA_-_ec9cbef9ebf764e4538fd0bd470f9fdf.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=93025087",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-08-10 17:59:06",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "President Ronald Reagan During a Visit of Deputy Prime Minister and Minister of Foreign Affairs of Iraq Tariq Aziz in An Oval Office Meeting - DPLA - ec9cbef9ebf764e4538fd0bd470f9fdf",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US|PD US Government|Tariq Aziz|Media contributed by the National Archives and Records Administration|Media contributed by the Digital Public Library of America|Media contributed by Ronald Reagan Presidential Library|CC-PD-Mark|Ronald Reagan in the Oval Office|Files uploaded by RandomUserGuy1738|1984 in international relations of the United States|Relations of Iraq and the United States in the 1980s|Ronald Reagan at the White House in November 1984",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "President (1981-1989 : Reagan). White House Photographic Office. 1981-1989",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "26 November 1984",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span style=\"display:inline-block; padding: 4px 16px; vertical-align: middle;\"><span class=\"skin-invert\" typeof=\"mw:File\"><span><img alt=\"\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Codex_icon_download_color-progressive.svg/40px-Codex_icon_download_color-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Codex_icon_download_color-progressive.svg/60px-Codex_icon_download_color-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"20\" data-file-height=\"20\"></span></span> <a rel=\"nofollow\" class=\"external text\" href=\"https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/reagan/198505/C26003-9.jpg\">File URL</a></span><span style=\"display:inline-block; padding: 4px 16px; vertical-align: middle; border-left: 2px solid #a2a9b1;\"><span class=\"skin-invert\" typeof=\"mw:File\"><span><img alt=\"\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Breezeicons-actions-22-database-index.svg/40px-Breezeicons-actions-22-database-index.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Breezeicons-actions-22-database-index.svg/60px-Breezeicons-actions-22-database-index.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"512\"></span></span> <a href=\"https://catalog.archives.gov/id/75853763\" class=\"extiw\" title=\"nara:75853763\">Catalog record</a></span>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "This image might not be in the public domain outside of the United States; this especially applies in the countries and areas that do not apply the <a href=\"https://en.wikipedia.org/wiki/rule_of_the_shorter_term\" class=\"extiw\" title=\"w:rule of the shorter term\">rule of the shorter term</a> for US works, such as Canada, Mainland China (not Hong Kong or Macao), Germany, Mexico, and Switzerland. The creator and year of publication are essential information and must be provided. See <a href=\"https://en.wikipedia.org/wiki/Wikipedia:Public_domain\" class=\"extiw\" title=\"w:Wikipedia:Public domain\">Wikipedia:Public domain</a> and <a href=\"https://en.wikipedia.org/wiki/Wikipedia:Copyrights\" class=\"extiw\" title=\"w:Wikipedia:Copyrights\">Wikipedia:Copyrights</a> for more details.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "slots": {
+              "main": {
+                "contentmodel": "wikitext",
+                "contentformat": "text/x-wiki",
+                "*": "== {{int:filedesc}} ==\n\n{{DPLA metadata}}\n\n{{PD-USGov}}\n\n[[Category:Ronald Reagan at the White House in November 1984]]\n[[Category:Tariq Aziz]]\n[[Category:1984 in international relations of the United States]]\n[[Category:Relations of Iraq and the United States in the 1980s]]\n[[Category:Files uploaded by RandomUserGuy1738]]\n[[Category:Ronald Reagan in the Oval Office]]"
+              }
+            }
+          }
+        ]
+      },
+      "9141231": {
+        "pageid": 9141231,
+        "ns": 6,
+        "title": "File:Ronald Reagan and Tareq Aziz November 26, 1984.gif",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 87301,
+            "width": 551,
+            "height": 247,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Ronald_Reagan_and_Tareq_Aziz_November_26%2C_1984.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ronald_Reagan_and_Tareq_Aziz_November_26,_1984.gif",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=9141231",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2011-01-08 22:44:31",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Ronald Reagan and Tareq Aziz November 26, 1984",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Government|Tariq Aziz|CC-PD-Mark|Ronald Reagan in the Oval Office|1984 in international relations of the United States|Black and white photographs of people at the White House|Relations of Iraq and the United States in the 1980s|Ronald Reagan at the White House in November 1984",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Ronald Reagan and Iraqi Foreign Minister Tariq Aziz meet at the White House on November 26, 1984, as the U.S. and Iraq restore diplomatic relations.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1984-11-26",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p>Immagine <a href=\"https://it.wikipedia.org/wiki/National_Security_Agency\" class=\"extiw\" title=\"it:National Security Agency\">National Security Agency</a>, agenzia governativa USA; fonte\n</p><p><a rel=\"nofollow\" class=\"external free\" href=\"http://www.gwu.edu/~nsarchiv/nsa/publications/iraqgate/igpic.html\">http://www.gwu.edu/~nsarchiv/nsa/publications/iraqgate/igpic.html</a>\n</p>\n(<a rel=\"nofollow\" class=\"external text\" href=\"http://www.gwu.edu/~nsarchiv/nsa/publications/iraqgate/igp1.gif\">link diretto</a>)",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Photographer not credited",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "PD-USGOV.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "slots": {
+              "main": {
+                "contentmodel": "wikitext",
+                "contentformat": "text/x-wiki",
+                "*": "== {{int:filedesc}} ==\n{{Information\n|Description={{en|Ronald Reagan and Iraqi Foreign Minister Tariq Aziz meet at the White House on November 26, 1984, as the U.S. and Iraq restore diplomatic relations.}}\n{{it|[[:it:Ronald Reagan|Ronald Reagan]] (presidente degli [[:it:USA|USA]]) e [[:it:Tareq Aziz|Tareq Aziz]] (ministro degli esteri dell'[[:it:Iraq|Iraq]]) si incontrano alla [[:it:Casa Bianca|Casa Bianca]] il [[:it:26 novembre|26 novembre]] [[:it:1984|1984]], per il ristabilimento delle relazioni diplomatiche fra i due paesi.}}\n|Source=\nImmagine [[:it:National Security Agency|National Security Agency]], agenzia governativa USA; fonte\n\nhttp://www.gwu.edu/~nsarchiv/nsa/publications/iraqgate/igpic.html\n([http://www.gwu.edu/~nsarchiv/nsa/publications/iraqgate/igp1.gif link diretto])\n\n|Date=1984-11-26\n|Author= Photographer not credited\n|Permission=PD-USGOV.\n|other_versions=\n}}\n\n== {{int:license-header}} ==\n{{PD-USGov}}\n\n== Wikipedia upload log ==\nA Wikipedia description page is/was [http://it.wikipedia.org/w/index.php?title=Image%3AIgp1.gif here]. All following user names refer to it.wikipedia.\n* 2007-01-16 02:04 [[:it:User:Hrundi V. Bakshi|Hrundi V. Bakshi]] 554×248× (91048 bytes) ''<nowiki>[[Ronald Reagan]] (presidente degli [[USA]]) e [[Tareq Aziz]] (ministro degli esteri dell'[[Iraq]]) si incontrano alla [[Casa Bianca]] il [[26 novembre]] [[1984]], per il ristabilimento delle relazioni diplomatiche fra i due paesi.  Immagine [[National Se</nowiki>''\n\n[[Category:Ronald Reagan at the White House in November 1984]]\n[[Category:Ronald Reagan in the Oval Office]]\n[[Category:Tariq Aziz]]\n[[Category:1984 in international relations of the United States]]\n[[Category:Relations of Iraq and the United States in the 1980s]]\n[[Category:Black and white photographs of people at the White House]]"
+              }
+            }
+          }
+        ]
+      },
+      "44883777": {
+        "pageid": 44883777,
+        "ns": 6,
+        "title": "File:الناقلة عموريه.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 49397,
+            "width": 645,
+            "height": 474,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9_%D8%B9%D9%85%D9%88%D8%B1%D9%8A%D9%87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9_%D8%B9%D9%85%D9%88%D8%B1%D9%8A%D9%87.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=44883777",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2015-11-09 00:35:26",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "الناقلة عموريه",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Water transport in Iraq|Iraq in the 1980s|Iraq in the 1990s|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Oil Tanker Amoria one of Iraqi Oil Tanker Company (IOTC) fleet in 70s and 80s.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-11-09",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ibrahimuo&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ibrahimuo (page does not exist)\">Ibrahimuo</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "slots": {
+              "main": {
+                "contentmodel": "wikitext",
+                "contentformat": "text/x-wiki",
+                "*": "=={{int:filedesc}}==\n{{Information\n|description={{en|1=Oil Tanker Amoria one of Iraqi Oil Tanker Company (IOTC) fleet in 70s and 80s.}}\n|date=2015-11-09\n|source={{own}}\n|author=[[User:Ibrahimuo|Ibrahimuo]]\n|permission=\n|other versions=\n}}\n\n=={{int:license-header}}==\n{{self|cc-by-sa-4.0}}\n\n[[Category:Water transport in Iraq]]\n[[Category:Iraq in the 1980s]]\n[[Category:Iraq in the 1990s]]"
+              }
+            }
+          }
+        ]
+      },
+      "44883778": {
+        "pageid": 44883778,
+        "ns": 6,
+        "title": "File:الناقلة عموريه Amoria Tanker.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 63156,
+            "width": 600,
+            "height": 400,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9_%D8%B9%D9%85%D9%88%D8%B1%D9%8A%D9%87_Amoria_Tanker.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9_%D8%B9%D9%85%D9%88%D8%B1%D9%8A%D9%87_Amoria_Tanker.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=44883778",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2015-11-09 00:35:26",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "الناقلة عموريه Amoria Tanker",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Water transport in Iraq|Iraq in the 1980s|Iraq in the 1990s|Iraq in the 1970s|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "الناقلة عموريه\nOil Tanker Amoria one of Iraqi Oil Tanker Company (IOTC) fleet in 70s and 80s.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-11-09",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ibrahimuo&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ibrahimuo (page does not exist)\">Ibrahimuo</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ],
+        "revisions": [
+          {
+            "slots": {
+              "main": {
+                "contentmodel": "wikitext",
+                "contentformat": "text/x-wiki",
+                "*": "=={{int:filedesc}}==\n{{Information\n|description={{en|1=الناقلة عموريه\nOil Tanker Amoria one of Iraqi Oil Tanker Company (IOTC) fleet in 70s and 80s.}}\n|date=2015-11-09\n|source={{own}}\n|author=[[User:Ibrahimuo|Ibrahimuo]]\n|permission=\n|other versions=\n}}\n\n=={{int:license-header}}==\n{{self|cc-by-sa-4.0}}\n\n[[Category:Water transport in Iraq]]\n[[Category:Iraq in the 1980s]]\n[[Category:Iraq in the 1990s]]\n[[Category:Iraq in the 1970s]]"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

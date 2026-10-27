@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "film_license_required": "CC BY-SA 4.0 (compatible adaptation of CC BY-SA 3.0 audio)",
+  "assets": [
+    {
+      "filename": "assets/audio/models/norman.onnx",
+      "bytes": 63531379,
+      "sha256": "b9739443232a80a59c7d18810dd856899bf16a7964725f5ab81ea49b1351cb71",
+      "id": "norman-model",
+      "creator": "Bryce Beattie",
+      "date": "Undated; retrieved 2026-10-27",
+      "license": "Public domain (creator statement); upstream repository metadata MIT",
+      "license_url": "https://brycebeattie.com/files/tts/",
+      "source_url": "https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/norman/medium/MODEL_CARD",
+      "kind": "voice_model",
+      "rights_basis": "Creator labels Norman public domain; trained from scratch on public-domain LibriVox recordings. Modern synthetic narration only.",
+      "download_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/norman/medium/en_US-norman-medium.onnx",
+      "rights_confirmed": true,
+      "downloaded": true
+    },
+    {
+      "filename": "assets/audio/models/norman.onnx.json",
+      "bytes": 4968,
+      "sha256": "6c2db7f558a4a8deb9fe822583c1c5105f6c4e834dd0f9de8ad17a888ee9fe1d",
+      "id": "norman-config",
+      "creator": "Bryce Beattie / Piper contributors",
+      "date": "Undated; retrieved 2026-10-27",
+      "license": "MIT; voice public domain",
+      "license_url": "https://brycebeattie.com/files/tts/",
+      "source_url": "https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/norman/medium/en_US-norman-medium.onnx.json",
+      "kind": "voice_model_config",
+      "rights_basis": "Necessary model configuration published with public-domain Norman voice.",
+      "download_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/norman/medium/en_US-norman-medium.onnx.json",
+      "rights_confirmed": true,
+      "downloaded": true
+    },
+    {
+      "filename": "assets/audio/models/norman-MODEL_CARD.txt",
+      "bytes": 528,
+      "sha256": "60eaf4d10009d1bd4a1aa555d337dae00f60421d72fee415b9139a021e7cb5d0",
+      "id": "norman-card",
+      "creator": "Bryce Beattie / Piper contributors",
+      "date": "Undated; retrieved 2026-10-27",
+      "license": "MIT",
+      "license_url": "https://huggingface.co/rhasspy/piper-voices",
+      "source_url": "https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/norman/medium/MODEL_CARD",
+      "kind": "license_evidence",
+      "rights_basis": "License documentation distributed by Piper voice repository.",
+      "download_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/norman/medium/MODEL_CARD",
+      "rights_confirmed": true,
+      "downloaded": true
+    },
+    {
+      "filename": "assets/audio/oud-jordan.mp3",
+      "bytes": 1370656,
+      "sha256": "3fac60e6b9b3f581717140b5fcffc97346d49436ffd85d08c38b74c3e73b7820",
+      "id": "oud-jordan",
+      "creator": "Andy R. Jordan; commissioned by Wikimedia Foundation",
+      "date": "2018-04-12",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Oud_music_by_Andy_R._Jordan_1V2_long.mp3",
+      "kind": "music_recording",
+      "rights_basis": "Commissioned original oud music; Commons metadata names author and copyright license. Both original composition and recording represented as commissioned work.",
+      "attribution": "Oud music by Andy R. Jordan, commissioned by the Wikimedia Foundation, CC BY-SA 3.0. Excerpted, faded and mixed.",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Oud_music_by_Andy_R._Jordan_1V2_long.mp3",
+      "rights_confirmed": true,
+      "downloaded": true
+    },
+    {
+      "filename": "assets/audio/oud-open-strings.ogg",
+      "bytes": 61250,
+      "sha256": "05a342177646b90b766e41e82768cea4ba7427990806ea3a03217f539143da97",
+      "id": "oud-open-strings",
+      "creator": "Bottomline; Ogg conversion Ilmari Karonen",
+      "date": "2006-02-13 original upload; Ogg conversion 2010-06-20",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Oud_open_Strings.ogg",
+      "kind": "instrument_note_recording",
+      "rights_basis": "Author licenses own recording of open oud strings. Single note has no separately protected composition.",
+      "attribution": "Oud open Strings — Bottomline (Ogg conversion Ilmari Karonen), CC BY-SA 3.0. Single note excerpted and faded.",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Oud_open_Strings.ogg",
+      "rights_confirmed": true,
+      "downloaded": true
+    },
+    {
+      "filename": "assets/audio/ibn-al-noor.mp3",
+      "bytes": 8731391,
+      "sha256": "f5a85d50ae7a3780696e75c34bcf7c080b1a29f2200ae73a0131565e9f9bb873",
+      "id": "ibn-al-noor",
+      "creator": "Kevin MacLeod (incompetech.com)",
+      "date": "2010-05-26 upload",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "source_url": "https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1100706",
+      "kind": "music_recording",
+      "rights_basis": "Composer/record producer publishes composition and recording on official royalty-free site with CC BY4 attribution text; ISRC USUAN1100706.",
+      "attribution": "Ibn Al-Noor — Kevin MacLeod (incompetech.com), licensed under Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/. Excerpted, faded, crossfaded, ducked and mixed.",
+      "download_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Ibn%20Al-Noor.mp3",
+      "rights_confirmed": true,
+      "downloaded": true
+    }
+  ],
+  "rejected": [
+    {
+      "asset": "OUD.ogg by Houssem bettaibi",
+      "reason": "Recording CC BY-SA3.0 but performed composition Hobb Eih by Baligh Hamdi is separately copyrighted. Not downloaded or used."
+    },
+    {
+      "asset": "Piper joe and lessac",
+      "reason": "Joe is finetuned from Lessac; Lessac dataset research-only terms. Not used."
+    }
+  ]
+}

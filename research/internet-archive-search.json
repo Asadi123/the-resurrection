@@ -1,0 +1,804 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 80,
+    "params": {
+      "query": "(text:iraq OR text:iraq OR text__reviews:iraq) AND mediatype:movies AND year:[1960 TO 1989]",
+      "qin": "iraq AND mediatype:movies AND year:[1960 TO 1989]",
+      "fields": "identifier,title,year,licenseurl,rights",
+      "wt": "json",
+      "rows": 200,
+      "start": 0
+    }
+  },
+  "response": {
+    "numFound": 145,
+    "start": 0,
+    "docs": [
+      {
+        "identifier": "e_history_StreamRoot_DH_0411_19630406_01",
+        "title": "e_history_StreamRoot_DH_0411_19630406_01",
+        "year": 1963
+      },
+      {
+        "identifier": "UnrestInIran",
+        "licenseurl": "http://creativecommons.org/publicdomain/mark/1.0/",
+        "title": "Unrest In Iran - The White Revolution of 1963",
+        "year": 1963
+      },
+      {
+        "identifier": "indianmainstream",
+        "title": "Indian mainstream.",
+        "year": 1980
+      },
+      {
+        "identifier": "alhal3-rm",
+        "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+        "title": "Al Hal : Al Saif Faqat : Lecture by Sheikh Abdullah Azzam Part 3 Real Media Version",
+        "year": 1988
+      },
+      {
+        "identifier": "destinationamerica2onacleardayyoucouldseebostonreel1",
+        "rights": "Destination America 2 -- on a Clear Day You Could See Boston Search Educational Film Journals at Media History Project for references to this film",
+        "title": "Destination America 2 -- on a Clear Day You Could See Boston",
+        "year": 1976
+      },
+      {
+        "identifier": "ntnocn_S2",
+        "title": "NOT THE NINE O'CLOCK NEWS - S2 (DVD)",
+        "year": 1980
+      },
+      {
+        "identifier": "blackcop",
+        "title": "Black cop.",
+        "year": 1969
+      },
+      {
+        "identifier": "hours-of-salvation-subless_202607",
+        "licenseurl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "title": "Hours Of Salvation (Subless)",
+        "year": 1982
+      },
+      {
+        "identifier": "thehorrorofitallreel2",
+        "title": "The Horror of it all",
+        "year": 1983
+      },
+      {
+        "identifier": "homefront1917to1919wartransformsamericanlife",
+        "rights": "Robert Ryan, narratorMusic, Morton Gould Search Educational Film Journals at Media History Project for references to this film",
+        "title": "Home front, 1917-1919: war transforms American life",
+        "year": 1967
+      },
+      {
+        "identifier": "SingingFoolsFortheLoveofGodJihad",
+        "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+        "title": "Singing Fools \"For the Love of God (Jihad)\"",
+        "year": 1986
+      },
+      {
+        "identifier": "normanborlaugrevolutionary",
+        "title": "Norman Borlaug, revolutionary.",
+        "year": 1971
+      },
+      {
+        "identifier": "AboOsaama_068",
+        "title": "نخبة الإعلام الجهادي",
+        "year": 1988
+      },
+      {
+        "identifier": "thecaseoftheufosreel2",
+        "title": "The Case of the UFOs",
+        "year": 1984
+      },
+      {
+        "identifier": "worldsincollisionreel1",
+        "title": "Worlds in Collision",
+        "year": 1978
+      },
+      {
+        "identifier": "1986_fifa_world_cup_mexico_panini_album",
+        "title": "1986 FIFA World Cup Mexico (Panini Album)",
+        "year": 1986
+      },
+      {
+        "identifier": "WMAR_RAW_082_008_DIG",
+        "rights": "All rights are held by the E.W. Scripps Company. Online, stream-only, nonsublicenseable access has been granted by Scripps. Requests for copies or usage of footage should be directed to University of Baltimore Special Collections & Archives.",
+        "title": "News Storage: August 7-8, 1984",
+        "year": 1984
+      },
+      {
+        "identifier": "WMAR_NEWSB_008_009_DIG",
+        "rights": "All rights are held by the E.W. Scripps Company. Online, stream-only, nonsublicenseable access has been granted by Scripps. Requests for copies or usage of footage should be directed to University of Baltimore Special Collections & Archives.",
+        "title": "NewsChannel2 Broadcasts, 1986-12",
+        "year": 1986
+      },
+      {
+        "identifier": "thelivingplanetaportraitoftheearth2thefrozenworld",
+        "title": "The Living Planet: A Portrait of the Earth: 2--The Frozen World",
+        "year": 1984
+      },
+      {
+        "identifier": "droosvpn",
+        "rights": "qweqwe",
+        "title": "asdsw",
+        "year": 1970
+      },
+      {
+        "identifier": "theworldatwar5barbarossajunedecember1941reel2",
+        "title": "The World at War: 5--Barbarossa, June-December 1941",
+        "year": 1974
+      },
+      {
+        "identifier": "the-princess-and-the-river-1982",
+        "title": "[TVRip] The Princess And The River (1982) الأميرة والنهر | Царевна и река",
+        "year": 1982
+      },
+      {
+        "identifier": "wild-arms-twilight-venom-01-part-1-3-sub-eng_20250319",
+        "licenseurl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "title": "Wild ARMs Twilight Venom 01 Part 1 3 Sub Eng",
+        "year": 1968
+      },
+      {
+        "identifier": "PhilipAgeeOnForeignPolicyAndIraq",
+        "licenseurl": "http://creativecommons.org/publicdomain/mark/1.0/",
+        "title": "Philip Agee On Foreign Policy And Iraq",
+        "year": 1988
+      },
+      {
+        "identifier": "guiltybyreasonofracereel2",
+        "title": "Guilty by reason of race.",
+        "year": 1972
+      },
+      {
+        "identifier": "heidelbergfilm",
+        "title": "Heidelberg",
+        "year": 1960
+      },
+      {
+        "identifier": "deadwrongthestoryofjohnevansreel2",
+        "title": "Dead Wrong; The Story of John Evans",
+        "year": 1984
+      },
+      {
+        "identifier": "objetorescanserra",
+        "title": "Can Serra: la Objeción de Conciencia en España",
+        "year": 1976
+      },
+      {
+        "identifier": "50000000003002_News_NBC_1980-04-14_01",
+        "title": "News (NBC)",
+        "year": 1980
+      },
+      {
+        "identifier": "al-sayf-howa-al-hal-",
+        "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+        "title": "Al Hal : Al Saif Faqat : Lecture by Sheikh Abdullah Azzam Real Media Version",
+        "year": 1988
+      },
+      {
+        "identifier": "cst_000035",
+        "rights": "Copyrighted. Rights are owned by Philip G. Zimbardo. All Rights Reserved. This includes all rights now in existence or which may hereafter come into existence in the Philip G. Zimbardo papers, including but not limited to print, audio, electronic, video, CD ROM, photographic, digital and film, and all revenues deriving from copyright exploitation. This work is protected by copyright law. No part of the materials may be derived, copied, photocopied, reproduced, translated or reduced to any electronic medium or machine readable form, in whole or in part, without specific permission from the copyright holder. For permission requests, please contact the Stanford University Archives, universityarchives@stanford.edu.",
+        "title": "Stanford Prison Experiment (with sound)",
+        "year": 1971
+      },
+      {
+        "identifier": "cst_000038a",
+        "rights": "Copyrighted. Rights are owned by Philip G. Zimbardo. All Rights Reserved. This includes all rights now in existence or which may hereafter come into existence in the Philip G. Zimbardo papers, including but not limited to print, audio, electronic, video, CD ROM, photographic, digital and film, and all revenues deriving from copyright exploitation. This work is protected by copyright law. No part of the materials may be derived, copied, photocopied, reproduced, translated or reduced to any electronic medium or machine readable form, in whole or in part, without specific permission from the copyright holder. For permission requests, please contact the Stanford University Archives, universityarchives@stanford.edu.",
+        "title": "Stanford Prison Experiment",
+        "year": 1971
+      },
+      {
+        "identifier": "HindSwaraj-BEK-24",
+        "title": "Bharat Ek Khoj, Episode 24",
+        "year": 1988
+      },
+      {
+        "identifier": "WMAR_RAW_124_011_DIG",
+        "rights": "All rights are held by the E.W. Scripps Company. Online, stream-only, nonsublicenseable access has been granted by Scripps. Requests for copies or usage of footage should be directed to University of Baltimore Special Collections & Archives.",
+        "title": "News Storage, January 22-23, 1987",
+        "year": 1987
+      },
+      {
+        "identifier": "megiddocityofdestruction_201504",
+        "rights": "Title from data sheetFirst released in Israel",
+        "title": "Megiddo, city of destruction.",
+        "year": 1980
+      },
+      {
+        "identifier": "discoveringline",
+        "title": "Discovering line.",
+        "year": 1978
+      },
+      {
+        "identifier": "insearchofancientastronautsreel2",
+        "title": "In Search of Ancient Astronauts",
+        "year": 1973
+      },
+      {
+        "identifier": "boundforfreedompart1_201505",
+        "title": "Bound for Freedom",
+        "year": 1976
+      },
+      {
+        "identifier": "thethirdpollution",
+        "title": "The third pollution",
+        "year": 1966
+      },
+      {
+        "identifier": "iraq-bombing-iraq-iran-war",
+        "licenseurl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "title": "Iran Bombing [Iraq - Iran War]",
+        "year": 1980
+      },
+      {
+        "identifier": "WMAR_RAW_123_006_DIG",
+        "rights": "All rights are held by the E.W. Scripps Company. Online, stream-only, nonsublicenseable access has been granted by Scripps. Requests for copies or usage of footage should be directed to University of Baltimore Special Collections & Archives.",
+        "title": "News Storage, December 26-27, 1986",
+        "year": 1986
+      },
+      {
+        "identifier": "Psycholo1968_2",
+        "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+        "title": "Psychological Operations in Support of Internal Defense and Development Assistance Programs (Part II)",
+        "year": 1968
+      },
+      {
+        "identifier": "al-majalis_albadr",
+        "title": "yemen_albadr",
+        "year": 1962
+      },
+      {
+        "identifier": "noureddin_zarrin",
+        "title": "Noureddin Zarrin's Super Powers (1988)",
+        "year": 1988
+      },
+      {
+        "identifier": "e_history_StreamRoot_DH_0407_19630309_01",
+        "title": "e_history_StreamRoot_DH_0407_19630309_01",
+        "year": 1963
+      },
+      {
+        "identifier": "WMAR_RAW_047_010_DIG",
+        "rights": "All rights are held by the E.W. Scripps Company. Online, stream-only, nonsublicenseable access has been granted by Scripps. Requests for copies or usage of footage should be directed to University of Baltimore Special Collections & Archives.",
+        "title": "News Storage: July 16-19, 1982",
+        "year": 1982
+      },
+      {
+        "identifier": "WMAR_RAW_047_014_DIG",
+        "rights": "All rights are held by the E.W. Scripps Company. Online, stream-only, nonsublicenseable access has been granted by Scripps. Requests for copies or usage of footage should be directed to University of Baltimore Special Collections & Archives.",
+        "title": "News Storage: July 24-26, 1982",
+        "year": 1982
+      },
+      {
+        "identifier": "sgdlhksgdlhksgdlhk",
+        "title": "wewewewew",
+        "year": 1973
+      },
+      {
+        "identifier": "al-sayf-howa-al-hal",
+        "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+        "title": "Al Hal : Al Saif Faqat : Lecture by Sheikh Abdullah Azzam",
+        "year": 1988
+      },
+      {
+        "identifier": "TheVistaGroup-TVCommercialsfromFebruaryMarch1988WAOW9NewsABCWSAW7NewsCBSWausauWI",
+        "title": "TV Commercials from February-March 1988, on WAOW 9 News (ABC) and WSAW 7 News (CBS) in Wausau, WI • VHS 60 FPS",
+        "year": 1988
+      },
+      {
+        "identifier": "HindSwaraj-BEK-35",
+        "title": "Bharat Ek Khoj, Episode 34",
+        "year": 1988
+      },
+      {
+        "identifier": "lightningwarinthemiddleeast",
+        "title": "The Lightning war in the Middle East.",
+        "year": 1967
+      },
+      {
+        "identifier": "course2",
+        "title": "لا أعلم إسم الملف",
+        "year": 1980
+      },
+      {
+        "identifier": "in-the-wake-of-simbad-terra-x-discovery-1989",
+        "title": "Terra X: In the Wake Of Sinbad",
+        "year": 1989
+      },
+      {
+        "identifier": "shuhada-kabul-s-o-t",
+        "rights": "open source video ( no copyright problem )",
+        "title": "شهداء كابل بعد الفتح المزعوم shuhada kabul soviet war",
+        "year": 1988
+      },
+      {
+        "identifier": "theprincessandtheriver",
+        "title": "The Princess and the River (1982) full Iraqi Arabic Cartoon Movie",
+        "year": 1982
+      },
+      {
+        "identifier": "rocksthatformontheearthssurface",
+        "title": "Rocks that form on the Earth's surface",
+        "year": 1964
+      },
+      {
+        "identifier": "aapb-cpb-aacip-507-3b5w669q2r",
+        "licenseurl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "title": "The MacNeil/Lehrer NewsHour (1987-07-06)",
+        "year": 1987
+      },
+      {
+        "identifier": "myron-coreval-fagan-speaking-in-1967-on-the-rothschilds-cfr-and-the-illuminati-shaping-world-events",
+        "title": "Myron Coreval Fagan (1887-1972) Speaking In 1967 On The Rothschilds, CFR and The Illuminati shaping World Events",
+        "year": 1967
+      },
+      {
+        "identifier": "thewarrenyearsprofileofearlwarren",
+        "title": "The Warren years.",
+        "year": 1969
+      },
+      {
+        "identifier": "WMAR_RAW_075_002_DIG",
+        "rights": "All rights are held by the E.W. Scripps Company. Online, stream-only, nonsublicenseable access has been granted by Scripps. Requests for copies or usage of footage should be directed to University of Baltimore Special Collections & Archives.",
+        "title": "News Storage: March 4-5, 1984",
+        "year": 1984
+      },
+      {
+        "identifier": "theimageofthecity",
+        "title": "The Image of the city.",
+        "year": 1973
+      },
+      {
+        "identifier": "america8moneyonthelandreel2",
+        "title": "America: 8--Money on the Land",
+        "year": 1972
+      },
+      {
+        "identifier": "ep-1-40",
+        "licenseurl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "title": "EP 34",
+        "year": 1986
+      },
+      {
+        "identifier": "cst_000037",
+        "rights": "Copyrighted. Rights are owned by Philip G. Zimbardo. All Rights Reserved. This includes all rights now in existence or which may hereafter come into existence in the Philip G. Zimbardo papers, including but not limited to print, audio, electronic, video, CD ROM, photographic, digital and film, and all revenues deriving from copyright exploitation. This work is protected by copyright law. No part of the materials may be derived, copied, photocopied, reproduced, translated or reduced to any electronic medium or machine readable form, in whole or in part, without specific permission from the copyright holder. For permission requests, please contact the Stanford University Archives, universityarchives@stanford.edu.",
+        "title": "Stanford Prison Experiment: Film #2",
+        "year": 1971
+      },
+      {
+        "identifier": "cyborg-cop-trailer",
+        "title": "Cyborg Cop Trailer",
+        "year": 1983
+      },
+      {
+        "identifier": "iraq888",
+        "title": "Excerpts from speeches Sheikh Abdullah Azzam",
+        "year": 1982
+      },
+      {
+        "identifier": "1967-04-04_Vietnam",
+        "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+        "title": "Vietnam. Big Enemy force Repulsed by G.I.'s, 1967/04/04",
+        "year": 1967
+      },
+      {
+        "identifier": "1967-recording-the-rothschilds-and-the-3-wars",
+        "title": "1967 Recording The Rothschilds And The 3 Wars",
+        "year": 1967
+      },
+      {
+        "identifier": "WakeMeUpWhentheWarisOverKenBarryJimBackus1969goofyrip",
+        "title": "Wake Me Up When the War Is Over",
+        "year": 1969
+      },
+      {
+        "identifier": "balzacaparis",
+        "title": "Balzac à Paris.",
+        "year": 1964
+      },
+      {
+        "identifier": "thegrandcanyonchronicles",
+        "title": "The Grand Canyon chronicles",
+        "year": 1982
+      },
+      {
+        "identifier": "crazy_202103",
+        "title": "Those Crazy Romans.....",
+        "year": 1966
+      },
+      {
+        "identifier": "alhal1-rm",
+        "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+        "title": "Al Hal : Al Saif Faqat : Lecture by Sheikh Abdullah Azzam Part 1 Real Media Version",
+        "year": 1988
+      },
+      {
+        "identifier": "deadwrongthestoryofjohnevansreel1",
+        "title": "Dead Wrong: The Story of John Evans",
+        "year": 1984
+      },
+      {
+        "identifier": "3177_Communism_02_10_39_20",
+        "title": "Communism",
+        "year": 1966
+      },
+      {
+        "identifier": "cryofthemarsh",
+        "rights": "With teacher's guideDirector and photographer, Robert Hartkopf; editor, John T. McDonough",
+        "title": "Cry of the marsh",
+        "year": 1969
+      },
+      {
+        "identifier": "thelivingplanetaportraitoftheearth8sweetfreshater",
+        "rights": "The Living Planet a Portrait of the Earth 8 Sweet Fresh Water Search Educational Film Journals at Media History Project for references to this film",
+        "title": "The Living Planet a Portrait of the Earth 8 Sweet Fresh Water",
+        "year": 1984
+      },
+      {
+        "identifier": "tameem1",
+        "title": "The war from Kabul to Jerusalem",
+        "year": 1986
+      },
+      {
+        "identifier": "ntnocn_S4",
+        "title": "NOT THE NINE O'CLOCK NEWS - S4 (DVD)",
+        "year": 1982
+      },
+      {
+        "identifier": "betweenthewarsthefirstsalttalks_20150427",
+        "title": "The First SALT talks.",
+        "year": 1978
+      },
+      {
+        "identifier": "mythology-of-greece-and-rome-1969_202203",
+        "title": "Mythology 0f Ancient Greece & Rome (1969)",
+        "year": 1969
+      },
+      {
+        "identifier": "iraq123",
+        "title": "Excerpts from speeches Sheikh Abdullah Azzam",
+        "year": 1984
+      },
+      {
+        "identifier": "alhal1",
+        "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+        "title": "Al Hal : Al Saif Faqat : Lecture by Sheikh Abdullah Azzam",
+        "year": 1988
+      },
+      {
+        "identifier": "WMAR_RAW_025_011_DIG",
+        "rights": "All rights are held by the E.W. Scripps Company. Online, stream-only, nonsublicenseable access has been granted by Scripps. Requests for copies or usage of footage should be directed to University of Baltimore Special Collections & Archives.",
+        "title": "News Storage: September 25-29, 1980",
+        "year": 1980
+      },
+      {
+        "identifier": "identifyingspeechdisordersarticulationdisorders",
+        "title": "Identifying speech disorders.",
+        "year": 1972
+      },
+      {
+        "identifier": "greek-island-art-and-culture-2000-3000bc-197",
+        "title": "Greek Island Art & Culture 2000-3000 BC (1979)",
+        "year": 1979
+      },
+      {
+        "identifier": "hariettubmanandtheundergroundrailroadreel1",
+        "title": "Harriet Tubman and the Underground Railroad",
+        "year": 1965
+      },
+      {
+        "identifier": "WMAR_RAW_045_005_DIG",
+        "rights": "All rights are held by the E.W. Scripps Company. Online, stream-only, nonsublicenseable access has been granted by Scripps. Requests for copies or usage of footage should be directed to University of Baltimore Special Collections & Archives.",
+        "title": "News Storage: May 7-10, 1982",
+        "year": 1982
+      },
+      {
+        "identifier": "behaviortheoryinpractice2",
+        "title": "Behavior theory in practice.",
+        "year": 1966
+      },
+      {
+        "identifier": "journeytotheouterlimitsreel1-01",
+        "rights": "Journey to the Outer Limits",
+        "title": "Journey to the Outer Limits",
+        "year": 1974
+      },
+      {
+        "identifier": "Meena_Kishwar_Kamal_RAWA_founder",
+        "title": "An interview with Meena (1956-1987), founder of the Revolutionary Association of the Women of Afghanistan (RAWA)",
+        "year": 1981
+      },
+      {
+        "identifier": "benjamin-h-freedmans-1961-speech-at-the-willard-hotel-in-washington-dc",
+        "title": "Benjamin H Freedman's 1961 Speech At The Willard Hotel In Washington DC",
+        "year": 1961
+      },
+      {
+        "identifier": "watch-project-a-ko-final-sub",
+        "title": "Project A-Ko 4: Final (1989) - Eng Sub (HD Quality)",
+        "year": 1989
+      },
+      {
+        "identifier": "WJZ-EDITL-004-091",
+        "licenseurl": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "rights": "All non-commercial uses of materials in this collection fall under Fair Use of the US Copyright Law. Please consult the archive in regard to specific conditions of what constitutes non-commercial use or if you wish to use the footage commercially.",
+        "title": "Edit Log: March, April, and May, 1986",
+        "year": 1986
+      },
+      {
+        "identifier": "cst_000039",
+        "rights": "Copyrighted. Rights are owned by Stanford University Libraries. All Rights Reserved. This includes all rights now in existence or which may hereafter come into existence in the Philip G. Zimbardo papers, 1953-2004 Collection, including but not limited to print, audio, electronic, video, CD ROM, photographic, digital and film, and all revenues deriving from copyright exploitation. This work is protected by copyright law. No part of the materials may be derived, copied, photocopied, reproduced, translated or reduced to any electronic medium or machine readable form, in whole or in part, without specific permission from the copyright holder. For permission requests, please contact the Public Services Librarian at Stanford University Libraries, speccollref@stanford.edu.",
+        "title": "Stanford Prison Experiment: print",
+        "year": 1971
+      },
+      {
+        "identifier": "WMAR_RAW_045_012_DIG",
+        "rights": "All rights are held by the E.W. Scripps Company. Online, stream-only, nonsublicenseable access has been granted by Scripps. Requests for copies or usage of footage should be directed to University of Baltimore Special Collections & Archives.",
+        "title": "News Storage: May 23-25, 1982",
+        "year": 1982
+      },
+      {
+        "identifier": "ntnocn_S1",
+        "title": "NOT THE NINE O'CLOCK NEWS - S1 (DVD)",
+        "year": 1979
+      },
+      {
+        "identifier": "blackhistoryloststolenorstrayedpart2_201502_201505",
+        "title": "Black history: Lost, stolen or strayed [Part 1]",
+        "year": 1968
+      },
+      {
+        "identifier": "TheVistaGroup-TVCommercialsFebruaryMarch1988March2003WAOW9NewsABCWSAW7NewsCBSWausauWI",
+        "title": "TV Commercials from February-March 1988 and March 2003, on WAOW 9 News (ABC) and WSAW 7 News (CBS) in Wausau, WI • VHS 60 FPS",
+        "year": 1988
+      },
+      {
+        "identifier": "mwf-520-peter-fend",
+        "licenseurl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "rights": "All rights reserved.",
+        "title": "Moving a Border by Moving a River",
+        "year": 1988
+      },
+      {
+        "identifier": "how-the-jews-got-the-usa-into-ww1-in-order-to-steal-palestine-benjamin-h.-freedman-1961-speech",
+        "title": "How The JEWS Got The USA Into WW1 In Order To Steal Palestine - Benjamin H. Freedman 1961 Speech",
+        "year": 1961
+      },
+      {
+        "identifier": "SekaiMeisakuDouwaMoviesArabic",
+        "title": "World Masterpiece Fairy (1968 - 1982) [Arabic]",
+        "year": 1968
+      },
+      {
+        "identifier": "cornandtheoriginsofsettledlifeinmesoamericapart2",
+        "title": "Corn and the Origins of Settled Life in Meso-America, parts 1-2.",
+        "year": 1964
+      },
+      {
+        "identifier": "openmind_ep1204",
+        "title": "A View from the White House, Part I",
+        "year": 1975
+      },
+      {
+        "identifier": "theworldatwar4alonemay1940-may1941reel1",
+        "rights": "The World at War: 4 Alone May 1940 -- May 1941",
+        "title": "The World at War: 4 Alone May 1940 -- May 1941",
+        "year": 1974
+      },
+      {
+        "identifier": "theworldatwarpart1-02",
+        "title": "The World at War: Part 7--On Our Way, U.S.A. 1939-1942",
+        "year": 1974
+      },
+      {
+        "identifier": "betweenthewarsthefirstsalttalks_201504",
+        "title": "The First SALT talks.",
+        "year": 1978
+      },
+      {
+        "identifier": "america6afirebellinthenightreel1",
+        "title": "America: 6 -- a Firebell in the Night",
+        "year": 1972
+      },
+      {
+        "identifier": "wildgoosejackreel2",
+        "title": "Wild Goose Jack",
+        "year": 1982
+      },
+      {
+        "identifier": "william-shakespeares-julius-caesar-bbc",
+        "title": "Julius Caesar - Shakespeare",
+        "year": 1979
+      },
+      {
+        "identifier": "aplaceofdreamsthenationalairandspacemuseum",
+        "title": "A place of dreams: the National Air and Space Museum",
+        "year": 1980
+      },
+      {
+        "identifier": "behaviortheoryinpracticepart1",
+        "title": "Behavior Theory in Practice.",
+        "year": 1965
+      },
+      {
+        "identifier": "blackshadowsonasilverscreenreel2",
+        "rights": "Black Shadows on a Silver Screen",
+        "title": "Black Shadows on a Silver Screen",
+        "year": 1975
+      },
+      {
+        "identifier": "thestructureofthenewsfilmstory",
+        "title": "The Structure of the news film story",
+        "year": 1972
+      },
+      {
+        "identifier": "youtube-XKBN_uh7MEI",
+        "title": "تسجيل كامل اجتماع قاعة الخلد 1979",
+        "year": 1979
+      },
+      {
+        "identifier": "teletales",
+        "rights": "Fair Use Notice",
+        "title": "Teletales ★ \"Lost\" Sequel to Gather 'Round series",
+        "year": 1984
+      },
+      {
+        "identifier": "theworldatwar26remember",
+        "title": "Remember",
+        "year": 1973
+      },
+      {
+        "identifier": "boys_beware",
+        "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+        "title": "Boys Beware",
+        "year": 1961
+      },
+      {
+        "identifier": "thefatfighters",
+        "rights": "Director of photography, Robert W. Stum ; editor, Peter G. Czerny756 ft Search Educational Film Journals at Media History Project for references to this film",
+        "title": "The fat fighters.",
+        "year": 1971
+      },
+      {
+        "identifier": "andeverythingnice",
+        "title": "And everything nice",
+        "year": 1965
+      },
+      {
+        "identifier": "thewriterinamericajanetflanner_201505",
+        "title": "The Writer in America: Janet Flanner",
+        "year": 1975
+      },
+      {
+        "identifier": "Psycholo1968",
+        "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+        "title": "Psychological Operations in Support of Internal Defense and Development Assistance Programs (Part I)",
+        "year": 1968
+      },
+      {
+        "identifier": "shesnobodysbabyahistoryofamericanwomeninthe20thcenturyreel1",
+        "rights": "She's Nobody's Baby: A History of American Women in the 20th Century",
+        "title": "She's Nobody's Baby: A History of American Women in the 20th Century",
+        "year": 1982
+      },
+      {
+        "identifier": "DetroitC1965",
+        "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+        "title": "Detroit: City on the Move",
+        "year": 1965
+      },
+      {
+        "identifier": "oh-my-brothers-vocal-nasheed-by-castillo-feat-abu-maryam",
+        "licenseurl": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "title": "oh-my-brothers",
+        "year": 1980
+      },
+      {
+        "identifier": "insearchofancientastronautsreel1",
+        "title": "In Search of Ancient Astronauts",
+        "year": 1973
+      },
+      {
+        "identifier": "prehistoricmanineurope",
+        "title": "Prehistoric man in Europe.",
+        "year": 1965
+      },
+      {
+        "identifier": "ntnocn_S3",
+        "title": "NOT THE NINE O'CLOCK NEWS - S3 (DVD)",
+        "year": 1980
+      },
+      {
+        "identifier": "africansanctusreel2",
+        "rights": "African Sanctus Search Educational Film Journals at Media History Project for references to this film",
+        "title": "African Sanctus",
+        "year": 1977
+      },
+      {
+        "identifier": "nightofthesquidreel1",
+        "title": "Night of The Squid",
+        "year": 1970
+      },
+      {
+        "identifier": "the-odyssey-part-iii-the-central-themes-of-the-odyssey-1965",
+        "title": "Homer's Odyssey Examined (1965)",
+        "year": 1965
+      },
+      {
+        "identifier": "nuclearstrategyforbeginners",
+        "title": "Nuclear Strategy for Beginners",
+        "year": 1984
+      },
+      {
+        "identifier": "the-trojan-women-1971-with-greek-subtitles_202101",
+        "title": "The Trojan Women by Euripides (Εὐριπίδης Τρῳάδες)",
+        "year": 1971
+      },
+      {
+        "identifier": "theesxuallymatureadult",
+        "rights": "Also issued in super-8 mm. cassetteConsultant, T. E. Pengelley; production adviser, Solomon Kaplan",
+        "title": "The Sexually mature adult.",
+        "year": 1973
+      },
+      {
+        "identifier": "WhentheC1975",
+        "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+        "title": "When the Circuit Breaks: America's Energy Crisis (Part I)",
+        "year": 1975
+      },
+      {
+        "identifier": "frenchrevolutiondeathoftheoldregime",
+        "title": "French Revolution-- death of the old regime.",
+        "year": 1966
+      },
+      {
+        "identifier": "cst_000036",
+        "rights": "Copyrighted. Rights are owned by Philip G. Zimbardo. All Rights Reserved. This includes all rights now in existence or which may hereafter come into existence in the Philip G. Zimbardo papers, including but not limited to print, audio, electronic, video, CD ROM, photographic, digital and film, and all revenues deriving from copyright exploitation. This work is protected by copyright law. No part of the materials may be derived, copied, photocopied, reproduced, translated or reduced to any electronic medium or machine readable form, in whole or in part, without specific permission from the copyright holder. For permission requests, please contact the Stanford University Archives, universityarchives@stanford.edu.",
+        "title": "Stanford Prison Experiments: Film #1",
+        "year": 1971
+      },
+      {
+        "identifier": "sixamericanfamiliesthegeorgesofnewyorkreel1",
+        "title": "Six American Families the Georges of New York",
+        "year": 1977
+      },
+      {
+        "identifier": "living-planet",
+        "licenseurl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "rights": "Fair Use Notice",
+        "title": "The Living Planet ★ BBC Nature series - with MKV Files",
+        "year": 1984
+      },
+      {
+        "identifier": "ProgressToPeace",
+        "licenseurl": "http://creativecommons.org/licenses/by/2.5/",
+        "title": "Progress To Peace",
+        "year": 1967
+      },
+      {
+        "identifier": "bashu-the-little-stranger-1989",
+        "title": "Bashu, the Little Stranger (1989)",
+        "year": 1989
+      },
+      {
+        "identifier": "wanderingthroughwinter",
+        "title": "Wandering Through Winter",
+        "year": 1970
+      },
+      {
+        "identifier": "themiddleeastrevolutioniraqandiran",
+        "title": "The Middle East: Revolution -- Iraq and Iran",
+        "year": 1984
+      },
+      {
+        "identifier": "VoyagetothePlanetofPrehistoricWomen",
+        "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+        "rights": "Copyright 1967 by The Filmgroup, Inc. (expired)",
+        "title": "Voyage to the Planet of Prehistoric Women",
+        "year": 1967
+      }
+    ]
+  }
+}

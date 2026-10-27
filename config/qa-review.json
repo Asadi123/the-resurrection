@@ -1,0 +1,11 @@
+{
+  "reviewer": "Production agent visual inspection",
+  "reviewed_text": "أمة عربية واحدة ذات رسالة خالدة",
+  "arabic_shaping_verified": true,
+  "rtl_verified": true,
+  "english_absent": true,
+  "gold_on_black": true,
+  "reviewed_raster": "output/cards/final.png",
+  "review_date": "2026-10-27",
+  "note": "Visually inspected full 1920x1080 raster; joined letters, right-to-left word order, exact phrase. Encoding compared by validator."
+}

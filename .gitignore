@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+assets/visuals/*
+assets/audio/*
+!assets/audio/.gitkeep
+!assets/visuals/.gitkeep
+output/*
+!output/.gitkeep
+.DS_Store

@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "source": "Exact text supplied by user; historical/editorial clearance separate.",
+  "voice": {
+    "engine": "piper-tts 1.3.0",
+    "model": "norman",
+    "model_file": "assets/audio/models/norman.onnx",
+    "gender": "male",
+    "language": "en_US",
+    "synthesis_notice": "Modern synthesized narration; never represented as archival audio.",
+    "pronunciation_overrides": {
+      "Ba’athism": "bˈɑːθɪzəm"
+    },
+    "pronunciation_notes": "Literal curly-apostrophe eSpeak incorrectly yielded Bayth-ism; explicit IPA fixes the same word, with exact user transcript retained. Date numbers expanded equivalently for speech."
+  },
+  "timeline": {
+    "total_duration": 160,
+    "main_start": 13,
+    "main_end": 130.8,
+    "closing_start": 132,
+    "closing_end": 149,
+    "sample_rate": 48000
+  },
+  "exact_text": "June 1st 1972. Iraq nationalized its oil. The wealth extracted for fifty years by British Petroleum — came home. Per capita income tripled. Every child received free education through university. Every citizen received free healthcare. UNESCO awarded Iraq its literacy prize. The Arab world watched and understood — this is what sovereignty looks like. Ba’athism answered the oldest question — what does the Arab nation owe itself? Everything. Its language taught without shame. Its women standing in every courtroom, every hospital, every military rank. A Christian as Foreign Minister. A farmer owning his land. One secular state. One Arab identity. No foreign permission required. They called Ba’athism dangerous. They were right. A sovereign Arab state that nationalized its oil threatened every company grown rich on Arab resources. An educated Arab population threatened every power that depended on Arab dependency. They called it instability. Stability for whom?",
+  "exact_closing_text": "The oil was Arab. The schools were full. The women were free. The borders were challenged. Remember that Iraq.",
+  "segments": [
+    {
+      "id": "main-01",
+      "section": "main",
+      "text": "June 1st 1972.",
+      "start": null,
+      "duration": null,
+      "file": "assets/audio/segments/main-01.wav",
+      "synthesis_length_scale": 1.5,
+      "volume": 1,
+      "synthesis_text": "June first, nineteen seventy two."
+    },
+    {
+      "id": "main-02",
+      "section": "main",
+      "text": "Iraq nationalized its oil.",
+      "start": null,
+      "duration": null,
+      "file": "assets/audio/segments/main-02.wav",
+      "synthesis_length_scale": 1.5,
+      "volume": 1
+    },
+    {
+      "id": "main-03",
+      "section": "main",
+      "text": "The wealth extracted for fifty years by British Petroleum — came home.",
+      "start": null,
+      "duration": null,
+      "file": "assets/audio/segments/main-03.wav",
+      "synthesis_length_scale": 1.5,
+      "volume": 1,
+      "minimum_screen_seconds": 6
+    },
+    {
+      "id": "main-04",
+      "section": "main",
+      "text": "Per capita income tripled.",
+      "start": null,
+      "duration": null,
+      "file": "assets/audio/segments/main-04.wav",
+      "synthesis_length_scale": 1.5,
+      "volume": 1,
+      "minimum_screen_seconds": 6
+    },
+    {
+      "id": "main-05",
+      "section": "main",
+      "text": "Every child received free education through university.",
+      "start": null,
+      "duration": null,
+      "file": "assets/audio/segments/main-05.wav",
+      "synthesis_length_scale": 1.5,
+      "volume": 1,
+      "minimum_screen_seconds": 6
+    },
+    {
+      "id": "main-06",
+      "section": "main",
+      "text": "Every citizen received free healthcare.",
+      "start": null,
+      "duration": null,
+      "file": "assets/audio/segments/main-06.wav",
+      "synthesis_length_scale": 1.5,
+      "volume": 1,
+      "minimum_screen_seconds": 5
+    },
+    {
+      "id": "main-07",
+      "section": "main",
+      "text": "UNESCO awarded Iraq its literacy prize.",
+      "start": null,
+      "duration": null,
+      "file": "assets/audio/segments/main-07.wav",
+      "synthesis_length_scale": 1.5,
+      "volume": 1,
+      "minimum_screen_seconds": 5
+    },
+    {
+      "id": "main-08",
+      "section": "main",
+      "text": "The Arab world watched and understood — this is what sovereignty looks like.",
+      "start": null,
+      "duration": null,
+      "file": "assets/audio/segments/main-08.wav",
+      "synthesis_length_scale": 1.5,
+      "volume": 1
+    },
+    {
+      "id": "main-09",
+      "section": "main",
+      "text": "Ba’athism answered the oldest question — what does the Arab nation owe itself?",
+      "start": null,
+      "duration": null,
+      "file": "assets/audio/segments/main-09.wav",
+      "synthesis_length_scale": 1.5,
+      "volume": 1
+    },
+    {
+      "id": "main-10",
+      "section": "main",
+      "text": "Everything.",
+      "start": null,
+      "duration": null,
+      "file": "assets/audio/segments/main-10.wav",
+      "synthesis_length_scale": 1.5,
+      "volume": 1
+    },
+    {
+      "id": "main-11",
+      "section": "main",
+      "text": "Its language taught without shame.",
+      "start": null,
+      "duration": null,
+      "file": "assets/audio/segments/main-11.wav",
+      "synthesis_length_scale": 1.5,
+      "volume": 1
+    },
+    {
+      "id": "main-12",
+      "section": "main",
+      "text": "Its women standing in every courtroom, every hospital, every military rank.",
+      "start": null,
+      "duration": null,
+      "file": "assets/audio/segments/main-12.wav",
+      "synthesis_length_scale": 1.5,
+      "volume": 1,
+      "minimum_screen_seconds": 6
+    },
+    {
+      "id": "main-13",
+      "section": "main",
+      "text": "A Christian as Foreign Minister.",
+      "start": null,
+      "duration": null,
+      "file": "assets/audio/segments/main-13.wav",
+      "synthesis_length_scale": 1.5,
+      "volume": 1
+    },
+    {
+      "id": "main-14",
+      "section": "main",
+      "text": "A farmer owning his land.",
+      "start": null,
+      "duration": null,
+      "file": "assets/audio/segments/main-14.wav",
+      "synthesis_length_scale": 1.5,
+      "volume": 1
+    },
+    {
+      "id": "main-15",
+      "section": "main",
+      "text": "One secular state.",
+      "start": null,
+      "duration": null,
+      "file": "assets/audio/segments/main-15.wav",
+      "synthesis_length_scale": 1.5,
+      "volume": 1
+    },
+    {
+      "id": "main-16",
+      "section": "main",
+      "text": "One Arab identity.",
+      "start": null,
+      "duration": null,
+      "file": "assets/audio/segments/main-16.wav",
+      "synthesis_length_scale": 1.5,
+      "volume": 1
+    },
+    {
+      "id": "main-17",
+      "section": "main",
+      "text": "No foreign permission required.",
+      "start": null,
+      "duration": null,
+      "file": "assets/audio/segments/main-17.wav",
+      "synthesis_length_scale": 1.5,
+      "volume": 1
+    },
+    {
+      "id": "main-18",
+      "section": "main",
+      "text": "They called Ba’athism dangerous.",
+      "start": null,
+      "duration": null,
+      "file": "assets/audio/segments/main-18.wav",
+      "synthesis_length_scale": 1.5,
+      "volume": 1,
+      "minimum_screen_seconds": 4
+    },
+    {
+      "id": "main-19",
+      "section": "main",
+      "text": "They were right.",
+      "start": null,
+      "duration": null,
+      "file": "assets/audio/segments/main-19.wav",
+      "synthesis_length_scale": 1.5,
+      "volume": 1
+    },
+    {
+      "id": "main-20",
+      "section": "main",
+      "text": "A sovereign Arab state that nationalized its oil threatened every company grown rich on Arab resources.",
+      "start": null,
+      "duration": null,
+      "file": "assets/audio/segments/main-20.wav",
+      "synthesis_length_scale": 1.5,
+      "volume": 1
+    },
+    {
+      "id": "main-21",
+      "section": "main",
+      "text": "An educated Arab population threatened every power that depended on Arab dependency.",
+      "start": null,
+      "duration": null,
+      "file": "assets/audio/segments/main-21.wav",
+      "synthesis_length_scale": 1.5,
+      "volume": 1
+    },
+    {
+      "id": "main-22",
+      "section": "main",
+      "text": "They called it instability.",
+      "start": null,
+      "duration": null,
+      "file": "assets/audio/segments/main-22.wav",
+      "synthesis_length_scale": 1.5,
+      "volume": 1
+    },
+    {
+      "id": "main-23",
+      "section": "main",
+      "text": "Stability for whom?",
+      "start": null,
+      "duration": null,
+      "file": "assets/audio/segments/main-23.wav",
+      "synthesis_length_scale": 1.5,
+      "volume": 1
+    },
+    {
+      "id": "closing-01",
+      "section": "closing",
+      "text": "The oil was Arab.",
+      "start": null,
+      "duration": null,
+      "file": "assets/audio/segments/closing-01.wav",
+      "synthesis_length_scale": 1.9,
+      "volume": 0.78
+    },
+    {
+      "id": "closing-02",
+      "section": "closing",
+      "text": "The schools were full.",
+      "start": null,
+      "duration": null,
+      "file": "assets/audio/segments/closing-02.wav",
+      "synthesis_length_scale": 1.9,
+      "volume": 0.78
+    },
+    {
+      "id": "closing-03",
+      "section": "closing",
+      "text": "The women were free.",
+      "start": null,
+      "duration": null,
+      "file": "assets/audio/segments/closing-03.wav",
+      "synthesis_length_scale": 1.9,
+      "volume": 0.78
+    },
+    {
+      "id": "closing-04",
+      "section": "closing",
+      "text": "The borders were challenged.",
+      "start": null,
+      "duration": null,
+      "file": "assets/audio/segments/closing-04.wav",
+      "synthesis_length_scale": 1.9,
+      "volume": 0.78
+    },
+    {
+      "id": "closing-05",
+      "section": "closing",
+      "text": "Remember that Iraq.",
+      "start": null,
+      "duration": null,
+      "file": "assets/audio/segments/closing-05.wav",
+      "synthesis_length_scale": 1.9,
+      "volume": 0.78
+    }
+  ]
+}

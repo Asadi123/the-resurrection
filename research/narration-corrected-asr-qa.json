@@ -1,0 +1,17 @@
+[
+  {
+    "id": "main-01",
+    "expected": "June 1st 1972.",
+    "recognized": " June 1, 1972"
+  },
+  {
+    "id": "main-09",
+    "expected": "Ba’athism answered the oldest question — what does the Arab nation owe itself?",
+    "recognized": " Barthism answered the oldest question, what does the Arab nation know itself?"
+  },
+  {
+    "id": "main-18",
+    "expected": "They called Ba’athism dangerous.",
+    "recognized": " They called barfism dangerous."
+  }
+]

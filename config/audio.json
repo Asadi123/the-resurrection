@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "duration": 160,
+  "sample_rate": 48000,
+  "narration_gain": 0.82,
+  "music_gain": 0.13,
+  "ducking": {
+    "threshold": 0.025,
+    "ratio": 10,
+    "attack_ms": 20,
+    "release_ms": 450
+  },
+  "music_cues": [
+    {
+      "id": "opening-oud",
+      "asset_id": "oud-jordan",
+      "source_start": 0,
+      "source_duration": 16,
+      "timeline_start": 0,
+      "gain": 0.22,
+      "fade_in": 1.5,
+      "fade_out": 3
+    },
+    {
+      "id": "middle-build",
+      "asset_id": "ibn-al-noor",
+      "source_start": 0,
+      "source_duration": 90,
+      "timeline_start": 13,
+      "gain": 0.11,
+      "fade_in": 4,
+      "fade_out": 4
+    },
+    {
+      "id": "percussion-peak",
+      "asset_id": "ibn-al-noor",
+      "source_start": 140,
+      "source_duration": 40,
+      "timeline_start": 99,
+      "gain": 0.14,
+      "fade_in": 4,
+      "fade_out": 7
+    },
+    {
+      "id": "closing-oud",
+      "asset_id": "oud-jordan",
+      "source_start": 46,
+      "source_duration": 17,
+      "timeline_start": 132,
+      "gain": 0.12,
+      "fade_in": 4,
+      "fade_out": 3
+    },
+    {
+      "id": "final-single-oud-note",
+      "asset_id": "oud-open-strings",
+      "source_start": 0.23,
+      "source_duration": 1.0,
+      "timeline_start": 158,
+      "gain": 0.2,
+      "fade_in": 0.012,
+      "fade_out": 0.32
+    }
+  ],
+  "output": "output/audio_mix.wav",
+  "film_license": "CC BY-SA 4.0"
+}

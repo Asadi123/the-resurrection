@@ -1,0 +1,798 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-27",
+  "status": "fact_checked_with_material_issues",
+  "publication_mode": "exact_with_specific_corrections",
+  "unqualified_exact_narration_approved": false,
+  "opening_attribution": "A political remembrance of Ba’athist Iraq.\nNarration preserves the supplied advocacy text; factual qualifications appear on screen.",
+  "required_context_caption": "Development coexisted with dictatorship.\nThe 1988 Anfal campaign targeted Kurdish civilians.",
+  "required_context_source_ids": [
+    "S10"
+  ],
+  "required_context_min_display_seconds": 6,
+  "requirements": [
+    "Preserve spoken text only with clear attribution as political remembrance, not an unqualified factual account.",
+    "Show each material correction legibly at its corresponding spoken claim; do not rely on a generic disclaimer.",
+    "Do not show an unrelated year or place as if it records the narrated event.",
+    "Include the documented repression/Anfal context before the Arabic-only final card.",
+    "Keep the final eight-second Arabic-only hold free of English corrections.",
+    "If corrections cannot fit legibly, publication remains blocked until narration is revised or the format is changed."
+  ],
+  "claims": [
+    {
+      "id": "oil_date",
+      "match_text": "June 1st 1972. Iraq nationalized its oil.",
+      "verdict": "accurate_date_overbroad_scope",
+      "reason": "1 June nationalized IPC assets in northern Iraq; affiliated Mosul and Basrah operations were excluded from that decree.",
+      "caption": "1 JUNE 1972 · IPC nationalized\nOther oil holdings followed later.",
+      "source_ids": [
+        "S1",
+        "S13"
+      ],
+      "min_display_seconds": 5,
+      "suggested_revised_narration": "June 1st, 1972. Iraq nationalized the Iraq Petroleum Company."
+    },
+    {
+      "id": "bp",
+      "match_text": "The wealth extracted for fifty years by British Petroleum — came home.",
+      "verdict": "materially_misleading",
+      "reason": "BP was one consortium shareholder (23.75%). The 1925 concession predates 1972 by 47 years; it is not evidence of fifty years of BP extraction.",
+      "caption": "IPC was a multinational consortium.\nBP held 23.75%; the concession dated to 1925.",
+      "source_ids": [
+        "S1"
+      ],
+      "min_display_seconds": 6,
+      "suggested_revised_narration": "The assets of a foreign-owned consortium, including British Petroleum, passed to the Iraqi state."
+    },
+    {
+      "id": "income",
+      "match_text": "Per capita income tripled.",
+      "verdict": "requires_metric_dates_and_price_basis",
+      "reason": "Nominal GDP/person nearly tripled between 1972 and 1975; real GDP/person rose about 23% in that interval. GDP is not personal income; nationalization alone does not establish causality.",
+      "caption": "GDP/person, 1972–75: nearly 3× in current US$.\nInflation-adjusted growth: about 23%.",
+      "source_ids": [
+        "S3",
+        "S4"
+      ],
+      "min_display_seconds": 6,
+      "suggested_revised_narration": "Between 1972 and 1975, nominal GDP per person nearly tripled."
+    },
+    {
+      "id": "education",
+      "match_text": "Every child received free education through university.",
+      "verdict": "policy_real_universal_outcome_unsubstantiated",
+      "reason": "State education was tuition-free through higher education. That does not mean every child attended university; postprimary study was optional.",
+      "caption": "Education was tuition-free through university.\nAttendance and access were not universal.",
+      "source_ids": [
+        "S2",
+        "S5"
+      ],
+      "min_display_seconds": 6,
+      "suggested_revised_narration": "State education was free through university, though access remained unequal."
+    },
+    {
+      "id": "health",
+      "match_text": "Every citizen received free healthcare.",
+      "verdict": "policy_real_universal_outcome_unsubstantiated",
+      "reason": "A free public healthcare system existed, but entitlement is not proof every citizen actually received every needed service.",
+      "caption": "Public healthcare was provided free of charge.\nThis did not guarantee care reached everyone.",
+      "source_ids": [
+        "S6"
+      ],
+      "min_display_seconds": 5,
+      "suggested_revised_narration": "Public healthcare was free, supported by expanding hospitals and clinics."
+    },
+    {
+      "id": "unesco",
+      "match_text": "UNESCO awarded Iraq its literacy prize.",
+      "verdict": "supported_with_specificity",
+      "reason": "1979 Krupskaya award recognizes the national literacy campaign, not proof illiteracy disappeared. State report explicitly records award.",
+      "caption": "1979 · UNESCO Krupskaya literacy prize\nAwarded for Iraq’s national literacy campaign.",
+      "source_ids": [
+        "S2"
+      ],
+      "min_display_seconds": 5,
+      "suggested_revised_narration": "In 1979, UNESCO’s Krupskaya prize recognized Iraq’s literacy campaign."
+    },
+    {
+      "id": "arab_reaction",
+      "match_text": "The Arab world watched and understood — this is what sovereignty looks like.",
+      "verdict": "political_interpretation",
+      "reason": "Regional reactions were not uniform. OPEC approved the nationalization but governments differed over cooperation.",
+      "caption": "The narration voices a pan-Arab interpretation.\nRegional governments responded differently.",
+      "source_ids": [
+        "S1",
+        "S12"
+      ],
+      "min_display_seconds": 5,
+      "suggested_revised_narration": "Supporters across the Arab world saw a declaration of sovereignty."
+    },
+    {
+      "id": "ideology",
+      "match_text": "Ba’athism answered the oldest question — what does the Arab nation owe itself? Everything.",
+      "verdict": "rhetoric_not_empirical_fact",
+      "reason": "Normative question and answer; attribute to a political voice, never to a historical finding.",
+      "caption": "BA’ATHIST IDEOLOGY\nArab unity · liberation · socialism",
+      "source_ids": [
+        "S12"
+      ],
+      "min_display_seconds": 5,
+      "suggested_revised_narration": "Ba’athism promised Arab unity, liberation and socialism."
+    },
+    {
+      "id": "language",
+      "match_text": "Its language taught without shame.",
+      "verdict": "rhetorical_claim",
+      "reason": "Cultural pride is a political sentiment; Arabic teaching does not establish freedom for all linguistic communities.",
+      "caption": "Cultural pride was part of the party’s message.\nIraq also contained non-Arab peoples and languages.",
+      "source_ids": [
+        "S10",
+        "S12"
+      ],
+      "min_display_seconds": 5,
+      "suggested_revised_narration": "It promised dignity for Arabic language and culture."
+    },
+    {
+      "id": "women",
+      "match_text": "Its women standing in every courtroom, every hospital, every military rank.",
+      "verdict": "unsupported_universal",
+      "reason": "Women gained education and professional opportunities. No evidence establishes all courtrooms, hospitals, or every military rank. Persistent discrimination and party control preclude the universal wording.",
+      "caption": "Women gained educational and professional roles.\n“Every military rank” is not substantiated.",
+      "source_ids": [
+        "S5"
+      ],
+      "min_display_seconds": 6,
+      "suggested_revised_narration": "Women entered more classrooms, hospitals and professional workplaces."
+    },
+    {
+      "id": "aziz",
+      "match_text": "A Christian as Foreign Minister.",
+      "verdict": "supported_date_needed",
+      "reason": "Tariq Aziz was a Chaldean Christian and Foreign Minister 1983–91, not Foreign Minister in 1972.",
+      "caption": "TARIQ AZIZ · Chaldean Christian\nForeign Minister, 1983–1991",
+      "source_ids": [
+        "S7",
+        "S8",
+        "S9"
+      ],
+      "min_display_seconds": 4,
+      "suggested_revised_narration": "Tariq Aziz, a Christian, became Foreign Minister in 1983."
+    },
+    {
+      "id": "land",
+      "match_text": "A farmer owning his land.",
+      "verdict": "supported_as_reform_aim_not_universal",
+      "reason": "Agrarian reform existed, including 1970 law; land redistribution began before Baath rule in 1958. Not all farmers owned land.",
+      "caption": "Land reform began in 1958.\nThe Ba’ath government extended it in 1970.",
+      "source_ids": [
+        "S11",
+        "S14"
+      ],
+      "min_display_seconds": 5,
+      "suggested_revised_narration": "Agrarian reform redistributed land, continuing changes begun in 1958."
+    },
+    {
+      "id": "secular",
+      "match_text": "One secular state. One Arab identity. No foreign permission required.",
+      "verdict": "ideological_program_not_universal_reality",
+      "reason": "Describes secular pan-Arab aspirations. Does not describe all identities or imply freedom from state coercion, religious family law, external dependence, or political opposition.",
+      "caption": "A secular, pan-Arab state was the ideal.\nIraq’s people held diverse identities.",
+      "source_ids": [
+        "S5",
+        "S10",
+        "S12"
+      ],
+      "min_display_seconds": 5,
+      "suggested_revised_narration": "It proclaimed a secular state and a common Arab identity."
+    },
+    {
+      "id": "dangerous",
+      "match_text": "They called Ba’athism dangerous. They were right.",
+      "verdict": "unattributed_rhetoric",
+      "reason": "No specified speaker, date or quotation. A political judgment rather than a documented universal reaction.",
+      "caption": "“Dangerous” is the narrator’s political judgment.",
+      "source_ids": [
+        "S12"
+      ],
+      "min_display_seconds": 4,
+      "suggested_revised_narration": "To its supporters, these changes challenged the established order."
+    },
+    {
+      "id": "oil_threat",
+      "match_text": "A sovereign Arab state that nationalized its oil threatened every company grown rich on Arab resources.",
+      "verdict": "overbroad_causal_interpretation",
+      "reason": "Conflicts over IPC compensation and marketing are documented; every company feeling threatened cannot be verified.",
+      "caption": "IPC owners contested compensation and oil sales.\n“Every company” is an interpretation.",
+      "source_ids": [
+        "S1"
+      ],
+      "min_display_seconds": 5,
+      "suggested_revised_narration": "Nationalization challenged foreign owners and their control of oil sales."
+    },
+    {
+      "id": "education_threat",
+      "match_text": "An educated Arab population threatened every power that depended on Arab dependency.",
+      "verdict": "unfalsifiable_political_interpretation",
+      "reason": "No defined powers, mechanism, date or evidence establishes the universal motive.",
+      "caption": "A political interpretation of education and power,\nnot a documented motive shared by all states.",
+      "source_ids": [
+        "S12"
+      ],
+      "min_display_seconds": 5,
+      "suggested_revised_narration": "Its supporters saw education as a route away from dependency."
+    },
+    {
+      "id": "stability",
+      "match_text": "They called it instability. Stability for whom?",
+      "verdict": "unattributed_rhetoric",
+      "reason": "Unspecified critics and an interpretive question; cannot be presented as a sourced quotation.",
+      "caption": "The question is political rhetoric.\nThe government also violently repressed opposition.",
+      "source_ids": [
+        "S10"
+      ],
+      "min_display_seconds": 5,
+      "suggested_revised_narration": "Yet development coexisted with dictatorship and violent repression."
+    },
+    {
+      "id": "closing_oil",
+      "match_text": "The oil was Arab. The schools were full.",
+      "verdict": "symbolic_closing_requires_context",
+      "reason": "State oil ownership and educational expansion support a symbolic closing, not ethnic ownership or universal school attendance.",
+      "caption": "State oil ownership and expanding schools\ncoexisted with unequal access and state control.",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S5"
+      ],
+      "min_display_seconds": 5,
+      "suggested_revised_narration": "Oil revenues supported new schools and public services."
+    },
+    {
+      "id": "closing_women",
+      "match_text": "The women were free.",
+      "verdict": "materially_overbroad",
+      "reason": "Professional gains did not equal unrestricted political, civil, or family freedom. Discrimination and repression persisted.",
+      "caption": "Women’s opportunities expanded.\nEqual rights and political freedom remained limited.",
+      "source_ids": [
+        "S5",
+        "S10"
+      ],
+      "min_display_seconds": 5,
+      "suggested_revised_narration": "Women gained opportunities, while discrimination and repression endured."
+    },
+    {
+      "id": "closing_borders",
+      "match_text": "The borders were challenged. Remember that Iraq.",
+      "verdict": "ambiguous_rhetoric",
+      "reason": "Can refer to pan-Arab aims; do not euphemize expansionist wars or imply this is the whole history of Iraq.",
+      "caption": "Pan-Arab unity was an aspiration.\nIraq also waged devastating wars.",
+      "source_ids": [
+        "S12",
+        "S6"
+      ],
+      "min_display_seconds": 4,
+      "suggested_revised_narration": "Remember the achievements, and the human cost of that Iraq."
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Some Implications of Iraq’s Oil Nationalization, June 1972",
+      "publisher": "US Department of State, Office of the Historian; contemporary CIA memorandum ER IM 72–92",
+      "url": "https://history.state.gov/historicaldocuments/frus1969-76ve04/d311",
+      "locator": "paragraphs 1–4, 9, 14–16",
+      "retrieval": "Full page read; primary contemporary intelligence source. Its predictions and political judgments are attributed assessments, not neutral facts."
+    },
+    {
+      "id": "S2",
+      "title": "Iraq report on ICESCR articles 13–15, E/1982/3/Add.26",
+      "publisher": "Republic of Iraq, submitted to the United Nations",
+      "url": "https://digitallibrary.un.org/record/62495/files/E_1982_3_Add.26-EN.pdf",
+      "locator": "printed p.5 paragraphs 9–10; p.10 paragraph 42",
+      "retrieval": "Original English PDF downloaded and pdftotext-extracted. A government self-report is primary evidence for stated law/policy and the reported award, not independent evidence of universal outcomes."
+    },
+    {
+      "id": "S3",
+      "title": "World Development Indicators: Iraq GDP per capita, current US$",
+      "publisher": "World Bank",
+      "url": "https://api.worldbank.org/v2/country/IRQ/indicator/NY.GDP.PCAP.CD?date=1970:1980&format=json",
+      "locator": "1972, 1975 annual observations",
+      "retrieval": "JSON API retrieved directly. Values: 394.41834302923 and 1165.88163945653; ratio 2.95595185. GDP per capita is not household income."
+    },
+    {
+      "id": "S4",
+      "title": "World Development Indicators: Iraq GDP per capita, constant US$",
+      "publisher": "World Bank",
+      "url": "https://api.worldbank.org/v2/country/IRQ/indicator/NY.GDP.PCAP.KD?date=1970:1980&format=json",
+      "locator": "1972, 1975 annual observations",
+      "retrieval": "JSON API retrieved directly. Values: 1325.75580274961 and 1633.76336398088; ratio 1.23232597; +23.23%. Revision-vintage may change exact values."
+    },
+    {
+      "id": "S5",
+      "title": "Background on Women’s Status in Iraq Prior to the Fall of the Saddam Hussein Government",
+      "publisher": "Human Rights Watch",
+      "url": "https://www.hrw.org/legacy/backgrounder/wrd/iraq-women.htm",
+      "locator": "Women’s Status in Iraq Prior to the 1991 Gulf War; footnotes 9, 12, 15, 21",
+      "retrieval": "Full page read. Primary NGO investigation/synthesis distinguishes legal and workplace gains from discrimination and state control."
+    },
+    {
+      "id": "S6",
+      "title": "Support to Emergency Obstetric Care in Iraq: External Evaluation Report",
+      "publisher": "Report submitted to UNFPA, Stars Orbit Consultants, April–May 2010 evaluation",
+      "url": "https://mptf.undp.org/sites/default/files/documents/10000/undg_itf_d2-02_unfpa_external_evaluation_report.pdf",
+      "locator": "printed p.28, historical health-sector background",
+      "retrieval": "Full 60-page PDF accessed through UNDP host. Historical paragraph records free centrally administered care and later deterioration."
+    },
+    {
+      "id": "S7",
+      "title": "Tariq Aziz — Iraq, 9 November 1993 profile",
+      "publisher": "CIA FOIA Reading Room, document 06498252",
+      "url": "https://www.cia.gov/readingroom/document/06498252",
+      "locator": "one-page profile",
+      "retrieval": "Indexed text retrieved in web search: Foreign Affairs 1983–91; Chaldean Christian. Direct live document URL redirects to maintenance/Reading Room, so corroborated against S8 and S9."
+    },
+    {
+      "id": "S8",
+      "title": "Secretary-General’s report on visit to Iran and Iraq, S/17097",
+      "publisher": "United Nations, 12 April 1985",
+      "url": "https://digitallibrary.un.org/record/80702/files/S_17097-EN.pdf",
+      "locator": "paragraphs 1–2",
+      "retrieval": "Indexed original UN PDF text identifies Tariq Aziz as Foreign Minister in 1985."
+    },
+    {
+      "id": "S9",
+      "title": "Former Saddam-Era Minister Tariq Aziz Dies",
+      "publisher": "Radio Free Europe/Radio Liberty, 5 June 2015; AFP, Reuters, BBC reporting",
+      "url": "https://www.rferl.org/a/iraq-tariq-aziz-dies/27055698.html",
+      "locator": "biographical paragraphs",
+      "retrieval": "Indexed article text corroborates Christian identity and 1983–91 Foreign Minister term."
+    },
+    {
+      "id": "S10",
+      "title": "Iraq’s Crime of Genocide: The Anfal Campaign against the Kurds",
+      "publisher": "Human Rights Watch and Yale University Press, 1994",
+      "url": "https://www.hrw.org/report/1994/05/01/iraqs-crime-genocide-anfal-campaign-against-kurds",
+      "locator": "report synopsis",
+      "retrieval": "Full page read. Investigation used captured Iraqi government records and survivor testimony; documents genocide and destruction of Kurdish communities in 1988."
+    },
+    {
+      "id": "S11",
+      "title": "FAO Conference: Thirteenth Meeting, statement by I.I. Azzawi (Iraq)",
+      "publisher": "Food and Agriculture Organization of the United Nations, 1983 conference proceedings",
+      "url": "https://www.fao.org/4/AK668E/ak668e26.htm",
+      "locator": "Iraqi delegation statement, agrarian reform passage",
+      "retrieval": "Full page read. Primary state statement describes 1970 and 1975 land laws; it is evidence of official policy/claims, not proof that every farmer owned land."
+    },
+    {
+      "id": "S12",
+      "title": "The Metaphysical Universe of Michel ʿAflaq and His Party: A Reappraisal of the Baʿth",
+      "publisher": "Modern Intellectual History, Cambridge University Press",
+      "url": "https://www.cambridge.org/core/journals/modern-intellectual-history/article/metaphysical-universe-of-michel-aflaq-and-his-party-a-reappraisal-of-the-bath/265B91D651F7AF2CAB6C513D57A66173",
+      "locator": "Resurrection (baʿth), discussion of Aflaq’s writings",
+      "retrieval": "Indexed scholarly text; interpretive secondary source, cites primary writings. Supports attribution to ideology, not factual endorsement."
+    },
+    {
+      "id": "S13",
+      "title": "Iraq Petroleum Company: House of Commons debate, 5 June 1972",
+      "publisher": "UK Parliament, Hansard",
+      "url": "https://api.parliament.uk/historic-hansard/commons/1972/jun/05/iraq-petroleum-company",
+      "locator": "Foreign Secretary statement",
+      "retrieval": "Indexed contemporary parliamentary statement corroborates 1 June IPC nationalization."
+    },
+    {
+      "id": "S14",
+      "title": "Recent changes in agrarian reform and rural development strategies in the Near East",
+      "publisher": "M. Riad El-Ghonemy, FAO Land Reform",
+      "url": "https://www.fao.org/4/W4760E/w4760e0q.htm",
+      "locator": "Table 1; Iraq discussion",
+      "retrieval": "Full page read. Records Iraq reform dates 1958 and 1971; documents incomplete redistribution and subsequent military spending."
+    },
+    {
+      "id": "S15",
+      "title": "Report of the Commission Entrusted by the Council with the Study of the Frontier between Syria and Iraq",
+      "publisher": "Library of Congress, League of Nations historical item",
+      "url": "https://www.loc.gov/resource/g7461f.ct000889b/",
+      "locator": "About this Item, historical summary",
+      "retrieval": "Indexed Library of Congress catalogue summary: 1920 Anglo-French convention and subsequent boundary commission."
+    },
+    {
+      "id": "S16",
+      "title": "Just a Line in the Sand? The Making of an Arabian Border, 1925",
+      "publisher": "Qatar Digital Library / British Library, William Monk, 24 March 2021",
+      "url": "https://www.qdl.qa/en/just-line-sand-making-arabian-border-1925",
+      "locator": "Overview",
+      "retrieval": "Indexed institutional archival interpretation; cautions that modern frontiers were not simply the Sykes-Picot map and involved multiple negotiations."
+    }
+  ],
+  "research_limitations": [
+    "Firecrawl search could not run: connected account was out of credits. Used available web search and direct institutional retrieval.",
+    "UNESCO original 1979 award booklet URL was discovered but live access returned HTTP 403. Award was corroborated with original UN-hosted Iraqi state report E/1982/3/Add.26 p.10 and contemporary reporting. Exact Supreme Council recipient wording appears in bibliographic sources; do not inflate the award into certification that all Iraqis were literate.",
+    "CIA live biography redirects to maintenance/Reading Room; indexed content was cross-checked against original UN Foreign Minister identification and independent biography.",
+    "No evidence found for women holding every military rank."
+  ],
+  "opening_card_claims": [
+    {
+      "id": "opening_borders",
+      "match_text": "They drew your borders without asking.",
+      "verdict": "anti_colonial_rhetoric_requires_specificity",
+      "reason": "Colonial powers shaped borders, but modern Iraq’s boundaries were settled through multiple commissions, negotiations and conflicts; the line is not a literal summary of a single agreement.",
+      "caption": "Britain and France shaped borders under mandate.\nBoundaries emerged through several later agreements.",
+      "source_ids": [
+        "S15",
+        "S16"
+      ],
+      "min_display_seconds": 5,
+      "suggested_revised_narration": null
+    },
+    {
+      "id": "opening_royalties",
+      "match_text": "They took your oil without sharing.",
+      "verdict": "literal_zero_sharing_false",
+      "reason": "Iraq received oil royalties and revenue before nationalization; nationalization changed ownership and control.",
+      "caption": "Iraq already received oil revenues.\nNationalization changed ownership and control.",
+      "source_ids": [
+        "S1"
+      ],
+      "min_display_seconds": 5,
+      "suggested_revised_narration": null
+    },
+    {
+      "id": "opening_party",
+      "match_text": "One party said enough.",
+      "verdict": "political_rhetoric_omits_predecessors",
+      "reason": "Oil concessions were curtailed by Law 80 in 1961, before the 1968 Baath takeover. Nationalization in 1972 continued an older struggle.",
+      "caption": "Law 80 restricted concessions in 1961,\nbefore the Ba’ath Party took lasting power in 1968.",
+      "source_ids": [
+        "S1"
+      ],
+      "min_display_seconds": 5,
+      "suggested_revised_narration": null
+    }
+  ],
+  "timed_captions": [
+    {
+      "id": "opening-and-nationalization",
+      "start": 13.0,
+      "end": 21.2,
+      "text": "Britain and France shaped borders; Iraq already received oil revenues.\nThe dispute predated Ba’ath rule. The 1 June 1972 decree nationalized IPC alone.",
+      "heading": "HISTORICAL CONTEXT",
+      "covers": [
+        "opening_borders",
+        "opening_royalties",
+        "opening_party",
+        "oil_date"
+      ],
+      "claim_ids": [
+        "opening_borders",
+        "opening_royalties",
+        "opening_party",
+        "oil_date"
+      ],
+      "source_ids": [
+        "S1",
+        "S15",
+        "S16"
+      ],
+      "minimum_reading_seconds": 6.571
+    },
+    {
+      "id": "bp-consortium",
+      "start": 21.2,
+      "end": 28.033333,
+      "text": "IPC was a multinational consortium; BP held 23.75%.\nIts concession dated to 1925, not fifty years of BP extraction.",
+      "heading": "HISTORICAL CONTEXT",
+      "covers": [
+        "bp"
+      ],
+      "claim_ids": [
+        "bp"
+      ],
+      "source_ids": [
+        "S1"
+      ],
+      "minimum_reading_seconds": 5.429
+    },
+    {
+      "id": "gdp-measure",
+      "start": 28.033333,
+      "end": 35.366667,
+      "text": "GDP/person, 1972–75: nearly 3× in current US dollars.\nInflation-adjusted growth: about 23%. GDP is not personal income.",
+      "heading": "HISTORICAL CONTEXT",
+      "covers": [
+        "income"
+      ],
+      "claim_ids": [
+        "income"
+      ],
+      "source_ids": [
+        "S3",
+        "S4"
+      ],
+      "minimum_reading_seconds": 5.0
+    },
+    {
+      "id": "education-access",
+      "start": 35.366667,
+      "end": 42.7,
+      "text": "Education was tuition-free through university.\nAttendance and access were not universal.",
+      "heading": "HISTORICAL CONTEXT",
+      "covers": [
+        "education"
+      ],
+      "claim_ids": [
+        "education"
+      ],
+      "source_ids": [
+        "S2",
+        "S5"
+      ],
+      "minimum_reading_seconds": 5.0
+    },
+    {
+      "id": "health-access",
+      "start": 42.7,
+      "end": 49.033333,
+      "text": "Public healthcare was provided free of charge.\nThis did not guarantee care reached everyone.",
+      "heading": "HISTORICAL CONTEXT",
+      "covers": [
+        "health"
+      ],
+      "claim_ids": [
+        "health"
+      ],
+      "source_ids": [
+        "S6"
+      ],
+      "minimum_reading_seconds": 5.0
+    },
+    {
+      "id": "literacy-award",
+      "start": 49.033333,
+      "end": 55.4,
+      "text": "1979 · UNESCO Krupskaya literacy prize\nRecognized Iraq’s national literacy campaign, not universal literacy.",
+      "heading": "HISTORICAL CONTEXT",
+      "covers": [
+        "unesco"
+      ],
+      "claim_ids": [
+        "unesco"
+      ],
+      "source_ids": [
+        "S2"
+      ],
+      "minimum_reading_seconds": 5.0
+    },
+    {
+      "id": "regional-reaction",
+      "start": 55.4,
+      "end": 62.2,
+      "text": "The narration voices a pan-Arab political interpretation.\nRegional governments responded differently to nationalization.",
+      "heading": "HISTORICAL CONTEXT",
+      "covers": [
+        "arab_reaction"
+      ],
+      "claim_ids": [
+        "arab_reaction"
+      ],
+      "source_ids": [
+        "S1",
+        "S12"
+      ],
+      "minimum_reading_seconds": 5.0
+    },
+    {
+      "id": "ideology-attribution",
+      "start": 62.2,
+      "end": 75.366667,
+      "text": "Ba’athist ideals: Arab unity, liberation and socialism.\nIraq also contained non-Arab peoples and languages.",
+      "heading": "HISTORICAL CONTEXT",
+      "covers": [
+        "ideology",
+        "language"
+      ],
+      "claim_ids": [
+        "ideology",
+        "language"
+      ],
+      "source_ids": [
+        "S10",
+        "S12"
+      ],
+      "minimum_reading_seconds": 5.0
+    },
+    {
+      "id": "women-professions",
+      "start": 75.366667,
+      "end": 83.166667,
+      "text": "Women gained educational and professional roles.\nThe claim of women in “every military rank” is not substantiated.",
+      "heading": "HISTORICAL CONTEXT",
+      "covers": [
+        "women"
+      ],
+      "claim_ids": [
+        "women"
+      ],
+      "source_ids": [
+        "S5"
+      ],
+      "minimum_reading_seconds": 5.0
+    },
+    {
+      "id": "aziz-and-land",
+      "start": 83.166667,
+      "end": 90.833333,
+      "text": "Tariq Aziz, a Chaldean Christian: Foreign Minister, 1983–91.\nLand reform began in 1958 and continued under Ba’ath rule.",
+      "heading": "HISTORICAL CONTEXT",
+      "covers": [
+        "aziz",
+        "land"
+      ],
+      "claim_ids": [
+        "aziz",
+        "land"
+      ],
+      "source_ids": [
+        "S7",
+        "S8",
+        "S9",
+        "S11",
+        "S14"
+      ],
+      "minimum_reading_seconds": 5.143
+    },
+    {
+      "id": "secular-ideal",
+      "start": 90.833333,
+      "end": 100.266667,
+      "text": "A secular, pan-Arab state was the party’s ideal.\nIraq’s people held diverse identities; discrimination persisted.",
+      "heading": "HISTORICAL CONTEXT",
+      "covers": [
+        "secular"
+      ],
+      "claim_ids": [
+        "secular"
+      ],
+      "source_ids": [
+        "S5",
+        "S10",
+        "S12"
+      ],
+      "minimum_reading_seconds": 5.0
+    },
+    {
+      "id": "repression-context",
+      "start": 100.266667,
+      "end": 108.0,
+      "text": "Development coexisted with dictatorship.\nThe 1988 Anfal campaign targeted Kurdish civilians.",
+      "heading": "HISTORICAL CONTEXT",
+      "covers": [
+        "dangerous"
+      ],
+      "claim_ids": [
+        "dangerous",
+        "context_repression"
+      ],
+      "source_ids": [
+        "S10"
+      ],
+      "minimum_reading_seconds": 6.0
+    },
+    {
+      "id": "oil-dispute",
+      "start": 108.0,
+      "end": 118.233333,
+      "text": "IPC owners contested compensation and oil sales.\nA threat to “every company” is political interpretation.",
+      "heading": "HISTORICAL CONTEXT",
+      "covers": [
+        "oil_threat"
+      ],
+      "claim_ids": [
+        "oil_threat"
+      ],
+      "source_ids": [
+        "S1"
+      ],
+      "minimum_reading_seconds": 5.0
+    },
+    {
+      "id": "causal-interpretation",
+      "start": 118.233333,
+      "end": 125.966667,
+      "text": "These causal claims are political interpretations.\nThey do not establish the motives of every foreign power.",
+      "heading": "HISTORICAL CONTEXT",
+      "covers": [
+        "education_threat"
+      ],
+      "claim_ids": [
+        "education_threat"
+      ],
+      "source_ids": [
+        "S12"
+      ],
+      "minimum_reading_seconds": 5.0
+    },
+    {
+      "id": "stability-and-repression",
+      "start": 125.966667,
+      "end": 132.0,
+      "text": "The narrator’s question is political rhetoric.\nDevelopment coexisted with violent repression of opposition.",
+      "heading": "HISTORICAL CONTEXT",
+      "covers": [
+        "stability"
+      ],
+      "claim_ids": [
+        "stability"
+      ],
+      "source_ids": [
+        "S10"
+      ],
+      "minimum_reading_seconds": 5.0
+    },
+    {
+      "id": "closing-services",
+      "start": 132.0,
+      "end": 139.166667,
+      "text": "Oil revenues supported expanding state services.\nSchool enrollment and access varied; not every child attended.",
+      "heading": "HISTORICAL CONTEXT",
+      "covers": [
+        "closing_oil"
+      ],
+      "claim_ids": [
+        "closing_oil"
+      ],
+      "source_ids": [
+        "S1",
+        "S2",
+        "S5"
+      ],
+      "minimum_reading_seconds": 5.0
+    },
+    {
+      "id": "closing-women",
+      "start": 139.166667,
+      "end": 144.366667,
+      "text": "Women’s opportunities expanded.\nEqual rights and political freedom remained limited.",
+      "heading": "HISTORICAL CONTEXT",
+      "covers": [
+        "closing_women"
+      ],
+      "claim_ids": [
+        "closing_women"
+      ],
+      "source_ids": [
+        "S5",
+        "S10"
+      ],
+      "minimum_reading_seconds": 5.0
+    },
+    {
+      "id": "closing-borders",
+      "start": 144.366667,
+      "end": 150.0,
+      "text": "Pan-Arab unity was an aspiration.\nIraq also waged devastating wars.",
+      "heading": "HISTORICAL CONTEXT",
+      "covers": [
+        "closing_borders"
+      ],
+      "claim_ids": [
+        "closing_borders"
+      ],
+      "source_ids": [
+        "S6",
+        "S12"
+      ],
+      "minimum_reading_seconds": 5.0
+    }
+  ],
+  "caption_sync": {
+    "timing_source": "output/audio-timing.json",
+    "timing_sha256": "20383cbdb4c152cd5df1edff189e474c03ed2e43194b641dc11ca0ea183dffdf",
+    "method": "Measured sentence boundaries, grouped adjacent claims, 30 FPS boundaries; no speech time stretching.",
+    "nonoverlapping": true,
+    "all_reviewed_claims_covered": true,
+    "reading_rate_limit_words_per_second": 3.5,
+    "final_english_end": 150,
+    "remaining_publication_conditions": "Renderer must include these captions legibly and preserve actual archival dates/provenance."
+  },
+  "synchronization_verified": true
+}
