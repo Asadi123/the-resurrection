@@ -7,3 +7,8 @@ assets/audio/*
 output/*
 !output/.gitkeep
 .DS_Store
+
+# Source-restricted documentary: original media is reproducibly acquired and
+# delivered in the GitHub Release source bundle, not mixed with legacy assets.
+two_thread/assets/
+two_thread/output/

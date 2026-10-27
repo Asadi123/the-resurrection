@@ -1,5 +1,12 @@
 # THE RESURRECTION — البعث
 
+**New, separate two-thread documentary:** [Iraq's Case — The War They Would Not End](two_thread/README.md)
+uses only the two commissioned Thread Reader collections. Its acquisition,
+attachment inventory, edit and renderer are isolated in `two_thread/` on
+`documentary/two-thread-evidence-film`. The earlier film below and its branches
+are preserved; their historical footage and narration are not used in the new
+production.
+
 An automated archival documentary production using Python and FFmpeg. The requested master is **160 seconds, 1920 × 1080, 30 FPS, H.264 MP4 with AAC audio**. Only authentic, rights-cleared historical imagery is eligible for the film.
 
 **Finished video — Michael American narration:** [Download the validated MP4 artifact](https://github.com/Asadi123/the-resurrection/actions/runs/40495451476/artifacts/12730895116). Unzip it and open `output/the-resurrection.mp4`. The video is **160.000 seconds**, **1920 × 1080**, **30 FPS**, and **57,847,360 bytes**. [The successful GitHub Actions run](https://github.com/Asadi123/the-resurrection/actions/runs/40495451476) verifies full decoding, 4,800 frames, all 31 factual/source overlays, the Arabic ending, and black endpoints. This revision uses the user-selected Michael voice at natural speed, with full-passage synthesis and resynchronized factual corrections. Credits, licensing, provenance, and the validation report accompany the MP4. GitHub sign-in is required; this artifact is retained until November 26, 2026.

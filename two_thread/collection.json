@@ -1,0 +1,3401 @@
+{
+  "schema": 1,
+  "acquired_at": "2026-10-27T23:34:48.810366+00:00",
+  "historical_source_policy": "ONLY the two commissioned threads; no legacy historical content",
+  "threads": [
+    {
+      "id": "1668916665550094339",
+      "url": "https://threadreaderapp.com/thread/1668916665550094339.html",
+      "posts": [
+        {
+          "id": "1668916665550094339",
+          "ordinal": 1,
+          "text": "How Iran started the Iran-Iraq War The story of how the longest war in 20th century could have ended in a few days. Including a rare confession from an Iranian official 🧵A Thread",
+          "tweet_url": "https://x.com/xumas_iq/status/1668916665550094339",
+          "links": [
+            "https://pbs.twimg.com/media/FykutwGXwAA8zTm.jpg"
+          ],
+          "attachments": [
+            {
+              "id": "1668916665550094339-p01-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/FykutwGXwAA8zTm.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/FykutwGXwAA8zTm.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p01-a01.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/FykutwGXwAA8zTm.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/FykutwGXwAA8zTm.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 3040141,
+                "retrieved_at": "2026-10-27T23:34:49.520967+00:00",
+                "sha256": "aeb5ba49ad9320c2fa7752755b3f31a5ee605f2835642f70050d2c00b979c2e8"
+              },
+              "width": 3672,
+              "height": 2520,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "aeb5ba49ad9320c2fa7752755b3f31a5ee605f2835642f70050d2c00b979c2e8",
+              "bytes": 3040141
+            }
+          ]
+        },
+        {
+          "id": "1668916669840867331",
+          "ordinal": 2,
+          "text": "Upon Khomeini's arrival to power, Iraq was one of the first countries to congratulate Iran in a telegram sent 5th April 1979 to Iran.",
+          "tweet_url": "https://x.com/xumas_iq/status/1668916669840867331",
+          "links": [
+            "https://pbs.twimg.com/media/FykVBoMWcAMSzso.jpg"
+          ],
+          "attachments": [
+            {
+              "id": "1668916665550094339-p02-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/FykVBoMWcAMSzso.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/FykVBoMWcAMSzso.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p02-a01.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/FykVBoMWcAMSzso.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/FykVBoMWcAMSzso.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 63639,
+                "retrieved_at": "2026-10-27T23:34:49.098165+00:00",
+                "sha256": "58f7ef09f8b9c3d9ce2ae70b28746df58b4885da3f51266376ccd01a56553e93"
+              },
+              "width": 988,
+              "height": 206,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "58f7ef09f8b9c3d9ce2ae70b28746df58b4885da3f51266376ccd01a56553e93",
+              "bytes": 63639
+            }
+          ]
+        },
+        {
+          "id": "1668916672369926151",
+          "ordinal": 3,
+          "text": "Khomeini and the Iranian media was incitive against Iraq, which resulted in huge protest calling for the \"Islamic Revolution on Iraq\" The Iraqi Embassy and consulates in Iran was subject to numerous attacks from these mobs. June 1979",
+          "tweet_url": "https://x.com/xumas_iq/status/1668916672369926151",
+          "links": [],
+          "attachments": [
+            {
+              "id": "1668916665550094339-p03-a01",
+              "kind": "video",
+              "source_url": "https://video.twimg.com/ext_tw_video/1668890627482820609/pu/vid/704x498/cyF_ZxRUXxjK1GxY.mp4?tag=12",
+              "variants": [
+                "https://video.twimg.com/ext_tw_video/1668890627482820609/pu/vid/380x270/a0A6VayFbHW2_mtn.mp4?tag=12",
+                "https://video.twimg.com/ext_tw_video/1668890627482820609/pu/vid/508x360/8Pwx6bccnuyw7bqW.mp4?tag=12",
+                "https://video.twimg.com/ext_tw_video/1668890627482820609/pu/vid/704x498/cyF_ZxRUXxjK1GxY.mp4?tag=12"
+              ],
+              "poster_url": "https://pbs.twimg.com/ext_tw_video_thumb/1668890627482820609/pu/img/LkjX6RwWDMCU9f16.jpg",
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p03-a01.mp4",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://video.twimg.com/ext_tw_video/1668890627482820609/pu/vid/704x498/cyF_ZxRUXxjK1GxY.mp4?tag=12",
+                "final_url": "https://video.twimg.com/ext_tw_video/1668890627482820609/pu/vid/704x498/cyF_ZxRUXxjK1GxY.mp4?tag=12",
+                "status": 200,
+                "content_type": "video/mp4",
+                "bytes": 16315691,
+                "retrieved_at": "2026-10-27T23:33:50.987326+00:00",
+                "sha256": "43ea7c2941607fb1646771cf5132e2b5aacd91636579b539495705c3122737c6"
+              },
+              "cache_verified_at": "2026-10-27T23:34:48.965425+00:00",
+              "width": 704,
+              "height": 498,
+              "duration": 97.173333,
+              "has_audio": true,
+              "sha256": "43ea7c2941607fb1646771cf5132e2b5aacd91636579b539495705c3122737c6",
+              "bytes": 16315691
+            }
+          ]
+        },
+        {
+          "id": "1668916676656594944",
+          "ordinal": 4,
+          "text": "Iraq tried to keep it's head cool Saddam Hussein took the chance of a summit in Havana to have talks with Ebrahim Yazdi, the first foreign minister to Iran post-Shah on the sidelines. Saddam is seen here with him and congratulating Iran again in July 1979.",
+          "tweet_url": "https://x.com/xumas_iq/status/1668916676656594944",
+          "links": [],
+          "attachments": [
+            {
+              "id": "1668916665550094339-p04-a01",
+              "kind": "video",
+              "source_url": "https://video.twimg.com/ext_tw_video/1668891607775555584/pu/vid/640x512/y24eZKwqVVGA-OGH.mp4?tag=12",
+              "variants": [
+                "https://video.twimg.com/ext_tw_video/1668891607775555584/pu/vid/336x270/-KOxK8X4zJQ-CTi5.mp4?tag=12",
+                "https://video.twimg.com/ext_tw_video/1668891607775555584/pu/vid/450x360/ZZpbwJV-m1l3C4mi.mp4?tag=12",
+                "https://video.twimg.com/ext_tw_video/1668891607775555584/pu/vid/640x512/y24eZKwqVVGA-OGH.mp4?tag=12"
+              ],
+              "poster_url": "https://pbs.twimg.com/ext_tw_video_thumb/1668891607775555584/pu/img/PaIxF2D-FDf0KWcq.jpg",
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p04-a01.mp4",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://video.twimg.com/ext_tw_video/1668891607775555584/pu/vid/640x512/y24eZKwqVVGA-OGH.mp4?tag=12",
+                "final_url": "https://video.twimg.com/ext_tw_video/1668891607775555584/pu/vid/640x512/y24eZKwqVVGA-OGH.mp4?tag=12",
+                "status": 200,
+                "content_type": "video/mp4",
+                "bytes": 3130582,
+                "retrieved_at": "2026-10-27T23:33:50.445723+00:00",
+                "sha256": "e7d82abc88d88a02d2aff04d8f2325475f1beddbd8994ec4d3176fb65e2dbd05"
+              },
+              "cache_verified_at": "2026-10-27T23:34:48.952402+00:00",
+              "width": 640,
+              "height": 512,
+              "duration": 59.511293,
+              "has_audio": true,
+              "sha256": "e7d82abc88d88a02d2aff04d8f2325475f1beddbd8994ec4d3176fb65e2dbd05",
+              "bytes": 3130582
+            }
+          ]
+        },
+        {
+          "id": "1668916680234246144",
+          "ordinal": 5,
+          "text": "Iran however resumed support for Separatist Kurds in Iraq, which resulted in a open critique by Saddam Hussein at the time. He warned that Khomeini's action would serve the imperialist powers. January, 1980",
+          "tweet_url": "https://x.com/xumas_iq/status/1668916680234246144",
+          "links": [],
+          "attachments": [
+            {
+              "id": "1668916665550094339-p05-a01",
+              "kind": "video",
+              "source_url": "https://video.twimg.com/ext_tw_video/1668895107586695168/pu/vid/960x720/3AWZzsIL21I5Vlgp.mp4?tag=12",
+              "variants": [
+                "https://video.twimg.com/ext_tw_video/1668895107586695168/pu/vid/360x270/UuSAugNLujOSgdMK.mp4?tag=12",
+                "https://video.twimg.com/ext_tw_video/1668895107586695168/pu/vid/480x360/G1RY0GGETo7SPuX0.mp4?tag=12",
+                "https://video.twimg.com/ext_tw_video/1668895107586695168/pu/vid/960x720/3AWZzsIL21I5Vlgp.mp4?tag=12"
+              ],
+              "poster_url": "https://pbs.twimg.com/ext_tw_video_thumb/1668895107586695168/pu/img/Vk_G5JuJqN8vBR6B.jpg",
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p05-a01.mp4",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://video.twimg.com/ext_tw_video/1668895107586695168/pu/vid/960x720/3AWZzsIL21I5Vlgp.mp4?tag=12",
+                "final_url": "https://video.twimg.com/ext_tw_video/1668895107586695168/pu/vid/960x720/3AWZzsIL21I5Vlgp.mp4?tag=12",
+                "status": 200,
+                "content_type": "video/mp4",
+                "bytes": 3709384,
+                "retrieved_at": "2026-10-27T23:33:50.261135+00:00",
+                "sha256": "dcd8216c481c031bc05cb11f01ca840e570903d53f6bf32f6a3170e22df657dc"
+              },
+              "cache_verified_at": "2026-10-27T23:34:49.025016+00:00",
+              "width": 960,
+              "height": 720,
+              "duration": 37.059048,
+              "has_audio": true,
+              "sha256": "dcd8216c481c031bc05cb11f01ca840e570903d53f6bf32f6a3170e22df657dc",
+              "bytes": 3709384
+            }
+          ]
+        },
+        {
+          "id": "1668916684894117888",
+          "ordinal": 6,
+          "text": "Khomeini responded to the speech and said Arab Unity is against Islam. January 1980",
+          "tweet_url": "https://x.com/xumas_iq/status/1668916684894117888",
+          "links": [],
+          "attachments": [
+            {
+              "id": "1668916665550094339-p06-a01",
+              "kind": "video",
+              "source_url": "https://video.twimg.com/ext_tw_video/1668895534638145537/pu/vid/960x720/5V7MRbRYon7WpF1q.mp4?tag=12",
+              "variants": [
+                "https://video.twimg.com/ext_tw_video/1668895534638145537/pu/vid/360x270/jrRrEfUJ2L9DL4AU.mp4?tag=12",
+                "https://video.twimg.com/ext_tw_video/1668895534638145537/pu/vid/480x360/fOuxD510r3-v1NnO.mp4?tag=12",
+                "https://video.twimg.com/ext_tw_video/1668895534638145537/pu/vid/960x720/5V7MRbRYon7WpF1q.mp4?tag=12"
+              ],
+              "poster_url": "https://pbs.twimg.com/ext_tw_video_thumb/1668895534638145537/pu/img/VhM-DiC9yCHh5ahu.jpg",
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p06-a01.mp4",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://video.twimg.com/ext_tw_video/1668895534638145537/pu/vid/960x720/5V7MRbRYon7WpF1q.mp4?tag=12",
+                "final_url": "https://video.twimg.com/ext_tw_video/1668895534638145537/pu/vid/960x720/5V7MRbRYon7WpF1q.mp4?tag=12",
+                "status": 200,
+                "content_type": "video/mp4",
+                "bytes": 2608591,
+                "retrieved_at": "2026-10-27T23:33:50.137780+00:00",
+                "sha256": "be39d21b1eab138d2d1f155f1b07376c4943bb52f3dac3d3e6cc5536b752f810"
+              },
+              "cache_verified_at": "2026-10-27T23:34:49.043591+00:00",
+              "width": 960,
+              "height": 720,
+              "duration": 32.020317,
+              "has_audio": true,
+              "sha256": "be39d21b1eab138d2d1f155f1b07376c4943bb52f3dac3d3e6cc5536b752f810",
+              "bytes": 2608591
+            }
+          ]
+        },
+        {
+          "id": "1668916689407299584",
+          "ordinal": 7,
+          "text": "Iranian agents under the Dawa Party conducted numerous terrorist attacks in Iraq that took the lives of hundreds of civilians. April 1980",
+          "tweet_url": "https://x.com/xumas_iq/status/1668916689407299584",
+          "links": [],
+          "attachments": [
+            {
+              "id": "1668916665550094339-p07-a01",
+              "kind": "video",
+              "source_url": "https://video.twimg.com/ext_tw_video/1668897101147693059/pu/vid/960x720/ysxsz8x8W8HyUkN-.mp4?tag=12",
+              "variants": [
+                "https://video.twimg.com/ext_tw_video/1668897101147693059/pu/vid/360x270/iZhklHbdQN-eV8gz.mp4?tag=12",
+                "https://video.twimg.com/ext_tw_video/1668897101147693059/pu/vid/480x360/b-hyc001O2gPdLGU.mp4?tag=12",
+                "https://video.twimg.com/ext_tw_video/1668897101147693059/pu/vid/960x720/ysxsz8x8W8HyUkN-.mp4?tag=12"
+              ],
+              "poster_url": "https://pbs.twimg.com/ext_tw_video_thumb/1668897101147693059/pu/img/D8Jk3yEiGcHq0kux.jpg",
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p07-a01.mp4",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://video.twimg.com/ext_tw_video/1668897101147693059/pu/vid/960x720/ysxsz8x8W8HyUkN-.mp4?tag=12",
+                "final_url": "https://video.twimg.com/ext_tw_video/1668897101147693059/pu/vid/960x720/ysxsz8x8W8HyUkN-.mp4?tag=12",
+                "status": 200,
+                "content_type": "video/mp4",
+                "bytes": 2669630,
+                "retrieved_at": "2026-10-27T23:33:50.908100+00:00",
+                "sha256": "17f09ee5c9f1ca0302383ef616692d360453066b906139647d9a93a1af5c1b19"
+              },
+              "cache_verified_at": "2026-10-27T23:34:49.092859+00:00",
+              "width": 960,
+              "height": 720,
+              "duration": 19.969161,
+              "has_audio": true,
+              "sha256": "17f09ee5c9f1ca0302383ef616692d360453066b906139647d9a93a1af5c1b19",
+              "bytes": 2669630
+            }
+          ]
+        },
+        {
+          "id": "1668916693521821696",
+          "ordinal": 8,
+          "text": "Tariq Aziz, Deputy Prime Minister of Iraq was subjected to a hand grenade assassination attempt in Mustansriya University, which instead took the lives of innocent students. By the end of the month, Iran managed to kill 20 Iraqi officials.",
+          "tweet_url": "https://x.com/xumas_iq/status/1668916693521821696",
+          "links": [
+            "https://pbs.twimg.com/media/FykeHQhWAAEHzyz.png"
+          ],
+          "attachments": [
+            {
+              "id": "1668916665550094339-p08-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/FykeHQhWAAEHzyz.png",
+              "variants": [
+                "https://pbs.twimg.com/media/FykeHQhWAAEHzyz.png"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p08-a01.png",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/FykeHQhWAAEHzyz.png?name=orig",
+                "final_url": "https://pbs.twimg.com/media/FykeHQhWAAEHzyz.png?name=orig",
+                "status": 200,
+                "content_type": "image/png",
+                "bytes": 94359,
+                "retrieved_at": "2026-10-27T23:34:49.278312+00:00",
+                "sha256": "7e1243fa7ba1017c253b2862d384fdf8837dfe3264e836f04726c750bd2df8ff"
+              },
+              "width": 659,
+              "height": 321,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "7e1243fa7ba1017c253b2862d384fdf8837dfe3264e836f04726c750bd2df8ff",
+              "bytes": 94359
+            }
+          ]
+        },
+        {
+          "id": "1668916696147476480",
+          "ordinal": 9,
+          "text": "Then Khomeini called for the Iraqi people to revolt and started to recruit for \"Jondi El-Imam\" an army whom's purpose was to 'Liberate Iraq'. A blantant case of interference in Iraqi internal affairs.",
+          "tweet_url": "https://x.com/xumas_iq/status/1668916696147476480",
+          "links": [],
+          "attachments": [
+            {
+              "id": "1668916665550094339-p09-a01",
+              "kind": "video",
+              "source_url": "https://video.twimg.com/ext_tw_video/1668898447330607105/pu/vid/928x528/S3SBwG1k49k7Kwep.mp4?tag=12",
+              "variants": [
+                "https://video.twimg.com/ext_tw_video/1668898447330607105/pu/vid/474x270/8nZ9ro_w0_4MUqZq.mp4?tag=12",
+                "https://video.twimg.com/ext_tw_video/1668898447330607105/pu/vid/632x360/DZ42pYaZjfnlSW07.mp4?tag=12",
+                "https://video.twimg.com/ext_tw_video/1668898447330607105/pu/vid/928x528/S3SBwG1k49k7Kwep.mp4?tag=12"
+              ],
+              "poster_url": "https://pbs.twimg.com/ext_tw_video_thumb/1668898447330607105/pu/img/NeKM40Xc1fCKeeOE.jpg",
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p09-a01.mp4",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://video.twimg.com/ext_tw_video/1668898447330607105/pu/vid/928x528/S3SBwG1k49k7Kwep.mp4?tag=12",
+                "final_url": "https://video.twimg.com/ext_tw_video/1668898447330607105/pu/vid/928x528/S3SBwG1k49k7Kwep.mp4?tag=12",
+                "status": 200,
+                "content_type": "video/mp4",
+                "bytes": 6229696,
+                "retrieved_at": "2026-10-27T23:33:50.900020+00:00",
+                "sha256": "ee7a06ceb9ab15d3e76b23e01bd5c71c7066a3a6f39643ab598149e29f8291ac"
+              },
+              "cache_verified_at": "2026-10-27T23:34:49.115016+00:00",
+              "width": 928,
+              "height": 528,
+              "duration": 139.923447,
+              "has_audio": true,
+              "sha256": "ee7a06ceb9ab15d3e76b23e01bd5c71c7066a3a6f39643ab598149e29f8291ac",
+              "bytes": 6229696
+            }
+          ]
+        },
+        {
+          "id": "1668916701004541952",
+          "ordinal": 10,
+          "text": "Iran throughout this border continuned with numerous border violations. Over 500 of such provocations. On the 4th September 1980, Iran for the first time shelled populated cities such as Khanaqin, Mendeli with 175mm U.S. made artillery shells.",
+          "tweet_url": "https://x.com/xumas_iq/status/1668916701004541952",
+          "links": [],
+          "attachments": [
+            {
+              "id": "1668916665550094339-p10-a01",
+              "kind": "video",
+              "source_url": "https://video.twimg.com/ext_tw_video/1668899888128466946/pu/vid/960x720/prUQoqTqCnSnSaME.mp4?tag=12",
+              "variants": [
+                "https://video.twimg.com/ext_tw_video/1668899888128466946/pu/vid/360x270/K512MkFMR4af10o6.mp4?tag=12",
+                "https://video.twimg.com/ext_tw_video/1668899888128466946/pu/vid/480x360/nnIHTH47vlFMeGIp.mp4?tag=12",
+                "https://video.twimg.com/ext_tw_video/1668899888128466946/pu/vid/960x720/prUQoqTqCnSnSaME.mp4?tag=12"
+              ],
+              "poster_url": "https://pbs.twimg.com/ext_tw_video_thumb/1668899888128466946/pu/img/DQNO3BEBUtDomqi_.jpg",
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p10-a01.mp4",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://video.twimg.com/ext_tw_video/1668899888128466946/pu/vid/960x720/prUQoqTqCnSnSaME.mp4?tag=12",
+                "final_url": "https://video.twimg.com/ext_tw_video/1668899888128466946/pu/vid/960x720/prUQoqTqCnSnSaME.mp4?tag=12",
+                "status": 200,
+                "content_type": "video/mp4",
+                "bytes": 4048342,
+                "retrieved_at": "2026-10-27T23:33:51.345331+00:00",
+                "sha256": "3060345f006d6cf9ab0818f72f2cc8762c51a56bffabe2ee867d34a7399e85ef"
+              },
+              "cache_verified_at": "2026-10-27T23:34:49.158670+00:00",
+              "width": 960,
+              "height": 720,
+              "duration": 29.653333,
+              "has_audio": true,
+              "sha256": "3060345f006d6cf9ab0818f72f2cc8762c51a56bffabe2ee867d34a7399e85ef",
+              "bytes": 4048342
+            }
+          ]
+        },
+        {
+          "id": "1668916706528436229",
+          "ordinal": 11,
+          "text": "Iran subsequently repeated the same shelling on the 7th September 1980. Iraq sent in a note on the 10th September 1980 reminding Iran once again to withdraw from areas it has recognized as Iraqi under the Algiers Agreement and cease shelling.",
+          "tweet_url": "https://x.com/xumas_iq/status/1668916706528436229",
+          "links": [
+            "https://pbs.twimg.com/media/Fykgu8NXsAErpGT.png"
+          ],
+          "attachments": [
+            {
+              "id": "1668916665550094339-p11-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/Fykgu8NXsAErpGT.png",
+              "variants": [
+                "https://pbs.twimg.com/media/Fykgu8NXsAErpGT.png"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p11-a01.png",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/Fykgu8NXsAErpGT.png?name=orig",
+                "final_url": "https://pbs.twimg.com/media/Fykgu8NXsAErpGT.png?name=orig",
+                "status": 200,
+                "content_type": "image/png",
+                "bytes": 221594,
+                "retrieved_at": "2026-10-27T23:34:49.483379+00:00",
+                "sha256": "1532291033f4ca09539c922b28aa7b272abf2ce484ba97a0c13a4ed364e278ba"
+              },
+              "width": 608,
+              "height": 511,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "1532291033f4ca09539c922b28aa7b272abf2ce484ba97a0c13a4ed364e278ba",
+              "bytes": 221594
+            }
+          ]
+        },
+        {
+          "id": "1668916709850218499",
+          "ordinal": 12,
+          "text": "Iran however declined and instead the Iranian Chief of Staff General Fallahi on the 14th September said his country would not honor the Algiers Agreement. This statement was repeated by Iranian President Bani Sadr.",
+          "tweet_url": "https://x.com/xumas_iq/status/1668916709850218499",
+          "links": [
+            "https://pbs.twimg.com/media/Fykg9YPWwAI7coV.png",
+            "https://pbs.twimg.com/media/Fykh8B5WcAYJw45.png",
+            "https://pbs.twimg.com/media/FykiJ1XWYAIUvVi.png"
+          ],
+          "attachments": [
+            {
+              "id": "1668916665550094339-p12-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/Fykg9YPWwAI7coV.png",
+              "variants": [
+                "https://pbs.twimg.com/media/Fykg9YPWwAI7coV.png"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p12-a01.png",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/Fykg9YPWwAI7coV.png?name=orig",
+                "final_url": "https://pbs.twimg.com/media/Fykg9YPWwAI7coV.png?name=orig",
+                "status": 200,
+                "content_type": "image/png",
+                "bytes": 290050,
+                "retrieved_at": "2026-10-27T23:34:49.570573+00:00",
+                "sha256": "75591ab5141467723fb8e113abe1ec3aa5be84c2f82c952d548978442bb9ad12"
+              },
+              "width": 607,
+              "height": 621,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "75591ab5141467723fb8e113abe1ec3aa5be84c2f82c952d548978442bb9ad12",
+              "bytes": 290050
+            },
+            {
+              "id": "1668916665550094339-p12-a02",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/Fykh8B5WcAYJw45.png",
+              "variants": [
+                "https://pbs.twimg.com/media/Fykh8B5WcAYJw45.png"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p12-a02.png",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/Fykh8B5WcAYJw45.png?name=orig",
+                "final_url": "https://pbs.twimg.com/media/Fykh8B5WcAYJw45.png?name=orig",
+                "status": 200,
+                "content_type": "image/png",
+                "bytes": 60909,
+                "retrieved_at": "2026-10-27T23:34:49.445924+00:00",
+                "sha256": "4691485da17c754bc193a1a989e22ee96957146a7ae563741b0c40391877cc0c"
+              },
+              "width": 770,
+              "height": 158,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "4691485da17c754bc193a1a989e22ee96957146a7ae563741b0c40391877cc0c",
+              "bytes": 60909
+            },
+            {
+              "id": "1668916665550094339-p12-a03",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/FykiJ1XWYAIUvVi.png",
+              "variants": [
+                "https://pbs.twimg.com/media/FykiJ1XWYAIUvVi.png"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p12-a03.png",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/FykiJ1XWYAIUvVi.png?name=orig",
+                "final_url": "https://pbs.twimg.com/media/FykiJ1XWYAIUvVi.png?name=orig",
+                "status": 200,
+                "content_type": "image/png",
+                "bytes": 8779,
+                "retrieved_at": "2026-10-27T23:34:49.654966+00:00",
+                "sha256": "e08f643478a13027ab9836d25612de27d19050161f00658dbce694dacfbad049"
+              },
+              "width": 772,
+              "height": 135,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "e08f643478a13027ab9836d25612de27d19050161f00658dbce694dacfbad049",
+              "bytes": 8779
+            }
+          ]
+        },
+        {
+          "id": "1668916712668909573",
+          "ordinal": 13,
+          "text": "Iran further closed off the Shatt Al Arab to Iraq on the 16th September 1980, effectively imposing an economical blockade on Iraq's only outlet to the Gulf.",
+          "tweet_url": "https://x.com/xumas_iq/status/1668916712668909573",
+          "links": [
+            "https://pbs.twimg.com/media/FykkTtZXwAE1kxt.png"
+          ],
+          "attachments": [
+            {
+              "id": "1668916665550094339-p13-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/FykkTtZXwAE1kxt.png",
+              "variants": [
+                "https://pbs.twimg.com/media/FykkTtZXwAE1kxt.png"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p13-a01.png",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/FykkTtZXwAE1kxt.png?name=orig",
+                "final_url": "https://pbs.twimg.com/media/FykkTtZXwAE1kxt.png?name=orig",
+                "status": 200,
+                "content_type": "image/png",
+                "bytes": 140428,
+                "retrieved_at": "2026-10-27T23:34:49.877468+00:00",
+                "sha256": "08cef9147fac9cc7bf5db9618653f38f199aea1e5e138de7010e8dafac306a91"
+              },
+              "width": 681,
+              "height": 728,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "08cef9147fac9cc7bf5db9618653f38f199aea1e5e138de7010e8dafac306a91",
+              "bytes": 140428
+            }
+          ]
+        },
+        {
+          "id": "1668916715294531585",
+          "ordinal": 14,
+          "text": "Iraq recirpoated and considered the agreement cancelled aswell from it's side on the 17th September 1980.",
+          "tweet_url": "https://x.com/xumas_iq/status/1668916715294531585",
+          "links": [],
+          "attachments": [
+            {
+              "id": "1668916665550094339-p14-a01",
+              "kind": "video",
+              "source_url": "https://video.twimg.com/ext_tw_video/1668904955309178883/pu/vid/960x720/811tOROomG2gEfyO.mp4?tag=12",
+              "variants": [
+                "https://video.twimg.com/ext_tw_video/1668904955309178883/pu/vid/360x270/PRrjw0qnU6XWEiy_.mp4?tag=12",
+                "https://video.twimg.com/ext_tw_video/1668904955309178883/pu/vid/480x360/OITLpaI3H0vqzGHx.mp4?tag=12",
+                "https://video.twimg.com/ext_tw_video/1668904955309178883/pu/vid/960x720/811tOROomG2gEfyO.mp4?tag=12"
+              ],
+              "poster_url": "https://pbs.twimg.com/ext_tw_video_thumb/1668904955309178883/pu/img/YKcip9_slwUwDqaF.jpg",
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p14-a01.mp4",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://video.twimg.com/ext_tw_video/1668904955309178883/pu/vid/960x720/811tOROomG2gEfyO.mp4?tag=12",
+                "final_url": "https://video.twimg.com/ext_tw_video/1668904955309178883/pu/vid/960x720/811tOROomG2gEfyO.mp4?tag=12",
+                "status": 200,
+                "content_type": "video/mp4",
+                "bytes": 1190297,
+                "retrieved_at": "2026-10-27T23:33:51.546666+00:00",
+                "sha256": "372bbfc86e9a76e51b6a3e30398f231e85fec33475f390c600e7f4b3eeb19165"
+              },
+              "cache_verified_at": "2026-10-27T23:34:49.528428+00:00",
+              "width": 960,
+              "height": 720,
+              "duration": 11.981497,
+              "has_audio": true,
+              "sha256": "372bbfc86e9a76e51b6a3e30398f231e85fec33475f390c600e7f4b3eeb19165",
+              "bytes": 1190297
+            }
+          ]
+        },
+        {
+          "id": "1668916719312678914",
+          "ordinal": 15,
+          "text": "On the 21st September, Iran used heavy artiliery fire to impose it's blockade of Iraq",
+          "tweet_url": "https://x.com/xumas_iq/status/1668916719312678914",
+          "links": [
+            "https://pbs.twimg.com/media/Fykk4HkWcAUYjQr.png"
+          ],
+          "attachments": [
+            {
+              "id": "1668916665550094339-p15-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/Fykk4HkWcAUYjQr.png",
+              "variants": [
+                "https://pbs.twimg.com/media/Fykk4HkWcAUYjQr.png"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p15-a01.png",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/Fykk4HkWcAUYjQr.png?name=orig",
+                "final_url": "https://pbs.twimg.com/media/Fykk4HkWcAUYjQr.png?name=orig",
+                "status": 200,
+                "content_type": "image/png",
+                "bytes": 590509,
+                "retrieved_at": "2026-10-27T23:34:49.996685+00:00",
+                "sha256": "14dfa30828a68b11d6ea5d7b8781cb87c626f6b742ecda6b953ce53bd412d800"
+              },
+              "width": 796,
+              "height": 374,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "14dfa30828a68b11d6ea5d7b8781cb87c626f6b742ecda6b953ce53bd412d800",
+              "bytes": 590509
+            }
+          ]
+        },
+        {
+          "id": "1668916721866948608",
+          "ordinal": 16,
+          "text": "Iraq having done everything possible to solve this by peaceful manners decided to use it's military to force Iran to talks. Iraq quickly declared it had no terrortial ambitions inside Iran. 3.October 1980",
+          "tweet_url": "https://x.com/xumas_iq/status/1668916721866948608",
+          "links": [],
+          "attachments": [
+            {
+              "id": "1668916665550094339-p16-a01",
+              "kind": "video",
+              "source_url": "https://video.twimg.com/ext_tw_video/1668906224518135808/pu/vid/960x720/92uuBPvaRWOe7Ys-.mp4?tag=12",
+              "variants": [
+                "https://video.twimg.com/ext_tw_video/1668906224518135808/pu/vid/360x270/whRUHvwWAJD-uXzL.mp4?tag=12",
+                "https://video.twimg.com/ext_tw_video/1668906224518135808/pu/vid/480x360/JonPkpa4YudAeyg_.mp4?tag=12",
+                "https://video.twimg.com/ext_tw_video/1668906224518135808/pu/vid/960x720/92uuBPvaRWOe7Ys-.mp4?tag=12"
+              ],
+              "poster_url": "https://pbs.twimg.com/ext_tw_video_thumb/1668906224518135808/pu/img/c5vGgZjY1HGxyQqk.jpg",
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p16-a01.mp4",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://video.twimg.com/ext_tw_video/1668906224518135808/pu/vid/960x720/92uuBPvaRWOe7Ys-.mp4?tag=12",
+                "final_url": "https://video.twimg.com/ext_tw_video/1668906224518135808/pu/vid/960x720/92uuBPvaRWOe7Ys-.mp4?tag=12",
+                "status": 200,
+                "content_type": "video/mp4",
+                "bytes": 1358375,
+                "retrieved_at": "2026-10-27T23:33:51.625386+00:00",
+                "sha256": "7850f9fbbf0c8bfffa8391149a42d98be49ffd083103f7fec93c70d86a6b215b"
+              },
+              "cache_verified_at": "2026-10-27T23:34:49.598057+00:00",
+              "width": 960,
+              "height": 720,
+              "duration": 15.27873,
+              "has_audio": true,
+              "sha256": "7850f9fbbf0c8bfffa8391149a42d98be49ffd083103f7fec93c70d86a6b215b",
+              "bytes": 1358375
+            }
+          ]
+        },
+        {
+          "id": "1668916725964763137",
+          "ordinal": 17,
+          "text": "Iran's first foreign minister Ebrahim Yazdi after the Shah, admitted that Khomeini attempted to provoke a war.",
+          "tweet_url": "https://x.com/xumas_iq/status/1668916725964763137",
+          "links": [],
+          "attachments": [
+            {
+              "id": "1668916665550094339-p17-a01",
+              "kind": "video",
+              "source_url": "https://video.twimg.com/ext_tw_video/1668907455504437248/pu/vid/1280x720/CL04XkuRs_cwlh_6.mp4?tag=12",
+              "variants": [
+                "https://video.twimg.com/ext_tw_video/1668907455504437248/pu/vid/480x270/YXnWe98TESQxlfYt.mp4?tag=12",
+                "https://video.twimg.com/ext_tw_video/1668907455504437248/pu/vid/640x360/IOlPBaG5bhLAA4nd.mp4?tag=12",
+                "https://video.twimg.com/ext_tw_video/1668907455504437248/pu/vid/1280x720/CL04XkuRs_cwlh_6.mp4?tag=12"
+              ],
+              "poster_url": "https://pbs.twimg.com/ext_tw_video_thumb/1668907455504437248/pu/img/MYeGIwJm3s-xVKmG.jpg",
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p17-a01.mp4",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://video.twimg.com/ext_tw_video/1668907455504437248/pu/vid/1280x720/CL04XkuRs_cwlh_6.mp4?tag=12",
+                "final_url": "https://video.twimg.com/ext_tw_video/1668907455504437248/pu/vid/1280x720/CL04XkuRs_cwlh_6.mp4?tag=12",
+                "status": 200,
+                "content_type": "video/mp4",
+                "bytes": 10157150,
+                "retrieved_at": "2026-10-27T23:33:52.430732+00:00",
+                "sha256": "6f342364fbc2759f74fe472932955c5b2ee36941de4f58b29ecd723237a15279"
+              },
+              "cache_verified_at": "2026-10-27T23:34:49.667376+00:00",
+              "width": 1280,
+              "height": 720,
+              "duration": 139.84,
+              "has_audio": true,
+              "sha256": "6f342364fbc2759f74fe472932955c5b2ee36941de4f58b29ecd723237a15279",
+              "bytes": 10157150
+            }
+          ]
+        },
+        {
+          "id": "1668916730041708545",
+          "ordinal": 18,
+          "text": "UN Resolution 479 was issued on the 28. September 1980 which called for an immediate end to the conflict. Iraq immediately accepted the resolution, but Khomeini refused to accept it.",
+          "tweet_url": "https://x.com/xumas_iq/status/1668916730041708545",
+          "links": [],
+          "attachments": []
+        },
+        {
+          "id": "1668916732096925696",
+          "ordinal": 19,
+          "text": "Iranian Brigadier General Masoud Bakhtiari confirms Iraq's offer of a ceasefire",
+          "tweet_url": "https://x.com/xumas_iq/status/1668916732096925696",
+          "links": [],
+          "attachments": [
+            {
+              "id": "1668916665550094339-p19-a01",
+              "kind": "video",
+              "source_url": "https://video.twimg.com/ext_tw_video/1668908463831896064/pu/vid/1206x720/miUVGFabC7pFtBOn.mp4?tag=12",
+              "variants": [
+                "https://video.twimg.com/ext_tw_video/1668908463831896064/pu/vid/452x270/FohnlwXtSvRc0HUB.mp4?tag=12",
+                "https://video.twimg.com/ext_tw_video/1668908463831896064/pu/vid/602x360/SAr6QJOecoHNcOct.mp4?tag=12",
+                "https://video.twimg.com/ext_tw_video/1668908463831896064/pu/vid/1206x720/miUVGFabC7pFtBOn.mp4?tag=12"
+              ],
+              "poster_url": "https://pbs.twimg.com/ext_tw_video_thumb/1668908463831896064/pu/img/6p0t8kG1Yr3To-SQ.jpg",
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p19-a01.mp4",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://video.twimg.com/ext_tw_video/1668908463831896064/pu/vid/1206x720/miUVGFabC7pFtBOn.mp4?tag=12",
+                "final_url": "https://video.twimg.com/ext_tw_video/1668908463831896064/pu/vid/1206x720/miUVGFabC7pFtBOn.mp4?tag=12",
+                "status": 200,
+                "content_type": "video/mp4",
+                "bytes": 937929,
+                "retrieved_at": "2026-10-27T23:33:51.952112+00:00",
+                "sha256": "191a8e625c4ab049499a338235907f9dc051afdc282f5afb9bb2ac468a14cb1f"
+              },
+              "cache_verified_at": "2026-10-27T23:34:49.662414+00:00",
+              "width": 1206,
+              "height": 720,
+              "duration": 12.863855,
+              "has_audio": true,
+              "sha256": "191a8e625c4ab049499a338235907f9dc051afdc282f5afb9bb2ac468a14cb1f",
+              "bytes": 937929
+            }
+          ]
+        },
+        {
+          "id": "1668916737180352512",
+          "ordinal": 20,
+          "text": "The Iraqi ceasefire was unconditional and Iraq agreed to withdraw from any Iranian terrority it may had seized. Ali Akbar Velyati, Iran's Foreign Minister says the contination of the war doubled the land held by Iraq.",
+          "tweet_url": "https://x.com/xumas_iq/status/1668916737180352512",
+          "links": [
+            "https://pbs.twimg.com/media/FyknrURWwAAeb-B.png",
+            "https://pbs.twimg.com/media/Fykn2MKWIAAzfVI.png"
+          ],
+          "attachments": [
+            {
+              "id": "1668916665550094339-p20-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/FyknrURWwAAeb-B.png",
+              "variants": [
+                "https://pbs.twimg.com/media/FyknrURWwAAeb-B.png"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p20-a01.png",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/FyknrURWwAAeb-B.png?name=orig",
+                "final_url": "https://pbs.twimg.com/media/FyknrURWwAAeb-B.png?name=orig",
+                "status": 200,
+                "content_type": "image/png",
+                "bytes": 929918,
+                "retrieved_at": "2026-10-27T23:34:50.014642+00:00",
+                "sha256": "0e7c1cb98b194ebe8ef157e52ace02a30bdda8f9dbc514c9fb920f86118d78f8"
+              },
+              "width": 778,
+              "height": 595,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "0e7c1cb98b194ebe8ef157e52ace02a30bdda8f9dbc514c9fb920f86118d78f8",
+              "bytes": 929918
+            },
+            {
+              "id": "1668916665550094339-p20-a02",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/Fykn2MKWIAAzfVI.png",
+              "variants": [
+                "https://pbs.twimg.com/media/Fykn2MKWIAAzfVI.png"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p20-a02.png",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/Fykn2MKWIAAzfVI.png?name=orig",
+                "final_url": "https://pbs.twimg.com/media/Fykn2MKWIAAzfVI.png?name=orig",
+                "status": 200,
+                "content_type": "image/png",
+                "bytes": 324267,
+                "retrieved_at": "2026-10-27T23:34:50.136036+00:00",
+                "sha256": "da1705c412799e737515bc7920cc84eea37204444ae7d38188a9ff12cd57963c"
+              },
+              "width": 849,
+              "height": 599,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "da1705c412799e737515bc7920cc84eea37204444ae7d38188a9ff12cd57963c",
+              "bytes": 324267
+            }
+          ]
+        },
+        {
+          "id": "1668916740640628736",
+          "ordinal": 21,
+          "text": "Khomeini however made it clear, that there would be no peace with Iraq because the Iraqis are not Muslim.",
+          "tweet_url": "https://x.com/xumas_iq/status/1668916740640628736",
+          "links": [],
+          "attachments": [
+            {
+              "id": "1668916665550094339-p21-a01",
+              "kind": "video",
+              "source_url": "https://video.twimg.com/ext_tw_video/1668910944917811201/pu/vid/720x720/F3x4AFbSVmCOupg9.mp4?tag=12",
+              "variants": [
+                "https://video.twimg.com/ext_tw_video/1668910944917811201/pu/vid/320x320/w17spTL9Ct9FA5eh.mp4?tag=12",
+                "https://video.twimg.com/ext_tw_video/1668910944917811201/pu/vid/540x540/CjhjpjJz0pRsUzXh.mp4?tag=12",
+                "https://video.twimg.com/ext_tw_video/1668910944917811201/pu/vid/720x720/F3x4AFbSVmCOupg9.mp4?tag=12"
+              ],
+              "poster_url": "https://pbs.twimg.com/ext_tw_video_thumb/1668910944917811201/pu/img/AFb1tjmNJP5HZmt2.jpg",
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p21-a01.mp4",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://video.twimg.com/ext_tw_video/1668910944917811201/pu/vid/720x720/F3x4AFbSVmCOupg9.mp4?tag=12",
+                "final_url": "https://video.twimg.com/ext_tw_video/1668910944917811201/pu/vid/720x720/F3x4AFbSVmCOupg9.mp4?tag=12",
+                "status": 200,
+                "content_type": "video/mp4",
+                "bytes": 2789758,
+                "retrieved_at": "2026-10-27T23:33:52.276972+00:00",
+                "sha256": "a00730804f8575e8f735e4f105e34af207337c5d6ea1b651356223368fddb367"
+              },
+              "cache_verified_at": "2026-10-27T23:34:49.881726+00:00",
+              "width": 720,
+              "height": 720,
+              "duration": 51.850159,
+              "has_audio": true,
+              "sha256": "a00730804f8575e8f735e4f105e34af207337c5d6ea1b651356223368fddb367",
+              "bytes": 2789758
+            }
+          ]
+        },
+        {
+          "id": "1668916745837457409",
+          "ordinal": 22,
+          "text": "A month after the war started, Former Israeli Intelligence Officer Aharon Yariv declared that an Iraqi Victory was not in the interest of Israel. This was the begining of Israel supplying Iran with weapons.",
+          "tweet_url": "https://x.com/xumas_iq/status/1668916745837457409",
+          "links": [],
+          "attachments": [
+            {
+              "id": "1668916665550094339-p22-a01",
+              "kind": "video",
+              "source_url": "https://video.twimg.com/ext_tw_video/1668911766435143680/pu/vid/960x720/t9C44xT7jU-Qbz6Y.mp4?tag=12",
+              "variants": [
+                "https://video.twimg.com/ext_tw_video/1668911766435143680/pu/vid/360x270/ea_6Wbo8xJEly0T7.mp4?tag=12",
+                "https://video.twimg.com/ext_tw_video/1668911766435143680/pu/vid/480x360/-0A-MioCKbY2IXwR.mp4?tag=12",
+                "https://video.twimg.com/ext_tw_video/1668911766435143680/pu/vid/960x720/t9C44xT7jU-Qbz6Y.mp4?tag=12"
+              ],
+              "poster_url": "https://pbs.twimg.com/ext_tw_video_thumb/1668911766435143680/pu/img/CVZZho4rfLYNMuLv.jpg",
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p22-a01.mp4",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://video.twimg.com/ext_tw_video/1668911766435143680/pu/vid/960x720/t9C44xT7jU-Qbz6Y.mp4?tag=12",
+                "final_url": "https://video.twimg.com/ext_tw_video/1668911766435143680/pu/vid/960x720/t9C44xT7jU-Qbz6Y.mp4?tag=12",
+                "status": 200,
+                "content_type": "video/mp4",
+                "bytes": 4377046,
+                "retrieved_at": "2026-10-27T23:33:52.658320+00:00",
+                "sha256": "af799267b696376c56da80fc75eb5c68ee3fa155bc031a852036ad5cc85c4729"
+              },
+              "cache_verified_at": "2026-10-27T23:34:49.947426+00:00",
+              "width": 960,
+              "height": 720,
+              "duration": 46.25415,
+              "has_audio": true,
+              "sha256": "af799267b696376c56da80fc75eb5c68ee3fa155bc031a852036ad5cc85c4729",
+              "bytes": 4377046
+            }
+          ]
+        },
+        {
+          "id": "1668916752061808640",
+          "ordinal": 23,
+          "text": "Israel sold Iran weapons and brokered numerous weapons deals on behalf of Iran. The total sum of Iran's weapons purchases from this was 82 Billion USD.",
+          "tweet_url": "https://x.com/xumas_iq/status/1668916752061808640",
+          "links": [
+            "https://pbs.twimg.com/media/FykrJ3NWYAAHKPc.png",
+            "https://pbs.twimg.com/media/FykrvXRWwAgA30f.png"
+          ],
+          "attachments": [
+            {
+              "id": "1668916665550094339-p23-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/FykrJ3NWYAAHKPc.png",
+              "variants": [
+                "https://pbs.twimg.com/media/FykrJ3NWYAAHKPc.png"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p23-a01.png",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/FykrJ3NWYAAHKPc.png?name=orig",
+                "final_url": "https://pbs.twimg.com/media/FykrJ3NWYAAHKPc.png?name=orig",
+                "status": 200,
+                "content_type": "image/png",
+                "bytes": 51785,
+                "retrieved_at": "2026-10-27T23:34:50.158108+00:00",
+                "sha256": "5fc94e29e05a471023a0a4940c122c42be5ccee7d7cffca68ea51df1b4802078"
+              },
+              "width": 650,
+              "height": 267,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "5fc94e29e05a471023a0a4940c122c42be5ccee7d7cffca68ea51df1b4802078",
+              "bytes": 51785
+            },
+            {
+              "id": "1668916665550094339-p23-a02",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/FykrvXRWwAgA30f.png",
+              "variants": [
+                "https://pbs.twimg.com/media/FykrvXRWwAgA30f.png"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p23-a02.png",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/FykrvXRWwAgA30f.png?name=orig",
+                "final_url": "https://pbs.twimg.com/media/FykrvXRWwAgA30f.png?name=orig",
+                "status": 200,
+                "content_type": "image/png",
+                "bytes": 151751,
+                "retrieved_at": "2026-10-27T23:34:50.166141+00:00",
+                "sha256": "27b8ccbe865f5f86acf6172306cfd1506e3151594aead6d9c7ad7347d0a31ce7"
+              },
+              "width": 662,
+              "height": 781,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "27b8ccbe865f5f86acf6172306cfd1506e3151594aead6d9c7ad7347d0a31ce7",
+              "bytes": 151751
+            }
+          ]
+        },
+        {
+          "id": "1668916755304009729",
+          "ordinal": 24,
+          "text": "Iraq accepted UN resolution 598 in 1987, Iran refused to accept UN Res 598 until 1988 when it was defeated military. Iran remained rejecting all ceasefires option until it was defeated military. A tragic war imposed on the Iraqi and Iranian people by Khomeini,USA, Israel.",
+          "tweet_url": "https://x.com/xumas_iq/status/1668916755304009729",
+          "links": [],
+          "attachments": [
+            {
+              "id": "1668916665550094339-p24-a01",
+              "kind": "video",
+              "source_url": "https://video.twimg.com/ext_tw_video/1668914625948135424/pu/vid/720x720/ko-1nQHEez8FrMMF.mp4?tag=12",
+              "variants": [
+                "https://video.twimg.com/ext_tw_video/1668914625948135424/pu/vid/320x320/nckRUdOPyzzMu-9f.mp4?tag=12",
+                "https://video.twimg.com/ext_tw_video/1668914625948135424/pu/vid/540x540/PrAMHw4bMTsK0Q_0.mp4?tag=12",
+                "https://video.twimg.com/ext_tw_video/1668914625948135424/pu/vid/720x720/ko-1nQHEez8FrMMF.mp4?tag=12"
+              ],
+              "poster_url": "https://pbs.twimg.com/ext_tw_video_thumb/1668914625948135424/pu/img/rM3OmM1FsFRmOT0O.jpg",
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p24-a01.mp4",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://video.twimg.com/ext_tw_video/1668914625948135424/pu/vid/720x720/ko-1nQHEez8FrMMF.mp4?tag=12",
+                "final_url": "https://video.twimg.com/ext_tw_video/1668914625948135424/pu/vid/720x720/ko-1nQHEez8FrMMF.mp4?tag=12",
+                "status": 200,
+                "content_type": "video/mp4",
+                "bytes": 2338499,
+                "retrieved_at": "2026-10-27T23:33:52.672170+00:00",
+                "sha256": "6c2e47962286814ef5d225108ac1b18b72ade30e24d92af11b7c5eb18727c2d9"
+              },
+              "cache_verified_at": "2026-10-27T23:34:50.023327+00:00",
+              "width": 720,
+              "height": 720,
+              "duration": 42.237098,
+              "has_audio": true,
+              "sha256": "6c2e47962286814ef5d225108ac1b18b72ade30e24d92af11b7c5eb18727c2d9",
+              "bytes": 2338499
+            }
+          ]
+        },
+        {
+          "id": "1668922192770351106",
+          "ordinal": 25,
+          "text": "Full list of Iranian Air Space Violations between June-September 1980 listing over 69 incidients of aerial attacks, bombardements or illegal entry of Iraqi Airspace.",
+          "tweet_url": "https://x.com/xumas_iq/status/1668922192770351106",
+          "links": [
+            "https://pbs.twimg.com/media/FykzM_IX0AMHKDF.png",
+            "https://pbs.twimg.com/media/FykzPGjWAAAo1Ux.png",
+            "https://pbs.twimg.com/media/FykzRBqWAAIxeWu.png"
+          ],
+          "attachments": [
+            {
+              "id": "1668916665550094339-p25-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/FykzM_IX0AMHKDF.png",
+              "variants": [
+                "https://pbs.twimg.com/media/FykzM_IX0AMHKDF.png"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p25-a01.png",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/FykzM_IX0AMHKDF.png?name=orig",
+                "final_url": "https://pbs.twimg.com/media/FykzM_IX0AMHKDF.png?name=orig",
+                "status": 200,
+                "content_type": "image/png",
+                "bytes": 754910,
+                "retrieved_at": "2026-10-27T23:34:50.488132+00:00",
+                "sha256": "8da4d640b6caaa6c283e4c7f75d14be0ebbec7b314ff41ed36e1479a49a6902c"
+              },
+              "width": 611,
+              "height": 749,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "8da4d640b6caaa6c283e4c7f75d14be0ebbec7b314ff41ed36e1479a49a6902c",
+              "bytes": 754910
+            },
+            {
+              "id": "1668916665550094339-p25-a02",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/FykzPGjWAAAo1Ux.png",
+              "variants": [
+                "https://pbs.twimg.com/media/FykzPGjWAAAo1Ux.png"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p25-a02.png",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/FykzPGjWAAAo1Ux.png?name=orig",
+                "final_url": "https://pbs.twimg.com/media/FykzPGjWAAAo1Ux.png?name=orig",
+                "status": 200,
+                "content_type": "image/png",
+                "bytes": 795711,
+                "retrieved_at": "2026-10-27T23:34:50.645163+00:00",
+                "sha256": "28c818a867c5c6561a6a580745511740caa99168118ced31cb4a69de9c908f9d"
+              },
+              "width": 618,
+              "height": 764,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "28c818a867c5c6561a6a580745511740caa99168118ced31cb4a69de9c908f9d",
+              "bytes": 795711
+            },
+            {
+              "id": "1668916665550094339-p25-a03",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/FykzRBqWAAIxeWu.png",
+              "variants": [
+                "https://pbs.twimg.com/media/FykzRBqWAAIxeWu.png"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p25-a03.png",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/FykzRBqWAAIxeWu.png?name=orig",
+                "final_url": "https://pbs.twimg.com/media/FykzRBqWAAIxeWu.png?name=orig",
+                "status": 200,
+                "content_type": "image/png",
+                "bytes": 722150,
+                "retrieved_at": "2026-10-27T23:34:50.479133+00:00",
+                "sha256": "58530732812f717c787a015ae74dd13597b593371fc75688cb4c6e5efbdc1e40"
+              },
+              "width": 566,
+              "height": 738,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "58530732812f717c787a015ae74dd13597b593371fc75688cb4c6e5efbdc1e40",
+              "bytes": 722150
+            }
+          ]
+        },
+        {
+          "id": "1668922195379142656",
+          "ordinal": 26,
+          "text": "Full list of Iranian ground violations between June-September 1980 totaling 103 violations",
+          "tweet_url": "https://x.com/xumas_iq/status/1668922195379142656",
+          "links": [
+            "https://pbs.twimg.com/media/FykzghYXwAAzeFj.png",
+            "https://pbs.twimg.com/media/FykzqkfWcAAFYSW.png",
+            "https://pbs.twimg.com/media/Fykzsv_XgAAC15z.png",
+            "https://pbs.twimg.com/media/FykzuSWWYAMLGUE.png"
+          ],
+          "attachments": [
+            {
+              "id": "1668916665550094339-p26-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/FykzghYXwAAzeFj.png",
+              "variants": [
+                "https://pbs.twimg.com/media/FykzghYXwAAzeFj.png"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p26-a01.png",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/FykzghYXwAAzeFj.png?name=orig",
+                "final_url": "https://pbs.twimg.com/media/FykzghYXwAAzeFj.png?name=orig",
+                "status": 200,
+                "content_type": "image/png",
+                "bytes": 691802,
+                "retrieved_at": "2026-10-27T23:34:50.597605+00:00",
+                "sha256": "d3373bd9e2b06ab79291737892550aa3f694e01bbf02524e9c1c1c5435e902e3"
+              },
+              "width": 554,
+              "height": 751,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "d3373bd9e2b06ab79291737892550aa3f694e01bbf02524e9c1c1c5435e902e3",
+              "bytes": 691802
+            },
+            {
+              "id": "1668916665550094339-p26-a02",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/FykzqkfWcAAFYSW.png",
+              "variants": [
+                "https://pbs.twimg.com/media/FykzqkfWcAAFYSW.png"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p26-a02.png",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/FykzqkfWcAAFYSW.png?name=orig",
+                "final_url": "https://pbs.twimg.com/media/FykzqkfWcAAFYSW.png?name=orig",
+                "status": 200,
+                "content_type": "image/png",
+                "bytes": 752519,
+                "retrieved_at": "2026-10-27T23:34:50.921344+00:00",
+                "sha256": "5105d170b8e8a6b5efe9e7a5087f8396ed14b4d0d8f678fb7076dc6237446990"
+              },
+              "width": 585,
+              "height": 738,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "5105d170b8e8a6b5efe9e7a5087f8396ed14b4d0d8f678fb7076dc6237446990",
+              "bytes": 752519
+            },
+            {
+              "id": "1668916665550094339-p26-a03",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/Fykzsv_XgAAC15z.png",
+              "variants": [
+                "https://pbs.twimg.com/media/Fykzsv_XgAAC15z.png"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p26-a03.png",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/Fykzsv_XgAAC15z.png?name=orig",
+                "final_url": "https://pbs.twimg.com/media/Fykzsv_XgAAC15z.png?name=orig",
+                "status": 200,
+                "content_type": "image/png",
+                "bytes": 771809,
+                "retrieved_at": "2026-10-27T23:34:50.902188+00:00",
+                "sha256": "d8a7e838e81f1f5fdb8a539cd9fceb88e89b242622c4e44f63bc58e01e1d4565"
+              },
+              "width": 603,
+              "height": 738,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "d8a7e838e81f1f5fdb8a539cd9fceb88e89b242622c4e44f63bc58e01e1d4565",
+              "bytes": 771809
+            },
+            {
+              "id": "1668916665550094339-p26-a04",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/FykzuSWWYAMLGUE.png",
+              "variants": [
+                "https://pbs.twimg.com/media/FykzuSWWYAMLGUE.png"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p26-a04.png",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/FykzuSWWYAMLGUE.png?name=orig",
+                "final_url": "https://pbs.twimg.com/media/FykzuSWWYAMLGUE.png?name=orig",
+                "status": 200,
+                "content_type": "image/png",
+                "bytes": 766154,
+                "retrieved_at": "2026-10-27T23:34:51.005425+00:00",
+                "sha256": "e97fe85d6196eb7ad1edd74c55005308869102f0ff11302c3e17221b08340350"
+              },
+              "width": 597,
+              "height": 748,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "e97fe85d6196eb7ad1edd74c55005308869102f0ff11302c3e17221b08340350",
+              "bytes": 766154
+            }
+          ]
+        },
+        {
+          "id": "1668922197862236161",
+          "ordinal": 27,
+          "text": "Iranian Ground Violations between June-Sep 1980 #2",
+          "tweet_url": "https://x.com/xumas_iq/status/1668922197862236161",
+          "links": [
+            "https://pbs.twimg.com/media/FykzygoXsAAgFXF.png",
+            "https://pbs.twimg.com/media/Fykz0k5XgAAOkV1.png"
+          ],
+          "attachments": [
+            {
+              "id": "1668916665550094339-p27-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/FykzygoXsAAgFXF.png",
+              "variants": [
+                "https://pbs.twimg.com/media/FykzygoXsAAgFXF.png"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p27-a01.png",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/FykzygoXsAAgFXF.png?name=orig",
+                "final_url": "https://pbs.twimg.com/media/FykzygoXsAAgFXF.png?name=orig",
+                "status": 200,
+                "content_type": "image/png",
+                "bytes": 761056,
+                "retrieved_at": "2026-10-27T23:34:50.964765+00:00",
+                "sha256": "ec6e7890e932db2c458d59b73c2e299ab6a77872823a249801f6da1550a198ed"
+              },
+              "width": 581,
+              "height": 756,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "ec6e7890e932db2c458d59b73c2e299ab6a77872823a249801f6da1550a198ed",
+              "bytes": 761056
+            },
+            {
+              "id": "1668916665550094339-p27-a02",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/Fykz0k5XgAAOkV1.png",
+              "variants": [
+                "https://pbs.twimg.com/media/Fykz0k5XgAAOkV1.png"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p27-a02.png",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/Fykz0k5XgAAOkV1.png?name=orig",
+                "final_url": "https://pbs.twimg.com/media/Fykz0k5XgAAOkV1.png?name=orig",
+                "status": 200,
+                "content_type": "image/png",
+                "bytes": 714020,
+                "retrieved_at": "2026-10-27T23:34:51.311655+00:00",
+                "sha256": "18ae1d964f75114fb3a0d07ee9c87fe92b0ac85f84aa9d22b708ded5f8c61709"
+              },
+              "width": 587,
+              "height": 741,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "18ae1d964f75114fb3a0d07ee9c87fe92b0ac85f84aa9d22b708ded5f8c61709",
+              "bytes": 714020
+            }
+          ]
+        },
+        {
+          "id": "1719330977808355797",
+          "ordinal": 28,
+          "text": "In a speech Saddam declares that Iraq has no territorial ambitions. He also offers a complete withdrawal from Iran and a unconditional ceasefire if Iran only stops bombing Iraqi cities Iraq also accepts Zia Ul Haq's proposal for a one sided ceasefire",
+          "tweet_url": "https://x.com/xumas_iq/status/1719330977808355797",
+          "links": [],
+          "attachments": [
+            {
+              "id": "1668916665550094339-p28-a01",
+              "kind": "video",
+              "source_url": "https://video.twimg.com/ext_tw_video/1719330674375569409/pu/vid/avc1/720x720/5l1dE2w-CmDdK6hb.mp4?tag=12",
+              "variants": [
+                "https://video.twimg.com/ext_tw_video/1719330674375569409/pu/vid/avc1/320x320/-edSKS-JLtUXPIoC.mp4?tag=12",
+                "https://video.twimg.com/ext_tw_video/1719330674375569409/pu/vid/avc1/540x540/dJZ-RVQT7dAcBS_X.mp4?tag=12",
+                "https://video.twimg.com/ext_tw_video/1719330674375569409/pu/vid/avc1/720x720/5l1dE2w-CmDdK6hb.mp4?tag=12"
+              ],
+              "poster_url": "https://pbs.twimg.com/ext_tw_video_thumb/1719330674375569409/pu/img/PQWLOQkl_0JBVPy-.jpg",
+              "local_path": "two_thread/assets/1668916665550094339/1668916665550094339-p28-a01.mp4",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://video.twimg.com/ext_tw_video/1719330674375569409/pu/vid/avc1/720x720/5l1dE2w-CmDdK6hb.mp4?tag=12",
+                "final_url": "https://video.twimg.com/ext_tw_video/1719330674375569409/pu/vid/avc1/720x720/5l1dE2w-CmDdK6hb.mp4?tag=12",
+                "status": 200,
+                "content_type": "video/mp4",
+                "bytes": 7306137,
+                "retrieved_at": "2026-10-27T23:33:53.800383+00:00",
+                "sha256": "c6e463e4e8d6ceef2390cb28bb6bc07698556761d5d0350f22099329fc083d9a"
+              },
+              "cache_verified_at": "2026-10-27T23:34:50.931966+00:00",
+              "width": 720,
+              "height": 720,
+              "duration": 120.463673,
+              "has_audio": true,
+              "sha256": "c6e463e4e8d6ceef2390cb28bb6bc07698556761d5d0350f22099329fc083d9a",
+              "bytes": 7306137
+            }
+          ]
+        }
+      ],
+      "html_sha256": "225df14ed6d97b475a5572183508348942499aea112947409c77d1c897992bb7",
+      "html_path": "two_thread/evidence/1668916665550094339.html"
+    },
+    {
+      "id": "1986782578565579207",
+      "url": "https://threadreaderapp.com/thread/1986782578565579207.html",
+      "posts": [
+        {
+          "id": "1986782578565579207",
+          "ordinal": 1,
+          "text": "Thread 🧵: Who started and who won the Iraq-Iran war and what was the Position of US, the West & Isreal from it.",
+          "tweet_url": "https://x.com/3rab_vision/status/1986782578565579207",
+          "links": [],
+          "attachments": []
+        },
+        {
+          "id": "1986782590649409643",
+          "ordinal": 2,
+          "text": "Everything was prepared by US since the Beggining of the war. US And Iranian officials discussing the war, common interests and how to sell the weapons to Iran. The US promised Iran to win the war against Iraq.",
+          "tweet_url": "https://x.com/3rab_vision/status/1986782590649409643",
+          "links": [
+            "https://pbs.twimg.com/media/G5J4O0UXgAEYMzH.jpg"
+          ],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p02-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J4O0UXgAEYMzH.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J4O0UXgAEYMzH.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p02-a01.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J4O0UXgAEYMzH.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J4O0UXgAEYMzH.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 210501,
+                "retrieved_at": "2026-10-27T23:34:51.696719+00:00",
+                "sha256": "5d4976d4a57f758372661b56877eb44f46c5fdf449f5afd31df82e7770b03338"
+              },
+              "width": 1145,
+              "height": 1223,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "5d4976d4a57f758372661b56877eb44f46c5fdf449f5afd31df82e7770b03338",
+              "bytes": 210501
+            }
+          ]
+        },
+        {
+          "id": "1986782878747750433",
+          "ordinal": 3,
+          "text": "Iran started the Iran-Iraq War lmfao, and Iraq had no territorial ambitions in Iran nor wanted to annex any Iranian territory. Even the former Iranian foreign minister and the former president of Iran both admitted that Iran started the war.  Supported by Israel and the west.",
+          "tweet_url": "https://x.com/3rab_vision/status/1986782878747750433",
+          "links": [
+            "https://pbs.twimg.com/media/G5J4PkbXgAA3Axo.jpg",
+            "https://pbs.twimg.com/media/G5J4PkcWAAA2zm4.jpg",
+            "https://pbs.twimg.com/media/G5J4PkjXQAEiAwE.jpg"
+          ],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p03-a01",
+              "kind": "video",
+              "source_url": "https://video.twimg.com/amplify_video/1986782594499743745/vid/avc1/1280x720/kRmX8-ZCPxwrre_F.mp4",
+              "variants": [
+                "https://video.twimg.com/amplify_video/1986782594499743745/vid/avc1/480x270/n08r7hHXQnE05lhy.mp4",
+                "https://video.twimg.com/amplify_video/1986782594499743745/vid/avc1/640x360/Gem90bAo0UtFjRJo.mp4",
+                "https://video.twimg.com/amplify_video/1986782594499743745/vid/avc1/1280x720/kRmX8-ZCPxwrre_F.mp4"
+              ],
+              "poster_url": "https://pbs.twimg.com/amplify_video_thumb/1986782594499743745/img/G8lxFw5eA8gDgrXB.jpg",
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p03-a01.mp4",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://video.twimg.com/amplify_video/1986782594499743745/vid/avc1/1280x720/kRmX8-ZCPxwrre_F.mp4",
+                "final_url": "https://video.twimg.com/amplify_video/1986782594499743745/vid/avc1/1280x720/kRmX8-ZCPxwrre_F.mp4",
+                "status": 200,
+                "content_type": "video/mp4",
+                "bytes": 10593463,
+                "retrieved_at": "2026-10-27T23:33:54.284816+00:00",
+                "sha256": "1f1d4adc6b3ec078ee05afc59b9de01a7c432f50fe9f21ce591470743237e9cd"
+              },
+              "cache_verified_at": "2026-10-27T23:34:51.371446+00:00",
+              "width": 1280,
+              "height": 720,
+              "duration": 139.900227,
+              "has_audio": true,
+              "sha256": "1f1d4adc6b3ec078ee05afc59b9de01a7c432f50fe9f21ce591470743237e9cd",
+              "bytes": 10593463
+            },
+            {
+              "id": "1986782578565579207-p03-a02",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J4PkbXgAA3Axo.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J4PkbXgAA3Axo.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p03-a02.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J4PkbXgAA3Axo.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J4PkbXgAA3Axo.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 213954,
+                "retrieved_at": "2026-10-27T23:34:51.480021+00:00",
+                "sha256": "aeb070b396f02fedfeceb453d66f8eb8558860e357566c6e5b25e20d6dff59c2"
+              },
+              "width": 1080,
+              "height": 993,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "aeb070b396f02fedfeceb453d66f8eb8558860e357566c6e5b25e20d6dff59c2",
+              "bytes": 213954
+            },
+            {
+              "id": "1986782578565579207-p03-a03",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J4PkcWAAA2zm4.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J4PkcWAAA2zm4.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p03-a03.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J4PkcWAAA2zm4.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J4PkcWAAA2zm4.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 240250,
+                "retrieved_at": "2026-10-27T23:34:51.473623+00:00",
+                "sha256": "cba04e0fcbf66b1782a4de1e640c27c9325ce284726b82fdf90ec4bcd7fd406f"
+              },
+              "width": 778,
+              "height": 1280,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "cba04e0fcbf66b1782a4de1e640c27c9325ce284726b82fdf90ec4bcd7fd406f",
+              "bytes": 240250
+            },
+            {
+              "id": "1986782578565579207-p03-a04",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J4PkjXQAEiAwE.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J4PkjXQAEiAwE.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p03-a04.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J4PkjXQAEiAwE.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J4PkjXQAEiAwE.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 96796,
+                "retrieved_at": "2026-10-27T23:34:51.555697+00:00",
+                "sha256": "f869e674fd7796abb469891523c05a3c214e89e041e8ec7ad0961ea086d70727"
+              },
+              "width": 449,
+              "height": 781,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "f869e674fd7796abb469891523c05a3c214e89e041e8ec7ad0961ea086d70727",
+              "bytes": 96796
+            }
+          ]
+        },
+        {
+          "id": "1986782897219813783",
+          "ordinal": 4,
+          "text": "Iraq didn’t aim to annex Ahwaz, since Iraq never annexed the large Iranian territories it occupied in 1980–82 and 1988–90. despite the revolution, Iran’s military remained strong receiving U.S. and Israeli arms and successfully crushing the 1979 Kurdish revolt and other uprisings",
+          "tweet_url": "https://x.com/3rab_vision/status/1986782897219813783",
+          "links": [
+            "https://pbs.twimg.com/media/G5J4gWGXkAAGDFc.jpg",
+            "https://pbs.twimg.com/media/G5J4gWKWkAEra_S.jpg",
+            "https://pbs.twimg.com/media/G5J4gWJXUAAX80K.jpg"
+          ],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p04-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J4gWGXkAAGDFc.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J4gWGXkAAGDFc.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p04-a01.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J4gWGXkAAGDFc.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J4gWGXkAAGDFc.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 128966,
+                "retrieved_at": "2026-10-27T23:34:51.680345+00:00",
+                "sha256": "703c403e62d95f492f969afc6596a9086d7103316811ab33342eabf744ab01b8"
+              },
+              "width": 585,
+              "height": 911,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "703c403e62d95f492f969afc6596a9086d7103316811ab33342eabf744ab01b8",
+              "bytes": 128966
+            },
+            {
+              "id": "1986782578565579207-p04-a02",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J4gWKWkAEra_S.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J4gWKWkAEra_S.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p04-a02.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J4gWKWkAEra_S.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J4gWKWkAEra_S.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 245468,
+                "retrieved_at": "2026-10-27T23:34:51.644621+00:00",
+                "sha256": "54da6c4cf85070653f891ee1426b35e2615cdba261be75d24788bd0a01864fd0"
+              },
+              "width": 874,
+              "height": 1280,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "54da6c4cf85070653f891ee1426b35e2615cdba261be75d24788bd0a01864fd0",
+              "bytes": 245468
+            },
+            {
+              "id": "1986782578565579207-p04-a03",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J4gWJXUAAX80K.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J4gWJXUAAX80K.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p04-a03.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J4gWJXUAAX80K.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J4gWJXUAAX80K.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 168916,
+                "retrieved_at": "2026-10-27T23:34:51.827531+00:00",
+                "sha256": "8e39a7d6092287ad95fb0b7705d006806e4f7517a307b6263f31b6d492c6fdd1"
+              },
+              "width": 616,
+              "height": 804,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "8e39a7d6092287ad95fb0b7705d006806e4f7517a307b6263f31b6d492c6fdd1",
+              "bytes": 168916
+            }
+          ]
+        },
+        {
+          "id": "1986782910066618447",
+          "ordinal": 5,
+          "text": "As soon as Reagan became President, the approval for weapons sale to Iran was approved Israel started fully supporting Iran, to the extent they formed a Joint Committee",
+          "tweet_url": "https://x.com/3rab_vision/status/1986782910066618447",
+          "links": [
+            "https://pbs.twimg.com/media/G5J4hdBXEAAc_Vp.jpg",
+            "https://pbs.twimg.com/media/G5J4hdGWoAE30pI.jpg",
+            "https://pbs.twimg.com/media/G5J4hdGXsAAgdLC.jpg",
+            "https://pbs.twimg.com/media/G5J4hdCWcAAN9p7.jpg"
+          ],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p05-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J4hdBXEAAc_Vp.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J4hdBXEAAc_Vp.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p05-a01.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J4hdBXEAAc_Vp.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J4hdBXEAAc_Vp.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 143665,
+                "retrieved_at": "2026-10-27T23:34:51.835383+00:00",
+                "sha256": "5b1a4eaa59ccfe6f3b6571efa66abc62a9636ba3c8f900cf2f27083b764640d7"
+              },
+              "width": 853,
+              "height": 1280,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "5b1a4eaa59ccfe6f3b6571efa66abc62a9636ba3c8f900cf2f27083b764640d7",
+              "bytes": 143665
+            },
+            {
+              "id": "1986782578565579207-p05-a02",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J4hdGWoAE30pI.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J4hdGWoAE30pI.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p05-a02.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J4hdGWoAE30pI.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J4hdGWoAE30pI.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 94689,
+                "retrieved_at": "2026-10-27T23:34:51.833577+00:00",
+                "sha256": "60780a0062ecbfc1beba1d8476e0c22303a7c7cae97c76b7db47c557a8e460b6"
+              },
+              "width": 449,
+              "height": 781,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "60780a0062ecbfc1beba1d8476e0c22303a7c7cae97c76b7db47c557a8e460b6",
+              "bytes": 94689
+            },
+            {
+              "id": "1986782578565579207-p05-a03",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J4hdGXsAAgdLC.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J4hdGXsAAgdLC.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p05-a03.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J4hdGXsAAgdLC.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J4hdGXsAAgdLC.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 94689,
+                "retrieved_at": "2026-10-27T23:34:51.904628+00:00",
+                "sha256": "60780a0062ecbfc1beba1d8476e0c22303a7c7cae97c76b7db47c557a8e460b6"
+              },
+              "width": 449,
+              "height": 781,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "60780a0062ecbfc1beba1d8476e0c22303a7c7cae97c76b7db47c557a8e460b6",
+              "bytes": 94689
+            },
+            {
+              "id": "1986782578565579207-p05-a04",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J4hdCWcAAN9p7.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J4hdCWcAAN9p7.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p05-a04.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J4hdCWcAAN9p7.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J4hdCWcAAN9p7.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 133601,
+                "retrieved_at": "2026-10-27T23:34:51.972110+00:00",
+                "sha256": "e1fa81a65aebca33cf0a26f4f749ae1b7fd882ea3a90ab22b9244d57a1ceaf79"
+              },
+              "width": 585,
+              "height": 911,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "e1fa81a65aebca33cf0a26f4f749ae1b7fd882ea3a90ab22b9244d57a1ceaf79",
+              "bytes": 133601
+            }
+          ]
+        },
+        {
+          "id": "1986782930849411072",
+          "ordinal": 6,
+          "text": "Detailed Thread on how iran started the war https://x.com/xumas_iq/status/1668916665550094339?s=46",
+          "tweet_url": "https://x.com/3rab_vision/status/1986782930849411072",
+          "links": [
+            "https://twitter.com/xumas_iq/status/1668916665550094339"
+          ],
+          "attachments": []
+        },
+        {
+          "id": "1986782941075136887",
+          "ordinal": 7,
+          "text": "Iran's goal was to conquer Iraq. The war ended with Iran's military collapsed,Iraq overtaking Iranian territory without resistance, and Iran surrender.",
+          "tweet_url": "https://x.com/3rab_vision/status/1986782941075136887",
+          "links": [
+            "https://pbs.twimg.com/media/G5J4jV2WIAAc7EP.jpg"
+          ],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p07-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J4jV2WIAAc7EP.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J4jV2WIAAc7EP.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p07-a01.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J4jV2WIAAc7EP.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J4jV2WIAAc7EP.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 191322,
+                "retrieved_at": "2026-10-27T23:34:51.937371+00:00",
+                "sha256": "5f5b3a892f3a249d7d91ef4a59eb4462cf6e3131a43ee60c22e7200f9678bcb7"
+              },
+              "width": 1280,
+              "height": 1042,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "5f5b3a892f3a249d7d91ef4a59eb4462cf6e3131a43ee60c22e7200f9678bcb7",
+              "bytes": 191322
+            }
+          ]
+        },
+        {
+          "id": "1986782949421764651",
+          "ordinal": 8,
+          "text": "Iran’s Former President Bani-Sadr explains how Khomeini was a power-hungry maniac who survived on blood & hypocrisy and how inciting wars was his plan all along. See following replies",
+          "tweet_url": "https://x.com/3rab_vision/status/1986782949421764651",
+          "links": [
+            "https://pbs.twimg.com/media/G5J4j9dWMAAAEV7.jpg"
+          ],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p08-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J4j9dWMAAAEV7.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J4j9dWMAAAEV7.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p08-a01.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J4j9dWMAAAEV7.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J4j9dWMAAAEV7.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 65958,
+                "retrieved_at": "2026-10-27T23:34:51.934024+00:00",
+                "sha256": "9f9116df4716beb6773adb34ab0fa4662929a723d232f6b6831b0d024af4ae78"
+              },
+              "width": 571,
+              "height": 850,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "9f9116df4716beb6773adb34ab0fa4662929a723d232f6b6831b0d024af4ae78",
+              "bytes": 65958
+            }
+          ]
+        },
+        {
+          "id": "1986782959005831186",
+          "ordinal": 9,
+          "text": "The questions were being asked in Iran: did Iran fight the war for America or for Israel? Iran’s army was reduced to 57% elementary pupils with no training. After countless of peace offerings, Iraq was starting to win the war.",
+          "tweet_url": "https://x.com/3rab_vision/status/1986782959005831186",
+          "links": [
+            "https://pbs.twimg.com/media/G5J4kbTWMAA9rD6.jpg"
+          ],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p09-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J4kbTWMAA9rD6.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J4kbTWMAA9rD6.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p09-a01.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J4kbTWMAA9rD6.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J4kbTWMAA9rD6.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 65549,
+                "retrieved_at": "2026-10-27T23:34:51.993312+00:00",
+                "sha256": "faf72576fe296a2f86be20e008af72cd0bfaccc8c400638b47ae8b3865378150"
+              },
+              "width": 524,
+              "height": 683,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "faf72576fe296a2f86be20e008af72cd0bfaccc8c400638b47ae8b3865378150",
+              "bytes": 65549
+            }
+          ]
+        },
+        {
+          "id": "1986782969424490576",
+          "ordinal": 10,
+          "text": "The US also gave lots of satellite imagery to Iran, which was usually more helpful than not, and was responsible for Iran's biggest wins in the war. Weird how the Iraq  haters never mention this and other US support to Iran.",
+          "tweet_url": "https://x.com/3rab_vision/status/1986782969424490576",
+          "links": [
+            "https://pbs.twimg.com/media/G5J4lCdXYAECAg2.jpg",
+            "https://pbs.twimg.com/media/G5J4lCeWEAAKApD.jpg",
+            "https://pbs.twimg.com/media/G5J4lCjW4AAiCQD.jpg"
+          ],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p10-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J4lCdXYAECAg2.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J4lCdXYAECAg2.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p10-a01.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J4lCdXYAECAg2.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J4lCdXYAECAg2.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 67004,
+                "retrieved_at": "2026-10-27T23:34:52.216310+00:00",
+                "sha256": "e4b3db9d9922f60525d019405c6dcb6ce8ad108873839d9b0bfe0f3f353e4219"
+              },
+              "width": 622,
+              "height": 392,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "e4b3db9d9922f60525d019405c6dcb6ce8ad108873839d9b0bfe0f3f353e4219",
+              "bytes": 67004
+            },
+            {
+              "id": "1986782578565579207-p10-a02",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J4lCeWEAAKApD.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J4lCeWEAAKApD.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p10-a02.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J4lCeWEAAKApD.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J4lCeWEAAKApD.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 61422,
+                "retrieved_at": "2026-10-27T23:34:52.111547+00:00",
+                "sha256": "ba4f636e53654a2f81aa4e819b8265cc1fa935f16f5084f72d4b77586f140632"
+              },
+              "width": 616,
+              "height": 398,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "ba4f636e53654a2f81aa4e819b8265cc1fa935f16f5084f72d4b77586f140632",
+              "bytes": 61422
+            },
+            {
+              "id": "1986782578565579207-p10-a03",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J4lCjW4AAiCQD.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J4lCjW4AAiCQD.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p10-a03.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J4lCjW4AAiCQD.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J4lCjW4AAiCQD.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 65626,
+                "retrieved_at": "2026-10-27T23:34:52.063947+00:00",
+                "sha256": "e81ad2a9215f33d41a76262748c8655f918043a049081a11424f3324efd127a7"
+              },
+              "width": 622,
+              "height": 424,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "e81ad2a9215f33d41a76262748c8655f918043a049081a11424f3324efd127a7",
+              "bytes": 65626
+            }
+          ]
+        },
+        {
+          "id": "1986782981344629035",
+          "ordinal": 11,
+          "text": "Israel giving weapons to iran jpost.com/middle-east/ir…",
+          "tweet_url": "https://x.com/3rab_vision/status/1986782981344629035",
+          "links": [
+            "https://www.jpost.com/middle-east/iran-news/article-806039",
+            "https://pbs.twimg.com/media/G5J4loyXYAAY6tb.jpg",
+            "https://pbs.twimg.com/media/G5J4loxXcAA7oxK.jpg",
+            "https://pbs.twimg.com/media/G5J4lovXQAAptFe.jpg",
+            "https://pbs.twimg.com/media/G5J4losWgAAig4J.jpg"
+          ],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p11-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J4loyXYAAY6tb.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J4loyXYAAY6tb.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p11-a01.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J4loyXYAAY6tb.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J4loyXYAAY6tb.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 126590,
+                "retrieved_at": "2026-10-27T23:34:52.087997+00:00",
+                "sha256": "17620e99e1b1caaa6c6377f45e82eed26f06de0d242fd7c6577d344c49285620"
+              },
+              "width": 1063,
+              "height": 1280,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "17620e99e1b1caaa6c6377f45e82eed26f06de0d242fd7c6577d344c49285620",
+              "bytes": 126590
+            },
+            {
+              "id": "1986782578565579207-p11-a02",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J4loxXcAA7oxK.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J4loxXcAA7oxK.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p11-a02.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J4loxXcAA7oxK.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J4loxXcAA7oxK.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 207123,
+                "retrieved_at": "2026-10-27T23:34:52.162564+00:00",
+                "sha256": "93d0bb5c13b331c2474480842dcb73c3e85952cd0648a8ff773228e08843dd3b"
+              },
+              "width": 823,
+              "height": 1024,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "93d0bb5c13b331c2474480842dcb73c3e85952cd0648a8ff773228e08843dd3b",
+              "bytes": 207123
+            },
+            {
+              "id": "1986782578565579207-p11-a03",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J4lovXQAAptFe.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J4lovXQAAptFe.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p11-a03.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J4lovXQAAptFe.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J4lovXQAAptFe.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 114008,
+                "retrieved_at": "2026-10-27T23:34:52.241532+00:00",
+                "sha256": "6e89c2578174c4359be10e673e744cc9d0989a3cd35f7f7e6633623f0dca7fc0"
+              },
+              "width": 718,
+              "height": 1024,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "6e89c2578174c4359be10e673e744cc9d0989a3cd35f7f7e6633623f0dca7fc0",
+              "bytes": 114008
+            },
+            {
+              "id": "1986782578565579207-p11-a04",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J4losWgAAig4J.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J4losWgAAig4J.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p11-a04.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J4losWgAAig4J.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J4losWgAAig4J.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 186716,
+                "retrieved_at": "2026-10-27T23:34:52.221777+00:00",
+                "sha256": "abedd407622015a99e51e3a7bf9f0de33f43e5bff4e10fe97b44236951fbf10a"
+              },
+              "width": 960,
+              "height": 714,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "abedd407622015a99e51e3a7bf9f0de33f43e5bff4e10fe97b44236951fbf10a",
+              "bytes": 186716
+            }
+          ]
+        },
+        {
+          "id": "1986782990492422300",
+          "ordinal": 12,
+          "text": "Reagan facilitated the arm deals with Israel.",
+          "tweet_url": "https://x.com/3rab_vision/status/1986782990492422300",
+          "links": [
+            "https://pbs.twimg.com/media/G5J4mTvWEAAFblD.jpg",
+            "https://pbs.twimg.com/media/G5J4mTmW4AAUHMv.jpg",
+            "https://pbs.twimg.com/media/G5J4mToXUAA31qS.jpg"
+          ],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p12-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J4mTvWEAAFblD.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J4mTvWEAAFblD.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p12-a01.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J4mTvWEAAFblD.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J4mTvWEAAFblD.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 41238,
+                "retrieved_at": "2026-10-27T23:34:52.259318+00:00",
+                "sha256": "ac0653edd786d29b1d150e9d46af00895db7c861a84d0b50c30cd4fe15b992e6"
+              },
+              "width": 505,
+              "height": 499,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "ac0653edd786d29b1d150e9d46af00895db7c861a84d0b50c30cd4fe15b992e6",
+              "bytes": 41238
+            },
+            {
+              "id": "1986782578565579207-p12-a02",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J4mTmW4AAUHMv.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J4mTmW4AAUHMv.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p12-a02.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J4mTmW4AAUHMv.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J4mTmW4AAUHMv.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 14275,
+                "retrieved_at": "2026-10-27T23:34:52.355077+00:00",
+                "sha256": "47dd4ae46847a7e755d24b3f9b3381fa00df0901066c59e8f02c08553073081a"
+              },
+              "width": 482,
+              "height": 96,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "47dd4ae46847a7e755d24b3f9b3381fa00df0901066c59e8f02c08553073081a",
+              "bytes": 14275
+            },
+            {
+              "id": "1986782578565579207-p12-a03",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J4mToXUAA31qS.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J4mToXUAA31qS.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p12-a03.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J4mToXUAA31qS.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J4mToXUAA31qS.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 21070,
+                "retrieved_at": "2026-10-27T23:34:52.327929+00:00",
+                "sha256": "b420bc3d879c6b679079e6fd48acc1aac3fbe757332889eab161df8008dbb91e"
+              },
+              "width": 506,
+              "height": 343,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "b420bc3d879c6b679079e6fd48acc1aac3fbe757332889eab161df8008dbb91e",
+              "bytes": 21070
+            }
+          ]
+        },
+        {
+          "id": "1986782999107506546",
+          "ordinal": 13,
+          "text": "Additional to USA and Israel, Soviets also provided arms to Khomeini during the war. The Mullah plays every game available.",
+          "tweet_url": "https://x.com/3rab_vision/status/1986782999107506546",
+          "links": [
+            "https://pbs.twimg.com/media/G5J4m0ZWwAAn1yl.jpg"
+          ],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p13-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J4m0ZWwAAn1yl.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J4m0ZWwAAn1yl.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p13-a01.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J4m0ZWwAAn1yl.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J4m0ZWwAAn1yl.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 50971,
+                "retrieved_at": "2026-10-27T23:34:52.379372+00:00",
+                "sha256": "20126d6daebc5594fc2d3604fc0b7df9e59d2656647f8417880eb3b30c2d8ae7"
+              },
+              "width": 1124,
+              "height": 294,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "20126d6daebc5594fc2d3604fc0b7df9e59d2656647f8417880eb3b30c2d8ae7",
+              "bytes": 50971
+            }
+          ]
+        },
+        {
+          "id": "1986783008343331207",
+          "ordinal": 14,
+          "text": "CIA support included shipment of HAWK missiles to Iran & was provided without even a prior Presidential Finding.",
+          "tweet_url": "https://x.com/3rab_vision/status/1986783008343331207",
+          "links": [
+            "https://pbs.twimg.com/media/G5J4nULW0AAMnzA.jpg"
+          ],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p14-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J4nULW0AAMnzA.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J4nULW0AAMnzA.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p14-a01.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J4nULW0AAMnzA.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J4nULW0AAMnzA.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 196224,
+                "retrieved_at": "2026-10-27T23:34:52.359834+00:00",
+                "sha256": "5800a6cda7055518ff8a4f81c34de8f619e845e0d50d89df9340bcf337a5a210"
+              },
+              "width": 913,
+              "height": 1280,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "5800a6cda7055518ff8a4f81c34de8f619e845e0d50d89df9340bcf337a5a210",
+              "bytes": 196224
+            }
+          ]
+        },
+        {
+          "id": "1986783163142881385",
+          "ordinal": 15,
+          "text": "Iranian Official: Our Greatest Victory in 1982 was thanks to the U.S.",
+          "tweet_url": "https://x.com/3rab_vision/status/1986783163142881385",
+          "links": [],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p15-a01",
+              "kind": "video",
+              "source_url": "https://video.twimg.com/amplify_video/1986783012084690945/vid/avc1/1280x720/6sDBq6b71U_Uv8FR.mp4",
+              "variants": [
+                "https://video.twimg.com/amplify_video/1986783012084690945/vid/avc1/480x270/Kz4_vWWeqpIrR7rF.mp4",
+                "https://video.twimg.com/amplify_video/1986783012084690945/vid/avc1/640x360/kK-2VOe_QlN1n9Lz.mp4",
+                "https://video.twimg.com/amplify_video/1986783012084690945/vid/avc1/1280x720/6sDBq6b71U_Uv8FR.mp4"
+              ],
+              "poster_url": "https://pbs.twimg.com/amplify_video_thumb/1986783012084690945/img/ET8cEwhoVzPQDVQE.jpg",
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p15-a01.mp4",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://video.twimg.com/amplify_video/1986783012084690945/vid/avc1/1280x720/6sDBq6b71U_Uv8FR.mp4",
+                "final_url": "https://video.twimg.com/amplify_video/1986783012084690945/vid/avc1/1280x720/6sDBq6b71U_Uv8FR.mp4",
+                "status": 200,
+                "content_type": "video/mp4",
+                "bytes": 4894636,
+                "retrieved_at": "2026-10-27T23:33:56.493791+00:00",
+                "sha256": "766320d62d350c00929968838285c7757f7a4fdf94c5c4b57af54ab4dde7770e"
+              },
+              "cache_verified_at": "2026-10-27T23:34:52.333312+00:00",
+              "width": 1280,
+              "height": 720,
+              "duration": 61.857959,
+              "has_audio": true,
+              "sha256": "766320d62d350c00929968838285c7757f7a4fdf94c5c4b57af54ab4dde7770e",
+              "bytes": 4894636
+            }
+          ]
+        },
+        {
+          "id": "1986783242096124223",
+          "ordinal": 16,
+          "text": "Israeli Intelligence Officer Aharon Yariv explains why an Iraqi Victory is not in the favor of Israel and why they should support Iran.",
+          "tweet_url": "https://x.com/3rab_vision/status/1986783242096124223",
+          "links": [],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p16-a01",
+              "kind": "video",
+              "source_url": "https://video.twimg.com/amplify_video/1986783166779011073/vid/avc1/960x720/cNhC-szQz2roBLIg.mp4",
+              "variants": [
+                "https://video.twimg.com/amplify_video/1986783166779011073/vid/avc1/360x270/6f84ksbU1a3Np2Bu.mp4",
+                "https://video.twimg.com/amplify_video/1986783166779011073/vid/avc1/480x360/awC712HyzH-Hl9kB.mp4",
+                "https://video.twimg.com/amplify_video/1986783166779011073/vid/avc1/960x720/cNhC-szQz2roBLIg.mp4"
+              ],
+              "poster_url": "https://pbs.twimg.com/amplify_video_thumb/1986783166779011073/img/jF-VvskBLiW_QmwU.jpg",
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p16-a01.mp4",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://video.twimg.com/amplify_video/1986783166779011073/vid/avc1/960x720/cNhC-szQz2roBLIg.mp4",
+                "final_url": "https://video.twimg.com/amplify_video/1986783166779011073/vid/avc1/960x720/cNhC-szQz2roBLIg.mp4",
+                "status": 200,
+                "content_type": "video/mp4",
+                "bytes": 4437377,
+                "retrieved_at": "2026-10-27T23:33:55.991416+00:00",
+                "sha256": "4734634848e3c371d7393b1e69d3fe5232c575d5f35d50d25fa0f89e3a903769"
+              },
+              "cache_verified_at": "2026-10-27T23:34:52.365723+00:00",
+              "width": 960,
+              "height": 720,
+              "duration": 46.30059,
+              "has_audio": true,
+              "sha256": "4734634848e3c371d7393b1e69d3fe5232c575d5f35d50d25fa0f89e3a903769",
+              "bytes": 4437377
+            }
+          ]
+        },
+        {
+          "id": "1986783252909117775",
+          "ordinal": 17,
+          "text": "Reagan administration mentioned that atleast 41 countries were providing weapons to Iran in secret. These countries included western Powers and Israel.",
+          "tweet_url": "https://x.com/3rab_vision/status/1986783252909117775",
+          "links": [
+            "https://pbs.twimg.com/media/G5J41dxWAAAikF1.jpg"
+          ],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p17-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J41dxWAAAikF1.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J41dxWAAAikF1.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p17-a01.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J41dxWAAAikF1.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J41dxWAAAikF1.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 223058,
+                "retrieved_at": "2026-10-27T23:34:52.462667+00:00",
+                "sha256": "cbbacc052f0e7c10b305f049cba7799199d3d1abd0810cafcac96ebe8a2f0d2a"
+              },
+              "width": 991,
+              "height": 1280,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "cbbacc052f0e7c10b305f049cba7799199d3d1abd0810cafcac96ebe8a2f0d2a",
+              "bytes": 223058
+            }
+          ]
+        },
+        {
+          "id": "1986783264418254907",
+          "ordinal": 18,
+          "text": "Despite the numerous weapons that were provided to Iran from atleast 41 countries, the American admiristition believed that iran is still losing the war.",
+          "tweet_url": "https://x.com/3rab_vision/status/1986783264418254907",
+          "links": [
+            "https://pbs.twimg.com/media/G5J42HTXUAAk9OQ.jpg"
+          ],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p18-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J42HTXUAAk9OQ.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J42HTXUAAk9OQ.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p18-a01.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J42HTXUAAk9OQ.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J42HTXUAAk9OQ.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 220199,
+                "retrieved_at": "2026-10-27T23:34:52.492296+00:00",
+                "sha256": "aca1bd7a42903476c64e541d3c296636f5268a7afc94deddc2027c25b2b5307a"
+              },
+              "width": 1040,
+              "height": 1280,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "aca1bd7a42903476c64e541d3c296636f5268a7afc94deddc2027c25b2b5307a",
+              "bytes": 220199
+            }
+          ]
+        },
+        {
+          "id": "1986783452620795972",
+          "ordinal": 19,
+          "text": "Iraq noted suspicions that the US was not happy how the war with Iran ended with Iraqi victory. Stressed the fact that Iraq was $40bn in debt with risk of war orphan pension being cut.",
+          "tweet_url": "https://x.com/3rab_vision/status/1986783452620795972",
+          "links": [
+            "https://pbs.twimg.com/media/G5J5BNEXkAAqg8X.jpg"
+          ],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p19-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J5BNEXkAAqg8X.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J5BNEXkAAqg8X.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p19-a01.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J5BNEXkAAqg8X.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J5BNEXkAAqg8X.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 47022,
+                "retrieved_at": "2026-10-27T23:34:52.683995+00:00",
+                "sha256": "6fe12af2bac8160810ffd866b243c72034aff07c768243f7130962eecd46ee63"
+              },
+              "width": 1125,
+              "height": 436,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "6fe12af2bac8160810ffd866b243c72034aff07c768243f7130962eecd46ee63",
+              "bytes": 47022
+            }
+          ]
+        },
+        {
+          "id": "1986783680707105097",
+          "ordinal": 20,
+          "text": "The West was surprised by the Iraqi Victory. The limitless support to Iran was yielding nothing. This was the reason why the west would conspire against Iraq in later years.",
+          "tweet_url": "https://x.com/3rab_vision/status/1986783680707105097",
+          "links": [
+            "https://pbs.twimg.com/media/G5J5Oe2W8AAK9t1.jpg",
+            "https://pbs.twimg.com/media/G5J5Oe3XoAA2mCp.jpg",
+            "https://pbs.twimg.com/media/G5J5Oe2WYAAeooj.jpg"
+          ],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p20-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J5Oe2W8AAK9t1.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J5Oe2W8AAK9t1.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p20-a01.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J5Oe2W8AAK9t1.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J5Oe2W8AAK9t1.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 65958,
+                "retrieved_at": "2026-10-27T23:34:52.619114+00:00",
+                "sha256": "9f9116df4716beb6773adb34ab0fa4662929a723d232f6b6831b0d024af4ae78"
+              },
+              "width": 571,
+              "height": 850,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "9f9116df4716beb6773adb34ab0fa4662929a723d232f6b6831b0d024af4ae78",
+              "bytes": 65958
+            },
+            {
+              "id": "1986782578565579207-p20-a02",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J5Oe3XoAA2mCp.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J5Oe3XoAA2mCp.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p20-a02.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J5Oe3XoAA2mCp.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J5Oe3XoAA2mCp.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 20096,
+                "retrieved_at": "2026-10-27T23:34:52.589527+00:00",
+                "sha256": "17a67bf1327474605bd57327232337f00905a5eeee440fdfe088714c934e50df"
+              },
+              "width": 492,
+              "height": 140,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "17a67bf1327474605bd57327232337f00905a5eeee440fdfe088714c934e50df",
+              "bytes": 20096
+            },
+            {
+              "id": "1986782578565579207-p20-a03",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J5Oe2WYAAeooj.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J5Oe2WYAAeooj.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p20-a03.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J5Oe2WYAAeooj.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J5Oe2WYAAeooj.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 22011,
+                "retrieved_at": "2026-10-27T23:34:52.621451+00:00",
+                "sha256": "be86707c54f61b61e342eef6059a15a6f4b95fc73935690f733ac25e80e7afd8"
+              },
+              "width": 484,
+              "height": 149,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "be86707c54f61b61e342eef6059a15a6f4b95fc73935690f733ac25e80e7afd8",
+              "bytes": 22011
+            }
+          ]
+        },
+        {
+          "id": "1986784066062958831",
+          "ordinal": 21,
+          "text": "Iraq at the middle of the war 85-88 decided to rebuilt the Army by creating new Strategies. The Most successful one was \"tawakkalna ala allah Operations\" which caused large destruction to Iranian forces.",
+          "tweet_url": "https://x.com/3rab_vision/status/1986784066062958831",
+          "links": [
+            "https://pbs.twimg.com/media/G5J5kwBWoAAm32P.jpg",
+            "https://pbs.twimg.com/media/G5J5kvnWMAAkjIS.jpg"
+          ],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p21-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J5kwBWoAAm32P.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J5kwBWoAAm32P.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p21-a01.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J5kwBWoAAm32P.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J5kwBWoAAm32P.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 9310,
+                "retrieved_at": "2026-10-27T23:34:52.735142+00:00",
+                "sha256": "9476a02f5f8d4fb03b5acef106ce362b52a2b3c11b3a02efb17883f356564f8c"
+              },
+              "width": 555,
+              "height": 754,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "9476a02f5f8d4fb03b5acef106ce362b52a2b3c11b3a02efb17883f356564f8c",
+              "bytes": 9310
+            },
+            {
+              "id": "1986782578565579207-p21-a02",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J5kvnWMAAkjIS.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J5kvnWMAAkjIS.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p21-a02.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J5kvnWMAAkjIS.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J5kvnWMAAkjIS.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 102244,
+                "retrieved_at": "2026-10-27T23:34:52.724325+00:00",
+                "sha256": "1b995ec9ebec7afc3bc28d645dbf10c5047af7128dd7a5dbfbfdb6c503b87a8b"
+              },
+              "width": 987,
+              "height": 1212,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "1b995ec9ebec7afc3bc28d645dbf10c5047af7128dd7a5dbfbfdb6c503b87a8b",
+              "bytes": 102244
+            }
+          ]
+        },
+        {
+          "id": "1986784153631653913",
+          "ordinal": 22,
+          "text": "A Myth Propogated By iran during the war that the US supported Iraq; which is totally wrong. Since the US was providing Iraq false intel",
+          "tweet_url": "https://x.com/3rab_vision/status/1986784153631653913",
+          "links": [
+            "https://pbs.twimg.com/media/G5J5p94W0AATxrk.jpg"
+          ],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p22-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J5p94W0AATxrk.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J5p94W0AATxrk.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p22-a01.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J5p94W0AATxrk.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J5p94W0AATxrk.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 151750,
+                "retrieved_at": "2026-10-27T23:34:52.732897+00:00",
+                "sha256": "58cc02ae922dec87f947a8aa68ca87656e822e4165b91d192fa8f155dee7e963"
+              },
+              "width": 1062,
+              "height": 1280,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "58cc02ae922dec87f947a8aa68ca87656e822e4165b91d192fa8f155dee7e963",
+              "bytes": 151750
+            }
+          ]
+        },
+        {
+          "id": "1986784310297321563",
+          "ordinal": 23,
+          "text": "This says iraqis entered iranian territories Iraq Victory made Khomeini accept the peace resolution. From “over my dead body” to “poisonous chalice”. Khomeini was a sore loser. A loser.",
+          "tweet_url": "https://x.com/3rab_vision/status/1986784310297321563",
+          "links": [
+            "https://pbs.twimg.com/media/G5J5zK-XgAAmHFe.jpg",
+            "https://pbs.twimg.com/media/G5J5zLHXoAAnnWA.jpg"
+          ],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p23-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J5zK-XgAAmHFe.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J5zK-XgAAmHFe.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p23-a01.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J5zK-XgAAmHFe.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J5zK-XgAAmHFe.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 21614,
+                "retrieved_at": "2026-10-27T23:34:52.892629+00:00",
+                "sha256": "d88a43c34be0faf91ceac0fd591b31ae3abc251f1cd7081e4d7df1198aea23d8"
+              },
+              "width": 490,
+              "height": 166,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "d88a43c34be0faf91ceac0fd591b31ae3abc251f1cd7081e4d7df1198aea23d8",
+              "bytes": 21614
+            },
+            {
+              "id": "1986782578565579207-p23-a02",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J5zLHXoAAnnWA.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J5zLHXoAAnnWA.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p23-a02.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J5zLHXoAAnnWA.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J5zLHXoAAnnWA.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 20962,
+                "retrieved_at": "2026-10-27T23:34:52.928008+00:00",
+                "sha256": "68be35afd2f158b1cac001b980ccc835c20d4215edbc836d63e258e6da761893"
+              },
+              "width": 500,
+              "height": 187,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "68be35afd2f158b1cac001b980ccc835c20d4215edbc836d63e258e6da761893",
+              "bytes": 20962
+            }
+          ]
+        },
+        {
+          "id": "1986784576543523099",
+          "ordinal": 24,
+          "text": "Saeed Ghasemi, former IRGC solider and deputy of IRGC Naval Intelligence cries out loud and says: \"Iraq took back all the lands we spent 8 years conquering in 72 hours and took 12k prisoners from us\"",
+          "tweet_url": "https://x.com/3rab_vision/status/1986784576543523099",
+          "links": [],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p24-a01",
+              "kind": "video",
+              "source_url": "https://video.twimg.com/amplify_video/1986784489305944064/vid/avc1/1280x720/eaNZNSxCvhsLaABI.mp4",
+              "variants": [
+                "https://video.twimg.com/amplify_video/1986784489305944064/vid/avc1/480x270/khPyN_otCmmg1aym.mp4",
+                "https://video.twimg.com/amplify_video/1986784489305944064/vid/avc1/640x360/nHypQ8Q1-NVPbQCu.mp4",
+                "https://video.twimg.com/amplify_video/1986784489305944064/vid/avc1/1280x720/eaNZNSxCvhsLaABI.mp4"
+              ],
+              "poster_url": "https://pbs.twimg.com/amplify_video_thumb/1986784489305944064/img/CC-i5gdqND3mhW9j.jpg",
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p24-a01.mp4",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://video.twimg.com/amplify_video/1986784489305944064/vid/avc1/1280x720/eaNZNSxCvhsLaABI.mp4",
+                "final_url": "https://video.twimg.com/amplify_video/1986784489305944064/vid/avc1/1280x720/eaNZNSxCvhsLaABI.mp4",
+                "status": 200,
+                "content_type": "video/mp4",
+                "bytes": 3309743,
+                "retrieved_at": "2026-10-27T23:33:56.773140+00:00",
+                "sha256": "cd1479279f2f14879a9b784e56788d3cc36d3bbb5b1aece3b0eb333cab8696e3"
+              },
+              "cache_verified_at": "2026-10-27T23:34:52.742083+00:00",
+              "width": 1280,
+              "height": 720,
+              "duration": 39.288163,
+              "has_audio": true,
+              "sha256": "cd1479279f2f14879a9b784e56788d3cc36d3bbb5b1aece3b0eb333cab8696e3",
+              "bytes": 3309743
+            }
+          ]
+        },
+        {
+          "id": "1986786326394401169",
+          "ordinal": 25,
+          "text": "",
+          "tweet_url": "https://x.com/3rab_vision/status/1986786326394401169",
+          "links": [],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p25-a01",
+              "kind": "video",
+              "source_url": "https://video.twimg.com/amplify_video/1986786183989399552/vid/avc1/640x360/N3r0wstYQQLVIU7g.mp4",
+              "variants": [
+                "https://video.twimg.com/amplify_video/1986786183989399552/vid/avc1/480x270/_FSCHNrd9D0gqW2I.mp4",
+                "https://video.twimg.com/amplify_video/1986786183989399552/vid/avc1/640x360/N3r0wstYQQLVIU7g.mp4"
+              ],
+              "poster_url": "https://pbs.twimg.com/amplify_video_thumb/1986786183989399552/img/dCsPHDAxIxyCz50m.jpg",
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p25-a01.mp4",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://video.twimg.com/amplify_video/1986786183989399552/vid/avc1/640x360/N3r0wstYQQLVIU7g.mp4",
+                "final_url": "https://video.twimg.com/amplify_video/1986786183989399552/vid/avc1/640x360/N3r0wstYQQLVIU7g.mp4",
+                "status": 200,
+                "content_type": "video/mp4",
+                "bytes": 3336094,
+                "retrieved_at": "2026-10-27T23:33:57.180814+00:00",
+                "sha256": "d4efb716582650dc9031b99a16d9c77b31daa18e555f1c738628a330f1482ff8"
+              },
+              "cache_verified_at": "2026-10-27T23:34:52.742481+00:00",
+              "width": 640,
+              "height": 360,
+              "duration": 60.650522,
+              "has_audio": true,
+              "sha256": "d4efb716582650dc9031b99a16d9c77b31daa18e555f1c738628a330f1482ff8",
+              "bytes": 3336094
+            }
+          ]
+        },
+        {
+          "id": "1986786607190495557",
+          "ordinal": 26,
+          "text": "",
+          "tweet_url": "https://x.com/3rab_vision/status/1986786607190495557",
+          "links": [],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p26-a01",
+              "kind": "video",
+              "source_url": "https://video.twimg.com/amplify_video/1986786512290127872/vid/avc1/640x360/_fC-KEbjFQZ_ejV0.mp4",
+              "variants": [
+                "https://video.twimg.com/amplify_video/1986786512290127872/vid/avc1/480x270/HUGNZjKujXFeFHqp.mp4",
+                "https://video.twimg.com/amplify_video/1986786512290127872/vid/avc1/640x360/_fC-KEbjFQZ_ejV0.mp4"
+              ],
+              "poster_url": "https://pbs.twimg.com/amplify_video_thumb/1986786512290127872/img/X8r8L9JGcimBsovZ.jpg",
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p26-a01.mp4",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://video.twimg.com/amplify_video/1986786512290127872/vid/avc1/640x360/_fC-KEbjFQZ_ejV0.mp4",
+                "final_url": "https://video.twimg.com/amplify_video/1986786512290127872/vid/avc1/640x360/_fC-KEbjFQZ_ejV0.mp4",
+                "status": 200,
+                "content_type": "video/mp4",
+                "bytes": 3204831,
+                "retrieved_at": "2026-10-27T23:33:57.236031+00:00",
+                "sha256": "933b46efa622f627fc0837956388752a55efc6330760c803bd62cde19db6ee68"
+              },
+              "cache_verified_at": "2026-10-27T23:34:52.812343+00:00",
+              "width": 640,
+              "height": 360,
+              "duration": 58.049887,
+              "has_audio": true,
+              "sha256": "933b46efa622f627fc0837956388752a55efc6330760c803bd62cde19db6ee68",
+              "bytes": 3204831
+            }
+          ]
+        },
+        {
+          "id": "1986788084185501904",
+          "ordinal": 27,
+          "text": "",
+          "tweet_url": "https://x.com/3rab_vision/status/1986788084185501904",
+          "links": [],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p27-a01",
+              "kind": "video",
+              "source_url": "https://video.twimg.com/amplify_video/1986787961334038528/vid/avc1/640x360/FYzvKxayrEnyT_i9.mp4",
+              "variants": [
+                "https://video.twimg.com/amplify_video/1986787961334038528/vid/avc1/480x270/vFi9ScUQGSCLbpwu.mp4",
+                "https://video.twimg.com/amplify_video/1986787961334038528/vid/avc1/640x360/FYzvKxayrEnyT_i9.mp4"
+              ],
+              "poster_url": "https://pbs.twimg.com/amplify_video_thumb/1986787961334038528/img/julMRXJQv_dwxntE.jpg",
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p27-a01.mp4",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://video.twimg.com/amplify_video/1986787961334038528/vid/avc1/640x360/FYzvKxayrEnyT_i9.mp4",
+                "final_url": "https://video.twimg.com/amplify_video/1986787961334038528/vid/avc1/640x360/FYzvKxayrEnyT_i9.mp4",
+                "status": 200,
+                "content_type": "video/mp4",
+                "bytes": 3373877,
+                "retrieved_at": "2026-10-27T23:33:56.855516+00:00",
+                "sha256": "1ed1b2a54da0521531616515ea5ebb14bd695c9e16c65a74e15e4ecceaf7e57f"
+              },
+              "cache_verified_at": "2026-10-27T23:34:52.812949+00:00",
+              "width": 640,
+              "height": 360,
+              "duration": 59.721723,
+              "has_audio": true,
+              "sha256": "1ed1b2a54da0521531616515ea5ebb14bd695c9e16c65a74e15e4ecceaf7e57f",
+              "bytes": 3373877
+            }
+          ]
+        },
+        {
+          "id": "1986788392554635275",
+          "ordinal": 28,
+          "text": "",
+          "tweet_url": "https://x.com/3rab_vision/status/1986788392554635275",
+          "links": [],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p28-a01",
+              "kind": "video",
+              "source_url": "https://video.twimg.com/amplify_video/1986788247360475136/vid/avc1/640x360/PoY6ny1upGthPYcb.mp4",
+              "variants": [
+                "https://video.twimg.com/amplify_video/1986788247360475136/vid/avc1/480x270/BEA072ZCUjcvG-x4.mp4",
+                "https://video.twimg.com/amplify_video/1986788247360475136/vid/avc1/640x360/PoY6ny1upGthPYcb.mp4"
+              ],
+              "poster_url": "https://pbs.twimg.com/amplify_video_thumb/1986788247360475136/img/vLCUWO1bIP-ivA0P.jpg",
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p28-a01.mp4",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://video.twimg.com/amplify_video/1986788247360475136/vid/avc1/640x360/PoY6ny1upGthPYcb.mp4",
+                "final_url": "https://video.twimg.com/amplify_video/1986788247360475136/vid/avc1/640x360/PoY6ny1upGthPYcb.mp4",
+                "status": 200,
+                "content_type": "video/mp4",
+                "bytes": 3284928,
+                "retrieved_at": "2026-10-27T23:33:57.416296+00:00",
+                "sha256": "0a8f9a9ddaee62aaaba58b07c2b00f386f923394010f659d8e3b5293a050417e"
+              },
+              "cache_verified_at": "2026-10-27T23:34:52.880762+00:00",
+              "width": 640,
+              "height": 360,
+              "duration": 59.907483,
+              "has_audio": true,
+              "sha256": "0a8f9a9ddaee62aaaba58b07c2b00f386f923394010f659d8e3b5293a050417e",
+              "bytes": 3284928
+            }
+          ]
+        },
+        {
+          "id": "1986789802923200773",
+          "ordinal": 29,
+          "text": "“with that battle (of Al-Faw), and follow-up victories, Iraq won the war; this was the only instance post-World War Il where one side was able to impose a complete military defeat on its foe. There was no negotiated cease-fire; the Iranians just caved”",
+          "tweet_url": "https://x.com/3rab_vision/status/1986789802923200773",
+          "links": [
+            "https://pbs.twimg.com/media/G5J-y1vW8AAOW76.jpg"
+          ],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p29-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J-y1vW8AAOW76.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J-y1vW8AAOW76.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p29-a01.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J-y1vW8AAOW76.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J-y1vW8AAOW76.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 156743,
+                "retrieved_at": "2026-10-27T23:34:53.037862+00:00",
+                "sha256": "303760c2e9602f831ecb3b3badb0e61d9a4e1699ef510aeb42c49b1b8b2c9e39"
+              },
+              "width": 912,
+              "height": 1280,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "303760c2e9602f831ecb3b3badb0e61d9a4e1699ef510aeb42c49b1b8b2c9e39",
+              "bytes": 156743
+            }
+          ]
+        },
+        {
+          "id": "1986789842718437594",
+          "ordinal": 30,
+          "text": "— Stephen C Pelletiere, a CIA Senior and responsible for Middle Eastern Affair",
+          "tweet_url": "https://x.com/3rab_vision/status/1986789842718437594",
+          "links": [],
+          "attachments": []
+        },
+        {
+          "id": "1986790131185954892",
+          "ordinal": 31,
+          "text": "The Iran-Iraq War was the only war from World War 2 until then where one side, in this case Iraq, imposed a total military defeat on their enemy, in this case, Iran. Despite being the only complete military victory in over 40 years, Khomeinists cope so badly and say Iraq lost.",
+          "tweet_url": "https://x.com/3rab_vision/status/1986790131185954892",
+          "links": [
+            "https://pbs.twimg.com/media/G5J_F-8XoAAVYcv.jpg",
+            "https://pbs.twimg.com/media/G5J_F-7XgAAV3is.jpg"
+          ],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p31-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J_F-8XoAAVYcv.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J_F-8XoAAVYcv.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p31-a01.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J_F-8XoAAVYcv.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J_F-8XoAAVYcv.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 121612,
+                "retrieved_at": "2026-10-27T23:34:53.191583+00:00",
+                "sha256": "7b36af19a9a2e3ec3cc1fa1bf4aaaf2119edae6498eea069be63ebe7d032eabc"
+              },
+              "width": 867,
+              "height": 1280,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "7b36af19a9a2e3ec3cc1fa1bf4aaaf2119edae6498eea069be63ebe7d032eabc",
+              "bytes": 121612
+            },
+            {
+              "id": "1986782578565579207-p31-a02",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J_F-7XgAAV3is.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J_F-7XgAAV3is.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p31-a02.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J_F-7XgAAV3is.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J_F-7XgAAV3is.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 72022,
+                "retrieved_at": "2026-10-27T23:34:53.016628+00:00",
+                "sha256": "8142355b8582fcbb5ccc65571d88e3b863288cf5747b12bf8b35e06c77242f6e"
+              },
+              "width": 1179,
+              "height": 573,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "8142355b8582fcbb5ccc65571d88e3b863288cf5747b12bf8b35e06c77242f6e",
+              "bytes": 72022
+            }
+          ]
+        },
+        {
+          "id": "1986790326087127138",
+          "ordinal": 32,
+          "text": "the Americans considered the IR-IQ War to have ended in an Iraqi victory emerging as a superpower",
+          "tweet_url": "https://x.com/3rab_vision/status/1986790326087127138",
+          "links": [
+            "https://pbs.twimg.com/media/G5J_RS0XoAA9mox.jpg",
+            "https://pbs.twimg.com/media/G5J_RS3XkAArGVG.jpg"
+          ],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p32-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J_RS0XoAA9mox.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J_RS0XoAA9mox.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p32-a01.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J_RS0XoAA9mox.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J_RS0XoAA9mox.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 60003,
+                "retrieved_at": "2026-10-27T23:34:53.046345+00:00",
+                "sha256": "6460c32d2fca8a8d3e29dbae6bd732daf8214188bdc5753e616424eed395574f"
+              },
+              "width": 962,
+              "height": 1232,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "6460c32d2fca8a8d3e29dbae6bd732daf8214188bdc5753e616424eed395574f",
+              "bytes": 60003
+            },
+            {
+              "id": "1986782578565579207-p32-a02",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5J_RS3XkAArGVG.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5J_RS3XkAArGVG.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p32-a02.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5J_RS3XkAArGVG.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5J_RS3XkAArGVG.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 157338,
+                "retrieved_at": "2026-10-27T23:34:53.189421+00:00",
+                "sha256": "03098563301cb88b6c04a9874880bcbac89165a245f33dc1a6fe95ba7c1af57d"
+              },
+              "width": 965,
+              "height": 1265,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "03098563301cb88b6c04a9874880bcbac89165a245f33dc1a6fe95ba7c1af57d",
+              "bytes": 157338
+            }
+          ]
+        },
+        {
+          "id": "1986791605945168224",
+          "ordinal": 33,
+          "text": "The captured Iranian POV's would often start to twerk and dance for the Iraqi Army. Some even offered themselves as a pleasure boy. The Iraqi officers would laugh and tell them to shut up. The Iranian army is 50% children and the other 50% is gay 😂",
+          "tweet_url": "https://x.com/3rab_vision/status/1986791605945168224",
+          "links": [],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p33-a01",
+              "kind": "video",
+              "source_url": "https://video.twimg.com/amplify_video/1986791540694355968/vid/avc1/964x720/2NTVBayky46EepDi.mp4",
+              "variants": [
+                "https://video.twimg.com/amplify_video/1986791540694355968/vid/avc1/360x270/MYSYJWuAS5Iqc8GP.mp4",
+                "https://video.twimg.com/amplify_video/1986791540694355968/vid/avc1/482x360/rg2bciWy0RuTbjVi.mp4",
+                "https://video.twimg.com/amplify_video/1986791540694355968/vid/avc1/964x720/2NTVBayky46EepDi.mp4"
+              ],
+              "poster_url": "https://pbs.twimg.com/amplify_video_thumb/1986791540694355968/img/ZwivUmCOmoIGdGOD.jpg",
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p33-a01.mp4",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://video.twimg.com/amplify_video/1986791540694355968/vid/avc1/964x720/2NTVBayky46EepDi.mp4",
+                "final_url": "https://video.twimg.com/amplify_video/1986791540694355968/vid/avc1/964x720/2NTVBayky46EepDi.mp4",
+                "status": 200,
+                "content_type": "video/mp4",
+                "bytes": 2104067,
+                "retrieved_at": "2026-10-27T23:33:57.928614+00:00",
+                "sha256": "f7d0be0611456012f28d060fa124b06774fcd85d0607e2c0071e0d65ec441c44"
+              },
+              "cache_verified_at": "2026-10-27T23:34:53.041409+00:00",
+              "width": 964,
+              "height": 720,
+              "duration": 16.880907,
+              "has_audio": true,
+              "sha256": "f7d0be0611456012f28d060fa124b06774fcd85d0607e2c0071e0d65ec441c44",
+              "bytes": 2104067
+            }
+          ]
+        },
+        {
+          "id": "1986792348647358742",
+          "ordinal": 34,
+          "text": "Even Iranian historians like Nadimi have written books specifically to go over how Iraq won the war and how Iran lost in total humiliation.",
+          "tweet_url": "https://x.com/3rab_vision/status/1986792348647358742",
+          "links": [
+            "https://pbs.twimg.com/media/G5KBG2dXkAAcKfz.jpg",
+            "https://pbs.twimg.com/media/G5KBG2bXsAAotDt.jpg",
+            "https://pbs.twimg.com/media/G5KBG2dXIAA-lJi.jpg"
+          ],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p34-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5KBG2dXkAAcKfz.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5KBG2dXkAAcKfz.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p34-a01.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5KBG2dXkAAcKfz.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5KBG2dXkAAcKfz.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 98452,
+                "retrieved_at": "2026-10-27T23:34:53.212134+00:00",
+                "sha256": "819281ca35aa48112f0be52c7ca0d979ad792da8803c940485f8ebaa12183ba1"
+              },
+              "width": 668,
+              "height": 463,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "819281ca35aa48112f0be52c7ca0d979ad792da8803c940485f8ebaa12183ba1",
+              "bytes": 98452
+            },
+            {
+              "id": "1986782578565579207-p34-a02",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5KBG2bXsAAotDt.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5KBG2bXsAAotDt.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p34-a02.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5KBG2bXsAAotDt.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5KBG2bXsAAotDt.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 73861,
+                "retrieved_at": "2026-10-27T23:34:53.210419+00:00",
+                "sha256": "a0584b7696028220c0ba92ea2a0c1e8d6830589407c97b069dad8c29ca75f571"
+              },
+              "width": 752,
+              "height": 588,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "a0584b7696028220c0ba92ea2a0c1e8d6830589407c97b069dad8c29ca75f571",
+              "bytes": 73861
+            },
+            {
+              "id": "1986782578565579207-p34-a03",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5KBG2dXIAA-lJi.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5KBG2dXIAA-lJi.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p34-a03.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5KBG2dXIAA-lJi.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5KBG2dXIAA-lJi.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 134220,
+                "retrieved_at": "2026-10-27T23:34:53.292188+00:00",
+                "sha256": "90750d4e40ce8b7846be410a5dfc7e5c005a71783f271ef59948b9e4d1d66b61"
+              },
+              "width": 719,
+              "height": 707,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "90750d4e40ce8b7846be410a5dfc7e5c005a71783f271ef59948b9e4d1d66b61",
+              "bytes": 134220
+            }
+          ]
+        },
+        {
+          "id": "1986792600582402057",
+          "ordinal": 35,
+          "text": "“In 1988 Iran had been defeated in three major back-to-back Iraqi offensives, and its only assault was a failure. Its oil revenues had been choked off by Iraqi tanker and oil-terminal attacks, and morale was at an all-time low due to heavy losses and economic problems at home.",
+          "tweet_url": "https://x.com/3rab_vision/status/1986792600582402057",
+          "links": [
+            "https://pbs.twimg.com/media/G5KBVqoXMAAMEYm.jpg"
+          ],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p35-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5KBVqoXMAAMEYm.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5KBVqoXMAAMEYm.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p35-a01.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5KBVqoXMAAMEYm.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5KBVqoXMAAMEYm.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 134862,
+                "retrieved_at": "2026-10-27T23:34:53.290367+00:00",
+                "sha256": "a2e692148a56e2eb26accf73748e1a13756fd9a6653a56e9a22ef8111ba96f51"
+              },
+              "width": 733,
+              "height": 1280,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "a2e692148a56e2eb26accf73748e1a13756fd9a6653a56e9a22ef8111ba96f51",
+              "bytes": 134862
+            }
+          ]
+        },
+        {
+          "id": "1986792668005810391",
+          "ordinal": 36,
+          "text": "On 20 July 1988, Iran accepted the UN-sponsored cease-fire, Resolution 598, and on 8 August 1988, the eight-year war came to an end”",
+          "tweet_url": "https://x.com/3rab_vision/status/1986792668005810391",
+          "links": [],
+          "attachments": []
+        },
+        {
+          "id": "1986793067756585384",
+          "ordinal": 37,
+          "text": "Which is exactly why every historian, including Iranians, write books describing just how Iraq won the war, right? You're delusional. In every history, Iraq won the war, and Iran lost the war in total humiliation with Khomeini begging Saddam for mercy. You cope so much.",
+          "tweet_url": "https://x.com/3rab_vision/status/1986793067756585384",
+          "links": [
+            "https://pbs.twimg.com/media/G5KBw4nW4AANskz.jpg"
+          ],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p37-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5KBw4nW4AANskz.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5KBw4nW4AANskz.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p37-a01.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5KBw4nW4AANskz.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5KBw4nW4AANskz.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 150776,
+                "retrieved_at": "2026-10-27T23:34:53.363688+00:00",
+                "sha256": "42a83e9ce71fb3d29fa48fcbd6c725ca07c60c8de60d0ad38462979a5060aaea"
+              },
+              "width": 707,
+              "height": 1000,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "42a83e9ce71fb3d29fa48fcbd6c725ca07c60c8de60d0ad38462979a5060aaea",
+              "bytes": 150776
+            }
+          ]
+        },
+        {
+          "id": "1986794591484330453",
+          "ordinal": 38,
+          "text": "The Iran-Iraq War as a decisive Iraqi victory is an uncontroversial fact, not least of all to the people whose job  was to study and analyze it. The idea of a \"stalemate\" or \"inconclusive\" was popularized by Iranian gov employees on Wikipedia. The book is \"America's Oil Wars\".",
+          "tweet_url": "https://x.com/3rab_vision/status/1986794591484330453",
+          "links": [
+            "https://pbs.twimg.com/media/G5KDJnzWUAAPTt_.jpg"
+          ],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p38-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5KDJnzWUAAPTt_.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5KDJnzWUAAPTt_.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p38-a01.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5KDJnzWUAAPTt_.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5KDJnzWUAAPTt_.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 87786,
+                "retrieved_at": "2026-10-27T23:34:53.419606+00:00",
+                "sha256": "e24ac02f1617b069da1fcb4eeec948ef7ddbedb72a369965ec121cdd1bdeaf04"
+              },
+              "width": 1125,
+              "height": 633,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "e24ac02f1617b069da1fcb4eeec948ef7ddbedb72a369965ec121cdd1bdeaf04",
+              "bytes": 87786
+            }
+          ]
+        },
+        {
+          "id": "1986794985870733613",
+          "ordinal": 39,
+          "text": "Here is what Persian supremacist and historian Farrokh, who throughout his writings on the war underplays the decisive Iranian defeat, copes, makes up fake history to defend Iran, and passes Khomeini's government's words as \"fact\", has to say. Humiliating defeat for Iran. 🇮🇷",
+          "tweet_url": "https://x.com/3rab_vision/status/1986794985870733613",
+          "links": [
+            "https://pbs.twimg.com/media/G5KDf82XIAA-NkY.jpg"
+          ],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p39-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5KDf82XIAA-NkY.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5KDf82XIAA-NkY.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p39-a01.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5KDf82XIAA-NkY.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5KDf82XIAA-NkY.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 98457,
+                "retrieved_at": "2026-10-27T23:34:53.397104+00:00",
+                "sha256": "4d5d1fc31963c7ad403943385baa3fd7d802a5a9296451e1037908a58364b515"
+              },
+              "width": 497,
+              "height": 579,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "4d5d1fc31963c7ad403943385baa3fd7d802a5a9296451e1037908a58364b515",
+              "bytes": 98457
+            }
+          ]
+        },
+        {
+          "id": "1986795366407385420",
+          "ordinal": 40,
+          "text": "George H. W. Bush stating his concerns abour Iraq",
+          "tweet_url": "https://x.com/3rab_vision/status/1986795366407385420",
+          "links": [],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p40-a01",
+              "kind": "video",
+              "source_url": "https://video.twimg.com/amplify_video/1986795281178918912/vid/avc1/640x464/_gQNLUNAP0M6Z9Np.mp4",
+              "variants": [
+                "https://video.twimg.com/amplify_video/1986795281178918912/vid/avc1/372x270/gPg4hoAdE_JU0mq1.mp4",
+                "https://video.twimg.com/amplify_video/1986795281178918912/vid/avc1/640x464/_gQNLUNAP0M6Z9Np.mp4"
+              ],
+              "poster_url": "https://pbs.twimg.com/amplify_video_thumb/1986795281178918912/img/jEQSxVhsQu-yVTNU.jpg",
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p40-a01.mp4",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://video.twimg.com/amplify_video/1986795281178918912/vid/avc1/640x464/_gQNLUNAP0M6Z9Np.mp4",
+                "final_url": "https://video.twimg.com/amplify_video/1986795281178918912/vid/avc1/640x464/_gQNLUNAP0M6Z9Np.mp4",
+                "status": 200,
+                "content_type": "video/mp4",
+                "bytes": 961198,
+                "retrieved_at": "2026-10-27T23:33:58.112638+00:00",
+                "sha256": "953a8cdaa757ca05844f7f081ae4e042b677f4179a5b907d6c83a57b9e8d7b1f"
+              },
+              "cache_verified_at": "2026-10-27T23:34:53.295634+00:00",
+              "width": 640,
+              "height": 464,
+              "duration": 32.624036,
+              "has_audio": true,
+              "sha256": "953a8cdaa757ca05844f7f081ae4e042b677f4179a5b907d6c83a57b9e8d7b1f",
+              "bytes": 961198
+            }
+          ]
+        },
+        {
+          "id": "1986795485055590780",
+          "ordinal": 41,
+          "text": "The American archive officially recognizes Iraq as the winner of the Iran-Iraq war",
+          "tweet_url": "https://x.com/3rab_vision/status/1986795485055590780",
+          "links": [
+            "https://pbs.twimg.com/media/G5KD86IWgAA2tBG.jpg"
+          ],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p41-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5KD86IWgAA2tBG.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5KD86IWgAA2tBG.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p41-a01.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5KD86IWgAA2tBG.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5KD86IWgAA2tBG.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 244253,
+                "retrieved_at": "2026-10-27T23:34:53.504772+00:00",
+                "sha256": "1b00a8b786459d2d6aee2b60db904d15f809541c61a18387372585db19f717e3"
+              },
+              "width": 1164,
+              "height": 1280,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "1b00a8b786459d2d6aee2b60db904d15f809541c61a18387372585db19f717e3",
+              "bytes": 244253
+            }
+          ]
+        },
+        {
+          "id": "1986795684821925950",
+          "ordinal": 42,
+          "text": "US imposing sanctions against Iraq directly after the end of the war.",
+          "tweet_url": "https://x.com/3rab_vision/status/1986795684821925950",
+          "links": [
+            "https://pbs.twimg.com/media/G5KEI6qWYAA6voK.jpg"
+          ],
+          "attachments": [
+            {
+              "id": "1986782578565579207-p42-a01",
+              "kind": "image",
+              "source_url": "https://pbs.twimg.com/media/G5KEI6qWYAA6voK.jpg",
+              "variants": [
+                "https://pbs.twimg.com/media/G5KEI6qWYAA6voK.jpg"
+              ],
+              "poster_url": null,
+              "local_path": "two_thread/assets/1986782578565579207/1986782578565579207-p42-a01.jpg",
+              "download_status": "downloaded",
+              "retrieval": {
+                "requested_url": "https://pbs.twimg.com/media/G5KEI6qWYAA6voK.jpg?name=orig",
+                "final_url": "https://pbs.twimg.com/media/G5KEI6qWYAA6voK.jpg?name=orig",
+                "status": 200,
+                "content_type": "image/jpeg",
+                "bytes": 56873,
+                "retrieved_at": "2026-10-27T23:34:53.458482+00:00",
+                "sha256": "a3f1da065fcec91f348d9ae6b34219fd51108970195174c71ff2a0131a96a81d"
+              },
+              "width": 974,
+              "height": 1280,
+              "duration": null,
+              "has_audio": false,
+              "sha256": "a3f1da065fcec91f348d9ae6b34219fd51108970195174c71ff2a0131a96a81d",
+              "bytes": 56873
+            }
+          ]
+        },
+        {
+          "id": "1986809435642294475",
+          "ordinal": 43,
+          "text": "Credits @ARLTruthSeeker",
+          "tweet_url": "https://x.com/3rab_vision/status/1986809435642294475",
+          "links": [],
+          "attachments": []
+        },
+        {
+          "id": "1987633532567470256",
+          "ordinal": 44,
+          "text": "@ARLTruthSeeker @rattibha",
+          "tweet_url": "https://x.com/3rab_vision/status/1987633532567470256",
+          "links": [],
+          "attachments": []
+        }
+      ],
+      "html_sha256": "1b936bc0b413625fe59913c6d17895da1a33d4edcd39a8a186e2faad5d6468a0",
+      "html_path": "two_thread/evidence/1986782578565579207.html"
+    }
+  ],
+  "complete": true,
+  "missing": []
+}
