@@ -1,0 +1,43 @@
+name: Iran–Iraq War archival edit V2
+
+on:
+  push:
+    branches:
+      - feature/iran-iraq-war-archival-v2
+    paths:
+      - 'iran_iraq_v2/**'
+      - '.github/workflows/iran-iraq-war-v2.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  render:
+    name: Render authentic source edit with neural narration
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg fonts-dejavu-core
+          python -m pip install --disable-pip-version-check pillow numpy requests edge-tts soundfile
+      - name: Produce archival documentary
+        run: python iran_iraq_v2/build.py
+      - name: Upload final video and source references
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: iran-iraq-war-archival-v2
+          path: |
+            iran_iraq_v2/output/IRAN_IRAQ_WAR_ARCHIVAL_EDIT_V2.mp4
+            iran_iraq_v2/output/SOURCES.txt
+          if-no-files-found: warn
+          retention-days: 14
