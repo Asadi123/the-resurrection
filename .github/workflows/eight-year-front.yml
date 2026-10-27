@@ -1,0 +1,129 @@
+name: THE EIGHT-YEAR FRONT | New Iran–Iraq War Film
+
+on:
+  push:
+    branches: [documentary/iraq-iran-war-new-film]
+    paths:
+      - 'film/**'
+      - '.github/workflows/eight-year-front.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: iran-iraq-rebuild-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  produce-new-film:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+        name: Checkout untouched new film branch
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+        name: Prepare Python
+      - name: Install authentic-footage media editing and CPU narrator
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+          python -m pip install --disable-pip-version-check --upgrade pip
+          python -m pip install --disable-pip-version-check requests Pillow 'PyMuPDF<2' numpy soundfile
+          python -m pip install --disable-pip-version-check pocket-tts
+
+      - name: Acquire original scans and archival images only
+        id: archival
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          python film/acquire.py
+
+      - name: Save the original archival media and source register
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: EIGHT-YEAR-FRONT-ORIGINAL-SOURCES
+          path: |
+            film/original/**
+            film/audit.json
+            film/SOURCE-CREDITS.md
+            film/production.json
+          compression-level: 3
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Enforce source completeness
+        run: |
+          test "${{ steps.archival.outcome }}" = "success"
+
+      - name: Produce fresh male English narration (different engine from V2)
+        env:
+          DOCUMENTARY_VOICE: peter_yearsley
+          OMP_NUM_THREADS: '2'
+        run: |
+          set -euo pipefail
+          python film/narrate.py
+
+      - name: Retain an independently listenable narration preview
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: EIGHT-YEAR-FRONT-NEW-NARRATION-FOR-REVIEW
+          path: |
+            film/audio/narration.wav
+            film/audio/timings.json
+          if-no-files-found: warn
+          compression-level: 5
+          retention-days: 30
+
+      - name: Edit complete multi-shot archival film at 1080p
+        run: |
+          set -euo pipefail
+          python film/edit.py
+
+      - name: Technical review of actual MP4
+        run: |
+          set -euo pipefail
+          f=film/render/THE-EIGHT-YEAR-FRONT-1080p.mp4
+          ffprobe -v error -show_entries format=duration:stream=codec_type,codec_name,width,height,r_frame_rate -of json "$f"
+          ffmpeg -v error -xerror -i "$f" -f null -
+          mkdir -p film/render/qa
+          ffmpeg -v error -y -i "$f" -vf 'fps=1/12,scale=960:-1' film/render/qa/sample-%03d.jpg
+          ffmpeg -v info -i "$f" -af 'volumedetect' -vn -f null - 2>&1 | grep -E 'mean_volume|max_volume' || true
+
+      - name: Deliver new film, editable timeline, visual QA and source register
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: THE-EIGHT-YEAR-FRONT-NEW-1080P-MP4
+          path: |
+            film/render/THE-EIGHT-YEAR-FRONT-1080p.mp4
+            film/render/edit_timeline.json
+            film/render/machine_validation.json
+            film/render/qa/**
+            film/audio/timings.json
+            film/production.json
+            film/SOURCE-CREDITS.md
+            film/audit.json
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 30
+
+      - name: Save diagnostics and narration status
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: EIGHT-YEAR-FRONT-FAILURE-DIAGNOSTICS
+          path: |
+            film/audit.json
+            film/SOURCE-CREDITS.md
+            film/audio/timings.json
+            film/render/machine_validation.json
+          if-no-files-found: warn
