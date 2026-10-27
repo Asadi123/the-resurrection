@@ -2,6 +2,8 @@
 
 An automated archival documentary production using Python and FFmpeg. The requested master is **160 seconds, 1920 × 1080, 30 FPS, H.264 MP4 with AAC audio**. Only authentic, rights-cleared historical imagery is eligible for the film.
 
+**Finished video:** [Download the validated MP4 artifact](https://github.com/Asadi123/the-resurrection/actions/runs/40491584062/artifacts/12728843717). Unzip it and open `output/the-resurrection.mp4`. The video is **160.000 seconds**, **1920 × 1080**, **30 FPS**, and **57,819,488 bytes**. [The successful GitHub Actions run](https://github.com/Asadi123/the-resurrection/actions/runs/40491584062) verifies full decoding, 4,800 frames, all 31 factual/source overlays, the Arabic ending, and black endpoints. Credits, licensing, provenance, and the validation report accompany the MP4. GitHub sign-in is required; this artifact is retained for 30 days.
+
 **A repository or a successful setup step is not a completed film.** The workflow publishes the `THE-RESURRECTION-1080p-160s` artifact only after acquisition, narration, music, editorial clearance, rendering, and export validation succeed. A failed run publishes diagnostics, not a substitute video. Current source gaps and unresolved claims are recorded in `research/` and the preflight report.
 
 ## Render from an iPhone
