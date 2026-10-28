@@ -1,0 +1,104 @@
+name: IRAQ'S CASE | Iraqi-perspective 1080p documentary final cut
+
+on:
+  push:
+    branches: [documentary/iraqi-perspective-final-cut]
+    paths:
+      - 'iraqi_perspective/**'
+      - '.github/workflows/iraqi-perspective-final-cut.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: iraqs-case-final-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  render-final:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 100
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - name: Check out Iraqi-perspective production branch
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install video, audio and speech tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg fonts-dejavu-core
+          python -m pip install --disable-pip-version-check numpy soundfile edge-tts
+
+      - name: Recover verified 98-scene original source film and audit
+        run: |
+          set -euo pipefail
+          mkdir -p iraqi_perspective/original iraqi_perspective/output
+          gh release download iraqs-case-two-threads-v1 \
+            -p iraqs-case-1080p.mp4 \
+            -p iraqs-case-1080p.render-report.json \
+            -D iraqi_perspective/original
+          test -s iraqi_perspective/original/iraqs-case-1080p.mp4
+          test -s iraqi_perspective/original/iraqs-case-1080p.render-report.json
+
+      - name: Narrate the full historical argument and render synchronized English captions
+        timeout-minutes: 80
+        run: |
+          set -euo pipefail
+          python iraqi_perspective/produce.py \
+            --master iraqi_perspective/original/iraqs-case-1080p.mp4 \
+            --report iraqi_perspective/original/iraqs-case-1080p.render-report.json \
+            --out iraqi_perspective/output
+
+      - name: Verify chapters, original-media fidelity, subtitles and audible voiceover
+        run: |
+          set -euo pipefail
+          f=iraqi_perspective/output/IRAQS-CASE-IRAQI-PERSPECTIVE-FINAL-CUT-1080p.mp4
+          test -s "$f"
+          ffprobe -v error -show_entries format=duration:stream=codec_type,codec_name,width,height -of json "$f"
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root=Path('iraqi_perspective/output')
+          j=json.loads((root/'FINAL-EDITORIAL-REPORT.json').read_text())
+          assert len(j['chapters'])==12, 'All 12 sustained chapters are required'
+          assert all(a['voice_seconds']>1 for a in j['chapters']), 'Missing narration in a chapter'
+          assert j['burned_subtitles']>=100, 'Missing subtitle passages'
+          assert j['complete_original_source_frames']==98
+          assert j['render_decoded_without_errors']
+          assert all((root/f'frame_{x}.jpg').stat().st_size>1000 for x in ('beginning','diplomacy','arms','victory'))
+          print('FINAL CUT QA PASS — 12 chapters / 98 original assets /',j['burned_subtitles'],'burned English captions')
+          PY
+
+      - name: Deliver verified film, script QA and frame examples
+        uses: actions/upload-artifact@v4
+        with:
+          name: IRAQS-CASE-IRAQI-PERSPECTIVE-NARRATED-1080P
+          path: |
+            iraqi_perspective/output/IRAQS-CASE-IRAQI-PERSPECTIVE-FINAL-CUT-1080p.mp4
+            iraqi_perspective/output/FINAL-EDITORIAL-REPORT.json
+            iraqi_perspective/output/captions_and_chapter_titles.ass
+            iraqi_perspective/output/frame_*.jpg
+            iraqi_perspective/chapters.json
+          retention-days: 30
+          compression-level: 0
+
+      - name: Publish separate iPhone-playable release, preserving earlier films
+        run: |
+          set -euo pipefail
+          tag=iraqs-case-iraqi-perspective-cut-v3
+          f=iraqi_perspective/output/IRAQS-CASE-IRAQI-PERSPECTIVE-FINAL-CUT-1080p.mp4
+          gh release create "$tag" "$f" \
+            --target documentary/iraqi-perspective-final-cut \
+            --title "Iraq's Case — Iraqi Perspective Final Cut (English voiceover + captions)" \
+            --notes "Distinct 12-chapter documentary edit based exclusively on the two commissioned Iran–Iraq War thread collections, retaining 98 original archival visual segments. English neural narration and burned English captions; no public X usernames or thread credits in the editing overlays. The original source image area is unchanged and fully visible. The film presents an Iraqi-centered historical interpretation: wartime government allegations and scholarly conclusions are not uniformly independently authenticated. Synthetic speech and reuse rights require human review. Previous releases remain untouched." \
+            --latest=false
