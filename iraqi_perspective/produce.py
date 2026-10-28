@@ -66,7 +66,7 @@ async def tts_once(index,chapter,folder):
     target=folder/f'chapter_{index:02}.mp3'
     boundary_path=folder/f'chapter_{index:02}.words.json'
     if target.exists() and target.stat().st_size>2000 and boundary_path.exists():return
-    for attempt in range(2):
+    for attempt in range(6):
         try:
             audio=[];boundaries=[]
             synth=edge_tts.Communicate(chapter["text"],VOICE,rate="+7%",pitch="-2Hz")
@@ -87,17 +87,21 @@ async def tts_once(index,chapter,folder):
             print(f"GENERATED {index:02} / {len(CHAPTERS_GLOBAL)}: {len(boundaries)} timed words",flush=True)
             return
         except Exception as exc:
-            if attempt:raise RuntimeError(f'Neural voice failed for chapter {index}: {exc}') from exc
-            await asyncio.sleep(3)
+            if attempt>=5:raise RuntimeError(f'Neural voice failed for chapter {index}: {exc}') from exc
+            pause=[5,10,20,35,55][attempt]
+            print(f'VOICE SERVICE RETRY: chapter {index}, attempt {attempt+1}, backoff {pause}s',flush=True)
+            await asyncio.sleep(pause)
 
 CHAPTERS_GLOBAL=[]
-async def generate_narration(chapters,folder):
+async def generate_narration(chapters,folder,start=1,end=12):
     global CHAPTERS_GLOBAL
     CHAPTERS_GLOBAL=chapters
     folder.mkdir(exist_ok=True,parents=True)
-    # Serial synthesis is deliberate: modest remote requests, no credit storm.
+    # Separate batches checkpoint audio as durable GitHub artifacts.
     for i,ch in enumerate(chapters,1):
-        await tts_once(i,ch,folder)
+        if start<=i<=end:
+            await tts_once(i,ch,folder)
+            await asyncio.sleep(2)
 
 def decoded_mono(mp3):
     p=subprocess.run(['ffmpeg','-hide_banner','-loglevel','error','-i',str(mp3),'-ar',str(SAMPLE),'-ac','1','-f','f32le','-'],stdout=subprocess.PIPE,stderr=subprocess.PIPE)
@@ -267,15 +271,26 @@ def encode(master,mix,ass,output,total):
 
 def main():
     p=argparse.ArgumentParser()
-    p.add_argument('--master',type=Path,required=True)
-    p.add_argument('--report',type=Path,required=True)
+    p.add_argument('--master',type=Path)
+    p.add_argument('--report',type=Path)
     p.add_argument('--out',type=Path,default=OUT)
+    p.add_argument('--stage',choices=['all','voice','render'],default='all')
+    p.add_argument('--chapter-start',type=int,default=1)
+    p.add_argument('--chapter-end',type=int,default=12)
     args=p.parse_args()
     args.out.mkdir(parents=True,exist_ok=True)
     chapter_data=json.loads((ASSETS/'chapters.json').read_text())
-    segments,total,prior=check_source(args.master,args.report,chapter_data)
     async_folder=args.out/'voice_assets'
-    asyncio.run(generate_narration(chapter_data['chapters'],async_folder))
+    if args.stage in ('voice','all'):
+        if not (1<=args.chapter_start<=args.chapter_end<=12):
+            raise ValueError('Invalid chapter range')
+        asyncio.run(generate_narration(chapter_data['chapters'],async_folder,args.chapter_start,args.chapter_end))
+        if args.stage=='voice':
+            print('VOICE CHECKPOINT COMPLETE',args.chapter_start,args.chapter_end,flush=True)
+            return
+    if args.master is None or args.report is None:
+        raise ValueError('Original verified master and render report are required for video export')
+    segments,total,prior=check_source(args.master,args.report,chapter_data)
     audio,spans,captions,results=generate_soundtrack(chapter_data['chapters'],segments,total,async_folder,args.out)
     ass=subtitles(captions,chapter_data['chapters'],spans,args.out)
     mixed=make_mix(args.master,audio,args.out,total)
