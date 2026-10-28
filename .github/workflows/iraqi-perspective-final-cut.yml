@@ -13,53 +13,94 @@ permissions:
   actions: read
 
 concurrency:
-  group: iraqs-case-final-${{ github.ref }}
+  group: iraqs-case-batched-final-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
-  render-final:
+  generate-voices:
+    name: English narrator chapters ${{ matrix.part }}
     runs-on: ubuntu-24.04
-    timeout-minutes: 100
+    timeout-minutes: 40
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - {part: 1, start: 1, end: 3}
+          - {part: 2, start: 4, end: 6}
+          - {part: 3, start: 7, end: 9}
+          - {part: 4, start: 10, end: 12}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install neural voice engine
+        run: |
+          python -m pip install --disable-pip-version-check numpy soundfile edge-tts
+      - name: Synthesize source-specific narrative without interruption by other batches
+        timeout-minutes: 35
+        run: |
+          python iraqi_perspective/produce.py \
+            --stage voice \
+            --chapter-start ${{ matrix.start }} \
+            --chapter-end ${{ matrix.end }} \
+            --out iraqi_perspective/output
+      - name: Checkpoint generated narration even on a failed batch
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: iraqi-narration-chapters-${{ matrix.part }}
+          path: iraqi_perspective/output/voice_assets/
+          if-no-files-found: warn
+          retention-days: 30
+
+  render-final:
+    needs: generate-voices
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
     env:
       GH_TOKEN: ${{ github.token }}
       PYTHONUNBUFFERED: '1'
     steps:
-      - name: Check out Iraqi-perspective production branch
+      - name: Check out historical source records and new script
         uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-
-      - name: Install video, audio and speech tools
+      - name: Install film encoder and speech decoder
         run: |
           set -euo pipefail
           sudo apt-get update -qq
           sudo apt-get install -y ffmpeg fonts-dejavu-core
           python -m pip install --disable-pip-version-check numpy soundfile edge-tts
-
-      - name: Recover verified 98-scene original source film and audit
+      - name: Restore all 12 finished narration chapters from this workflow run
         run: |
           set -euo pipefail
-          mkdir -p iraqi_perspective/original iraqi_perspective/output
+          mkdir -p iraqi_perspective/output/voice_assets
+          for part in 1 2 3 4; do
+            gh run download "$GITHUB_RUN_ID" \
+              -n "iraqi-narration-chapters-$part" \
+              -D iraqi_perspective/output/voice_assets
+          done
+          test "$(find iraqi_perspective/output/voice_assets -maxdepth 1 -type f -name '*.mp3' | wc -l)" -eq 12
+          test "$(find iraqi_perspective/output/voice_assets -maxdepth 1 -type f -name '*.words.json' | wc -l)" -eq 12
+      - name: Retrieve original verified 98-scene film and source report
+        run: |
+          set -euo pipefail
+          mkdir -p iraqi_perspective/original
           gh release download iraqs-case-two-threads-v1 \
             -p iraqs-case-1080p.mp4 \
             -p iraqs-case-1080p.render-report.json \
             -D iraqi_perspective/original
-          test -s iraqi_perspective/original/iraqs-case-1080p.mp4
-          test -s iraqi_perspective/original/iraqs-case-1080p.render-report.json
-
-      - name: Narrate the full historical argument and render synchronized English captions
-        timeout-minutes: 80
+      - name: Mix narrated speech with source recordings, burn English captions and render 1080p
+        timeout-minutes: 75
         run: |
-          set -euo pipefail
           python iraqi_perspective/produce.py \
+            --stage render \
             --master iraqi_perspective/original/iraqs-case-1080p.mp4 \
             --report iraqi_perspective/original/iraqs-case-1080p.render-report.json \
             --out iraqi_perspective/output
-
-      - name: Verify chapters, original-media fidelity, subtitles and audible voiceover
+      - name: Validate full film and captions
         run: |
           set -euo pipefail
           f=iraqi_perspective/output/IRAQS-CASE-IRAQI-PERSPECTIVE-FINAL-CUT-1080p.mp4
@@ -68,18 +109,18 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
-          root=Path('iraqi_perspective/output')
-          j=json.loads((root/'FINAL-EDITORIAL-REPORT.json').read_text())
-          assert len(j['chapters'])==12, 'All 12 sustained chapters are required'
-          assert all(a['voice_seconds']>1 for a in j['chapters']), 'Missing narration in a chapter'
-          assert j['burned_subtitles']>=100, 'Missing subtitle passages'
-          assert j['complete_original_source_frames']==98
-          assert j['render_decoded_without_errors']
-          assert all((root/f'frame_{x}.jpg').stat().st_size>1000 for x in ('beginning','diplomacy','arms','victory'))
-          print('FINAL CUT QA PASS — 12 chapters / 98 original assets /',j['burned_subtitles'],'burned English captions')
+          o=Path('iraqi_perspective/output')
+          r=json.loads((o/'FINAL-EDITORIAL-REPORT.json').read_text())
+          assert len(r['chapters'])==12
+          assert r['complete_original_source_frames']==98
+          assert r['burned_subtitles']>=100
+          assert r['render_decoded_without_errors']
+          assert all(c['voice_seconds']>2 for c in r['chapters'])
+          for name in ('beginning','diplomacy','arms','victory'):
+              assert (o/f'frame_{name}.jpg').stat().st_size>1000
+          print('PASS 12 coherent chapters; 98 original source images/videos;',r['burned_subtitles'],'captions')
           PY
-
-      - name: Deliver verified film, script QA and frame examples
+      - name: Upload full playable video and QA
         uses: actions/upload-artifact@v4
         with:
           name: IRAQS-CASE-IRAQI-PERSPECTIVE-NARRATED-1080P
@@ -91,14 +132,17 @@ jobs:
             iraqi_perspective/chapters.json
           retention-days: 30
           compression-level: 0
-
-      - name: Publish separate iPhone-playable release, preserving earlier films
+      - name: Publish new iPhone-playable final MP4 without replacing old films
         run: |
           set -euo pipefail
           tag=iraqs-case-iraqi-perspective-cut-v3
           f=iraqi_perspective/output/IRAQS-CASE-IRAQI-PERSPECTIVE-FINAL-CUT-1080p.mp4
-          gh release create "$tag" "$f" \
-            --target documentary/iraqi-perspective-final-cut \
-            --title "Iraq's Case — Iraqi Perspective Final Cut (English voiceover + captions)" \
-            --notes "Distinct 12-chapter documentary edit based exclusively on the two commissioned Iran–Iraq War thread collections, retaining 98 original archival visual segments. English neural narration and burned English captions; no public X usernames or thread credits in the editing overlays. The original source image area is unchanged and fully visible. The film presents an Iraqi-centered historical interpretation: wartime government allegations and scholarly conclusions are not uniformly independently authenticated. Synthetic speech and reuse rights require human review. Previous releases remain untouched." \
-            --latest=false
+          if gh release view "$tag" >/dev/null 2>&1; then
+            gh release upload "$tag" "$f" --clobber
+          else
+            gh release create "$tag" "$f" \
+              --target documentary/iraqi-perspective-final-cut \
+              --title "Iraq's Case — Iraqi Perspective (narrated, captioned, 1080p)" \
+              --notes "Distinct 12-chapter film retelling the two commissioned Iran-Iraq War threads from a historically Iraqi Baathist point of view, retaining 98 complete source visual segments. English neural narration and always-visible English captions. No Twitter handles added to film; provenance recorded in repository. Disputed allegations and judgments remain distinct from verified facts; synthetic narration/rights require human review. Other releases unaffected." \
+              --latest=false
+          fi
