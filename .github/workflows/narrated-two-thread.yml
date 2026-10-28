@@ -1,0 +1,93 @@
+name: Iraq's Case — English voiceover and visible captions
+
+on:
+  push:
+    branches: [documentary/two-thread-evidence-film]
+    paths:
+      - 'accessibility/**'
+      - '.github/workflows/narrated-two-thread.yml'
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  contents: write
+
+concurrency:
+  group: narrated-two-thread-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  narrator-and-captions:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - name: Checkout existing research and 98-scene narrator script
+        uses: actions/checkout@v4
+      - name: Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install editor and neural speech tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg fonts-dejavu-core
+          python -m pip install --disable-pip-version-check numpy soundfile edge-tts
+      - name: Download the verified ORIGINAL two-thread master and exact render report
+        run: |
+          set -euo pipefail
+          mkdir -p accessibility/input accessibility/output
+          gh release download iraqs-case-two-threads-v1 -p 'iraqs-case-1080p.mp4' -D accessibility/input
+          gh release download iraqs-case-two-threads-v1 -p 'iraqs-case-1080p.render-report.json' -D accessibility/input
+          ls -lh accessibility/input
+      - name: Generate complete documentary voiceover and hardcoded English subtitles
+        timeout-minutes: 70
+        run: |
+          set -euo pipefail
+          python accessibility/narrate_two_thread.py \
+            --master accessibility/input/iraqs-case-1080p.mp4 \
+            --report accessibility/input/iraqs-case-1080p.render-report.json \
+            --out accessibility/output
+      - name: Check video streams, audio levels and actual burned-caption frame
+        run: |
+          set -euo pipefail
+          f=accessibility/output/IRAQS-CASE-NARRATED-ENGLISH-CAPTIONS-1080p.mp4
+          test -s "$f"
+          test -s accessibility/output/english_narration.wav
+          test -s accessibility/output/english_captions_burned.ass
+          test -s accessibility/output/caption_preview.jpg
+          ffprobe -v error -show_entries format=duration:stream=codec_type,codec_name,width,height -of json "$f"
+          ffmpeg -v info -i "$f" -vn -af volumedetect -f null - 2>&1 | grep -E 'mean_volume|max_volume' || true
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          out=Path('accessibility/output')
+          j=json.loads((out/'narration_timing.json').read_text())
+          assert len(j['scenes'])==98
+          assert j['synchronized_captions']>=98
+          assert all(x['speech_duration']>0 for x in j['scenes'])
+          print('VALIDATED',len(j['scenes']),'spoken scenes,',j['synchronized_captions'],'burned-caption passages')
+          PY
+      - name: Upload playable MP4 and subtitle/source QA for iPhone
+        uses: actions/upload-artifact@v4
+        with:
+          name: iraqs-case-NARRATED-ENGLISH-CAPTIONS
+          path: |
+            accessibility/output/IRAQS-CASE-NARRATED-ENGLISH-CAPTIONS-1080p.mp4
+            accessibility/output/english_captions_burned.ass
+            accessibility/output/narration_timing.json
+            accessibility/output/caption_preview.jpg
+          retention-days: 30
+          compression-level: 0
+      - name: Publish a NEW release without overwriting the original silent cut
+        run: |
+          set -euo pipefail
+          gh release create iraqs-case-narrated-captions-v2 \
+            accessibility/output/IRAQS-CASE-NARRATED-ENGLISH-CAPTIONS-1080p.mp4 \
+            --target documentary/two-thread-evidence-film \
+            --title "Iraq's Case — English Narrated and Captioned Edition" \
+            --notes "Revised film with 98 spoken documentary passages in English, synchronized English subtitles burned into the picture and accessible without player subtitle settings. The 98 original archival source images/recordings are retained without cropped source pixels; only the previous Twitter-oriented editing headers and footers are replaced. Source provenance remains in the production repository. Narration is synthetic and historical source interpretations require independent review." \
+            --latest=false
