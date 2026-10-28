@@ -1,0 +1,62 @@
+[
+  {
+    "thread_id": "1986782578565579207",
+    "attachment_id": "1986782578565579207-p03-a02",
+    "post_id": "1986782878747750433",
+    "rect": [
+      30,
+      416,
+      736,
+      34
+    ],
+    "quote": "Iran’s oil resources were not an objective of Iraqi aggression.",
+    "image_sha256": "aeb070b396f02fedfeceb453d66f8eb8558860e357566c6e5b25e20d6dff59c2",
+    "image_width": 1080,
+    "image_height": 993,
+    "confidence": "high: exact words independently checked visually against retrieved original image",
+    "verified_by": "Agent visual review with view_image original resolution, compared with local Tesseract English TSV. p03 OCR misread initial Iran as Tran, manually corrected from actual visible image.",
+    "ocr_tsv": "two_thread/evidence/ocr/p03-image01.tsv",
+    "source_highlight_already_present": true,
+    "interpretation_limit": "The reproduced book page asserts this interpretation; it does not independently establish Iraqi motives. Yellow highlighting is already present in the thread attachment and must be preserved."
+  },
+  {
+    "thread_id": "1986782578565579207",
+    "attachment_id": "1986782578565579207-p42-a01",
+    "post_id": "1986795684821925950",
+    "rect": [
+      82,
+      1045,
+      617,
+      30
+    ],
+    "quote": "To provide for the imposition of sanctions on Iraq.",
+    "image_sha256": "a3f1da065fcec91f348d9ae6b34219fd51108970195174c71ff2a0131a96a81d",
+    "image_width": 974,
+    "image_height": 1280,
+    "confidence": "high: exact words independently checked visually against retrieved original image",
+    "verified_by": "Agent visual review using view_image original resolution, matching local Tesseract English TSV words.",
+    "ocr_tsv": "two_thread/evidence/ocr/p42-image01.tsv",
+    "source_highlight_already_present": true,
+    "interpretation_limit": "The displayed page is a bill/committee print headed September 22, 1988. Its wording is evidence of the reproduced bill purpose, not proof of enactment or a complete explanation for sanctions. Pink highlighting is already present in the thread attachment and must be preserved."
+  },
+  {
+    "thread_id": "1986782578565579207",
+    "attachment_id": "1986782578565579207-p14-a01",
+    "post_id": "1986783008343331207",
+    "rect": [
+      480,
+      369,
+      427,
+      213
+    ],
+    "quote": "Potential improprieties and illegalities were present in the Iran program from its inception. It still remains unclear whether the President was requested or in fact consented to Israeli transfers of U.S. arms to Iran in summer 1985. CIA support for the November 1985 shipment of HAWK missiles to Iran was provided without a prior Presidential Finding, despite the fact that the President’s Executive Order on Intelligence Activities No. 12333 specifically includes such operational support activities within the scope of covert action legally subject to the Finding requirement.",
+    "image_sha256": "5800a6cda7055518ff8a4f81c34de8f619e845e0d50d89df9340bcf337a5a210",
+    "image_width": 913,
+    "image_height": 1280,
+    "confidence": "high: paragraph manually read visually from actual full-resolution retrieved image",
+    "verified_by": "Agent visual review using view_image original resolution. Tesseract whole-page attempt omitted this paragraph; manual transcription controls. Reflowed line breaks and joining printed oper-/ational; typographic apostrophe normalized in President’s.",
+    "ocr_tsv": "two_thread/evidence/ocr/p14-image01.tsv",
+    "source_highlight_already_present": true,
+    "interpretation_limit": "The photographed/reproduced Additional Views page itself states this. No independent archival authentication from outside the two approved threads is claimed; paragraph explicitly leaves Presidential consent unclear."
+  }
+]

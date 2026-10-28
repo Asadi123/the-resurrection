@@ -1,0 +1,760 @@
+{
+  "schema": 1,
+  "title": "IRAQ'S CASE — THE WAR THEY WOULD NOT END",
+  "perspective": "Explicit Iraqi Ba'athist editorial viewpoint; assertions attributed to the two source threads, historical reproductions not independently authenticated",
+  "source_limits": "Only material visibly attached to the two commissioned threads. Entire supplied images shown; some sources are already cropped excerpts. No independent translations, historical footage, synthetic narration, added music, or synthetic battlefield images.",
+  "unused_attachments": [
+    {
+      "asset_id": "1986782578565579207-p33-a01",
+      "reason": "Editorial omission of POW humiliation montage; the original remains inventoried in the complete source bundle."
+    }
+  ],
+  "segments": [
+    {
+      "asset_id": "1668916665550094339-p01-a01",
+      "duration": 10,
+      "clip_start": 0,
+      "caption": "IRAQ'S CASE — THE WAR THEY WOULD NOT END. An Iraqi Ba'athist editorial argument, built exclusively from these two threads.",
+      "kicker": "IRAQ'S CASE / IRAQI BA'ATHIST EDITORIAL PERSPECTIVE"
+    },
+    {
+      "asset_id": "1668916665550094339-p02-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "Before the rupture: @xumas_iq cites an April 1979 Iraqi congratulatory telegram. This supplied book excerpt is the thread's evidence.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1668916665550094339-p03-a01",
+      "duration": 18,
+      "clip_start": 0,
+      "caption": "The charge: revolutionary incitement crossed the border. @xumas_iq describes attacks on Iraqi diplomatic premises; recording shown as supplied.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / SOURCE RECORDING EXCERPT"
+    },
+    {
+      "asset_id": "1668916665550094339-p04-a01",
+      "duration": 18,
+      "clip_start": 0,
+      "caption": "Baghdad's diplomatic opening. The thread describes Saddam Hussein meeting Ebrahim Yazdi; identification and date are the author's claims.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / SOURCE RECORDING EXCERPT"
+    },
+    {
+      "asset_id": "1668916665550094339-p05-a01",
+      "duration": 18,
+      "clip_start": 0,
+      "caption": "A warning against intervention. The thread presents this speech as Saddam's criticism of Iranian support for separatists.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / SOURCE RECORDING EXCERPT"
+    },
+    {
+      "asset_id": "1668916665550094339-p06-a01",
+      "duration": 18,
+      "clip_start": 0,
+      "caption": "The reply. @xumas_iq characterizes this recording as Khomeini rejecting Arab unity. Original source audio; no new translation is supplied.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / SOURCE RECORDING EXCERPT"
+    },
+    {
+      "asset_id": "1668916665550094339-p07-a01",
+      "duration": 18,
+      "clip_start": 0,
+      "caption": "The accusation turns violent. The author attributes April 1980 attacks to Iranian-backed Dawa agents. The recording alone does not establish responsibility.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / SOURCE RECORDING EXCERPT"
+    },
+    {
+      "asset_id": "1668916665550094339-p08-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "The Mustansiriya attack. The supplied passage discusses the attempt against Tariq Aziz; the thread's wider casualty claims are not independently verified here.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1668916665550094339-p09-a01",
+      "duration": 18,
+      "clip_start": 0,
+      "caption": "Revolution exported? The author describes a call for revolt and recruitment against Iraq. Listen to the supplied recording; attribution is not independent authentication.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / SOURCE RECORDING EXCERPT"
+    },
+    {
+      "asset_id": "1668916665550094339-p10-a01",
+      "duration": 18,
+      "clip_start": 0,
+      "caption": "The border dossier. The thread alleges repeated violations and shelling before September 22. An attached recording is evidence presented, not a verified incident log.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / SOURCE RECORDING EXCERPT"
+    },
+    {
+      "asset_id": "1668916665550094339-p11-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "The Iraqi protest. This reproduced passage describes Hamad's complaint about disputed border positions and shelling.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1668916665550094339-p12-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "The agreement unravels. The author cites these reproduced passages to argue that Iranian officials rejected the Algiers terms.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1668916665550094339-p12-a02",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "The agreement unravels. The author cites these reproduced passages to argue that Iranian officials rejected the Algiers terms.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1668916665550094339-p12-a03",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "The agreement unravels. The author cites these reproduced passages to argue that Iranian officials rejected the Algiers terms.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1668916665550094339-p13-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "The waterway. A supplied chronology is offered for the claim that Iran closed the Shatt al-Arab. The full attachment remains visible.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1668916665550094339-p14-a01",
+      "duration": 11.933333333333334,
+      "clip_start": 0,
+      "caption": "Baghdad renounces the agreement. The author dates this recording to September 17, 1980; the source's own framing is retained.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / SOURCE RECORDING EXCERPT"
+    },
+    {
+      "asset_id": "1668916665550094339-p15-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "The next charge: artillery at the waterway. This is the entire supplied excerpt, not an independently reconstructed full original page.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1668916665550094339-p16-a01",
+      "duration": 15.233333333333334,
+      "clip_start": 0,
+      "caption": "Baghdad's stated objective: compel talks, not annex Iran. This is the thread's interpretation of the attached statement, not independent proof of motive.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / SOURCE RECORDING EXCERPT"
+    },
+    {
+      "asset_id": "1668916665550094339-p17-a01",
+      "duration": 18,
+      "clip_start": 0,
+      "caption": "The alleged admission. @xumas_iq presents Yazdi as describing Khomeini's provocations. Original attached audio and embedded captions remain unchanged.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / SOURCE RECORDING EXCERPT"
+    },
+    {
+      "asset_id": "1668916665550094339-p19-a01",
+      "duration": 12.8,
+      "clip_start": 0,
+      "caption": "The ceasefire case. The author identifies this speaker as Masoud Bakhtiari discussing an Iraqi offer; identity and context are not independently authenticated here.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / SOURCE RECORDING EXCERPT"
+    },
+    {
+      "asset_id": "1668916665550094339-p20-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "An offer, and a dispute over its terms. The thread supplies these reproductions to support its account of withdrawal and ceasefire proposals.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1668916665550094339-p20-a02",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "An offer, and a dispute over its terms. The thread supplies these reproductions to support its account of withdrawal and ceasefire proposals.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1668916665550094339-p21-a01",
+      "duration": 18,
+      "clip_start": 0,
+      "caption": "Why did the war continue? The thread characterizes this recording as Khomeini rejecting peace; the original source language is preserved.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / SOURCE RECORDING EXCERPT"
+    },
+    {
+      "asset_id": "1668916665550094339-p22-a01",
+      "duration": 18,
+      "clip_start": 0,
+      "caption": "The regional calculation. The author identifies Aharon Yariv discussing why an Iraqi victory would not serve Israeli interests.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / SOURCE RECORDING EXCERPT"
+    },
+    {
+      "asset_id": "1668916665550094339-p23-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "Follow the arms. These supplied book excerpts are the author's evidence for Israeli arms sales and wider procurement; quoted totals need contextual scrutiny.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1668916665550094339-p23-a02",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "Follow the arms. These supplied book excerpts are the author's evidence for Israeli arms sales and wider procurement; quoted totals need contextual scrutiny.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1668916665550094339-p24-a01",
+      "duration": 18,
+      "clip_start": 0,
+      "caption": "1988, in the author's account: battlefield reversals forced acceptance. 'Defeat' is the thread's interpretation, not a conclusion independently established by this film.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / SOURCE RECORDING EXCERPT"
+    },
+    {
+      "asset_id": "1668916665550094339-p25-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "The annex: alleged airspace incidents. These are the actual tables supplied by @xumas_iq. Their entries have not been independently corroborated.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1668916665550094339-p25-a02",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "The annex: alleged airspace incidents. These are the actual tables supplied by @xumas_iq. Their entries have not been independently corroborated.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1668916665550094339-p25-a03",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "The annex: alleged airspace incidents. These are the actual tables supplied by @xumas_iq. Their entries have not been independently corroborated.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1668916665550094339-p26-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "The annex continues: alleged ground incidents. Full supplied tables, with their original wording and boundaries preserved.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1668916665550094339-p26-a02",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "The annex continues: alleged ground incidents. Full supplied tables, with their original wording and boundaries preserved.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1668916665550094339-p26-a03",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "The annex continues: alleged ground incidents. Full supplied tables, with their original wording and boundaries preserved.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1668916665550094339-p26-a04",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "The annex continues: alleged ground incidents. Full supplied tables, with their original wording and boundaries preserved.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1668916665550094339-p27-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "A catalogue is a claim that can be checked. These reproduced tables support the thread's argument; reproduction alone does not authenticate every entry.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1668916665550094339-p27-a02",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "A catalogue is a claim that can be checked. These reproduced tables support the thread's argument; reproduction alone does not authenticate every entry.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1668916665550094339-p28-a01",
+      "duration": 18,
+      "clip_start": 0,
+      "caption": "Baghdad's ceasefire argument, in its own voice. The author describes an offer of withdrawal and a unilateral ceasefire. This is an excerpt of the actual attachment.",
+      "kicker": "I — THE BORDER AND THE CEASEFIRE / SOURCE RECORDING EXCERPT"
+    },
+    {
+      "asset_id": "1986782578565579207-p02-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "THE ARMS BEHIND THE WAR. @3rab_vision argues that American and Iranian interests intersected. This reproduced document is evidence offered for that claim.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p03-a01",
+      "duration": 18,
+      "clip_start": 0,
+      "caption": "The author frames this attached interview as an admission about the war's origins. Speaker identification, embedded translation and interpretation remain the source's claims.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / SOURCE RECORDING EXCERPT"
+    },
+    {
+      "asset_id": "1986782578565579207-p03-a02",
+      "duration": 8,
+      "clip_start": 0,
+      "caption": "Annexation or coercion? The supplied book argues that oil was not Iraq's objective. A historical author's interpretation is evidence to weigh, not proof of state motives.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE",
+      "highlight": {
+        "thread_id": "1986782578565579207",
+        "attachment_id": "1986782578565579207-p03-a02",
+        "post_id": "1986782878747750433",
+        "rect": [
+          30,
+          416,
+          736,
+          34
+        ],
+        "quote": "Iran’s oil resources were not an objective of Iraqi aggression.",
+        "image_sha256": "aeb070b396f02fedfeceb453d66f8eb8558860e357566c6e5b25e20d6dff59c2",
+        "image_width": 1080,
+        "image_height": 993,
+        "confidence": "high: exact words independently checked visually against retrieved original image",
+        "verified_by": "Agent visual review with view_image original resolution, compared with local Tesseract English TSV. p03 OCR misread initial Iran as Tran, manually corrected from actual visible image.",
+        "ocr_tsv": "two_thread/evidence/ocr/p03-image01.tsv",
+        "source_highlight_already_present": true,
+        "interpretation_limit": "The reproduced book page asserts this interpretation; it does not independently establish Iraqi motives. Yellow highlighting is already present in the thread attachment and must be preserved."
+      }
+    },
+    {
+      "asset_id": "1986782578565579207-p03-a03",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "The argument over escalation. This supplied chapter excerpt discusses revolutionary policy and the road to war; it is a secondary author's account selected by the thread.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p03-a04",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "An arms channel, in the attached account. The page headed 'The Man with the Suitcase' is evidence selected by the thread; it does not itself establish who started the war.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p04-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "Territory as leverage: the author's case against an annexation narrative. The supplied pages also discuss Iranian military strength and foreign arms.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p04-a02",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "Territory as leverage: the author's case against an annexation narrative. The supplied pages also discuss Iranian military strength and foreign arms.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p04-a03",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "Territory as leverage: the author's case against an annexation narrative. The supplied pages also discuss Iranian military strength and foreign arms.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p05-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "The arms channel. The thread uses these pages to allege U.S. approval and Israeli cooperation. Each entire supplied image remains visible.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p05-a02",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "The arms channel. The thread uses these pages to allege U.S. approval and Israeli cooperation. Each entire supplied image remains visible.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p05-a03",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "The arms channel. The thread uses these pages to allege U.S. approval and Israeli cooperation. Each entire supplied image remains visible.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p05-a04",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "The arms channel. The thread uses these pages to allege U.S. approval and Israeli cooperation. Each entire supplied image remains visible.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p07-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "The verdict the author demands: an Iraqi victory. The attached passage is offered to support that thesis; 'surrender' is the author's characterization.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p08-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "Bani-Sadr's book cover, as attached by the thread. The post attributes criticism of Khomeini to him; this cover alone cannot verify that criticism.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p09-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "The cost of prolongation. The thread combines claims about recruitment, peace offers and military pressure. This page does not verify every number in the post.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p10-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "Intelligence for Tehran? The author cites these pages to argue that satellite information aided Iran. The scope and effect require more than a thread's assertion.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p10-a02",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "Intelligence for Tehran? The author cites these pages to argue that satellite information aided Iran. The scope and effect require more than a thread's assertion.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p10-a03",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "Intelligence for Tehran? The author cites these pages to argue that satellite information aided Iran. The scope and effect require more than a thread's assertion.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p11-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "Arms from Israel. These are the actual screenshots attached to the source post. No outside article or additional historical footage has been substituted.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p11-a02",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "Arms from Israel. These are the actual screenshots attached to the source post. No outside article or additional historical footage has been substituted.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p11-a03",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "Arms from Israel. These are the actual screenshots attached to the source post. No outside article or additional historical footage has been substituted.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p11-a04",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "Arms from Israel. These are the actual screenshots attached to the source post. No outside article or additional historical footage has been substituted.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p12-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "Washington's role, as argued by the source. Reproduced passages are kept in context rather than converted into an unsupported verdict.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p12-a02",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "Washington's role, as argued by the source. Reproduced passages are kept in context rather than converted into an unsupported verdict.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p12-a03",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "Washington's role, as argued by the source. Reproduced passages are kept in context rather than converted into an unsupported verdict.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p13-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "More than one supplier. The thread presents this page as evidence of Soviet arms reaching Iran. The underlying attribution remains the source's claim.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p14-a01",
+      "duration": 8,
+      "clip_start": 0,
+      "caption": "A sharper distinction: this reproduced 'Additional Views' page discusses HAWK support without a prior Finding, while explicitly leaving presidential consent unclear.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE",
+      "highlight": {
+        "thread_id": "1986782578565579207",
+        "attachment_id": "1986782578565579207-p14-a01",
+        "post_id": "1986783008343331207",
+        "rect": [
+          480,
+          369,
+          427,
+          213
+        ],
+        "quote": "Potential improprieties and illegalities were present in the Iran program from its inception. It still remains unclear whether the President was requested or in fact consented to Israeli transfers of U.S. arms to Iran in summer 1985. CIA support for the November 1985 shipment of HAWK missiles to Iran was provided without a prior Presidential Finding, despite the fact that the President’s Executive Order on Intelligence Activities No. 12333 specifically includes such operational support activities within the scope of covert action legally subject to the Finding requirement.",
+        "image_sha256": "5800a6cda7055518ff8a4f81c34de8f619e845e0d50d89df9340bcf337a5a210",
+        "image_width": 913,
+        "image_height": 1280,
+        "confidence": "high: paragraph manually read visually from actual full-resolution retrieved image",
+        "verified_by": "Agent visual review using view_image original resolution. Tesseract whole-page attempt omitted this paragraph; manual transcription controls. Reflowed line breaks and joining printed oper-/ational; typographic apostrophe normalized in President’s.",
+        "ocr_tsv": "two_thread/evidence/ocr/p14-image01.tsv",
+        "source_highlight_already_present": true,
+        "interpretation_limit": "The photographed/reproduced Additional Views page itself states this. No independent archival authentication from outside the two approved threads is claimed; paragraph explicitly leaves Presidential consent unclear."
+      }
+    },
+    {
+      "asset_id": "1986782578565579207-p15-a01",
+      "duration": 18,
+      "clip_start": 0,
+      "caption": "The alleged acknowledgment. The author labels this an Iranian official crediting U.S. assistance. The attached recording plays with its original audio.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / SOURCE RECORDING EXCERPT"
+    },
+    {
+      "asset_id": "1986782578565579207-p16-a01",
+      "duration": 18,
+      "clip_start": 0,
+      "caption": "An Iraqi victory was not in Israel's interest — the argument attributed to Yariv in this supplied recording. Full original recording is in the source bundle.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / SOURCE RECORDING EXCERPT"
+    },
+    {
+      "asset_id": "1986782578565579207-p17-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "A network, not a single patron. The author quotes an estimate of at least 41 suppliers to Iran; the exact reproduced passage is visible.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p18-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "Weapons did not settle the battlefield. The thread contrasts arms supplies with American assessments of Iranian losses.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p19-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "Victory's bill: debt and pensions. The author points to Iraqi concerns after the war; these concerns do not alone establish a later conspiracy.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p20-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "The author's provocation: why was an Iraqi victory unwelcome? The supplied documents are presented for inspection; the asserted conspiracy remains an interpretation.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p20-a02",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "The author's provocation: why was an Iraqi victory unwelcome? The supplied documents are presented for inspection; the asserted conspiracy remains an interpretation.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p20-a03",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "The author's provocation: why was an Iraqi victory unwelcome? The supplied documents are presented for inspection; the asserted conspiracy remains an interpretation.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p21-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "Rebuilding the army. The thread associates Iraqi operational changes with the Tawakkalna ala Allah offensives, citing these supplied pages.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p21-a02",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "Rebuilding the army. The thread associates Iraqi operational changes with the Tawakkalna ala Allah offensives, citing these supplied pages.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p22-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "A contested intelligence relationship. The author alleges misleading U.S. information to Iraq. This reproduced excerpt is the evidence offered.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p23-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "Acceptance under pressure, in the thread's telling. The pages support an argument about battlefield reversals; the post's taunts add no evidence.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p23-a02",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "Acceptance under pressure, in the thread's telling. The pages support an argument about battlefield reversals; the post's taunts add no evidence.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p24-a01",
+      "duration": 18,
+      "clip_start": 0,
+      "caption": "The 1988 collapse, in a critic's voice. @3rab_vision identifies Saeed Ghasemi and describes losses; the recording's context is not independently authenticated here.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / SOURCE RECORDING EXCERPT"
+    },
+    {
+      "asset_id": "1986782578565579207-p25-a01",
+      "duration": 18,
+      "clip_start": 0,
+      "caption": "Original attached recording — continuation posted without accompanying text. No invented speaker identification, translation or claim is added.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / SOURCE RECORDING EXCERPT"
+    },
+    {
+      "asset_id": "1986782578565579207-p26-a01",
+      "duration": 18,
+      "clip_start": 0,
+      "caption": "Original attached recording — continuation posted without accompanying text. The source sound and embedded captions are retained.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / SOURCE RECORDING EXCERPT"
+    },
+    {
+      "asset_id": "1986782578565579207-p27-a01",
+      "duration": 18,
+      "clip_start": 0,
+      "caption": "Original attached recording — continuation posted without accompanying text. This is a selected excerpt; the full attached file is included in the source bundle.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / SOURCE RECORDING EXCERPT"
+    },
+    {
+      "asset_id": "1986782578565579207-p28-a01",
+      "duration": 18,
+      "clip_start": 0,
+      "caption": "Original attached recording — continuation posted without accompanying text. Its presence cannot establish unstated context.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / SOURCE RECORDING EXCERPT"
+    },
+    {
+      "asset_id": "1986782578565579207-p29-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "The victory thesis, in print. The thread attributes this forceful interpretation to Stephen C. Pelletiere; it is an author's judgment rather than a universal historical verdict.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p31-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "A decisive defeat? The author repeats the thesis through these passages. Repetition and agreement do not themselves establish a contested conclusion.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p31-a02",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "A decisive defeat? The author repeats the thesis through these passages. Repetition and agreement do not themselves establish a contested conclusion.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p32-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "How power was assessed after the war. These supplied pages are the thread's evidence for American perceptions of Iraq.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p32-a02",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "How power was assessed after the war. These supplied pages are the thread's evidence for American perceptions of Iraq.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p34-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "Iranian military setbacks, as represented in the supplied pages. The editorial argument remains directed at wartime decisions, not the worth of a people.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p34-a02",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "Iranian military setbacks, as represented in the supplied pages. The editorial argument remains directed at wartime decisions, not the worth of a people.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p34-a03",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "Iranian military setbacks, as represented in the supplied pages. The editorial argument remains directed at wartime decisions, not the worth of a people.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p35-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "1988: a military and economic reckoning, as described by the quoted author. The full supplied page excerpt remains on screen.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p37-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "A title chosen to make a case: The Iran-Iraq War, Volume 3: Iraq's Triumph. This is the attached book cover; its title does not independently establish the thread's wider claims.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p38-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "Against the 'stalemate' label: the thread cites America's Oil Wars. Its claim of universal consensus is not demonstrated by these two collections.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p39-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "A contrasting author's assessment, as selected by the thread. The attached page is shown intact; the post's ethnic invective is not an evidentiary argument.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p40-a01",
+      "duration": 18,
+      "clip_start": 0,
+      "caption": "After the war: the thread identifies George H. W. Bush discussing Iraq. Original recording, original audio; provenance limited to the supplied attachment.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / SOURCE RECORDING EXCERPT"
+    },
+    {
+      "asset_id": "1986782578565579207-p41-a01",
+      "duration": 6,
+      "clip_start": 0,
+      "caption": "An archival description, as reproduced by the source, is offered for the Iraqi-victory thesis. A catalogue's wording is not a substitute for the underlying record.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE"
+    },
+    {
+      "asset_id": "1986782578565579207-p42-a01",
+      "duration": 8,
+      "clip_start": 0,
+      "caption": "The sanctions aftermath. The displayed September 1988 committee print proposes sanctions; its purpose line does not prove enactment or the author's explanation of motive.",
+      "kicker": "II — ARMS, 1988, AND THE VERDICT / REPRODUCED SOURCE",
+      "highlight": {
+        "thread_id": "1986782578565579207",
+        "attachment_id": "1986782578565579207-p42-a01",
+        "post_id": "1986795684821925950",
+        "rect": [
+          82,
+          1045,
+          617,
+          30
+        ],
+        "quote": "To provide for the imposition of sanctions on Iraq.",
+        "image_sha256": "a3f1da065fcec91f348d9ae6b34219fd51108970195174c71ff2a0131a96a81d",
+        "image_width": 974,
+        "image_height": 1280,
+        "confidence": "high: exact words independently checked visually against retrieved original image",
+        "verified_by": "Agent visual review using view_image original resolution, matching local Tesseract English TSV words.",
+        "ocr_tsv": "two_thread/evidence/ocr/p42-image01.tsv",
+        "source_highlight_already_present": true,
+        "interpretation_limit": "The displayed page is a bill/committee print headed September 22, 1988. Its wording is evidence of the reproduced bill purpose, not proof of enactment or a complete explanation for sanctions. Pink highlighting is already present in the thread attachment and must be preserved."
+      }
+    },
+    {
+      "asset_id": "1986782578565579207-p42-a01",
+      "duration": 10,
+      "clip_start": 0,
+      "caption": "The case is on the screen. This Iraqi Ba'athist argument uses two source collections only. Claims remain attributed; reproductions are not independent authentication. Inspect the complete source bundle.",
+      "kicker": "IRAQ'S CASE / SOURCES, NOT INVENTED CERTAINTY"
+    }
+  ]
+}
