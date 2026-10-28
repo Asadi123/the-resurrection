@@ -75,8 +75,13 @@ async def tts_once(index,chapter,folder):
                 elif event["type"]=="WordBoundary":
                     boundaries.append({"offset":int(event["offset"]),"duration":int(event["duration"]),"text":event["text"]})
             raw=b''.join(audio)
-            if len(raw)<1500 or len(boundaries)<8:
-                raise RuntimeError(f'Neural voice returned insufficient data: {len(raw)} bytes, {len(boundaries)} words')
+            if len(raw)<1500:
+                raise RuntimeError(f'Neural voice returned insufficient audio: {len(raw)} bytes')
+            if len(boundaries)<8:
+                # Some Edge neural voices deliver valid MP3 without WordBoundary events.
+                # Keep the genuine speech and estimate readable caption cue times
+                # against its decoded duration instead of discarding the voiceover.
+                boundaries=[]
             target.write_bytes(raw)
             boundary_path.write_text(json.dumps(boundaries,ensure_ascii=False))
             print(f"GENERATED {index:02} / {len(CHAPTERS_GLOBAL)}: {len(boundaries)} timed words",flush=True)
